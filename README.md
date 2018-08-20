@@ -1,2 +1,2 @@
 # Scientia
-An extremely WIP modpack for Minecraft 1.12.2
+An in-depth progression modpack, based on Advancements, Research and custom Professions.
