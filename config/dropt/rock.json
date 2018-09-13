@@ -1,0 +1,40 @@
+{
+    "rules": [
+      {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "minecraft:stone:0",
+			  "minecraft:stone:1",
+			  "minecraft:stone:3",
+			  "minecraft:stone:5",
+              "minecraft:cobblestone:0"
+            ] 
+          },
+          "harvester": {
+            "gamestages": {
+			  "type": "BLACKLIST",
+              "require": "ANY",
+              "stages": [
+                "copper_age"
+              ]
+            }
+          }
+        },
+        "replaceStrategy": "REPLACE_ALL",
+        "drops": [
+          {
+            "item": {
+              "items": [
+                "contenttweaker:rock"
+              ],
+              "quantity": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }

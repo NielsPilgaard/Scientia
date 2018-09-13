@@ -1,0 +1,2 @@
+gamestage add @p dawn_of_time
+gamestage add @p dawn_of_time_mobs

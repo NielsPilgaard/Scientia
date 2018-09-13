@@ -1,0 +1,15 @@
+setIcon(<primal_tech:wooden_basin>)
+setTitle("Stir the Pot")
+setDescription("The Wooden Basin will allow you to make leather, paper and other useful items.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:wooden_basin>)

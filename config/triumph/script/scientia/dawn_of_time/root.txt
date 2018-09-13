@@ -1,0 +1,20 @@
+setIcon(<minecraft:double_plant>)
+setTitle("Welcome to Scientia")
+setDescription("The first advancements are designed to ease you into the world of Scientia. To complete this stage, you will need to §ocraft basic tools.")
+
+setShowToast(true)
+
+setBackground("minecraft:textures/blocks/log_oak.png")
+
+setAnnounceToChat(false)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+//Adds a single location criteria. Since this has nothing specific set, 
+//it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")
+
+setRewardFunction("time_period:dawn_of_time")

@@ -1,0 +1,11 @@
+{
+  "Profession": "minecraft:librarian",
+  "Career": "librarian",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      }
+    ]
+  }
+}

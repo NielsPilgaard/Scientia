@@ -1,0 +1,14 @@
+setIcon(<minecraft:planks>)
+setTitle("Planking")
+setDescription("You can chop Debarked Wood Logs into Planks, by right clicking them with a Hatchet.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/debarked_logs")
+setRequiresParents()
+
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:plankWood>)

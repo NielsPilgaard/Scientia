@@ -1,0 +1,109 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "Bone",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 15
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.gravel.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_empty_hand"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:bone",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bone",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:sand"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 20
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.gravel.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_empty_hand"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:bone",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		}
+	]
+}

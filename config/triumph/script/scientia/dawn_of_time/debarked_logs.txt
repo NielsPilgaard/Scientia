@@ -1,0 +1,15 @@
+setIcon(<hitwithaxe:debarked_oak>)
+setTitle("Barking Up the Wrong Tree")
+setDescription("You can debark Vanilla Wood Logs by right clicking them with a Hatchet.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/bone")
+addParent("scientia:dawn_of_time/trial_and_error")
+setRequiresParents()
+
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:logDebarked>)

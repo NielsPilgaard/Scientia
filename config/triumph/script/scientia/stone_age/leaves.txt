@@ -1,0 +1,16 @@
+setIcon(<minecraft:leaves>)
+setTitle("You Can Leaf Your Hat On")
+setDescription("Obtain atleast 3 Leaves by harvesting them with Wooden Shears.")
+setShowToast(true)
+
+addParent("scientia:stone_age/shears")
+setRequiresParents()
+
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("breakBlock", "triumph:player_break_block")
+criteria.setBlock(<ore:treeLeaves>)
+criteria.setCount(3)

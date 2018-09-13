@@ -1,0 +1,3 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+summon minecraft:fireworks_rocket ~ ~ ~
+gamestage add @p cartography

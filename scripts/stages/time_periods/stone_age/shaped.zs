@@ -1,0 +1,46 @@
+#priority 100
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+var stage = stages.stone_age;
+
+var recipeList as IIngredient[][][][IItemStack] = {
+	<primal_tech:wooden_basin> : [
+		[
+            [<ore:logWood>, <minecraft:stick>, <ore:logWood>],
+            [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
+            [<ore:cobblestone>, null, <ore:cobblestone>]
+        ]
+	],
+    <minecraft:crafting_table> : [
+        [
+            [<ore:plankWood>, <ore:plankWood>],
+            [<ore:plankWood>, <ore:plankWood>]
+        ]
+    ],
+    <campfire:campfire> : [
+		[
+            [null, <ore:logWood>, null],
+            [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
+            [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>, <primal_tech:fire_sticks>]
+        ]
+	],
+    <primal_tech:stone_grill> : [
+		[
+            [<ore:slabCobblestone>, <ore:slabCobblestone>, <ore:slabCobblestone>],
+            [<ore:stone>, null, <ore:stone>], 
+            [null, <ore:stone>, null]
+        ]
+	]
+};
+
+for item, recipesForItem in recipeList {
+    recipes.remove(item);
+    mods.ItemStages.addItemStage(stage, item);
+    
+	for recipe in recipesForItem {
+		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
+        
+        
+	}
+}

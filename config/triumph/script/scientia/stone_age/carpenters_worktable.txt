@@ -1,0 +1,15 @@
+setIcon(<artisanworktables:worktable, meta:1>)
+setTitle("Better Crafting Table")
+setDescription("Craft a Carpenter's Worktable.")
+setShowToast(true)
+
+addParent("scientia:stone_age/internship")
+setRequiresParents()
+
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:worktable, meta:1>)

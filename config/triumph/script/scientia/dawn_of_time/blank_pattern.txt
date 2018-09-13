@@ -1,0 +1,16 @@
+setIcon(<tconstruct:pattern>)
+setTitle("Patterns")
+setDescription("Craft a Blank Pattern using Woven Fiber and a Blank Pattern Frame.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/trial_and_error")
+addParent("scientia:dawn_of_time/bone")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pattern>)

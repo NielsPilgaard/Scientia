@@ -1,0 +1,24 @@
+setIcon(<tconstruct:pick_head, nbt:{Material:"flint"}>)
+setTitle("Getting Ahead")
+setDescription("Craft an Axe, Shovel or Pickaxe Head. The Head usually determines the speed of the tool.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/part_builder")
+
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+setRequirements("any")
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pick_head, nbt:{}>)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:shovel_head, nbt:{}>)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:axe_head, nbt:{}>)

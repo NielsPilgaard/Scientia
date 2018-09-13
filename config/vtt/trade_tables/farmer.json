@@ -1,0 +1,11 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "farmer",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      }
+    ]
+  }
+}

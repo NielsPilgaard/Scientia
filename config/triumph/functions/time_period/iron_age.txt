@@ -1,0 +1,5 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p iron_age
+gamestage add @p iron_age
+gamestage add @p iron_age_mobs

@@ -1,0 +1,39 @@
+{
+  "onScreenNotifications": [
+    {
+      "id": "stone_age",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "lines": [
+        "§2You have reached the Stone Age!"
+      ]
+    },
+    {
+      "id": "copper_age",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "lines": [
+        "§2You have reached the Copper Age!"
+      ]
+    },
+    {
+      "id": "bronze_age",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "lines": [
+        "§2You have reached the Bronze Age!"
+      ]
+    },
+    {
+      "id": "iron_age",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "lines": [
+        "§2You have reached the Iron Age!"
+      ]
+    },
+    {
+      "id": "professions",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "lines": [
+        "§2You have unlocked the Professions tab!"
+      ]
+    }
+  ]
+}

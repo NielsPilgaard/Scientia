@@ -1,0 +1,222 @@
+{
+  "minecraft:jungle_edge": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:flower_island": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:mystic_grove": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": false
+  },
+  "traverse:badlands": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:desert_shrubland": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "conquest:jungle_mod": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:ominous_woods": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": false
+  },
+  "minecraft:mesa_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:arid_highland": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:canyon": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mesa": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_jungle": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:jungle_hills": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:rainforest": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:bayou": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomeoplenty:origin_beach": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": false
+  },
+  "minecraft:savanna_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:xeric_shrubland": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:bamboo_forest": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:rocky_plateau": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "conquest:bamboo_forest": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:brushland": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:oasis": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:sacred_springs": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_jungle_edge": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:tropical_island": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mesa_clear_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_mesa_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:overgrown_cliffs": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "conquest:mesa_extreme_mod": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:desert_hills": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:mini_jungle": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:eucalyptus_forest": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "conquest:desert_mod": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:wasteland": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": true
+  },
+  "minecraft:desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_mesa_clear_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:red_desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:outback": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:jungle": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:lush_desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:volcanic_island": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mushroom_island_shore": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_savanna_rock": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "conquest:red_desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:tropical_rainforest": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_savanna": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mushroom_island": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:mangrove": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "traverse:mountainous_desert": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:mutated_mesa": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "biomesoplenty:origin_island": {
+    "enable_seasonal_coloring": false,
+    "use_tropical_seasons": false
+  },
+  "biomesoplenty:white_beach": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  },
+  "minecraft:savanna": {
+    "enable_seasonal_coloring": true,
+    "use_tropical_seasons": true
+  }
+}

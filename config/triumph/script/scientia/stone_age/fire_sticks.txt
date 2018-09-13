@@ -1,0 +1,19 @@
+setIcon(<primal_tech:fire_sticks>)
+setTitle("Feuer Frei")
+setDescription("Discover fire! Rub two Whittled Sticks against each other, to have a chance at setting a block on fire. You will need to use both hands for it to work.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("itemUsed", "triumph:left_click_block")
+criteria.setItem(<primal_tech:fire_sticks>)
+criteria = addCriteria("itemUsed", "triumph:right_click_block")
+criteria.setItem(<primal_tech:fire_sticks>)
+
+setRewardFunction("research:fire")

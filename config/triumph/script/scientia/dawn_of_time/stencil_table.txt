@@ -1,0 +1,18 @@
+setIcon(<tconstruct:tooltables, meta:1, count:1, nbt:{textureBlock:{id:"minecraft:planks",Count:1b,Damage:0s}}>)
+setTitle("Stencil Table")
+setDescription("Craft a Stencil Table, in order to gain access to Patterns.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/blank_pattern")
+addParent("scientia:dawn_of_time/planks")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables, meta:1, nbt:{textureBlock:{id:"minecraft:planks",Count:1b,Damage:0s}}>)

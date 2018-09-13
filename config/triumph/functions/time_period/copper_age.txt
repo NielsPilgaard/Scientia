@@ -1,0 +1,5 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p copper_age
+gamestage add @p copper_age
+gamestage add @p copper_age_mobs

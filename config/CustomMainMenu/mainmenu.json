@@ -1,0 +1,195 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:scientia.png",
+            "posX" : -37,
+            "posY" : 30,
+            "width" : 256,
+            "height" : 64,
+            "alignment" : "top_center"
+        }/*,
+		"book_icon":
+        {
+            "image" : "mainmenu:book_icon.png",
+            "posX" : -75,
+            "posY" : 40,
+            "width" : 48,
+            "height" : 48,
+            "alignment" : "top_center"
+        }/*,
+		
+		"transparentBox":
+        {
+            "image" : "mainmenu:verticalbox.png",
+            "posX" : 25,
+            "posY" : -120,
+            "width" : 140,
+            "height" : 250,
+            "alignment" : "left_center"
+        }*/
+    },
+    
+    "buttons":
+    {
+		"singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": 44,
+            "posY": -110,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+		
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": 44,
+            "posY": -80,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+		
+        "mods": {
+            "text": "fml.menu.mods",
+            "posX": 44,
+            "posY": -50,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+		
+        "options": {
+            "text": "menu.options",
+            "posX": 44,
+            "posY": -20,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        
+        "languages": {
+            "text": "Languages",
+            "posX": 44,
+            "posY": 10,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
+            }
+        },
+		
+        "bug reports": {
+            "text": "Bug Reports",
+            "posX": 44,
+            "posY": 40,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/NillerMedDild/Scientia/issues"
+            }
+        },
+		
+		"discord": {
+            "text": "Discord",
+            "posX": 44,
+            "posY": 70,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/HnWNd7X"
+            }
+        },
+		
+        "quit": {
+            "text": "menu.quit",
+            "posX": 44,
+            "posY": 100,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "mainmenu:button.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "quit"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 44,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+			"normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+	},
+	
+	"other":
+    {
+        
+        
+        "panorama":
+        {
+            "images" : "mainmenu:panoramas/openairlibrary/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1.8,
+            "blur" : false,
+            "gradient" : true
+        }
+    }
+}

@@ -1,0 +1,14 @@
+setIcon(<primal_tech:stone_grill>)
+setTitle("I Brought The BBQ")
+setDescription("The Stone Grill is a low-tech Furnace. It needs a fire source under it to function. The left side is for input, the right is for output. Both sides can fit up to 16 items.")
+setShowToast(true)
+
+addParent("scientia:stone_age/cobblestone")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<primal_tech:stone_grill>)

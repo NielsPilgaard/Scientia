@@ -1,0 +1,17 @@
+setIcon(<minecraft:stone_axe>)
+setTitle("I'm a Lumberjack and I'm Okay")
+setDescription("Craft a Flint Hatchet out of Sticks, Flint and Plant Fiber.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/stick")
+addParent("scientia:dawn_of_time/flint")
+addParent("scientia:dawn_of_time/plant_fiber")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:hatchet>)

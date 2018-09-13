@@ -1,0 +1,28 @@
+setIcon(<minecraft:porkchop>)
+setTitle("Hunty")
+setDescription("Foraging for food won't keep you full forever - Acquire any type of meat.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/fruit_trees")
+setRequiresParents()
+
+setRequirements("any")
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("cow", "minecraft:player_killed_entity")
+criteria.setEntityType("cow")
+
+criteria = addCriteria("chicken", "minecraft:player_killed_entity")
+criteria.setEntityType("chicken")
+
+criteria = addCriteria("sheep", "minecraft:player_killed_entity")
+criteria.setEntityType("sheep")
+
+criteria = addCriteria("rabbit", "minecraft:player_killed_entity")
+criteria.setEntityType("rabbit")
+
+criteria = addCriteria("pig", "minecraft:player_killed_entity")
+criteria.setEntityType("pig")

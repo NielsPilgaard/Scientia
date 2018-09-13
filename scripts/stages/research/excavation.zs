@@ -1,0 +1,1 @@
+# This stage is implemented through OreExcavation's config file

@@ -1,0 +1,15 @@
+setIcon(<minecraft:log>)
+setTitle("Woodpecker")
+setDescription("Harvest any type of Wood Log. Harvesting Logs requires an Axe-type tool.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/flint_hatchet")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:logWood>)

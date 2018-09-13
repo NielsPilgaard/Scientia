@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:rock>)
+setTitle("The Stone Age")
+setDescription("Acquire Rocks by mining Stone. This will advance you to the Stone Age.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/first_pickaxe")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:rock>)
+
+setRewardFunction("time_period:stone_age")

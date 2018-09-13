@@ -1,0 +1,16 @@
+setIcon(<minecraft:planks>)
+setTitle("Stir the Pot")
+setDescription("Upgrading the Carpentry profession will also upgrade some of the recipes you have access to. Craft 32 Planks in the Carpenter's Worktable.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:plankWood>)
+criteria.setCount(30)

@@ -1,0 +1,14 @@
+setIcon(<woodenshears:wshears>)
+setTitle("Shear Luck")
+setDescription("Craft a pair of Wooden Shears.")
+setShowToast(true)
+
+addParent("scientia:stone_age/root")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<woodenshears:wshears>)

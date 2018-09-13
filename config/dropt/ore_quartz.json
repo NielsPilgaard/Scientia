@@ -1,0 +1,89 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:ore_quartz"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:quartz"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"fixed": 6
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:quartz"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          },
+		  "xp": {
+			"fixed": 9
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 100
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:quartz"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          },
+		  "xp": {
+			"fixed": 12
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1000
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:quartz"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          },
+		  "xp": {
+			"fixed": 15
+		  }
+        }
+      ]
+    }
+  ]
+}

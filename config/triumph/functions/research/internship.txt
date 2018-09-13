@@ -1,0 +1,1 @@
+advancement grant @p only scientia:stone_age/internship

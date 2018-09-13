@@ -1,0 +1,15 @@
+setIcon(<gamestagebooks:novice_tinkerer>)
+setTitle("Novice Tinkerer")
+setDescription("")
+setShowToast(true)
+
+addParent("scientia:professions/root")
+setRequiresParents()
+
+
+setCompletedIconColor(51, 204, 51)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 204, 51)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:novice_tinkerer>)

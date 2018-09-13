@@ -1,0 +1,57 @@
+{
+    "rules": [
+      {
+        "match": {
+          "blocks": {
+            "blocks": [
+            "minecraft:leaves:*",
+            "minecraft:leaves2:*",
+            "dynamictrees:leaves0:*",
+            "dynamictrees:leaves0:*",
+            "natura:overworldleaves:*",
+            "natura:overworldleaves2:*",
+            "natura:redwoodleaves:*",
+            "rustic:leaves:*",
+            "rustic:leaves_apple:*",
+            "traverse:fir_leaves:*",
+            "traverse:yellow_autumnal_leaves:*",
+            "traverse:orange_autumnal_leaves:*",
+            "traverse:red_autumnal_leaves:*",
+            "traverse:brown_autumnal_leaves:*"
+            ] 
+          },
+          "harvester": {
+            "gamestages": {
+              "require": "ANY",
+              "stages": [
+                "dawn_of_time",
+                "stone_age"
+              ]
+            }
+          }
+        },
+        "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 40
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:stick:0"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          }
+        }
+      ]
+      }
+    ]
+  }

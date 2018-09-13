@@ -1,0 +1,1080 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"meta": 1,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [2, 6, 10]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"meta": 2,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [3, 7, 11]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"meta": 3,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log2",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"meta": 4,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log2",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"meta": 5,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 1,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs",
+				"metas": [2, 6, 10]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 2,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs",
+				"metas": [3, 7, 11]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 3,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs2",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 4,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs2",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 5,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs2",
+				"metas": [2, 6, 10]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 6,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:overworld_logs2",
+				"metas": [3, 7, 11]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 7,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "natura:redwood_logs",
+				"meta": 1
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "natura:overworld_planks",
+					"meta": 8,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "rustic:log",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "rustic:planks",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "rustic:log",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "rustic:planks",
+					"meta": 1,
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Plank",
+			"type": 
+			{
+				"type": "block",
+				"name": "traverse:fir_log",
+				"metas": [0, 1, 2]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 8
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item",
+					"name": "tconstruct:hatchet"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 1,
+					"chance": 25
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "traverse:fir_planks",
+					"chance": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		}
+	]
+}

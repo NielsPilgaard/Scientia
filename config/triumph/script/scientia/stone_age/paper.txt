@@ -1,0 +1,14 @@
+setIcon(<minecraft:paper>)
+setTitle("Stir the Pot")
+setDescription("Drying Wet Pulp on a Drying Rack will turn it into paper.")
+setShowToast(true)
+
+addParent("scientia:stone_age/wet_pulp")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:paper>)

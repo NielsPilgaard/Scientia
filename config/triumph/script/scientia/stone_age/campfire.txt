@@ -1,0 +1,14 @@
+setIcon(<campfire:campfire>)
+setTitle("Kumbaya")
+setDescription("Now that you've harnessed the power of fire, it's time to put it to use. The Campfire can make Stone, Charcoal and Cooked Food.")
+setShowToast(true)
+
+addParent("scientia:stone_age/fire_sticks")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<campfire:campfire>)

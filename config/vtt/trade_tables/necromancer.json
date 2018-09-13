@@ -1,0 +1,12 @@
+{ 
+	"Profession":"minecraft:priest", 
+	"Career":"necromancer",
+
+	"Offers": {
+		"Recipes": [
+		  {
+			"action": "clear"
+		  }
+		]
+	}
+}

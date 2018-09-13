@@ -1,0 +1,55 @@
+setIcon(<minecraft:carrot>)
+setTitle("Wild Crop Appeared!")
+setDescription("The only food available right now is found in the wild, gather some, but be careful not to destroy the farmland.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/root")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+setRequirements("any")
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<minecraft:carrots>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<minecraft:potatoes>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<minecraft:beetroots>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<minecraft:wheat>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamgarliccrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamonioncrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamspiceleafcrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamlettucecrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pambeancrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamcurryleafcrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pameggplantcrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pambellpeppercrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamstrawberrycrop>)
+
+criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:pamgingercrop>)

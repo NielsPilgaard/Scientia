@@ -1,0 +1,17 @@
+setIcon(<primal_tech:leaf_bed>)
+setTitle("Sleepover")
+setDescription("Make a Bed of Straw and Leaves. It's not the most comfortable bed in the world, but it'll make the nights fly by.")
+setShowToast(true)
+
+addParent("scientia:stone_age/leaves")
+addParent("scientia:stone_age/crude_haybale")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<primal_tech:leaf_bed>)

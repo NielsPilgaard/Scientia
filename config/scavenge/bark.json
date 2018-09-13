@@ -1,0 +1,957 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 15
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 20
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [2, 6, 10]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 2
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [3, 7, 11]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 12
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log2",
+				"metas": [0, 4, 8]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "minecraft:log2",
+				"metas": [1, 5, 9]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				},
+				{
+					"type": "consume_block",
+					"name": "hitwithaxe:debarked_dark_oak"
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 8
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		},
+		{
+			"name": "Bark",
+			"type": 
+			{
+				"type": "block",
+				"name": "traverse:fir_log",
+				"metas": [0, 1, 2]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[	
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 12
+				},
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.wood.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{
+							"name": "artisanworktables:artisans_knife_wood",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_stone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_iron",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_gold",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_diamond",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_flint",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bone",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_aluminum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_bronze",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_constantan",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_copper",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_electrum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_invar",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_lead",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_nickel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_platinum",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_silver",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_steel",
+							"meta": 32767
+						},
+						{
+							"name": "artisanworktables:artisans_knife_tin",
+							"meta": 32767
+						}
+					]
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.2
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": 3
+				},
+				{
+					"type": "consume_block",
+					"name": "hitwithaxe:debarked_fir"
+				}
+				
+			],
+			"drops":
+			[
+				{
+					"name": "hitwithaxe:bark",
+					"meta": 9
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Hold Sneak to Scavenge"
+				}
+			]
+		}
+	]
+}

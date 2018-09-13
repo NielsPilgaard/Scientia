@@ -1,0 +1,17 @@
+setIcon(<artisanworktables:artisans_hammer_stone>)
+setTitle("Tools of the Trade")
+setDescription("Worktable recipes often require a tool. Craft Stone versions of the Hammer, Framing Hammer and Handsaw.")
+setShowToast(true)
+
+addParent("scientia:stone_age/internship")
+setRequiresParents()
+
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:artisans_hammer_stone>)
+criteria.addItem(<artisanworktables:artisans_framing_hammer_stone>)
+criteria.addItem(<artisanworktables:artisans_handsaw_stone>)

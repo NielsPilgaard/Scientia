@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:plant_fiber>)
+setTitle("Mowing the Lawn")
+setDescription("Obtain Plant Fiber by punching Grass.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/root")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:plant_fiber>)

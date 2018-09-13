@@ -1,0 +1,17 @@
+setIcon(<primal_tech:charcoal_block>)
+setTitle("I Brought The BBQ")
+setDescription("Fire lit on Low Grade Charcoal doesn't go out, perfect for heating the Stone Grill.")
+setShowToast(true)
+
+addParent("scientia:stone_age/stone_grill")
+addParent("scientia:stone_age/campfire")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<primal_tech:charcoal_block>)

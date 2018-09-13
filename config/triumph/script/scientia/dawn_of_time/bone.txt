@@ -1,0 +1,16 @@
+setIcon(<minecraft:bone>)
+setTitle("Them Bones")
+setDescription("Obtain Bone by scavenging through Dirt or Sand.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/chop_wood")
+setRequiresParents()
+
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bone>)
+
+setRewardFunction("research:tool_parts")

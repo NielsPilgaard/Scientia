@@ -1,0 +1,26 @@
+{
+  "Profession": "minecraft:smith",
+  "Career": "weapon",
+  "Offers": {
+		"Recipes": [
+		{
+			"action": "clear"
+		},
+		{
+			"action": "add",
+			"CareerLevel": 1,
+			"buy": {
+			  "id": "minecraft:flint",
+			  "Count": {
+				"min": 5,
+				"max": 9
+				}
+			},
+			"sell": {
+			  "id": "gamestagebooks:novice_tinkerer",
+			  "Count": 1
+        }
+      }
+	]
+  }
+}

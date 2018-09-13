@@ -1,0 +1,12 @@
+{ 
+	"Profession":"vtt:brewer", 
+	"Career":"brewer",
+
+	"Offers": {
+		"Recipes": [
+		  {
+			"action": "clear"
+		  }
+		]
+	}
+}

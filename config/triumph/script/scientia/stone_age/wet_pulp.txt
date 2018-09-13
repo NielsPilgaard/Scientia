@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:wet_pulp>)
+setTitle("Stir the Pot")
+setDescription("Wet Pulp is made by soaking 3 pieces of Bark in a Wooden Basin filled with water. Stir it by right clicking.")
+setShowToast(true)
+
+addParent("scientia:stone_age/wooden_basin")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:wet_pulp>)

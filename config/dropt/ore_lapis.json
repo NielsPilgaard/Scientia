@@ -1,0 +1,89 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:ore_lapis"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 5
+            }
+          },
+		  "xp": {
+			"fixed": 10
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 8
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 6,
+              "max": 8
+            }
+          },
+		  "xp": {
+			"fixed": 12
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 100
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 8,
+              "max": 10
+            }
+          },
+		  "xp": {
+			"fixed": 16
+		  }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1000
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 10,
+              "max": 12
+            }
+          },
+		  "xp": {
+			"fixed": 20
+		  }
+        }
+      ]
+    }
+  ]
+}

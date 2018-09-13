@@ -1,0 +1,16 @@
+setIcon(<tconstruct:binding, nbt:{Material:"plant_fiber"}>)
+setTitle("Basic Tool Parts")
+setDescription("Craft a Wooden Tool Rod and a Plant Fiber Binding. Bindings and Rods play a large part in determining tool durability.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/part_builder")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:binding, nbt:{Material:"plant_fiber"}>)
+criteria.addItem(<tconstruct:tool_rod, nbt:{Material:"wood"}>)

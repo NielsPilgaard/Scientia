@@ -1,0 +1,1 @@
+give @p magicalmap:map 1 0 {display:{Name:"Village"}}

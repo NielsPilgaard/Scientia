@@ -1,0 +1,16 @@
+setIcon(<minecraft:stone_pickaxe>)
+setTitle("Baby's First Pickaxe")
+setDescription("Craft a Pickaxe with a Cactus, Bone or Flint Head.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/tool_head")
+addParent("scientia:dawn_of_time/tool_body")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pickaxe>)

@@ -1,0 +1,19 @@
+setIcon(<minecraft:stone>)
+setTitle("Stone Age")
+setDescription("Welcome to the Stone Age! You have been given a map to the nearest village, where you will need to trade with villagers for their knowledge. To complete this age, you must process Copper Ore into Ingots.")
+
+setShowToast(true)
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setAnnounceToChat(false)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("completedAge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:dawn_of_time/rock")
+
+setRewardFunction("triumph:village_map")

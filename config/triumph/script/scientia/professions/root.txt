@@ -1,0 +1,17 @@
+setIcon(<minecraft:book>)
+setTitle("Professions")
+setDescription("Welcome to the Professions tab. Here you'll be able to learn and level up various professions, which give you access to new items, recipes and abilities. A Profession Advancement is completed by crafting the Book that matches it's name, unless it's description says otherwise.")
+
+setShowToast(true)
+
+setBackground("chisel:textures/blocks/andesite/circular-ctm.png")
+
+setAnnounceToChat(false)
+
+setFrameType("Challenge")
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("completedAge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:dawn_of_time/rock")
