@@ -29,11 +29,11 @@ global materials as IIngredient[string][string] = {
         nugget: <thermalfoundation:material:224>,
         ingot: <thermalfoundation:material:160>,
 		block: null, 		
-		ore: null, 		
+		ore: null,
 		dust: null,
         liquid: <liquid:steel>, 
 		gear: null,
-		plate: null,
+		plate: <contenttweaker:material_part:56>,
 		rod: null
 	},
     copper: {

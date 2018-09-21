@@ -1,8 +1,6 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.masonry;
 
 val stoneBlocks = [
@@ -162,6 +160,9 @@ val stoneBlocks = [
 <tconstruct:seared_stairs_stone>,
 <tconstruct:seared_stairs_tile>,
     
+<magneticraft:limestone:1>,
+<magneticraft:burnt_limestone:1>,
+
 <minecraft:stone_slab:4>,
 <minecraft:stone_slab:5>,
 <minecraft:stone_slab:6>,
@@ -182,26 +183,29 @@ val stoneBlocks = [
 <minecraft:monster_egg:4>,
 <minecraft:monster_egg:5>,
 <minecraft:nether_brick_fence>,
+
 <bloodmagic:decorative_brick:1>,
 <bloodmagic:decorative_brick:3>,
 <bloodmagic:path:2>,
 <bloodmagic:path:4>,
 <bloodmagic:path:6>,
+
 <botania:livingrock1stairs>,
 <botania:livingrock1slab>,
 <botania:livingrock:1>,
 <botania:livingrock:2>,
 <botania:livingrock:3>,
 <botania:livingrock:4>,
+
 <immersiveengineering:stone_decoration>,
 <immersiveengineering:stone_decoration:1>,
 <immersiveengineering:stone_decoration:2>,
 <immersiveengineering:stone_decoration:10>,
 <immersiveengineering:stone_decoration_slab>,
-
 <immersiveengineering:stone_decoration_slab:1>,
 <immersiveengineering:stone_decoration_slab:2>,
 <immersiveengineering:stone_decoration_slab:10>,
+
 <tconstruct:deco_ground>,
 <tconstruct:deco_ground_slab>,
 <tconstruct:mudbrick_stairs>,
@@ -214,6 +218,7 @@ val stoneBlocks = [
 <tconstruct:dried_clay:1>,
 <tconstruct:dried_clay_slab:1>,
 <tconstruct:dried_brick_stairs>,
+
 <traverse:red_rock_bricks>,
 <traverse:red_rock_bricks_stairs>,
 <traverse:red_rock_bricks_slab>,
@@ -226,5 +231,5 @@ val stoneBlocks = [
 ] as IItemStack[];
 
 for item in stoneBlocks {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }

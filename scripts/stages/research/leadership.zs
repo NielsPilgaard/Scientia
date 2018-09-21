@@ -1,8 +1,6 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.leadership;
 
 val npcItems = [
@@ -159,5 +157,5 @@ val npcItems = [
 ] as IItemStack[];
 
 for item in npcItems {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }

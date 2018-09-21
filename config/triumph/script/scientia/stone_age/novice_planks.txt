@@ -1,5 +1,5 @@
 setIcon(<minecraft:planks>)
-setTitle("Stir the Pot")
+setTitle("Mass Production")
 setDescription("Upgrading the Carpentry profession will also upgrade some of the recipes you have access to. Craft 32 Planks in the Carpenter's Worktable.")
 setShowToast(true)
 

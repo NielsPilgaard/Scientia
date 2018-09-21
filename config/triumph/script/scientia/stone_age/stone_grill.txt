@@ -3,7 +3,7 @@ setTitle("I Brought The BBQ")
 setDescription("The Stone Grill is a low-tech Furnace. It needs a fire source under it to function. The left side is for input, the right is for output. Both sides can fit up to 16 items.")
 setShowToast(true)
 
-addParent("scientia:stone_age/cobblestone")
+addParent("scientia:stone_age/low_grade_charcoal")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

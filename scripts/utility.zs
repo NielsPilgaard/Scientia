@@ -1,6 +1,7 @@
 #priority 1999
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -31,10 +32,6 @@ function stageMod(mod as string, stage as string) {
 		addItemStage(stage, item);
 		setRecipeStage(stage, item);	
 	}
-}
-
-function stageIItemstack(stage as string, item as IItemStack) {
-	addItemStage(stage, item);
 }
 
 function stageTinkersMaterial(stage as string, material as string) {

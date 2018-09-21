@@ -1,0 +1,14 @@
+setIcon(<spartanweaponry:throwing_axe_stone>)
+setTitle("Tomahawk")
+setDescription("The Stone Throwing Axe is another good choice when it comes to weaponry. It has higher damage than the Knife, but much slower attack speed.")
+setShowToast(true)
+
+addParent("scientia:stone_age/first_weapon")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:throwing_axe_stone>)

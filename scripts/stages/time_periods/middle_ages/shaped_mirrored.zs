@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 /*
-var stage = stages.stone_age;
+var stage = stages.middle_ages;
 
 var recipeList as IIngredient[][][][IItemStack] = {
 	<rustic:rope> * 16 : [

@@ -1,10 +1,10 @@
 #priority 1500
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
 import scripts.utility.stageTinkersTool;
 import scripts.utility.stageTinkersPart;
 
+import mods.ItemStages.addItemStage;
 # =========================================== #
 # Novice
 # =========================================== #
@@ -67,7 +67,7 @@ val bowItems = [
 ] as IItemStack[];
 
 for item in bowItems {
-    stageIItemstack(stages.apprentice_tinkerer, item);
+    addItemStage(stages.apprentice_tinkerer, item);
 }
 
 stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:fletching>, "tconstruct:fletching");
@@ -91,7 +91,7 @@ mods.TinkerStages.addGeneralModifierStage(stages.skilled_tinkerer);
 
 # Armors
 for item in loadedMods["conarm"].items {
-        stageIItemstack(stages.skilled_tinkerer, item);
+        addItemStage(stages.skilled_tinkerer, item);
     }
 
 stageTinkersPart(stages.skilled_tinkerer, <tconstruct:sharpening_kit>, "tconstruct:sharpening_kit");
@@ -146,7 +146,7 @@ stageTinkersTool(stages.expert_tinkerer, <tconstruct:scythe>, "tconstruct:scythe
     ] as IItemStack[];
 
     for item in bolts {
-        stageIItemstack(stages.expert_tinkerer, item);
+        addItemStage(stages.expert_tinkerer, item);
     }
     
 # =========================================== #

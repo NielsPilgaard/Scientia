@@ -1,16 +1,12 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.enchanting;
 
 val enchantingItems = [
 
     <ancientwarfareautomation:worksite_upgrade:4>,
     <ancientwarfareautomation:worksite_upgrade:5>,
-
-    <bibliocraft:enchantedplate>,
 
     <botania:enchanter>,
 
@@ -163,5 +159,5 @@ val enchantingItems = [
 ] as IItemStack[];
 
 for item in enchantingItems {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }

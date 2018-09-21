@@ -1,15 +1,29 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-/*
-var stage = stages.stone_age;
+
+var stage = stages.iron_age;
 
 var recipeList as IIngredient[][][][IItemStack] = {
-	<primal_tech:leaf_bed> : [
+    <spartanshields:shield_basic_iron> : [
 		[
-            [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],
-            [<contenttweaker:bound_wheat>, <contenttweaker:crude_haybale>, <ore:slabWood>], 
-            [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+            [null, materials["iron"].ingot, null],
+            [materials["iron"].ingot, <spartanshields:shield_basic_wood>, materials["iron"].ingot], 
+            [null, materials["iron"].ingot, null]
+        ]
+	],
+    <spartanshields:shield_basic_iron> : [
+		[
+            [null, materials["gold"].ingot, null],
+            [materials["gold"].ingot, <spartanshields:shield_basic_wood>, materials["gold"].ingot], 
+            [null, materials["gold"].ingot, null]
+        ]
+	],
+    <spartanshields:shield_basic_obsidian> : [
+		[
+            [null, <ore:obsidian>, null],
+            [<ore:obsidian>, <spartanshields:shield_basic_obsidian>, <ore:obsidian>], 
+            [null, <ore:obsidian>, null]
         ]
 	]
 };
@@ -19,9 +33,6 @@ for item, recipesForItem in recipeList {
     mods.ItemStages.addItemStage(stage, item);
     
 	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
-        
-        
+		mods.recipestages.Recipes.addShaped(stage, item, recipe);
 	}
 }
-*/

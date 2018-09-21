@@ -1,4 +1,4 @@
-import scripts.utility.stageIItemstack;
+#priority 100
 import crafttweaker.item.IItemStack;
 
 var stage = stages.brewing; 
@@ -222,5 +222,9 @@ val potions = [
 ] as IItemStack[];
 
 for item in potions {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
+}
+
+for item in <ore:potionShelfWood>.items {
+    mods.ItemStages.addItemStage(stage, item);
 }

@@ -2,16 +2,21 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-var stage = stages.stone_age;
+var stage = stages.copper_age;
 
 var recipeList as IIngredient[][][][IItemStack] = {
-	/*<rustic:rope> * 16 : [
-		[
-            [null, <hooked:microcrafting:1>, null],
-            [null, <hooked:microcrafting:1>, null], 
-            [null, <hooked:microcrafting:1>, null]
+	<spartanweaponry:javelin_copper> : [
+        [
+            [null, <tconstruct:arrow_head>.withTag({Material: "copper"}), null],
+            [null, <spartanweaponry:material:1>, null], 
+            [null, <spartanweaponry:material:1>, null]
+        ],
+        [
+            [null, null, <tconstruct:arrow_head>.withTag({Material: "copper"})],
+            [null, <spartanweaponry:material:1>, null], 
+            [<spartanweaponry:material:1>, null, null]
         ]
-	]*/
+	]
 };
 
 for item, recipesForItem in recipeList {

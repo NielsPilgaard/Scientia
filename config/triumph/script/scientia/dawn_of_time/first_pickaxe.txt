@@ -1,4 +1,4 @@
-setIcon(<minecraft:stone_pickaxe>)
+setIcon(<tconstruct:pickaxe,meta:0,count:1,nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:200,HarvestLevel:1,Attack:2.9f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:0,Durability:200,HarvestLevel:1,Attack:2.9f},Special:{Categories:["aoe","harvest","tool"]},TinkerData:{Materials:["wood","flint","plant_fiber"]}}>)
 setTitle("Baby's First Pickaxe")
 setDescription("Craft a Pickaxe with a Cactus, Bone or Flint Head.")
 setShowToast(true)

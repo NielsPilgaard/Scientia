@@ -1,5 +1,5 @@
 setIcon(<contenttweaker:wet_pulp>)
-setTitle("Stir the Pot")
+setTitle("Useful Snot")
 setDescription("Wet Pulp is made by soaking 3 pieces of Bark in a Wooden Basin filled with water. Stir it by right clicking.")
 setShowToast(true)
 

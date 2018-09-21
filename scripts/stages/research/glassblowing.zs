@@ -1,14 +1,9 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.glassblowing;
 
 val glass = [
-    
-    <bibliocraft:biblioglasses:1>,
-    <bibliocraft:biblioglasses>,
 
     <botania:manabottle>,
     <botania:slimebottle>,
@@ -28,7 +23,7 @@ val glass = [
 ] as IItemStack[];
 
 for item in glass {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }
 /*
 val regexGlass = [

@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:spearhead>)
+setTitle("The Warrior's Path")
+setDescription("Struggling with nasty mobs? A weapon would probably help. Make a Primitive Spearhead to learn more about sharp objects.")
+setShowToast(true)
+
+addParent("scientia:stone_age/crafting_table")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:spearhead>)

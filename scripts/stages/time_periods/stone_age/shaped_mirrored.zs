@@ -54,12 +54,12 @@ var recipeList as IIngredient[][][][IItemStack] = {
 	],
     <spartanweaponry:javelin_stone> : [
         [
-            [null, <contenttweaker:spearhead>, null],
+            [null, <tconstruct:arrow_head>.withTag({Material: "stone"}), null],
             [null, <spartanweaponry:material:1>, null], 
             [null, <spartanweaponry:material:1>, null]
         ],
         [
-            [null, null, <contenttweaker:spearhead>],
+            [null, null, <tconstruct:arrow_head>.withTag({Material: "stone"})],
             [null, <spartanweaponry:material:1>, null], 
             [<spartanweaponry:material:1>, null, null]
         ]

@@ -1,11 +1,10 @@
 setIcon(<spartanweaponry:javelin_stone>)
-setTitle("The Warrior's Path")
-setDescription("Struggling with nasty mobs? A weapon would probably help. Craft a Stone Javelin.")
+setTitle("Amazon")
+setDescription("Shaping the Spearhead taught you a thing or two, now put your knowledge to use. Craft a Stone Javelin.")
 setShowToast(true)
 
-addParent("scientia:stone_age/crafting_table")
+addParent("scientia:stone_age/weapon_research")
 setRequiresParents()
-
 
 setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)

@@ -8,7 +8,4 @@ stageTinkersMaterial(stage, "obsidian");
 
 # Not so sure
 stageTinkersMaterial(stage, "netherrack");
-stageTinkersMaterial(stage, "electrum");
-stageTinkersMaterial(stage, "steel");
-stageTinkersMaterial(stage, "constantan");
 stageTinkersMaterial(stage, "treatedwood");

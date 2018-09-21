@@ -31,6 +31,13 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [<ore:stone>, null, <ore:stone>], 
             [null, <ore:stone>, null]
         ]
+	],
+    <spartanshields:shield_basic_stone> : [
+		[
+            [null, <ore:stone>, null],
+            [<ore:stone>, <spartanshields:shield_basic_wood>, <ore:stone>], 
+            [null, <ore:stone>, null]
+        ]
 	]
 };
 
@@ -39,8 +46,6 @@ for item, recipesForItem in recipeList {
     mods.ItemStages.addItemStage(stage, item);
     
 	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
-        
-        
+		mods.recipestages.Recipes.addShaped(stage, item, recipe);
 	}
 }

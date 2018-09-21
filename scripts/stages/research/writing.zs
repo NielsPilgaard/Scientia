@@ -1,8 +1,6 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.writing;
 
 val items = [
@@ -10,5 +8,7 @@ val items = [
 ] as IItemStack[];
 
 for item in items {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }
+
+mods.ItemStages.addItemStage(stage, <ore:signWood>);

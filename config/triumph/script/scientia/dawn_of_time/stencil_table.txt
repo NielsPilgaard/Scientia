@@ -15,4 +15,4 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:tooltables, meta:1, nbt:{textureBlock:{id:"minecraft:planks",Count:1b,Damage:0s}}>)
+criteria.addItem(<tconstruct:tooltables, meta:1>)

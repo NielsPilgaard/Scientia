@@ -20,6 +20,8 @@ val removals = [
     <primal_tech:fibre_torch>,
     <primal_tech:fire_sticks>,
 
+    <spartanshields:shield_basic_wood>,
+
     <tconstruct:tooltables:*>,
     <tconstruct:rack:*>
 
@@ -30,13 +32,22 @@ val oredictRemovals = [
     <ore:plankWood>,
     <ore:stairWood>,
     <ore:slabWood>,
-    <ore:chestWood>,
+    #<ore:chestWood>,
     <ore:fenceWood>,
     <ore:fenceGateWood>,
     <ore:doorWood>,
     <ore:pressurePlateWood>,
     <ore:trapdoorWood>,
-    <ore:buttonWood>
+    <ore:buttonWood>,
+    <ore:shelfWood>,
+    <ore:potionShelfWood>,
+    <ore:bookcaseWood>,
+    <ore:toolrackWood>,
+    <ore:mapframeWood>,
+    <ore:signWood>,
+    <ore:labelWood>,
+    <ore:tableWood>,
+    <ore:chairWood>
 
 ] as IOreDictEntry[];
 

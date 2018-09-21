@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 /*
-var stage = stages.stone_age;
+var stage = stages.middle_ages;
 
 var recipeList as IIngredient[][][][IItemStack] = {
 	<primal_tech:leaf_bed> : [
@@ -19,7 +19,7 @@ for item, recipesForItem in recipeList {
     mods.ItemStages.addItemStage(stage, item);
     
 	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
+		mods.recipestages.Recipes.addShaped(stage, item, recipe);
         
         
 	}

@@ -1,5 +1,5 @@
 #priority 100
-import scripts.utility.stageIItemstack;
+import mods.ItemStages.addItemStage;
 
 # =========================================== #
 # Novice

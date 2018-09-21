@@ -1,16 +1,16 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-/*
-var stage = stages.stone_age;
+
+var stage = stages.iron_age;
 
 var recipeList as IIngredient[][][IItemStack] = {
-    <minecraft:cobblestone> : [
-        [<contenttweaker:rock>,<contenttweaker:rock>,<contenttweaker:rock>,<contenttweaker:rock>]
+    <spartanweaponry:throwing_knife_iron> : [
+        [<spartanweaponry:material>, <tconstruct:sword_blade>.withTag({Material: "iron"})]
     ],
-    <hooked:microcrafting:1> : [
-        [<ore:fiber>,<ore:fiber>,<ore:fiber>]
-    ] 
+    <spartanweaponry:throwing_axe_iron> : [
+        [<spartanweaponry:material>, <tconstruct:axe_head>.withTag({Material: "iron"})]
+    ]
 };
 
 for item, recipesForItem in recipeList {
@@ -21,4 +21,3 @@ for item, recipesForItem in recipeList {
 		mods.recipestages.Recipes.addShapeless(stage, item, recipe);
 	}
 }
-*/

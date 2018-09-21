@@ -41,3 +41,5 @@ addDescription(<bloodmagic:item_demon_crystal:4>, willText);
 addDescription(<guideapi:bloodmagic-guide>, 
 "Sneak-Right-Click on a Blood Altar with this book, and it will show you where to place the appropriate blocks for the different Blood Altar tiers. Right-click to change tier.");
 
+# Raw Hide
+addDescription(<contenttweaker:raw_hide>, "Drops from most animals.");

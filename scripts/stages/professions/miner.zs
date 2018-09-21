@@ -1,5 +1,5 @@
 #priority 100
-import scripts.utility.stageIItemstack;
+import mods.ItemStages.addItemStage;
 # Most mining related staging can be found in stages/ore_stages.zs
 
 # =========================================== #

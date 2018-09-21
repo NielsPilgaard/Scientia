@@ -25,9 +25,9 @@ for item in stoneAnvilRecipes {
 */
 var woodenBasinRecipes as IIngredient[][][IItemStack] = {
 	<contenttweaker:processed_leather> * 3: [
-		/*[<harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
+		[<harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
-		[<contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>],*/
+		[<contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <harvestcraft:saltitem>]
 	]
 };

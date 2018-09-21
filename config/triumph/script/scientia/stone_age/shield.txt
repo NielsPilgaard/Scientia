@@ -1,0 +1,16 @@
+setIcon(<spartanshields:shield_basic_wood>)
+setTitle("Defender")
+setDescription("Another approach to dealing with enemies would be to shield yourself from them. Craft a Door to learn more about barriers.")
+setShowToast(true)
+
+addParent("scientia:stone_age/first_weapon")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:doorWood>)
+
+setRewardFunction("research:defender")

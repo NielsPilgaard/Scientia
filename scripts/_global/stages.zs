@@ -9,6 +9,7 @@ global stages as string[string] = {
 	bronze_age : "bronze_age",
 	iron_age : "iron_age",
 	middle_ages : "middle_ages",
+	industrial_age : "industrial_age",
 
 # Time Period Enemies
 	dawn_of_time_mobs : "dawn_of_time_mobs",
@@ -38,6 +39,7 @@ global stages as string[string] = {
 	chisel : "chisel", # Unlocks Chisel
 	advanced_chisel : "advanced_chisel", # Unlocks Chisels & Bits
 	cooking : "cooking", # Unlocks Pam's utensils & machines other than the Water Filter
+	defender : "defender",
 	
 # Profession Research 
 	novice_tinkerer : "novice_tinkerer", # Gives access to the Tool Table

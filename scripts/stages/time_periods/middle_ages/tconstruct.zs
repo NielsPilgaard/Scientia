@@ -8,4 +8,3 @@ var stage = stages.middle_ages;
 
 stageTinkersMaterial(stage, "cobalt");
 stageTinkersMaterial(stage, "ardite");
-stageTinkersMaterial(stage, "manyullyn");

@@ -1,4 +1,4 @@
-setIcon(<minecraft:stone_axe>)
+setIcon(<tconstruct:hatchet,meta:0,count:1,nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:200,HarvestLevel:1,Attack:3.4f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:0,Durability:200,HarvestLevel:1,Attack:3.4f},Special:{Categories:["aoe","weapon","harvest","tool"]},TinkerData:{Materials:["wood","flint","plant_fiber"],Modifiers:["toolleveling"]}}>)
 setTitle("I'm a Lumberjack and I'm Okay")
 setDescription("Craft a Flint Hatchet out of Sticks, Flint and Plant Fiber.")
 setShowToast(true)

@@ -1,8 +1,6 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 
-import scripts.utility.stageIItemstack;
-
 var stage = stages.botanical_masonry;
 
 val botaniaBuildingBlocks = [
@@ -172,5 +170,5 @@ val botaniaBuildingBlocks = [
 ] as IItemStack[];
 
 for item in botaniaBuildingBlocks {
-    stageIItemstack(stage, item);
+    mods.ItemStages.addItemStage(stage, item);
 }

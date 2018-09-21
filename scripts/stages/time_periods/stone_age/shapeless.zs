@@ -13,6 +13,15 @@ var recipeList as IIngredient[][][IItemStack] = {
     ],
     <contenttweaker:spearhead> : [
         [<contenttweaker:rock>,<contenttweaker:rock>,<minecraft:cobblestone>]
+    ],
+    <spartanweaponry:material> : [
+        [<primal_tech:fire_sticks>,<ore:fiber>]
+    ],
+    <spartanweaponry:throwing_knife_stone> : [
+        [<spartanweaponry:material>, <tconstruct:sword_blade>.withTag({Material: "stone"})]
+    ],
+    <spartanweaponry:throwing_axe_stone> : [
+        [<spartanweaponry:material>, <tconstruct:axe_head>.withTag({Material: "stone"})]
     ]
 };
 

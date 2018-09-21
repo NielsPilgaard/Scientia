@@ -1,0 +1,14 @@
+setIcon(<primal_tech:stone_mallet>)
+setTitle("Hammer Time!")
+setDescription("This special crafting table will allow you to make various Stone items and blocks.")
+setShowToast(true)
+
+addParent("scientia:stone_age/masons_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.setBlock(<primal_tech:stone_mallet>)

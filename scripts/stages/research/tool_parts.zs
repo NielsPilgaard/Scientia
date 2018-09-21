@@ -1,4 +1,7 @@
 #priority 100
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
 import mods.recipestages.Recipes;
 
 import mods.ItemStages.addItemStage;
@@ -9,13 +12,44 @@ var stage = stages.tool_parts;
 
 mods.TinkerStages.addGeneralPartBuildingStage(stage);
 
-Recipes.addShaped("tconstruct_tooltables_1_custom", stage,  
-<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}), 
-[[<tconstruct:pattern>, <tconstruct:pattern>], [<ore:plankWood>, <ore:plankWood>]]);
+for plank in <ore:plankWood>.items {
+    Recipes.addShaped(stage,  
+    <tconstruct:tooltables:1>.withTag({textureBlock: {id: plank.definition.id, Count: 1 as byte, Damage: plank.metadata as int}}), 
+    [
+        [<tconstruct:pattern>, <tconstruct:pattern>], 
+        [plank, plank]
+    ]);
+}
 
-Recipes.addShaped("tconstruct_tooltables_2_custom", stage, 
-<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}), 
-[[<tconstruct:pattern>, <contenttweaker:research_tool_parts>], [<ore:logWood>, <ore:logWood>]]);
+for debarkedlog in <ore:logDebarked>.items {
+    Recipes.addShaped(stage, 
+    <tconstruct:tooltables:2>.withTag({textureBlock: {id: debarkedlog.definition.id, Count: 1 as byte, Damage: debarkedlog.metadata as int}}), 
+    [
+        [<tconstruct:pattern>, <contenttweaker:research_tool_parts>], 
+        [debarkedlog, debarkedlog]
+    ]);
+}
+for log in woodtypes {
+    var plank as IItemStack = woodtypes[log].plank.items[0];
+    var logItem as IItemStack = woodtypes[log].log.items[0];
+
+    if (plank.definition.owner != "chisel" | plank.definition.owner != "minecraft") {
+        Recipes.addShaped(stage,  
+        <tconstruct:tooltables:1>.withTag({textureBlock: {id: plank.definition.id, Count: 1 as byte, Damage: plank.metadata as int}}), 
+    [
+        [<tconstruct:pattern>, <tconstruct:pattern>], 
+        [plank, plank]
+    ]);
+    }
+    if (logItem.definition.owner != "chisel" | logItem.definition.owner != "minecraft") {
+        Recipes.addShaped(stage, 
+        <tconstruct:tooltables:2>.withTag({textureBlock: {id: logItem.definition.id, Count: 1 as byte, Damage: logItem.metadata as int}}), 
+    [
+        [<tconstruct:pattern>, <contenttweaker:research_tool_parts>], 
+        [logItem, logItem]
+    ]);
+    }
+}
 
 Recipes.addShaped("tconstruct_cactus_hatchet_custom", stage, 
 <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.0 as float, FreeModifiers: 3, Durability: 260, HarvestLevel: 1, Attack: 3.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.0 as float, FreeModifiers: 0, Durability: 260, HarvestLevel: 1, Attack: 3.9 as float}, Special: {Categories: ["aoe", "weapon", "harvest", "tool"]}, TinkerData: {Materials: ["wood", "cactus", "plant_fiber"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "prickly", color: -16735985, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "prickly", "toolleveling"]}), [[<tconstruct:binding>.withTag({Material: "plant_fiber"}),<tconstruct:axe_head>.withTag({Material: "cactus"})],[<tconstruct:tool_rod>.withTag({Material: "wood"}), null]]);
