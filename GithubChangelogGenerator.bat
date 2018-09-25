@@ -1,1 +1,0 @@
-github_changelog_generator -p Scientia --header-label "# Scientia Changelog"
