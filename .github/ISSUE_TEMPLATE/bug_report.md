@@ -11,7 +11,9 @@ _Failure to comply will result in the issue being closed._
 **Issue Description**
 
 
+
 **Modpack version (Do not use "latest")**
+
 
 
 **Logs**
