@@ -1,6 +1,0 @@
-user=NillerMedDild
-token=f597281ff50ec69eb746000dcec986432242efd1
-issue-line-labels=ALL
-exclude-labels=wontfix,question,invalid,duplicate
-enhancement-labels=enhancement,mod
-bug-labels=bug,mod issue
