@@ -1,5 +1,5 @@
 # Comment that will be sent if an issue is judged to be closed
-comment: "Your issue has been closed, as it did not follow our issue template. Please follow it :)"
+comment: "Your issue has been closed, as it did not follow the issue template. You're encouraged to open a new issue, that follows the template :)"
 issueConfigs:
 - content:
 # bug report
@@ -10,11 +10,12 @@ issueConfigs:
 # feature request
   - "Is your feature request related to a problem? Please describe"
   - "Describe the solution you'd like"
-  - "Additional context"
- - content:
+- content:
 # development
   - "Notes"
-  - "Additional context"
+- content:
+# default
+  - "Question or Issue"
 # Optional configuration:
 #
 # whether the keywords are case-insensitive
