@@ -129,6 +129,8 @@ RecipeBuilder.get("carpenter")
   .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
   .setName("tconstruct_drying_rack_3_" + i)
   .create();
+
+  i = i + 1;
 }
 
 RecipeBuilder.get("carpenter")
@@ -250,21 +252,26 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 6)
   .addOutput(woodtypes[log].plank.items[0] * 6)
   .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+  .setName("skilled_planks_" + i)
   .create();
 
 RecipeBuilder.get("carpenter")
   .setShapeless([woodtypes[log].plank.items[0]])
   .addTool(<ore:artisansHandsaw>, 2)
-  .addOutput(woodtypes[log].slab.items[0] * 2)
+  .addOutput(woodtypes[log].slab.items[0] * 3)
   .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+  .setName("skilled_slabs_" + i)
   .create();
 
 RecipeBuilder.get("carpenter")
   .setShapeless([woodtypes[log].slab.items[0]])
   .addTool(<ore:artisansKnife>, 4)
-  .addOutput(<minecraft:stick> * 3)
+  .addOutput(<minecraft:stick> * 5)
   .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+  .setName("skilled_sticks_" + i)
   .create();
+
+  i = i + 1;
 }
 
 # =========================================== #
@@ -280,6 +287,9 @@ addItemStage(stages.skilled_carpenter, <ore:armorStandWood>);
 addItemStage(stages.skilled_carpenter, <ore:furniturePanelerWood>);
 addItemStage(stages.skilled_carpenter, <ore:chestWood>);
 /*
+
+Just a template for the rest of the Bibliocraft items
+
 for wood in vanillaWoodtypes {
 
 var slab = woodtypes[wood].slab;
@@ -330,7 +340,6 @@ for item in loadedMods["architecturecraft"].items {
   addItemStage(stages.master_carpenter, item);
 }
 
-/*
 for log in woodtypes {
 
 RecipeBuilder.get("carpenter")
@@ -338,20 +347,24 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 8)
   .addOutput(woodtypes[log].plank.items[0] * 8)
   .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
+  .setName("master_planks_" + i)
   .create();
 
 RecipeBuilder.get("carpenter")
   .setShapeless([woodtypes[log].plank.items[0]])
-  .addTool(<ore:artisansHandsaw>, 2)
+  .addTool(<ore:artisansHandsaw>, 4)
   .addOutput(woodtypes[log].slab.items[0] * 2)
   .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
+  .setName("master_slabs_" + i)
   .create();
 
 RecipeBuilder.get("carpenter")
   .setShapeless([woodtypes[log].slab.items[0]])
   .addTool(<ore:artisansKnife>, 4)
-  .addOutput(<minecraft:stick> * 3)
+  .addOutput(<minecraft:stick> * 8)
   .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
+  .setName("master_sticks_" + i)
   .create();
+
+  i = i + 1;
 }
-*/
