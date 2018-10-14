@@ -15,6 +15,6 @@ A unique Minecraft experience, based on Advancements, Research and Professions.
 
 * * *
 
-# [Discord](https://discord.gg/HnWNd7X)
+## [Discord](https://discord.gg/HnWNd7X)
 
 * * *
