@@ -1,6 +1,5 @@
 # Scientia
-===========
-
+======
 A unique Minecraft experience, based on Advancements, Research and Professions.<span style="font-size: 18px;">  
 </span>
 
