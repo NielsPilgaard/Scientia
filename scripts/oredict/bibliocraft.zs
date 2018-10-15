@@ -27,8 +27,6 @@ for i in 0 to 7 {
 
     <ore:deskWood>.add(<bibliocraft:desk>.definition.makeStack(i));
 
-    <ore:fancyWorkbench>.add(<bibliocraft:fancyworkbench>.definition.makeStack(i));
-
     <ore:armorStandWood>.add(<bibliocraft:armorstand>.definition.makeStack(i));
     <ore:armorStandWood>.add(<minecraft:armor_stand>);
 

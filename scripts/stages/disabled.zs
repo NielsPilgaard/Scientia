@@ -241,7 +241,6 @@ val disableList = [
         <bibliocraft:maptool>,
         <bibliocraft:bibliocreativelock>,
         <bibliocraft:framingsaw>,
-        <bibliocraft:recipebook>,
         
         <bloodmagic:blood_tank>,
         <bloodmagic:blood_tank:1>,

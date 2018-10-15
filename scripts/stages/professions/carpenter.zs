@@ -282,7 +282,6 @@ addItemStage(stages.skilled_carpenter, <ore:tableWood>);
 addItemStage(stages.skilled_carpenter, <ore:seatBack>);
 addItemStage(stages.skilled_carpenter, <ore:caseWood>);
 addItemStage(stages.skilled_carpenter, <ore:deskWood>);
-addItemStage(stages.skilled_carpenter, <ore:fancyWorkbench>);
 addItemStage(stages.skilled_carpenter, <ore:armorStandWood>);
 addItemStage(stages.skilled_carpenter, <ore:furniturePanelerWood>);
 addItemStage(stages.skilled_carpenter, <ore:chestWood>);

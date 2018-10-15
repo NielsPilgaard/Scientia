@@ -5,6 +5,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 val removals = [
+    <bibliocraft:framingboard>,
+    <bibliocraft:framingsheet>,
+    
     <harvestcraft:saltitem>,
 
     <minecraft:dye:15>,

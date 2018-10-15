@@ -1,0 +1,385 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  LibLoader (# LibLoader.jar)
+  RandomPatches (randompatches-1.12.2-1.6.0.1.jar)
+  ForgelinPlugin (Forgelin-1.7.4.jar)
+  BedPatch (bedpatch-2.2-1.12.2.jar)
+  LibrarianLib Plugin (librarianlib-1.12.2-4.15.jar)
+  CTMCorePlugin (CTM-MC1.12.2-0.3.2.18.jar)
+  BNBGamingCore (BNBGamingCore-1.12.2-0.10.0.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.64-dev.jar)
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.6-universal.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-86.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  CoreMod (TickProfiler-1.12-0.0.7.jar)
+  LoadingPlugin (Quark-r1.5-130.jar)
+  Botania Tweaks Core (botaniatweaks-1.7.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  BetterFoliageLoader (BetterFoliage-MC1.12-2.1.10.jar)
+Contact their authors BEFORE contacting forge
+
+// Hey, that tickles! Hehehe!
+
+Time: 10/8/18 7:11 PM
+Description: Unexpected error
+
+java.lang.VerifyError: Operand stack overflow
+Exception Details:
+  Location:
+    net/minecraft/client/renderer/chunk/RenderChunk.func_178581_b(FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V @408: aload
+  Reason:
+    Exceeded max stack size.
+  Current Frame:
+    bci: @408
+    flags: { }
+    locals: { 'net/minecraft/client/renderer/chunk/RenderChunk', float, float, float, 'net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator', 'net/minecraft/client/renderer/chunk/CompiledChunk', integer, 'net/minecraft/util/math/BlockPos', 'net/minecraft/util/math/BlockPos', 'net/minecraft/client/renderer/chunk/VisGraph', 'java/util/HashSet', '[Z', 'net/minecraft/client/renderer/BlockRendererDispatcher', 'java/util/Iterator', 'net/minecraft/util/math/BlockPos$MutableBlockPos', 'net/minecraft/block/state/IBlockState', 'net/minecraft/block/Block', '[Lnet/minecraft/util/BlockRenderLayer;', integer, integer, 'net/minecraft/util/BlockRenderLayer', integer, 'net/minecraft/client/renderer/BufferBuilder' }
+    stack: { '[Z', integer, integer, 'net/minecraft/client/renderer/BlockRendererDispatcher', 'net/minecraft/block/state/IBlockState', 'net/minecraft/util/math/BlockPos$MutableBlockPos', 'net/minecraft/world/ChunkCache', 'net/minecraft/client/renderer/BufferBuilder' }
+  Bytecode:
+    0x0000000: bb00 4559 b700 fd3a 0504 3606 2ab4 0074
+    0x0000010: 3a07 1907 100f 100f 100f b601 013a 0819
+    0x0000020: 04b6 0105 b601 0819 04b6 010c b201 10a5
+    0x0000030: 000c 1904 b601 05b6 0113 b119 0419 05b6
+    0x0000040: 0117 1904 b601 05b6 0113 a700 103a 0919
+    0x0000050: 04b6 0105 b601 1319 09bf bb01 1b59 b701
+    0x0000060: 1c3a 09b8 0057 3a0a 2ab4 011e b601 239a
+    0x0000070: 018f b201 2504 60b3 0125 b800 67be bc04
+    0x0000080: 3a0b b801 2bb6 012f 3a0c 1907 1908 b801
+    0x0000090: 33b9 0139 0100 3a0d 190d b901 4401 0099
+    0x00000a0: 010d 190d b901 4801 00c0 000b 3a0e 2ab4
+    0x00000b0: 011e 190e b601 4c3a 0f19 0fb9 0152 0100
+    0x00000c0: 3a10 190f b901 5501 0099 000a 1909 190e
+    0x00000d0: b601 5919 1019 0fb6 015f 9900 412a b401
+    0x00000e0: 1e19 0eb2 0163 b601 673a 1119 11c6 002e
+    0x00000f0: b201 6d19 11b6 0171 3a12 1912 c600 1f19
+    0x0000100: 1219 11b6 0177 9900 0e19 0a19 11b6 017b
+    0x0000110: 57a7 000a 1905 1911 b601 81b8 0067 3a11
+    0x0000120: 1911 be36 1203 3613 1513 1512 a200 7919
+    0x0000130: 1115 1332 3a14 1910 190f 1914 b801 899a
+    0x0000140: 0006 a700 5d19 14b8 018f 1914 b601 9036
+    0x0000150: 1519 10b6 0194 b901 9801 00b2 019e a500
+    0x0000160: 4119 04b6 00e6 1515 b601 a23a 1619 0519
+    0x0000170: 14b6 01a5 9a00 1219 0519 14b6 01a8 2a19
+    0x0000180: 1619 07b7 00f0 190b 1515 5c33 190c 190f
+    0x0000190: 190e 2ab4 011e 1916 1914 b801 ac80 5484
+    0x00001a0: 1301 a7ff 8601 b801 8fa7 feef b800 673a
+    0x00001b0: 0d19 0dbe 360e 0336 0f15 0f15 0ea2 0041
+    0x00001c0: 190d 150f 323a 1019 0b19 10b6 0190 3399
+    0x00001d0: 000a 1905 1910 b601 af19 0519 10b6 01a5
+    0x00001e0: 9900 182a 1910 2324 2519 04b6 00e6 1910
+    0x00001f0: b600 ec19 05b7 00f8 840f 01a7 ffbe 1905
+    0x0000200: 1909 b601 b3b6 01b7 2ab4 004f b601 0819
+    0x0000210: 0ab8 01ba 3a0b 2ab4 0059 b801 ba3a 0c19
+    0x0000220: 0b2a b400 59b9 01c0 0200 5719 0c19 0ab9
+    0x0000230: 01c0 0200 572a b400 59b9 01c3 0100 2ab4
+    0x0000240: 0059 190a b901 c602 0057 2ab4 007f 190c
+    0x0000250: 190b b601 ca2a b400 4fb6 0113 a700 0f3a
+    0x0000260: 172a b400 4fb6 0113 1917 bfb1          
+  Exception Handler Table:
+    bci [39, 50] => handler: 77
+    bci [59, 66] => handler: 77
+    bci [77, 79] => handler: 77
+    bci [527, 597] => handler: 607
+    bci [607, 609] => handler: 607
+  Stackmap Table:
+    full_frame(@59,{Object[#2],Float,Float,Float,Object[#22],Object[#69],Integer,Object[#13],Object[#13]},{})
+    same_locals_1_stack_item_frame(@77,Object[#281])
+    same_frame(@90)
+    full_frame(@152,{Object[#2],Float,Float,Float,Object[#22],Object[#69],Integer,Object[#13],Object[#13],Object[#283],Object[#315],Object[#317],Object[#319],Object[#321]},{})
+    append_frame(@211,Object[#11],Object[#334],Object[#347])
+    append_frame(@276,Object[#381],Object[#371])
+    chop_frame(@283,2)
+    append_frame(@296,Object[#387],Integer,Integer)
+    append_frame(@325,Object[#99])
+    append_frame(@390,Integer,Object[#18])
+    chop_frame(@415,3)
+    chop_frame(@421,3)
+    full_frame(@428,{Object[#2],Float,Float,Float,Object[#22],Object[#69],Integer,Object[#13],Object[#13],Object[#283],Object[#315],Object[#317],Object[#319]},{})
+    append_frame(@441,Object[#387],Integer,Integer)
+    append_frame(@473,Object[#99])
+    chop_frame(@504,1)
+    full_frame(@510,{Object[#2],Float,Float,Float,Object[#22],Object[#69],Integer,Object[#13],Object[#13],Object[#283],Object[#315]},{})
+    same_locals_1_stack_item_extended(@607,Object[#281])
+    same_frame(@619)
+
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1179)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:397)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 719687712 bytes (686 MB) / 3375890432 bytes (3219 MB) up to 5011144704 bytes (4779 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx5376m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 1958, tallocated: 14650
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 176 mods loaded, 176 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                         | Version                         | Source                                                    | Signature                                |
+	|:------ |:-------------------------- |:------------------------------- |:--------------------------------------------------------- |:---------------------------------------- |
+	| UCHIJA | minecraft                  | 1.12.2                          | minecraft.jar                                             | None                                     |
+	| UCHIJA | mcp                        | 9.42                            | minecraft.jar                                             | None                                     |
+	| UCHIJA | FML                        | 8.0.99.99                       | forge-1.12.2-14.23.5.2768.jar                             | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJA | forge                      | 14.23.5.2768                    | forge-1.12.2-14.23.5.2768.jar                             | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJA | ivtoolkit                  | 1.3.3-1.12                      | minecraft.jar                                             | None                                     |
+	| UCHIJA | bnbgamingcore              | 0.10.0                          | minecraft.jar                                             | None                                     |
+	| UCHIJA | randompatches              | 1.12.2-1.6.0.1                  | randompatches-1.12.2-1.6.0.1.jar                          | None                                     |
+	| UCHIJA | botania_tweaks_core        | -100                            | minecraft.jar                                             | None                                     |
+	| UCHIJA | movillages                 | 1.5.4                           | [1.12]MoVillages-1.5.4.jar                                | None                                     |
+	| UCHIJA | additionalbanners          | 1.1.45                          | AdditionalBanners-1.12.2-1.1.45.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | akashictome                | 1.2-10                          | AkashicTome-1.2-10.jar                                    | None                                     |
+	| UCHIJA | charset                    | 0.5.5.5                         | Charset-Lib-0.5.5.5.jar                                   | None                                     |
+	| UCHIJA | crafttweaker               | 4.1.11                          | CraftTweaker2-1.12-4.1.11.jar                             | None                                     |
+	| UCHIJA | mtlib                      | 3.0.5                           | MTLib-3.0.5.jar                                           | None                                     |
+	| UCHIJA | modtweaker                 | 4.0.13                          | modtweaker-4.0.14.jar                                     | None                                     |
+	| UCHIJA | jei                        | 4.13.1.220                      | jei_1.12.2-4.13.1.220.jar                                 | None                                     |
+	| UCHIJA | ctm                        | MC1.12.2-0.3.2.18               | CTM-MC1.12.2-0.3.2.18.jar                                 | None                                     |
+	| UCHIJA | chisel                     | MC1.12.2-0.2.1.35               | Chisel-MC1.12.2-0.2.1.35.jar                              | None                                     |
+	| UCHIJA | mantle                     | 1.12-1.3.2.24                   | Mantle-1.12-1.3.2.24.jar                                  | None                                     |
+	| UCHIJA | tconstruct                 | 1.12.2-2.10.1.87                | TConstruct-1.12.2-2.10.1.87.jar                           | None                                     |
+	| UCHIJA | redstoneflux               | 2.1.0                           | RedstoneFlux-1.12-2.1.0.6-universal.jar                   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | cofhcore                   | 4.6.1                           | CoFHCore-1.12.2-4.6.1.22-universal.jar                    | None                                     |
+	| UCHIJA | cofhworld                  | 1.3.0                           | CoFHWorld-1.12.2-1.3.0.6-universal.jar                    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | thermalfoundation          | 2.6.1                           | ThermalFoundation-1.12.2-2.6.1.22-universal.jar           | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | immersiveengineering       | 0.12-86                         | ImmersiveEngineering-0.12-86.jar                          | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| UCHIJA | alternatingflux            | 0.12.2-1                        | alternatingflux-0.12.2-1.jar                              | None                                     |
+	| UCHIJA | codechickenlib             | 3.2.2.353                       | CodeChickenLib-1.12.2-3.2.2.353-universal.jar             | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| UCHIJA | ancientwarfare             | 1.12.2-2.6.1.390                | ancientwarfare-1.12.2-2.6.1.390.jar                       | None                                     |
+	| UCHIJA | ancientwarfareautomation   | 1.12.2-2.6.1.390                | ancientwarfare-1.12.2-2.6.1.390.jar                       | None                                     |
+	| UCHIJA | ancientwarfarenpc          | 1.12.2-2.6.1.390                | ancientwarfare-1.12.2-2.6.1.390.jar                       | None                                     |
+	| UCHIJA | ancientwarfarestructure    | @VERSION@                       | ancientwarfare-1.12.2-2.6.1.390.jar                       | None                                     |
+	| UCHIJA | ancientwarfarevehicle      | 1.12.2-2.6.1.390                | ancientwarfare-1.12.2-2.6.1.390.jar                       | None                                     |
+	| UCHIJA | appleskin                  | 1.0.9                           | AppleSkin-mc1.12-1.0.9.jar                                | None                                     |
+	| UCHIJA | architect                  | 1.2.0.6                         | Architect-MC1.12-1.2.0.6.jar                              | None                                     |
+	| UCHIJA | architecturecraft          | @VERSION@                       | architecturecraft-1.12-3.80.jar                           | None                                     |
+	| UCHIJA | athenaeum                  | 1.12.2-1.14.0                   | athenaeum-1.12.2-1.14.0.jar                               | None                                     |
+	| UCHIJA | bookshelf                  | 2.3.566                         | Bookshelf-1.12.2-2.3.566.jar                              | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | gamestages                 | 2.0.108                         | GameStages-1.12.2-2.0.108.jar                             | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | mousetweaks                | 2.8                             | MouseTweaks-2.8-mc1.12.1.jar                              | None                                     |
+	| UCHIJA | artisanworktables          | 1.12.2-1.19.0                   | artisanworktables-1.12.2-1.19.0.jar                       | None                                     |
+	| UCHIJA | attributefix               | 1.0.3                           | AttributeFix-1.12.2-1.0.3.jar                             | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | quark                      | r1.5-130                        | Quark-r1.5-130.jar                                        | None                                     |
+	| UCHIJA | autoreglib                 | 1.3-20                          | AutoRegLib-1.3-20.jar                                     | None                                     |
+	| UCHIJA | base                       | 3.10.0                          | base-1.12.2-3.10.0.jar                                    | None                                     |
+	| UCHIJA | baubles                    | 1.5.2                           | Baubles-1.12-1.5.2.jar                                    | None                                     |
+	| UCHIJA | betteradvancements         | 0.0.14.66                       | BetterAdvancements-1.12.2-0.0.14.66.jar                   | None                                     |
+	| UCHIJA | betterbuilderswands        | 0.12.0                          | BetterBuildersWands-1.12-0.12.0.251+d6c4d93.jar           | None                                     |
+	| UCHIJA | betterfoliage              | 2.1.10                          | BetterFoliage-MC1.12-2.1.10.jar                           | None                                     |
+	| UCHIJA | bibliocraft                | 2.4.5                           | BiblioCraft[v2.4.5][MC1.12.2].jar                         | None                                     |
+	| UCHIJA | blockdrops                 | 1.4.0                           | blockdrops-1.12.2-1.4.0.jar                               | None                                     |
+	| UCHIJA | guideapi                   | 1.12-2.1.7-62                   | Guide-API-1.12-2.1.7-62.jar                               | None                                     |
+	| UCHIJA | bloodmagic                 | 1.12.2-2.3.3-101                | BloodMagic-1.12.2-2.3.3-101.jar                           | None                                     |
+	| UCHIJA | bnbgaminglib               | 2.16.1                          | BNBGamingLib-1.12.2-2.16.1.jar                            | None                                     |
+	| UCHIJA | botania_tweaks             | 1.7                             | botaniatweaks-1.7.jar                                     | None                                     |
+	| UCHIJA | botania                    | r1.10-356                       | Botania r1.10-356.jar                                     | None                                     |
+	| UCHIJA | caliper                    | 1.1.37                          | Caliper-1.12.2-1.1.37.jar                                 | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | campfire                   | 1.2                             | campfire-1.12-v1.2.jar                                    | None                                     |
+	| UCHIJA | carryon                    | 1.11.1                          | CarryOn MC1.12.2 v1.11.1.jar                              | None                                     |
+	| UCHIJA | chiselsandbits             | 14.26                           | chiselsandbits-14.26.jar                                  | None                                     |
+	| UCHIJA | chutes                     | 1.0.0                           | chutes-1.12.2-1.0.0.jar                                   | None                                     |
+	| UCHIJA | claybucket                 | 1.1                             | ClayBucket-1.12-1.1.jar                                   | None                                     |
+	| UCHIJA | clienttweaks               | 3.1.11                          | ClientTweaks_1.12.2-3.1.11.jar                            | None                                     |
+	| UCHIJA | clumps                     | 3.1.1                           | Clumps-3.1.1.jar                                          | None                                     |
+	| UCHIJA | cyclopscore                | 0.11.10                         | CyclopsCore-1.12.2-0.11.10.jar                            | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+	| UCHIJA | commoncapabilities         | 1.4.0                           | CommonCapabilities-1.12-1.4.0.jar                         | None                                     |
+	| UCHIJA | contenttweaker             | 1.12.2-4.8.0                    | ContentTweaker-1.12.2-4.8.0.jar                           | None                                     |
+	| UCHIJA | conarm                     | 1.1.2                           | conarm-1.12.2-1.1.2.jar                                   | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+	| UCHIJA | controlling                | 3.0.6                           | Controlling-3.0.6.jar                                     | None                                     |
+	| UCHIJA | ctgui                      | 1.0.0                           | CraftTweaker2-1.12-4.1.11.jar                             | None                                     |
+	| UCHIJA | crafttweakerjei            | 2.0.2                           | CraftTweaker2-1.12-4.1.11.jar                             | None                                     |
+	| UCHIJA | cucumber                   | 1.1.1                           | Cucumber-1.12.2-1.1.1.jar                                 | None                                     |
+	| UCHIJA | custommainmenu             | 2.0.8                           | CustomMainMenu-MC1.12.2-2.0.8.jar                         | None                                     |
+	| UCHIJA | journeymap                 | 1.12.2-5.5.2                    | journeymap-1.12.2-5.5.2.jar                               | None                                     |
+	| UCHIJA | defaultoptions             | 9.2.8                           | DefaultOptions_1.12.2-9.2.8.jar                           | None                                     |
+	| UCHIJA | defaultworldgenerator-port | 1.12-2.3                        | DefaultWorldGenerator-port-1.12-2.3.jar                   | None                                     |
+	| UCHIJA | diethopper                 | 1.1                             | diethopper-1.1.jar                                        | None                                     |
+	| UCHIJA | dimensionalcontrol         | 2.10.3                          | DimensionalControl-1.12.2-2.10.3.jar                      | None                                     |
+	| UCHIJA | dimstages                  | 2.0.21                          | DimensionStages-1.12.2-2.0.21.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | dynamictrees               | 1.12.2-0.8.2                    | DynamicTrees-1.12.2-0.8.2.jar                             | None                                     |
+	| UCHIJA | traverse                   | 1.6.0                           | Traverse-1.12.2-1.6.0-69.jar                              | None                                     |
+	| UCHIJA | dttraverse                 | @VERSION@                       | dttraverse-1.2.jar                                        | None                                     |
+	| UCHIJA | familiarfauna              | 1.0.10                          | FamiliarFauna-1.12.2-1.0.10.jar                           | None                                     |
+	| UCHIJA | fastbench                  | 1.5.3                           | FastWorkbench-1.12.2-1.5.3.jar                            | None                                     |
+	| UCHIJA | fencejumper                | 1.0.5                           | fencejumper-1.12-1.0.5.jar                                | None                                     |
+	| UCHIJA | findme                     | 1.0.2                           | findme-1.12.2-1.0.2-6.jar                                 | None                                     |
+	| UCHIJA | forgelin                   | 1.7.4                           | Forgelin-1.7.4.jar                                        | None                                     |
+	| UCHIJA | fpsreducer                 | 1.12.2-1.10.2                   | FpsReducer-1.12.2-1.10.2.jar                              | None                                     |
+	| UCHIJA | gamestagebooks             | 1.12.2-0.9.1                    | gamestagebooks-1.12.2-0.9.1-universal.jar                 | None                                     |
+	| UCHIJA | placebo                    | 1.4.1                           | Placebo-1.12.2-1.4.1.jar                                  | None                                     |
+	| UCHIJA | hitwithaxe                 | 1.1.0                           | Hit With Axe-1.12.2-1.1.0.jar                             | None                                     |
+	| UCHIJA | mcjtylib_ng                | 3.0.5                           | mcjtylib-1.12-3.0.5.jar                                   | None                                     |
+	| UCHIJA | hologui                    | 0.0.3-beta                      | hologui-1.12-0.0.3-beta.jar                               | None                                     |
+	| UCHIJA | librarianlib               | 4.15                            | librarianlib-1.12.2-4.15.jar                              | None                                     |
+	| UCHIJA | hooked                     | %VERSION%                       | hooked-1.0.3.jar                                          | None                                     |
+	| UCHIJA | waila                      | 1.8.26                          | Hwyla-1.8.26-B41_1.12.2.jar                               | None                                     |
+	| UCHIJA | immersivepetroleum         | 1.1.9                           | immersivepetroleum-1.12.2-1.1.9.jar                       | None                                     |
+	| UCHIJA | incontrol                  | 3.8.2                           | incontrol-1.12-3.8.2.jar                                  | None                                     |
+	| UCHIJA | industrialrenewal          | 0.6.0                           | IndustrialRenewal_1.12.2-0.6.0.jar                        | None                                     |
+	| UCHIJA | inventorytweaks            | 1.64-dev+release.110.b4fac73    | InventoryTweaks-1.64-dev.jar                              | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| UCHIJA | itemstages                 | 2.0.39                          | ItemStages-1.12.2-2.0.39.jar                              | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | harvestcraft               | 1.12.2z                         | Pam's HarvestCraft 1.12.2z.jar                            | None                                     |
+	| UCHIJA | jehc                       | 1.12.2                          | JEHC-1.12.2-1.6.1.0.jar                                   | None                                     |
+	| UCHIJA | jeivillagers               | 1.0                             | jeivillagers-1.12-1.0.2.jar                               | None                                     |
+	| UCHIJA | jepb                       | 1.2.1                           | jepb-1.12-1.2.1.jar                                       | None                                     |
+	| UCHIJA | jetif                      | 1.1.0                           | jetif-1.12.2-1.1.0.jar                                    | None                                     |
+	| UCHIJA | jmapstages                 | @VERSION@                       | JourneyMapStages-1.12.2-2.0.6.jar                         | None                                     |
+	| UCHIJA | jaff                       | 1.7_for_1.12                    | JustAFewFish-1.7_for_1.12.jar                             | None                                     |
+	| UCHIJA | justenoughdimensions       | 1.6.0-dev.20180913.002135       | justenoughdimensions-1.12.2-1.6.0-dev.20180913.002135.jar | 2b03e1423915a189b8094816baa18f239d576dff |
+	| UCHIJA | justenoughpetroleum        | 0.1                             | JustEnoughPetroleum-0.1.jar                               | None                                     |
+	| UCHIJA | kleeslabs                  | 5.4.11                          | KleeSlabs_1.12.2-5.4.11.jar                               | None                                     |
+	| UCHIJA | laggoggles                 | FORGE-1.12.2-4.1                | LagGoggles-FORGE-1.12.2-4.1.jar                           | None                                     |
+	| UCHIJA | linear                     | 1.2.1                           | Linear MC1.12.2 v1.2.1.jar                                | None                                     |
+	| UCHIJA | loottweaker                | 0.0.8                           | LootTweaker-1.12.2-0.0.8.jar                              | None                                     |
+	| UCHIJA | magicalmap                 | 3.3.1                           | Magical Map-1.12.2-3.3.1.jar                              | None                                     |
+	| UCHIJA | modelloader                | 1.1.5                           | modelloader-1.1.5.jar                                     | None                                     |
+	| UCHIJA | magneticraft               | 2.5.1                           | Magneticraft_1.12-2.5.1-dev.jar                           | None                                     |
+	| UCHIJA | meecreeps                  | 1.2.2                           | meecreeps-1.12-1.2.2.jar                                  | None                                     |
+	| UCHIJA | mobstages                  | 2.0.11                          | MobStages-1.12.2-2.0.11.jar                               | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | modularmachinery           | 1.9.4                           | modularmachinery-1.9.4.jar                                | None                                     |
+	| UCHIJA | modulardiversity           | 1.1                             | Modular Diversity-1.1.jar                                 | None                                     |
+	| UCHIJA | moreoverlays               | 1.14                            | moreoverlays-1.14-mc1.12.2.jar                            | None                                     |
+	| UCHIJA | morpheus                   | 1.12-3.3.2                      | Morpheus-1.12-3.3.2.jar                                   | None                                     |
+	| UCHIJA | mputils                    | 1.5.6                           | MPUtils-1.12.2-1.5.6.jar                                  | None                                     |
+	| UCHIJA | mpbasic                    | 1.4.7                           | mpbasic-1.12.2-1.4.8.jar                                  | None                                     |
+	| UCHIJA | mysticalwildlife           | 1.2.0                           | mysticalwildlife-1.12.2-1.2.0.jar                         | None                                     |
+	| UCHIJA | natura                     | 1.12.2-4.3.2.62                 | natura-1.12.2-4.3.2.62.jar                                | None                                     |
+	| UCHIJA | naturescompass             | 1.5.1                           | NaturesCompass-1.12.2-1.5.1.jar                           | None                                     |
+	| UCHIJA | neat                       | 1.4-17                          | Neat 1.4-17.jar                                           | None                                     |
+	| UCHIJA | netherportalfix            | 5.3.17                          | NetherPortalFix_1.12.1-5.3.17.jar                         | None                                     |
+	| UCHIJA | nomorepunchingtree         | 1.2                             | NoMorePunchingTree-1.12.2-1.2.jar                         | None                                     |
+	| UCHIJA | oreexcavation              | 1.4.129                         | OreExcavation-1.4.129.jar                                 | None                                     |
+	| UCHIJA | orestages                  | 2.0.35                          | OreStages-1.12.2-2.0.35.jar                               | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | oreveins                   | 2.0.2                           | oreveins-2.0.2.jar                                        | None                                     |
+	| UCHIJA | pickletweaks               | 2.0.17                          | PickleTweaks-1.12-2.0.17.jar                              | None                                     |
+	| UCHIJA | pillagers                  | 1.0.3                           | Pillagers-1.12.2-1.0.3.jar                                | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | prospectors                | 1.0.2                           | prospectors-1.0.2.jar                                     | None                                     |
+	| UCHIJA | randomtweaks               | 1.12.2-2.1.7.0                  | randomtweaks-1.12.2-2.1.7.0.jar                           | None                                     |
+	| UCHIJA | recipestages               | 1.1.1                           | RecipeStages-1.1.1.jar                                    | None                                     |
+	| UCHIJA | reccomplex                 | 1.4.7                           | RecurrentComplex-1.4.7.jar                                | None                                     |
+	| UCHIJA | refinedrelocation          | 4.2.28                          | RefinedRelocation_1.12.2-4.2.28.jar                       | None                                     |
+	| UCHIJA | resourceloader             | 1.5.3                           | ResourceLoader-MC1.12.1-1.5.3.jar                         | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| UCHIJA | restriction                | 1.12.1-0.1.12                   | restriction-1.12.1-0.1.12.jar                             | None                                     |
+	| UCHIJA | rustic                     | 1.0.12                          | rustic-1.0.12.jar                                         | None                                     |
+	| UCHIJA | woodenshears               | @MAJOR@.@MINOR@.@REVIS@.@BUILD@ | SBM-WoodenShears-1.12-0.0.1b8.jar                         | None                                     |
+	| UCHIJA | scavenge                   | 1.8                             | Scavenge V1.12-1.8.3.2.jar                                | None                                     |
+	| UCHIJA | sereneseasons              | 1.2.6                           | SereneSeasons-1.12.2-1.2.6-universal.jar                  | None                                     |
+	| UCHIJA | somelikeitdry              | 1.1.0                           | somelikeitdry-1.1.0.jar                                   | None                                     |
+	| UCHIJA | spartanshields             | 1.4.1                           | SpartanShields-1.12.2-1.4.1.jar                           | None                                     |
+	| UCHIJA | spartanweaponry            | beta 1.2.3                      | SpartanWeaponry-1.12.2-beta-1.2.3.jar                     | None                                     |
+	| UCHIJA | stg                        | 1.12.2-1.2.3                    | stg-1.12.2-1.2.3.jar                                      | None                                     |
+	| UCHIJA | tellme                     | 0.6.0                           | tellme-1.12.2-0.6.0.jar                                   | 2b03e1423915a189b8094816baa18f239d576dff |
+	| UCHIJA | tickprofiler               | 1.12-0.0.7                      | TickProfiler-1.12-0.0.7.jar                               | None                                     |
+	| UCHIJA | tinkeredhegemony           | @VERSION@                       | TinkeredHegemony-0.2.1.jar                                | None                                     |
+	| UCHIJA | tinkerstages               | 2.0.16                          | TinkerStages-1.12.2-2.0.16.jar                            | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | tinkertoolleveling         | 1.12.2-1.0.5.DEV.30c7957        | TinkerToolLeveling-1.12.2-1.0.5.jar                       | None                                     |
+	| UCHIJA | tipthescales               | 1.0.1                           | TipTheScales-1.12.2-1.0.1.jar                             | None                                     |
+	| UCHIJA | titlechanger               | 1.1.3                           | titlechanger-1.1.3.jar                                    | None                                     |
+	| UCHIJA | toastcontrol               | 1.7.1                           | Toast Control-1.12.2-1.7.1.jar                            | None                                     |
+	| UCHIJA | togetherforever            | 1.0.2                           | togetherforever-1.12.2-1.0.11-20.jar                      | None                                     |
+	| UCHIJA | tombmanygraves             | 1.12-4.2.0                      | TombManyGraves-1.12-4.2.0.jar                             | None                                     |
+	| UCHIJA | tombmanygraves2api         | 1.12.2-1.0.0                    | tombmanygraves2api-1.12.2-1.0.0.jar                       | None                                     |
+	| UCHIJA | treetweaker                | 1.5                             | treetweaker-1.5.jar                                       | None                                     |
+	| UCHIJA | triumph                    | 3.3.0                           | Triumph-1.12.2-3.3.0.jar                                  | None                                     |
+	| UCHIJA | unloader                   | 1.2.0                           | unloader-1.2.0.jar                                        | None                                     |
+	| UCHIJA | vtt                        | 0.6.4                           | VillagerTrades-1.12-0.6.4.jar                             | None                                     |
+	| UCHIJA | wailaharvestability        | 1.1.12                          | WailaHarvestability-mc1.12-1.1.12.jar                     | None                                     |
+	| UCHIJA | watercontrolextreme        | 1.0.0                           | WaterControlExtreme-1.0.2.jar                             | None                                     |
+	| UCHIJA | waterstrainer              | 3.2.0                           | WaterStrainer-1.12-3.2.0.jar                              | None                                     |
+	| UCHIJA | wawla                      | 2.5.264                         | Wawla-1.12.2-2.5.264.jar                                  | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | wildcrops                  | 1.0.1                           | WildCrops-1.12-1.0.1.jar                                  | None                                     |
+	| UCHIJA | worldstripper              | 1.5.1-1.12.2                    | World-Stripper-1.5.1-1.12.2.jar                           | None                                     |
+	| UCHIJA | reauth                     | 3.6.0                           | reauth-3.6.0.jar                                          | daba0ec4df71b6da841768c49fb873def208a1e3 |
+	| UCHIJA | dropt                      | 1.12.2-1.10.1                   | dropt-1.12.2-1.10.1.jar                                   | None                                     |
+	| UCHIJA | justthetips                | 1.12-1.0.1.1                    | justthetips-1.12-1.0.1.1.jar                              | None                                     |
+	| UCHIJA | librarianliblate           | 4.15                            | librarianlib-1.12.2-4.15.jar                              | None                                     |
+	| UCHIJA | primal_tech                | 0.3.3                           | PrimalTech-0.3.3.jar                                      | None                                     |
+
+	Loaded coremods (and transformers): 
+LibLoader (# LibLoader.jar)
+  
+RandomPatches (randompatches-1.12.2-1.6.0.1.jar)
+  com.therandomlabs.randompatches.core.RPTransformer
+ForgelinPlugin (Forgelin-1.7.4.jar)
+  
+BedPatch (bedpatch-2.2-1.12.2.jar)
+  com.mordenkainen.bedpatch.BedPatchASM
+LibrarianLib Plugin (librarianlib-1.12.2-4.15.jar)
+  com.teamwizardry.librarianlib.asm.LibLibTransformer
+CTMCorePlugin (CTM-MC1.12.2-0.3.2.18.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+BNBGamingCore (BNBGamingCore-1.12.2-0.10.0.jar)
+  com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.64-dev.jar)
+  invtweaks.forge.asm.ContainerTransformer
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.6-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-86.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+CoreMod (TickProfiler-1.12-0.0.7.jar)
+  
+LoadingPlugin (Quark-r1.5-130.jar)
+  vazkii.quark.base.asm.ClassTransformer
+Botania Tweaks Core (botaniatweaks-1.7.jar)
+  quaternary.botaniatweaks.asm.BotaniaTweakerTransformer
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+BetterFoliageLoader (BetterFoliage-MC1.12-2.1.10.jar)
+  mods.betterfoliage.loader.BetterFoliageTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 411.70' Renderer: 'GeForce GTX 960M/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselIntegration (Enabled/Not Forced)
+		- chiselsandbitsIntegration (Enabled/Not Forced)
+		- wailaIntegration (Enabled/Not Forced)
+
+	Pulsar/natura loaded Pulses: 
+		- NaturaCommons (Enabled/Forced)
+		- NaturaOverworld (Enabled/Not Forced)
+		- NaturaDecorative (Enabled/Not Forced)
+		- NaturaOredict (Enabled/Forced)
+		- NaturaWorld (Enabled/Not Forced)
+
+	Launched Version: forge-14.23.5.2768
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 960M/PCIe/SSE2 GL version 4.6.0 NVIDIA 411.70, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz

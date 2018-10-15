@@ -24,10 +24,10 @@ addItemStage(stages.skilled_architect, <betterbuilderswands:wandiron>);
 # =========================================== #
 # Accessible after iron_age
 
-addItemStage(stages.master_architect, <architect:sketch>.withTag({"architect:data": {}}));
-addItemStage(stages.master_architect, <architect:blueprint>.withTag({"architect:data": {}}));
-addItemStage(stages.master_architect, <architect:provider_item>.withTag({"architect:data": {}}));
-addItemStage(stages.master_architect, <architect:provider_fluid>.withTag({"architect:data": {}}));
+addItemStage(stages.master_architect, <architect:sketch>.withTag({}));
+addItemStage(stages.master_architect, <architect:blueprint>.withTag({}));
+addItemStage(stages.master_architect, <architect:provider_item>.withTag({}));
+addItemStage(stages.master_architect, <architect:provider_fluid>.withTag({}));
 
 addItemStage(stages.master_architect, <chiselsandbits:chisel_gold>);
 addItemStage(stages.master_architect, <chiselsandbits:chisel_diamond>);
