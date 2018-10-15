@@ -7,6 +7,8 @@ import mods.artisanworktables.integration.requirement.GameStages;
 
 import mods.ItemStages.addItemStage;
 
+import mods.recipestages.Recipes;
+
 # =========================================== #
 # Novice
 # =========================================== #
@@ -274,6 +276,11 @@ RecipeBuilder.get("carpenter")
   i = i + 1;
 }
 
+Recipes.setRecipeStage(stages.skilled_carpenter, <rustic:cabinet>);
+addItemStage(stages.skilled_carpenter, <rustic:cabinet>);
+
+# Add Chests here
+
 # =========================================== #
 # Bibliocraft Skilled Carpenter
 
@@ -285,6 +292,8 @@ addItemStage(stages.skilled_carpenter, <ore:deskWood>);
 addItemStage(stages.skilled_carpenter, <ore:armorStandWood>);
 addItemStage(stages.skilled_carpenter, <ore:furniturePanelerWood>);
 addItemStage(stages.skilled_carpenter, <ore:chestWood>);
+
+
 /*
 
 Just a template for the rest of the Bibliocraft items
