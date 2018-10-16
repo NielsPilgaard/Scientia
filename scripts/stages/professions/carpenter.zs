@@ -7,7 +7,7 @@ import mods.artisanworktables.integration.requirement.GameStages;
 
 import mods.ItemStages.addItemStage;
 
-import mods.recipestages.Recipes;
+import mods.recipestages.Recipes.setRecipeStage;
 
 # =========================================== #
 # Novice
@@ -276,7 +276,7 @@ RecipeBuilder.get("carpenter")
   i = i + 1;
 }
 
-Recipes.setRecipeStage(stages.skilled_carpenter, <rustic:cabinet>);
+setRecipeStage(stages.skilled_carpenter, <rustic:cabinet>);
 addItemStage(stages.skilled_carpenter, <rustic:cabinet>);
 
 # Add Chests here

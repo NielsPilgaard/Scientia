@@ -13,8 +13,6 @@ for i in 0 to 7 {
 
     <ore:clockWood>.add(<bibliocraft:clock>.definition.makeStack(i));
 
-    <ore:chestWood>.add(<bibliocraft:framedchest>.definition.makeStack(i));
-
     <ore:mapFrameWood>.add(<bibliocraft:mapframe>.definition.makeStack(i));
 
     <ore:signWood>.add(<bibliocraft:fancysign>.definition.makeStack(i));
