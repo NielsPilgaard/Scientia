@@ -25,6 +25,9 @@ addDescription(<minecraft:flint>,
 addDescription(<minecraft:stick>,
 "Sticks drop from leaves.");
 
+# Rustic Cabinet
+addDescription(<rustic:cabinet>,
+"The Cabinet's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
 
 # Blood Magic Wills
 var willText = "Obtained through the Resonance of the Faceted Crystal ritual.";

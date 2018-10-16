@@ -276,7 +276,6 @@ RecipeBuilder.get("carpenter")
   i = i + 1;
 }
 
-setRecipeStage(stages.skilled_carpenter, <rustic:cabinet>);
 addItemStage(stages.skilled_carpenter, <rustic:cabinet>);
 
 # Add Chests here

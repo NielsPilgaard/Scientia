@@ -16,6 +16,110 @@ Parameters:
 Incompatible With: None
 Type: Effect
 
+- random_chance:
+Description: Allows to add a Random Factor into your condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"chance": (How likely it is in % that the Random returns true, Default: 100.0) FloatNumber,
+Incompatible With: None
+Type: Condition
+
+- default_Condition:
+Description: Allows to always return true or false
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"value": (If it should return true or false, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- if_else_condition:
+Description: Allows to do make a condition that decides which condition is being used
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"check": (The Object for the Decider Condition) Object,
+"trueValue": (The Object for Condition if the Decider is true) Object,
+"falseValue": (The Object for Condition if the Decider is false) Object,
+Incompatible With: None
+Type: Condition
+
+- invert_Condition:
+Description: Allows to invert any other condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"value": (The Container where the condition is stored in that needs to be inverted) Object,
+Incompatible With: None
+Type: Condition
+
+- array_condition:
+Description: Allows to combine conditions together
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"": (The Conditions that should be added) ObjectArray,
+"and": (If all conditions are required or just 1 of them, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- modify_luck:
+Description: Allows to modify chance of Loot Drop, for reducing negative numbers are used since its added on top of base chance
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"multiplier": (the Multiplier thats being added on top of the base chance, Default: 0.0) FloatNumber,
+"points": (Adds Exact % on top of base chance, Default: 0) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- set_rools:
+Description: Allows to set a Fixed or Random Loot Rools
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+either
+   "amount": (The Amount of Rools that the loot pools should get) IntNumber,
+or
+   "pool": (Pool of Numbers which 1 gets pickt randomly from) IntNumberArray,
+Incompatible With: None
+Type: Effect
+
+- conditional_Effect:
+Description: Allows to make optional Effect based on 1 condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"condition": (The Condition object thats being checkt for) Object,
+"effects": (The Effects that should be applied) ObjectArray,
+Incompatible With: None
+Type: Effect
+
+- offset_effect:
+Description: Allows to offset a Effect to another position
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"direction": (The Side the Effect should be shifted to) String,
+"effect": (The Effect that should be offset to another position) Object,
+Incompatible With: None
+Type: Effect
+
+- if_else_effect:
+Description: Allows to apply a effect based of if a condition is true or false
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"check": (The Condition that decides which effect should be applied) Object,
+"trueValue": (The Effect that is applied when the condition is true) Object,
+"falseValue": (The Effect that is applied when the condition is false) Object,
+Incompatible With: None
+Type: Effect
+
+- offset_effect_adv:
+Description: 
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"effects": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "positions": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+      "x": (The XOffset of the Effect that should be applied) IntNumber,
+      "y": (The YOffset of the Effect that should be applied) IntNumber,
+      "z": (The ZOffset of the Effect that should be applied) IntNumber,
+   "effect": (The Effect that should be applied) Object,
+Incompatible With: None
+Type: Effect
+
 - require_Spawn:
 Description: Allows to control if the Block should be inside or outside of the spawn Range
 Parameters:
@@ -800,137 +904,6 @@ Parameters:
 Incompatible With: None
 Type: Condition, Effect
 
-- random_chance:
-Description: Allows to add a Random Factor into your condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"chance": (How likely it is in % that the Random returns true, Default: 100.0) FloatNumber,
-Incompatible With: None
-Type: Condition
-
-- default_Condition:
-Description: Allows to always return true or false
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"value": (If it should return true or false, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- if_else_condition:
-Description: Allows to do make a condition that decides which condition is being used
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"check": (The Object for the Decider Condition) Object,
-"trueValue": (The Object for Condition if the Decider is true) Object,
-"falseValue": (The Object for Condition if the Decider is false) Object,
-Incompatible With: None
-Type: Condition
-
-- invert_Condition:
-Description: Allows to invert any other condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"value": (The Container where the condition is stored in that needs to be inverted) Object,
-Incompatible With: None
-Type: Condition
-
-- array_condition:
-Description: Allows to combine conditions together
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"": (The Conditions that should be added) ObjectArray,
-"and": (If all conditions are required or just 1 of them, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- modify_luck:
-Description: Allows to modify chance of Loot Drop, for reducing negative numbers are used since its added on top of base chance
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"multiplier": (the Multiplier thats being added on top of the base chance, Default: 0.0) FloatNumber,
-"points": (Adds Exact % on top of base chance, Default: 0) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- set_rools:
-Description: Allows to set a Fixed or Random Loot Rools
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-either
-   "amount": (The Amount of Rools that the loot pools should get) IntNumber,
-or
-   "pool": (Pool of Numbers which 1 gets pickt randomly from) IntNumberArray,
-Incompatible With: None
-Type: Effect
-
-- conditional_Effect:
-Description: Allows to make optional Effect based on 1 condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"condition": (The Condition object thats being checkt for) Object,
-"effects": (The Effects that should be applied) ObjectArray,
-Incompatible With: None
-Type: Effect
-
-- offset_effect:
-Description: Allows to offset a Effect to another position
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"direction": (The Side the Effect should be shifted to) String,
-"effect": (The Effect that should be offset to another position) Object,
-Incompatible With: None
-Type: Effect
-
-- if_else_effect:
-Description: Allows to apply a effect based of if a condition is true or false
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"check": (The Condition that decides which effect should be applied) Object,
-"trueValue": (The Effect that is applied when the condition is true) Object,
-"falseValue": (The Effect that is applied when the condition is false) Object,
-Incompatible With: None
-Type: Effect
-
-- offset_effect_adv:
-Description: 
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"effects": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-   "positions": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-      "x": (The XOffset of the Effect that should be applied) IntNumber,
-      "y": (The YOffset of the Effect that should be applied) IntNumber,
-      "z": (The ZOffset of the Effect that should be applied) IntNumber,
-   "effect": (The Effect that should be applied) Object,
-Incompatible With: None
-Type: Effect
-
-- require_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be checkt for) String,
-"required": (If the Stage is required or not allowed, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- set_stage:
-Description: Allows to grant or take a gamestage from a player
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be granted and which should be taken) String,
-"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- require_multi_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"names": (Which game Stages should be checkt for) StringArray,
-"all": (If all the Stages are required or not, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
 - has_score:
 Description: Allows to check the if the player has a certain score
 Parameters:
@@ -993,6 +966,33 @@ Description: Allows to Add Achievements to a Player
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
 "name": (The Achievement that should be given) String,
+Incompatible With: None
+Type: Effect
+
+- require_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be checkt for) String,
+"required": (If the Stage is required or not allowed, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- set_stage:
+Description: Allows to grant or take a gamestage from a player
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be granted and which should be taken) String,
+"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- require_multi_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"names": (Which game Stages should be checkt for) StringArray,
+"all": (If all the Stages are required or not, Default: true) Boolean,
 Incompatible With: None
 Type: Effect
 
