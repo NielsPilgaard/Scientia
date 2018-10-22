@@ -1,4 +1,4 @@
-#priority 100
+#priority 1250
 
 # ContentTweaker Research
     <ore:research>.add(<contenttweaker:research_note>);
@@ -39,3 +39,10 @@
     <ore:logDebarked>.add(<hitwithaxe:debarked_jungle>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_fir>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_dark_oak>);
+
+# Sign
+    <ore:signWood>.add(<minecraft:sign>);
+
+# Music Disc
+    <ore:record>.add(<botania:recordgaia1>);
+    <ore:record>.add(<botania:recordgaia2>);

@@ -27,18 +27,22 @@ addDescription(<minecraft:stick>,
 
 # Rustic Cabinet
 addDescription(<rustic:cabinet>,
-"The Cabinet's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
+"The Cabinet's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak. The Cabinet can only be open from the front.");
+
+# Charset Chest
+addDescription(<charset:chest>,
+"The Chest's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
 
 # Blood Magic Wills
 var willText = "Obtained through the Resonance of the Faceted Crystal ritual.";
-
-addDescription(<bloodmagic:item_demon_crystal>, 
-"Obtained through the Gathering of the Forsaken Souls ritual.");
 
 addDescription(<bloodmagic:item_demon_crystal:1>, willText);
 addDescription(<bloodmagic:item_demon_crystal:2>, willText);
 addDescription(<bloodmagic:item_demon_crystal:3>, willText);
 addDescription(<bloodmagic:item_demon_crystal:4>, willText);
+
+addDescription(<bloodmagic:item_demon_crystal>, 
+"Obtained through the Gathering of the Forsaken Souls ritual.");
 
 # Blood Magic Guide
 addDescription(<guideapi:bloodmagic-guide>, 
@@ -46,3 +50,20 @@ addDescription(<guideapi:bloodmagic-guide>,
 
 # Raw Hide
 addDescription(<contenttweaker:raw_hide>, "Drops from most animals.");
+
+# Bibliocraft Clipboard
+addDescription(<bibliocraft:biblioclipboard>, "The Clipboard can be used to keep track of all your different tasks and goals. Right click to open it. It can be placed in-world by holding shift while placing it.");
+
+# Bibliocraft Hand Drill
+addDescription(<bibliocraft:handdrill>, "The Hand Drill is the Wrench of Bibliocraft. You can use it to rotate some furniture, remove Carpet from Seats and Tables, aswell as remove Carpet below furniture.");
+
+# Bibliocraft Desk
+addDescription(<bibliocraft:desk:*>, "The Desk can be used to store, read and write written books, but it's main feature is probably it's good looks. Adjacent Desks can be joined with a Hand Drill");
+
+# Bibliocraft Seat
+addDescription(<bibliocraft:seat:*>, "You can attach a Seat Back to a Seat by right clicking it. Where the Seat Back is on the Seat depends on how you placed the Seat - It will always attach to the opposite end of where you were standing when placing the Seat. You can rotate the Seat Back with the Hand Drill.");
+
+# Bibliocraft Carpet-ables
+addDescription(<bibliocraft:seat:*>, "You can change the colour of the wool, by right clicking the Seat with any Vanilla Carpet.");
+addDescription(<bibliocraft:table:*>, "You can change the colour of the wool, by right clicking the Tabke with any Vanilla Carpet.");
+addDescription(<bibliocraft:case:*>, "You can change the colour of the wool, by right clicking the Case with any Vanilla Carpet. The Case has to be open for it to work.");

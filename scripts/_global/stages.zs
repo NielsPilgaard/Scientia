@@ -39,7 +39,10 @@ global stages as string[string] = {
 	chisel : "chisel", # Unlocks Chisel
 	advanced_chisel : "advanced_chisel", # Unlocks Chisels & Bits
 	cooking : "cooking", # Unlocks Pam's utensils & machines other than the Water Filter
-	defender : "defender",
+	defender : "defender", # Unlocks Shields
+	locomotion : "locomotion", # Unlocks Rails, Minecarts etc
+	explosives : "explosives", # Unlocks gunpowder, TNT, EFLN
+	maestro : "maestro", # Unlocks Music Discs and tools to play them
 	
 # Profession Research 
 	novice_tinkerer : "novice_tinkerer", # Gives access to the Tool Table

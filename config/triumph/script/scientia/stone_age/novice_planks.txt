@@ -1,6 +1,6 @@
-setIcon(<minecraft:planks>)
+setIcon(<artisanworktables:artisans_handsaw_stone>)
 setTitle("Mass Production")
-setDescription("Upgrading the Carpentry profession will also upgrade some of the recipes you have access to. Craft 32 Planks in the Carpenter's Worktable.")
+setDescription("Upgrading the Carpentry profession will upgrade some of the recipes you have access to, and unlock new ones. Completing the Skilled Carpenter Profession Advancement will also complete this.")
 setShowToast(true)
 
 addParent("scientia:stone_age/tools_of_the_trade")
@@ -11,6 +11,6 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.addItem(<ore:plankWood>)
-criteria.setCount(30)
+criteria = addCriteria("advancementCompleted", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:professions/skilled_carpenter")
+setPos(160,182)

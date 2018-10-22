@@ -2,6 +2,7 @@
 #loader contenttweaker
 
 import scripts.contenttweaker.functions.createRegisterBlockOre;
+import scripts.contenttweaker.functions.createRegisterBlockLog;
 
 createRegisterBlockOre("ore_adamantium", 4);
 createRegisterBlockOre("ore_chrome", 4);
@@ -17,3 +18,5 @@ createRegisterBlockOre("ore_redstone", 2);
 createRegisterBlockOre("ore_tin", 1);
 createRegisterBlockOre("ore_tungsten", 4);
 
+
+createRegisterBlockLog("log_amaranth");

@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:novice_carpenter>)
 setTitle("Internship")
-setDescription("Become a Novice Carpenter. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or "make room" for new Villagers to spawn.")
+setDescription("Become a Novice Carpenter by using the Novice Carpenter book, which can be purchased in Villages. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or "make room" for new Villagers to spawn.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")

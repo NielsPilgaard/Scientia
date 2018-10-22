@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:novice_carpenter>)
 setTitle("Novice Carpenter")
-setDescription("")
+setDescription("Congratulations on reaching the Novice level of Carpentry. This Profession allows you to craft Shelves, Planks, Sticks, Slabs and a few more things.")
 setShowToast(true)
 
 addParent("scientia:professions/root")

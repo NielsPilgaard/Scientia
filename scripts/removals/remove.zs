@@ -5,9 +5,15 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 val removals = [
+    <bibliocraft:handdrill>,
     <bibliocraft:framingboard>,
     <bibliocraft:framingsheet>,
+    <bibliocraft:biblioclipboard>,
+    <bibliocraft:discrack>,
     
+    <charset:chest>.withTag({}),
+    <charset:barrel>.withTag({}),
+
     <harvestcraft:saltitem>,
 
     <minecraft:dye:15>,
@@ -23,6 +29,8 @@ val removals = [
     <primal_tech:fibre_torch>,
     <primal_tech:fire_sticks>,
 
+    <rustic:cabinet>,
+
     <spartanshields:shield_basic_wood>,
 
     <tconstruct:tooltables:*>,
@@ -35,7 +43,7 @@ val oredictRemovals = [
     <ore:plankWood>,
     <ore:stairWood>,
     <ore:slabWood>,
-    #<ore:chestWood>,
+    <ore:chestWood>,
     <ore:fenceWood>,
     <ore:fenceGateWood>,
     <ore:doorWood>,
@@ -50,7 +58,14 @@ val oredictRemovals = [
     <ore:signWood>,
     <ore:labelWood>,
     <ore:tableWood>,
-    <ore:chairWood>
+    <ore:chairWood>,
+    <ore:seatBack>,
+    <ore:furniturePanelerWood>,
+    <ore:deskWood>,
+    <ore:seat>,
+    <ore:caseWood>,
+    <ore:mapFrameWood>,
+    <ore:armorStandWood>
 
 ] as IOreDictEntry[];
 

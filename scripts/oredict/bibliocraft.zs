@@ -1,4 +1,4 @@
-#priority 100
+#priority 1250
 import crafttweaker.item.IItemStack;
 
 for i in 0 to 7 {

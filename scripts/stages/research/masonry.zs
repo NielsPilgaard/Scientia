@@ -160,8 +160,8 @@ val stoneBlocks = [
 <tconstruct:seared_stairs_stone>,
 <tconstruct:seared_stairs_tile>,
     
-<magneticraft:limestone:1>,
-<magneticraft:burnt_limestone:1>,
+#<magneticraft:limestone:1>,
+#<magneticraft:burnt_limestone:1>,
 
 <minecraft:stone_slab:4>,
 <minecraft:stone_slab:5>,

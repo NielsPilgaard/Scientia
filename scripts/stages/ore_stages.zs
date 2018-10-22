@@ -18,8 +18,8 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	],
 
 	stages.skilled_miner : [
-		[materials.iron.ore]
-		//Gold
+		[materials.iron.ore],
+		[materials.gold.ore]
 	],
 
 	stages.expert_miner : [
