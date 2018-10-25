@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:master_carpenter>)
 setTitle("Master Carpenter")
-setDescription("")
+setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests,")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_carpenter")
@@ -11,4 +11,10 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:master_carpenter>)
+criteria.setItem(<ore:furniture>)
+criteria.setCount(100)
+
+criteria.setItem(<ore:chestWood>)
+criteria.setCount(25)
+
+setRewardItem(<gamestagebooks:master_carpenter>)

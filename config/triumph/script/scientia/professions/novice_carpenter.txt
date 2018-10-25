@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:novice_carpenter>)
 setTitle("Novice Carpenter")
-setDescription("Congratulations on reaching the Novice level of Carpentry. This Profession allows you to craft Shelves, Planks, Sticks, Slabs and a few more things.")
+setDescription("Congratulations on reaching the Novice level of Carpentry. This Profession allows you to craft Shelves, Planks, Barrels, Cabinets and more!")
 setShowToast(true)
 
 addParent("scientia:professions/root")
@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.addItem(<gamestagebooks:novice_carpenter>)
+
+setRewardItem(<gamestagebooks:novice_carpenter>)

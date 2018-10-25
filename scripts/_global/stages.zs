@@ -55,7 +55,7 @@ global stages as string[string] = {
 	skilled_architect : "skilled_architect", # Gives access to ArchitectureCraft, Iron Builder's Wand
 	master_architect : "master_architect", # Gives access to Architect, Diamond/Unbreaking Builder's Wand
 
-	novice_carpenter : "novice_carpenter", # Planks in Artisan Worktable, Bibliocraft Shelves, Barrels
+	novice_carpenter : "novice_carpenter", # Planks in Artisan Worktable, Bibliocraft Shelves, Barrels, Cabinets
 	skilled_carpenter : "skilled_carpenter", # Better plank recipe, all furniture, chests
 	master_carpenter : "master_carpenter", # Best plank recipe, ArchitectureCraft
 	

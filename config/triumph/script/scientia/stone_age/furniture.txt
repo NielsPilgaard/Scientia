@@ -1,0 +1,15 @@
+setIcon(<bibliocraft:seat>)
+setTitle("Fancy Living")
+setDescription("Your newfound Carpentry skills have given you access to all sorts of furniture. Now would be a great time to spruce up your Village! Craft any 10 Furniture items, preferably of differing types.")
+setShowToast(true)
+
+addParent("scientia:stone_age/skilled_carpenter")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<ore:furniture>)
+criteria.setCount(10)

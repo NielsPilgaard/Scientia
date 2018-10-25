@@ -9,7 +9,7 @@ var stage = stages.stone_age;
 
 RecipeBuilder.get("carpenter")
   .setShaped([
-        [<ore:logWood>, <minecraft:stick>, <ore:logWood>],
+        [<ore:logWood>, stick, <ore:logWood>],
         [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
         [<ore:cobblestone>, null, <ore:cobblestone>]
         ])
@@ -19,7 +19,7 @@ RecipeBuilder.get("carpenter")
   .create();
 
 RecipeBuilder.get("carpenter")
-  .setShapeless([<minecraft:stick>])
+  .setShapeless([stick])
   .addTool(<ore:artisansKnife>, 10)
   .addOutput(<primal_tech:fire_sticks>)
   .addRequirement(GameStages.anyOf([stage]))

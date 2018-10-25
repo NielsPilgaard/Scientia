@@ -9,9 +9,9 @@ var stage = stages.stone_age;
 
 RecipeBuilder.get("mason")
   .setShaped([
-        [null, <ore:stone>, <minecraft:stick>],
-        [null, <minecraft:stick>, <ore:stone>], 
-        [<minecraft:stick>, null, null]
+        [null, <ore:stone>, stick],
+        [null, stick, <ore:stone>], 
+        [stick, null, null]
         ])
   .setMirrored()
   .addTool(<ore:artisansFramingHammer>, 15)

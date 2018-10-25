@@ -46,7 +46,6 @@ for i in 0 to 7 {
 
     <ore:seatBack>.add(<bibliocraft:seatback5>.definition.makeStack(i));
     <ore:seatBackLarge>.add(<bibliocraft:seatback5>.definition.makeStack(i));
-
 }
 
 for i in 0 to 16 {
@@ -85,3 +84,17 @@ var tables as IItemStack[] = [
 
 <ore:chairWood>.addItems(chairs);
 <ore:tableWood>.addItems(tables);
+
+<ore:furniture>.addAll(<ore:shelfWood>);
+<ore:furniture>.addAll(<ore:potionShelfWood>);
+<ore:furniture>.addAll(<ore:bookcaseWood>);
+<ore:furniture>.addAll(<ore:toolrackWood>);
+<ore:furniture>.addAll(<ore:mapFrameWood>);
+<ore:furniture>.addAll(<ore:tableWood>);
+<ore:furniture>.addAll(<ore:caseWood>);
+<ore:furniture>.addAll(<ore:deskWood>);
+<ore:furniture>.addAll(<ore:armorStandWood>);
+<ore:furniture>.addAll(<ore:seat>);
+<ore:furniture>.addAll(<ore:seatBack>);
+<ore:furniture>.addAll(<ore:chairWood>);
+<ore:furniture>.addAll(<ore:tableWood>);

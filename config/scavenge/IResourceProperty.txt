@@ -1,48 +1,3 @@
-- require_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be checkt for) String,
-"required": (If the Stage is required or not allowed, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- set_stage:
-Description: Allows to grant or take a gamestage from a player
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be granted and which should be taken) String,
-"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- require_multi_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"names": (Which game Stages should be checkt for) StringArray,
-"all": (If all the Stages are required or not, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- sendFlagToLoot:
-Description: Allows to send a flag to the Loot Generator to be processed
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"flagID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- sendNumberToLoot:
-Description: Allows to send a Number to the Loot Generator to be processed
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"NumberID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
 - require_player:
 Description: Allows to check for a Fake Player or Real Player
 Parameters:
@@ -414,6 +369,71 @@ Parameters:
 Incompatible With: None
 Type: Condition, Effect
 
+- has_score:
+Description: Allows to check the if the player has a certain score
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Score ID that should be compared with) String,
+either
+   "bigger": (If the Score should be bigger or smaller then the requested value, Default: true) Boolean,
+   "value": (how big or small the score should be, Default: 0) IntNumber,
+or
+   "operations": (RegistryName for the Math Operation) Registry Element,
+   "jeiDesc": (The Description for the JEI plugin) String,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- require_stat:
+Description: Allows to check the if the player has a certain Stat
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The StatID that should be compared with) String,
+either
+   "bigger": (If the Stat should be bigger or smaller then the requested value, Default: true) Boolean,
+   "value": (how big or small the score should be, Default: 0) IntNumber,
+or
+   "operations": (RegistryName for the Math Operation) Registry Element,
+   "jeiDesc": (The Description for the JEI plugin) String,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- require_achievement:
+Description: Allows to check for a Achievement
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Achievement Registy name of the Achievment that should be checkt for) String,
+"required": (If the achievement should be required or not, Default: true) Boolean,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- add_stat:
+Description: Allows to Modify Stat Points
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The StatRegistry name that should be changed) String,
+"increase": (If the Stat should be increased or decreased, Default: true) Boolean,
+"amount": (How much the stat should be modified, Default: 1) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- add_score:
+Description: Allows to modify a Score
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Score id of the Score that you want to change) String,
+"increase": (If the Score should increase or decrease, Default: true) Boolean,
+"amount": (How much the score should increase or decrease, Default: 1) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- add_Achievement:
+Description: Allows to Add Achievements to a Player
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Achievement that should be given) String,
+Incompatible With: None
+Type: Effect
+
 - random_chance:
 Description: Allows to add a Random Factor into your condition
 Parameters:
@@ -515,6 +535,51 @@ Parameters:
       "y": (The YOffset of the Effect that should be applied) IntNumber,
       "z": (The ZOffset of the Effect that should be applied) IntNumber,
    "effect": (The Effect that should be applied) Object,
+Incompatible With: None
+Type: Effect
+
+- require_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be checkt for) String,
+"required": (If the Stage is required or not allowed, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- set_stage:
+Description: Allows to grant or take a gamestage from a player
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be granted and which should be taken) String,
+"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- require_multi_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"names": (Which game Stages should be checkt for) StringArray,
+"all": (If all the Stages are required or not, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- sendFlagToLoot:
+Description: Allows to send a flag to the Loot Generator to be processed
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"flagID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- sendNumberToLoot:
+Description: Allows to send a Number to the Loot Generator to be processed
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"NumberID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
 Incompatible With: None
 Type: Effect
 
@@ -825,71 +890,6 @@ Parameters:
       "x": (The XOffset for the Block that should be placed of the Clicked Block.) IntNumber,
       "y": (The YOffset for the Block that should be placed of the Clicked Block.) IntNumber,
       "z": (The ZOffset for the Block that should be placed of the Clicked Block.) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- has_score:
-Description: Allows to check the if the player has a certain score
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Score ID that should be compared with) String,
-either
-   "bigger": (If the Score should be bigger or smaller then the requested value, Default: true) Boolean,
-   "value": (how big or small the score should be, Default: 0) IntNumber,
-or
-   "operations": (RegistryName for the Math Operation) Registry Element,
-   "jeiDesc": (The Description for the JEI plugin) String,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- require_stat:
-Description: Allows to check the if the player has a certain Stat
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The StatID that should be compared with) String,
-either
-   "bigger": (If the Stat should be bigger or smaller then the requested value, Default: true) Boolean,
-   "value": (how big or small the score should be, Default: 0) IntNumber,
-or
-   "operations": (RegistryName for the Math Operation) Registry Element,
-   "jeiDesc": (The Description for the JEI plugin) String,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- require_achievement:
-Description: Allows to check for a Achievement
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Achievement Registy name of the Achievment that should be checkt for) String,
-"required": (If the achievement should be required or not, Default: true) Boolean,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- add_stat:
-Description: Allows to Modify Stat Points
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The StatRegistry name that should be changed) String,
-"increase": (If the Stat should be increased or decreased, Default: true) Boolean,
-"amount": (How much the stat should be modified, Default: 1) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- add_score:
-Description: Allows to modify a Score
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Score id of the Score that you want to change) String,
-"increase": (If the Score should increase or decrease, Default: true) Boolean,
-"amount": (How much the score should increase or decrease, Default: 1) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- add_Achievement:
-Description: Allows to Add Achievements to a Player
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Achievement that should be given) String,
 Incompatible With: None
 Type: Effect
 

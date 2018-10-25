@@ -22,7 +22,7 @@ addDescription(<minecraft:flint>,
 "Flint does not drop from Gravel. To obtain it, dig through Gravel, Grass, Coarse Dirt or Dirt by shift-right clicking it.");
 
 # Stick
-addDescription(<minecraft:stick>,
+addDescription(stick,
 "Sticks drop from leaves.");
 
 # Rustic Cabinet

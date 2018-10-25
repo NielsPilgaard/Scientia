@@ -9,7 +9,7 @@ import mods.tconstruct.Drying;
 */
 
 var dryingRecipes as IItemStack[][] = [
-	[<minecraft:paper>, <contenttweaker:wet_pulp>],
+	[paper, <contenttweaker:wet_pulp>],
 	[<minecraft:leather>, <contenttweaker:processed_leather>]
 ];
 

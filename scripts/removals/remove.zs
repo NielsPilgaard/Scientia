@@ -20,9 +20,9 @@ val removals = [
     <minecraft:flint>,
     <minecraft:lead>,
     <minecraft:leather>,
-    <minecraft:paper>,
+    paper,
     <minecraft:string>,
-    <minecraft:stick>,
+    stick,
     
     <pickletweaks:grass_mesh>,
     
@@ -40,6 +40,7 @@ val removals = [
 
 val oredictRemovals = [
     
+    <ore:wool>,
     <ore:plankWood>,
     <ore:stairWood>,
     <ore:slabWood>,

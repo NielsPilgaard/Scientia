@@ -7,7 +7,7 @@ var stage = stages.stone_age;
 var recipeList as IIngredient[][][][IItemStack] = {
 	<primal_tech:wooden_basin> : [
 		[
-            [<ore:logWood>, <minecraft:stick>, <ore:logWood>],
+            [<ore:logWood>, stick, <ore:logWood>],
             [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
             [<ore:cobblestone>, null, <ore:cobblestone>]
         ]

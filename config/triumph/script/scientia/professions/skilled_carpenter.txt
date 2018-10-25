@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:skilled_carpenter>)
 setTitle("Skilled Carpenter")
-setDescription("To become a Skilled Carpenter, you must craft 64 Planks, 2 Drying Racks, 3 Shelves, 3 Labels and a Bookcase. They can be any type, and you need them all in your inventory at the same time. Unlocking this will upgrade some of your recipes, and grant you access to a lot of new stuff - Some of which are Chests, Barrels, Cabinets and furniture!")
+setDescription("To become a Skilled Carpenter, you must craft 64 Planks, 3 Drying Racks, 3 Shelves and 2 Cabinets. They can be any type. Unlocking this will upgrade some of your recipes, and grant you access to a lot of new ones - Some of which are Chests and furniture!")
 setShowToast(true)
 
 addParent("scientia:professions/novice_carpenter")
@@ -15,12 +15,12 @@ criteria.addItem(<ore:plankWood>)
 criteria.setCount(64)
 
 criteria.addItem(<tconstruct:rack>)
-criteria.setCount(2)
+criteria.setCount(3)
 
 criteria.addItem(<ore:shelfWood>)
 criteria.setCount(3)
 
-criteria.addItem(<ore:labelWood>)
-criteria.setCount(3)
+criteria.addItem(<rustic:cabinet>)
+criteria.setCount(2)
 
-criteria.addItem(<ore:bookcaseWood>)
+setRewardItem(<gamestagebooks:skilled_carpenter>)

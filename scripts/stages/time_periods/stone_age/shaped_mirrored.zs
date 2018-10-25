@@ -43,13 +43,13 @@ var recipeList as IIngredient[][][][IItemStack] = {
     <spartanweaponry:material:1> : [
         [
             [null, <ore:fiber>, null],
-            [null, <minecraft:stick>, null], 
-            [null, <minecraft:stick>, null]
+            [null, stick, null], 
+            [null, stick, null]
         ],
         [
             [null, null, <ore:fiber>],
-            [null, <minecraft:stick>, null], 
-            [<minecraft:stick>, null, null]
+            [null, stick, null], 
+            [stick, null, null]
         ]
 	],
     <spartanweaponry:javelin_stone> : [

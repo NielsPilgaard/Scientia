@@ -23,16 +23,6 @@ function createRegisterBlockOre(name as string, toolLevel as int) {
     block.register();
 }
 
-function createRegisterBlockLog(name as string) {
-    val block = VanillaFactory.createBlock(name, <blockmaterial:wood>);
-    block.setBlockHardness(3.8);
-    block.setBlockResistance(15.0);
-    block.setToolClass("axe");
-    block.setToolLevel(0);
-    block.setBlockSoundType(<soundtype:wood>);
-    block.register();
-}
-
 function addDefaultMoltenData(moltenData as MaterialPartData) {
 	moltenData.addDataValue("density", "4000");
 	moltenData.addDataValue("viscosity", "3000");

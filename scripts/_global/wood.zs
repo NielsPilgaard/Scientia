@@ -238,3 +238,12 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null
     }
 };
+
+global vanillaWoodtypes as int[string] = {
+  oak : 0,
+  spruce : 1,
+  birch : 2,
+  jungle : 3,
+  acacia : 4,
+  dark_oak : 5
+};
