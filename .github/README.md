@@ -22,6 +22,7 @@
 
 <details> 
   <summary>Modlist</summary>
+    <p>
 *   [CraftTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/239197)
 *   [MTLib (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/253211)
 *   [ModTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/220954)
@@ -187,8 +188,8 @@
 *   [Magneticraft (by cout970)](https://minecraft.curseforge.com/mc-mods/224808)
 *   [Clay Bucket (by abecderic)](https://minecraft.curseforge.com/mc-mods/242568)
 *   [LootTweaker (by Daomephsta)](https://minecraft.curseforge.com/mc-mods/255257)
+    </p>
 </details>
-* * *
 
 ### <span style="font-size: 24px;">Requirements</span>
 
