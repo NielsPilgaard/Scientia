@@ -1,20 +1,203 @@
-Scientia
-======
-
-A unique Minecraft experience, based on Advancements, Research and Professions.
+## <span style="font-size: 40px; color: #000000;">Scientia</span><span style="font-size: 18px;">  
+</span>
 
 * * *
 
-## About
+## <span style="color: #000000;"><span style="font-size: 24px;">About</span></span>
 
-*   Start at the Dawn of Time and discover new skills, resources and technologies in order to progress.
-*   Learn Professions and master them to gain access to new abilities and recipes.  
+*   Start at the Dawn of Time, and discover new skills, resources and technologies in order to progress.
+*   <span style="color: #000000;">Learn Professions and master them to gain access to new abilities and recipes.  
+    </span>
 *   The progression is guided by a thorough Advancement system.
 *   Unique items, recipes and dimensions.
 *   A large assortment of both Magic and Tech content.
 
 * * *
 
-## [Discord](https://discord.gg/HnWNd7X)
+[![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/HnWNd7X)
 
 * * *
+
+### <span style="color: #000000; font-size: 24px;">Modlist</span>
+
+<div class="spoiler">
+
+*   [CraftTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/239197)
+*   [MTLib (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/253211)
+*   [ModTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/220954)
+*   [B.A.S.E (by lanse505)](https://minecraft.curseforge.com/mc-mods/246996)
+*   [ContentTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/237065)
+*   [Athenaeum (by codetaylor)](https://minecraft.curseforge.com/mc-mods/284350)
+*   [Artisan Worktables (by codetaylor)](https://minecraft.curseforge.com/mc-mods/284351)
+*   [Bookshelf (by Darkhax)](https://minecraft.curseforge.com/mc-mods/228525)
+*   [Game Stages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/268655)
+*   [Item Stages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/280316)
+*   [Mob Stages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/278359)
+*   [Recipe Stages (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/280554)
+*   [Ore Stages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/290201)
+*   [JourneyMap (by techbrew)](https://minecraft.curseforge.com/mc-mods/32274)
+*   [JourneyMapStages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/289753)
+*   [Dynamic Trees (by ferreusveritas)](https://minecraft.curseforge.com/mc-mods/252818)
+*   [TellMe (by masa_)](https://minecraft.curseforge.com/mc-mods/225781)
+*   [Caliper (by Darkhax)](https://minecraft.curseforge.com/mc-mods/266824)
+*   [BetterFps (by Guichaguri)](https://minecraft.curseforge.com/mc-mods/229876)
+*   [TipTheScales (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/282313)
+*   [JustTheTips (by deflatedpickle)](https://minecraft.curseforge.com/mc-mods/275356)
+*   [Controlling (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/250398)
+*   [Placebo (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/283644)
+*   [Toast Control (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/271740)
+*   [Default Options (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/232131)
+*   [Default World Generator (port) (by EzTerry)](https://minecraft.curseforge.com/mc-mods/241140)
+*   [Just Enough Items (JEI) (by mezz)](https://minecraft.curseforge.com/mc-mods/238222)
+*   [Hwyla (by TehNut)](https://minecraft.curseforge.com/mc-mods/253449)
+*   [TombManyGraves 2 API (by M4thG33k)](https://minecraft.curseforge.com/mc-mods/294202)
+*   [Tomb Many Graves 2 (by M4thG33k)](https://minecraft.curseforge.com/mc-mods/262823)
+*   [Better Advancements (by Way2muchnoise)](https://minecraft.curseforge.com/mc-mods/272515)
+*   [BNBGamingLib (by BloodNBonesGaming)](https://minecraft.curseforge.com/mc-mods/229587)
+*   [BnBGamingCore (by BloodNBonesGaming)](https://minecraft.curseforge.com/mc-mods/274341)
+*   [Triumph (by BloodNBonesGaming)](https://minecraft.curseforge.com/mc-mods/235492)
+*   [Custom Main Menu (by lumien231)](https://minecraft.curseforge.com/mc-mods/226406)
+*   [Resource Loader (by lumien231)](https://minecraft.curseforge.com/mc-mods/226447)
+*   [Inventory Tweaks (by Kobata)](https://minecraft.curseforge.com/mc-mods/223094)
+*   [Morpheus (by Quetzi)](https://minecraft.curseforge.com/mc-mods/69118)
+*   [Mouse Tweaks (by YaLTeR97)](https://minecraft.curseforge.com/mc-mods/60089)
+*   [Chisels & Bits (by AlgorithmX2)](https://minecraft.curseforge.com/mc-mods/231095)
+*   [AppleSkin (by squeek502)](https://minecraft.curseforge.com/mc-mods/248787)
+*   [Mantle (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74924)
+*   [Natura (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74120)
+*   [ReAuth (by TechnicianLP)](https://minecraft.curseforge.com/mc-mods/237701)
+*   [Wawla - What Are We Looking At (by Darkhax)](https://minecraft.curseforge.com/mc-mods/224712)
+*   [KleeSlabs (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/241895)
+*   [Clumps (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/256717)
+*   [Cyclops Core (by kroeser)](https://minecraft.curseforge.com/mc-mods/232758)
+*   [Common Capabilities (by kroeser)](https://minecraft.curseforge.com/mc-mods/247007)
+*   [NetherPortalFix (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/241160)
+*   [FastWorkbench (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/288885)
+*   [MPUtils (by GenDeathrow)](https://minecraft.curseforge.com/mc-mods/244940)
+*   [MPUtils Basic Tools (by GenDeathrow)](https://minecraft.curseforge.com/mc-mods/245889)
+*   [Diet Hoppers (by RWTema)](https://minecraft.curseforge.com/mc-mods/278385)
+*   [Neat (by Vazkii)](https://minecraft.curseforge.com/mc-mods/238372)
+*   [More Overlays (by feldim2425)](https://minecraft.curseforge.com/mc-mods/243478)
+*   [SwingThroughGrass (by exidex)](https://minecraft.curseforge.com/mc-mods/264353)
+*   [Nature's Compass (by ChaosTheDude)](https://minecraft.curseforge.com/mc-mods/252848)
+*   [Just a Few Fish (by Tmtravlr)](https://minecraft.curseforge.com/mc-mods/235261)
+*   [Just Enough Pattern Banners (by Lorexe)](https://minecraft.curseforge.com/mc-mods/263590)
+*   [CodeChicken Lib 1.8.+ (by covers1624)](https://minecraft.curseforge.com/mc-mods/242818)
+*   [Modular Machinery (by HellFirePvP)](https://minecraft.curseforge.com/mc-mods/270790)
+*   [Bed Patch (by Mordenkainen3141)](https://minecraft.curseforge.com/mc-mods/282963)
+*   [Water Strainer (by Rubironi)](https://minecraft.curseforge.com/mc-mods/246939)
+*   [Better Foliage (by octarine_noise)](https://minecraft.curseforge.com/mc-mods/228529)
+*   [Client Tweaks (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/251407)
+*   [Dimension Stages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/269398)
+*   [Mo' Villages (by The_WeatherPony)](https://minecraft.curseforge.com/mc-mods/243205)
+*   [Villager Trade Tables (by csb987)](https://minecraft.curseforge.com/mc-mods/260621)
+*   [Together Forever (by Buuz135)](https://minecraft.curseforge.com/mc-mods/285968)
+*   [Water Control Extreme (by Dr_Codex)](https://minecraft.curseforge.com/mc-mods/277890)
+*   [Primal Tech (by Vadis365)](https://minecraft.curseforge.com/mc-mods/290612)
+*   [Serene Seasons (by Glitchfiend)](https://minecraft.curseforge.com/mc-mods/291874)
+*   [RandomPatches (by TheRandomLabs)](https://minecraft.curseforge.com/mc-mods/285612)
+*   [RandomTweaks (by TheRandomLabs)](https://minecraft.curseforge.com/mc-mods/258205)
+*   [Block Drops (JEI Addon) (by MrRiegel)](https://minecraft.curseforge.com/mc-mods/244181)
+*   [Traverse (by ProfessorProspector)](https://minecraft.curseforge.com/mc-mods/267769)
+*   [Familiar Fauna (by Glitchfiend)](https://minecraft.curseforge.com/mc-mods/289347)
+*   [Unloader (by Unnoen)](https://minecraft.curseforge.com/mc-mods/286230)
+*   [Wild Crops (by kormic911)](https://minecraft.curseforge.com/mc-mods/268819)
+*   [Dynamic Trees - Traverse Compat (by odorousrex60365)](https://minecraft.curseforge.com/mc-mods/296604)
+*   [Tinkers Construct (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74072)
+*   [TinkerStages (by Darkhax)](https://minecraft.curseforge.com/mc-mods/275343)
+*   [Tinkers' Tool Leveling (by bonusboni)](https://minecraft.curseforge.com/mc-mods/250957)
+*   [Rustic (by mangoose3039)](https://minecraft.curseforge.com/mc-mods/256141)
+*   [Immersive Engineering (by BluSunrize)](https://minecraft.curseforge.com/mc-mods/231951)
+*   [Construct's Armory (by theillusivec4)](https://minecraft.curseforge.com/mc-mods/287683)
+*   [Pam's HarvestCraft (by MatrexsVigil)](https://minecraft.curseforge.com/mc-mods/221857)
+*   [FPS Reducer (by bre2el)](https://minecraft.curseforge.com/mc-mods/280294)
+*   [Dimensional Control (by BloodNBonesGaming)](https://minecraft.curseforge.com/mc-mods/229588)
+*   [Cucumber Library (by BlakeBr0)](https://minecraft.curseforge.com/mc-mods/272335)
+*   [Pickle Tweaks (by BlakeBr0)](https://minecraft.curseforge.com/mc-mods/238761)
+*   [Just Enough HarvestCraft (JEHC) (by mrAppleXZ)](https://minecraft.curseforge.com/mc-mods/267939)
+*   [Modular Diversity (by BordListian)](https://minecraft.curseforge.com/mc-mods/280506)
+*   [Immersive Petroleum (by theFlaxbeard)](https://minecraft.curseforge.com/mc-mods/268250)
+*   [CoFH World (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/271384)
+*   [Just Enough Dimensions (by masa_)](https://minecraft.curseforge.com/mc-mods/254317)
+*   [Just Enough Petroleum (by BordListian)](https://minecraft.curseforge.com/mc-mods/291727)
+*   [Restriction (by davqvist)](https://minecraft.curseforge.com/mc-mods/293868)
+*   [Realistic Ore Veins (by alcatrazEscape)](https://minecraft.curseforge.com/mc-mods/296887)
+*   [Redstone Flux (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/270789)
+*   [CoFH Core (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/69162)
+*   [Thermal Foundation (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/222880)
+*   [Simple Camp Fire (by Yubs)](https://minecraft.curseforge.com/mc-mods/271615)
+*   [Additional Banners (by Darkhax)](https://minecraft.curseforge.com/mc-mods/230137)
+*   [Alternating Flux (by AntiBlueQuirk)](https://minecraft.curseforge.com/mc-mods/285135)
+*   [Charset Lib (by asiekierka)](https://minecraft.curseforge.com/mc-mods/284523)
+*   [Charset Storage - Barrels (by asiekierka)](https://minecraft.curseforge.com/mc-mods/284529)
+*   [Charset Storage - Tanks (by asiekierka)](https://minecraft.curseforge.com/mc-mods/284530)
+*   [Architect (by SangarWasTaken)](https://minecraft.curseforge.com/mc-mods/264874)
+*   [ArchitectureCraft - ElytraDev Version (by darkevilmac)](https://minecraft.curseforge.com/mc-mods/277631)
+*   [Better Builder's Wands (by Portablejim)](https://minecraft.curseforge.com/mc-mods/238403)
+*   [BiblioCraft (by JDSinclair)](https://minecraft.curseforge.com/mc-mods/228027)
+*   [Shadowfacts' Forgelin (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/248453)
+*   [LibrarianLib (by yrsegal)](https://minecraft.curseforge.com/mc-mods/252910)
+*   [Baubles (by azanor)](https://minecraft.curseforge.com/mc-mods/227083)
+*   [Hooked (by thecodewarrior1)](https://minecraft.curseforge.com/mc-mods/297209)
+*   [McJtyLib (by McJty)](https://minecraft.curseforge.com/mc-mods/233105)
+*   [MeeCreeps (by McJty)](https://minecraft.curseforge.com/mc-mods/281390)
+*   [Dropt (by codetaylor)](https://minecraft.curseforge.com/mc-mods/284973)
+*   [Scavenge (by Speiger)](https://minecraft.curseforge.com/mc-mods/282988)
+*   [Scavenge-GameStages (by Speiger)](https://minecraft.curseforge.com/mc-mods/289980)
+*   [Tinkered Hegemony (by asiekierka)](https://minecraft.curseforge.com/mc-mods/292491)
+*   [Guide-API (by TehNut)](https://minecraft.curseforge.com/mc-mods/228832)
+*   [Blood Magic (by WayofTime)](https://minecraft.curseforge.com/mc-mods/224791)
+*   [Botania (by Vazkii)](https://minecraft.curseforge.com/mc-mods/225643)
+*   [IvToolkit (by Ivorforce)](https://minecraft.curseforge.com/mc-mods/224535)
+*   [Recurrent Complex (by Ivorforce)](https://minecraft.curseforge.com/mc-mods/223150)
+*   [Waila Harvestability (by squeek502)](https://minecraft.curseforge.com/mc-mods/79287)
+*   [Ancient Warfare 2 (by shadowmage45)](https://minecraft.curseforge.com/mc-mods/224602)
+*   [Charset Storage - Chests (by asiekierka)](https://minecraft.curseforge.com/mc-mods/298584)
+*   [Tree Tweaker (by super_fluke50036)](https://minecraft.curseforge.com/mc-mods/298747)
+*   [Refined Relocation 2 (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/247135)
+*   [ConnectedTexturesMod (by tterrag1098)](https://minecraft.curseforge.com/mc-mods/267602)
+*   [Chisel (by tterrag1098)](https://minecraft.curseforge.com/mc-mods/235279)
+*   [Charset Immersion (by asiekierka)](https://minecraft.curseforge.com/mc-mods/291374)
+*   [Mystical Wildlife (by Lykrast)](https://minecraft.curseforge.com/mc-mods/292226)
+*   [Magical Map (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/261281)
+*   [Ore Excavation (by Funwayguy)](https://minecraft.curseforge.com/mc-mods/250898)
+*   [Gamestage Books (by IterationFunk)](https://minecraft.curseforge.com/mc-mods/296392)
+*   [Chutes (by Lykrast)](https://minecraft.curseforge.com/mc-mods/300296)
+*   [Ore Prospectors (by Lothrazar)](https://minecraft.curseforge.com/mc-mods/275086)
+*   [No More Punching Tree (by TheAwesomeGem)](https://minecraft.curseforge.com/mc-mods/284011)
+*   [Linear (by Tschipp)](https://minecraft.curseforge.com/mc-mods/300299)
+*   [HitWithAxe (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/300454)
+*   [AutoRegLib (by Vazkii)](https://minecraft.curseforge.com/mc-mods/250363)
+*   [Quark (by Vazkii)](https://minecraft.curseforge.com/mc-mods/243121)
+*   [Spartan Weaponry (by ObliviousSpartan)](https://minecraft.curseforge.com/mc-mods/278141)
+*   [[SBM] Wooden Shears (by darkguardsman)](https://minecraft.curseforge.com/mc-mods/250880)
+*   [In Control! (by McJty)](https://minecraft.curseforge.com/mc-mods/257356)
+*   [Carry On (by Tschipp)](https://minecraft.curseforge.com/mc-mods/274259)
+*   [Ariente (by McJty)](https://minecraft.curseforge.com/mc-mods/301076)
+*   [JEI Villagers (by Buuz135)](https://minecraft.curseforge.com/mc-mods/283013)
+*   [TickProfiler (by minimallycorrect)](https://minecraft.curseforge.com/mc-mods/270330)
+*   [LagGoggles (by Terminator_NL)](https://minecraft.curseforge.com/mc-mods/283525)
+*   [Pillagers (by Darkhax)](https://minecraft.curseforge.com/mc-mods/288907)
+*   [Spartan Shields (by ObliviousSpartan)](https://minecraft.curseforge.com/mc-mods/252239)
+*   [Some Like It Dry (by super_fluke50036)](https://minecraft.curseforge.com/mc-mods/301306)
+*   [World Stripper (by EwyBoy)](https://minecraft.curseforge.com/mc-mods/250603)
+*   [Akashic Tome (by Vazkii)](https://minecraft.curseforge.com/mc-mods/250577)
+*   [Industrial Renewal (by Cassiobsk8)](https://minecraft.curseforge.com/mc-mods/299849)
+*   [ModelLoader (by cout970)](https://minecraft.curseforge.com/mc-mods/277663)
+*   [Magneticraft (by cout970)](https://minecraft.curseforge.com/mc-mods/224808)
+*   [Clay Bucket (by abecderic)](https://minecraft.curseforge.com/mc-mods/242568)
+*   [LootTweaker (by Daomephsta)](https://minecraft.curseforge.com/mc-mods/255257)
+
+</div>
+
+* * *
+
+### <span style="font-size: 24px;">Requirements</span>
+
+*   You will need to allocate at least 3GB of RAM to Minecraft to run this modpack. 4-5GB is recommended.
+
+* * *
+
+### <span style="font-size: 24px;">Media</span>
+
+*   I'd like to be informed if you're doing a YouTube series or live streaming the pack, but you have permission to do so either way, I'd just like to watch :)
