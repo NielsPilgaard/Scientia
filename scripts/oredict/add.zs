@@ -39,6 +39,16 @@
     <ore:logDebarked>.add(<hitwithaxe:debarked_jungle>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_fir>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_dark_oak>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_amaranth>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_eucalyptus>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_hopseed>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_ironwood>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_maple>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_olive>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_sakura>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_silverbell>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_tiger>);
+    <ore:logDebarked>.add(<hitwithaxe:debarked_willow>);
 
 # Sign
     <ore:signWood>.add(<minecraft:sign>);

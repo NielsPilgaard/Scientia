@@ -337,6 +337,7 @@ var itemsToStageSkilled as IItemStack[] = [
 
 addItemStage(stages.skilled_carpenter, <ore:chairWood>);
 addItemStage(stages.skilled_carpenter, <ore:tableWood>);
+addItemStage(stages.skilled_carpenter, <ore:seat>);
 addItemStage(stages.skilled_carpenter, <ore:seatBack>);
 addItemStage(stages.skilled_carpenter, <ore:caseWood>);
 addItemStage(stages.skilled_carpenter, <ore:deskWood>);
