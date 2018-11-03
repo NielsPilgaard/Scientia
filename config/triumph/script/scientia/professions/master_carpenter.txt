@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:master_carpenter>)
 setTitle("Master Carpenter")
-setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests,")
+setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests and 500 Wooden Planks of any kind. Completing this will unlock ArchitectureCraft, and upgrade some of your recipes.")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_carpenter")
@@ -16,5 +16,8 @@ criteria.setCount(100)
 
 criteria.setItem(<ore:chestWood>)
 criteria.setCount(25)
+
+criteria.setItem(<ore:plankWood>)
+criteria.setcount(500)
 
 setRewardItem(<gamestagebooks:master_carpenter>)

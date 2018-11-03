@@ -23,17 +23,27 @@ function createRegisterBlockOre(name as string, toolLevel as int) {
     block.register();
 }
 
+function createRegisterDirtOre(name as string, toolLevel as int) {
+    val block = VanillaFactory.createBlock(name, <blockmaterial:ground>);
+    block.setBlockHardness(3.0);
+    block.setBlockResistance(15.0);
+    block.setToolClass("shovel");
+    block.setToolLevel(toolLevel);
+    block.setBlockSoundType(<soundtype:ground>);
+    block.register();
+}
+
 function addDefaultMoltenData(moltenData as MaterialPartData) {
 	moltenData.addDataValue("density", "4000");
 	moltenData.addDataValue("viscosity", "3000");
-	moltenData.addDataValue("temperature", "550");
+	moltenData.addDataValue("temperature", "750");
 	moltenData.addDataValue("vaporize", "false");
 }
 
 function addDefaultOreData(oreData as MaterialPartData) {
 	oreData.addDataValue("variants", "minecraft:stone");
-	oreData.addDataValue("hardness", "5");
-	oreData.addDataValue("resistance", "15");
+	oreData.addDataValue("hardness", "3.8");
+	oreData.addDataValue("resistance", "25");
 	oreData.addDataValue("harvestTool", "pickaxe");
 	oreData.addDataValue("harvestLevel", "2");
 }

@@ -5,7 +5,6 @@ import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;
 
 import scripts.contenttweaker.functions.addDefaultMoltenData;
-import scripts.contenttweaker.functions.addDefaultOreData;
 import scripts.contenttweaker.materials.customMaterials;
 
 //Add default parts for customMaterials
