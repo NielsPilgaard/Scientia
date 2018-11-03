@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/coarse_dirt_tungsten"
+      "all": "contenttweaker:blocks/deposit_nickel"
     },
     "model": "cube_all",
     "uvlock": true,

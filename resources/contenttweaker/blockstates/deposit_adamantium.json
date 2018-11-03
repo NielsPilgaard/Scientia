@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/coarse_dirt_emerald"
+      "all": "contenttweaker:blocks/deposit_adamantium"
     },
     "model": "cube_all",
     "uvlock": true,

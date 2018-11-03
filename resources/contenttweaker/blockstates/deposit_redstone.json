@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/coarse_dirt_redstone"
+      "all": "contenttweaker:blocks/deposit_redstone"
     },
     "model": "cube_all",
     "uvlock": true,

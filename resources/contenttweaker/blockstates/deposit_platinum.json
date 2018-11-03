@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/coarse_dirt_iron"
+      "all": "contenttweaker:blocks/deposit_platinum"
     },
     "model": "cube_all",
     "uvlock": true,
