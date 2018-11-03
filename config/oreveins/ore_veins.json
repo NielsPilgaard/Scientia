@@ -1,12 +1,13 @@
 {
   "iron_ore_example": {
     "type": "oreveins:cluster",
-    "ore": "minecraft:iron_ore",
+    "ore": "contenttweaker:ore_iron",
     "stone": "minecraft:stone"
   },
+  
   "gold_ore_example": {
     "type": "oreveins:sphere",
-    "ore": "minecraft:gold_ore",
+    "ore": "contenttweaker:ore_gold",
     "stone": "minecraft:stone",
     "rarity": 40,
     "min_y": 8,
@@ -19,11 +20,11 @@
     "type": "oreveins:cluster",
     "ore": [
       {
-        "block": "minecraft:coal_ore",
+        "block": "contenttweaker:ore_coal",
         "weight": 39
       },
       {
-        "block": "minecraft:diamond_ore",
+        "block": "contenttweaker:ore_diamond",
         "weight": 1
       }
     ],
@@ -37,7 +38,7 @@
   },
   "redstone_ore_example": {
     "type": "oreveins:cluster",
-    "ore": "minecraft:redstone_ore",
+    "ore": "contenttweaker:ore_redstone",
     "stone": "minecraft:stone",
     "clusters": 8,
     "rarity": 40,
@@ -49,7 +50,7 @@
   },
   "emerald_ore_example": {
     "type": "oreveins:cluster",
-    "ore": "minecraft:emerald_ore",
+    "ore": "contenttweaker:ore_emerald",
     "stone": "minecraft:stone",
     "rarity": 15,
     "count": 3,

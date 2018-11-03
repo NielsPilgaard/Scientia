@@ -10,6 +10,8 @@ val itemsToStage as IItemStack[] = [
     <minecraft:tnt_minecart>,
     <minecraft:hopper_minecart>,
     <botania:poolminecart>,
+    <charset:barrelcart>.withTag({log: "minecraft:bedrock;0", upgrades: ["HOPPING", "INFINITE"], slab: "minecraft:diamond_block;0"}),
+    <charset:barrelcart>.withTag({log: "minecraft:log;0", slab: "minecraft:wooden_slab;0"}),
     <charset:barrelcart>.withTag({log: "minecraft:log;1", slab: "minecraft:wooden_slab;1"}),
     <charset:barrelcart>.withTag({log: "minecraft:log;2", slab: "minecraft:wooden_slab;2"}),
     <charset:barrelcart>.withTag({log: "minecraft:log;3", slab: "minecraft:wooden_slab;3"}),

@@ -51,13 +51,6 @@
 					"name": "minecraft:planks",
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -110,13 +103,6 @@
 					"name": "minecraft:planks",
 					"meta": 1,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -171,13 +157,6 @@
 					"meta": 2,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -230,13 +209,6 @@
 					"name": "minecraft:planks",
 					"meta": 3,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -291,13 +263,6 @@
 					"meta": 4,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -351,13 +316,6 @@
 					"meta": 5,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -410,13 +368,6 @@
 					"name": "natura:overworld_planks",
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -468,13 +419,6 @@
 					"name": "natura:overworld_planks",
 					"meta": 1,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -529,13 +473,6 @@
 					"meta": 2,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -588,13 +525,6 @@
 					"name": "natura:overworld_planks",
 					"meta": 3,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -649,13 +579,6 @@
 					"meta": 4,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -708,13 +631,6 @@
 					"name": "natura:overworld_planks",
 					"meta": 5,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -769,13 +685,6 @@
 					"meta": 6,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -828,13 +737,6 @@
 					"name": "natura:overworld_planks",
 					"meta": 7,
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -889,13 +791,6 @@
 					"meta": 8,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -947,13 +842,6 @@
 				{
 					"name": "rustic:planks",
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		},
@@ -1008,13 +896,6 @@
 					"meta": 1,
 					"chance": 15
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{
@@ -1066,13 +947,6 @@
 				{
 					"name": "traverse:fir_planks",
 					"chance": 15
-				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
 				}
 			]
 		}

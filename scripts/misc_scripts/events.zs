@@ -1,4 +1,4 @@
-#priority 2500
+#priority 1000
 import crafttweaker.event.PlayerCraftedEvent;
 
 events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){

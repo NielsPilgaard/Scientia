@@ -80,7 +80,7 @@ global materials as IIngredient[string][string] = {
         ingot: <thermalfoundation:material:131>,
 		block: null, 		
 		ore: <immersiveengineering:ore:3>,
-		ore_deposit: <contenttweaker:deposit_lead>,
+		ore_deposit: null,#<contenttweaker:deposit_lead>,
 		dust: null,
         liquid: <liquid:lead>, 
 		gear: null,

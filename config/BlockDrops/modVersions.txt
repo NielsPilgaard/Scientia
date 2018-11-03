@@ -69,6 +69,7 @@
   "resourceloader": "1.5.3",
   "dimstages": "2.0.22",
   "watercontrolextreme": "1.0.0",
+  "worldgenindicators": "1.0",
   "gamestages": "2.0.110",
   "jepb": "1.2.1",
   "oreexcavation": "1.4.129",
