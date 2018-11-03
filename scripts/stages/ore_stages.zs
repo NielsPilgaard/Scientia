@@ -2,7 +2,6 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.orestages.OreStages.addReplacement;
-import mods.orestages.OreStages.addNonDefaultingReplacement;
 
 var replacementItemsForStage as IIngredient[][][string] = {
 	stages.novice_miner : [

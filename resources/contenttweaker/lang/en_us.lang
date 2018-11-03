@@ -38,6 +38,24 @@ tile.contenttweaker.ore_redstone.name=Redstone Ore
 tile.contenttweaker.ore_tin.name=Tin Ore
 tile.contenttweaker.ore_tungsten.name=Tungsten Ore
 
+tile.contenttweaker.coarse_dirt_adamantium.name=Dirty Adamantium Ore
+tile.contenttweaker.coarse_dirt_aluminum.name=Dirty Aluminum Ore
+tile.contenttweaker.coarse_dirt_chrome.name=Dirty Chrome Ore
+tile.contenttweaker.coarse_dirt_coal.name=Dirty Coal Ore
+tile.contenttweaker.coarse_dirt_copper.name=Dirty Copper Ore
+tile.contenttweaker.coarse_dirt_diamond.name=Dirty Diamond Ore
+tile.contenttweaker.coarse_dirt_emerald.name=Dirty Emerald Ore
+tile.contenttweaker.coarse_dirt_gold.name=Dirty Gold Ore
+tile.contenttweaker.coarse_dirt_iron.name=Dirty Iron Ore
+tile.contenttweaker.coarse_dirt_lapis.name=Dirty Lapis Ore
+tile.contenttweaker.coarse_dirt_manganeese.name=Dirty Manganeese Ore
+tile.contenttweaker.coarse_dirt_nickel.name=Dirty Nickel Ore
+tile.contenttweaker.coarse_dirt_platinum.name=Dirty Platinum Ore
+tile.contenttweaker.coarse_dirt_redstone.name=Dirty Redstone Ore
+tile.contenttweaker.coarse_dirt_silver.name=Dirty Silver Ore
+tile.contenttweaker.coarse_dirt_tin.name=Dirty Tin Ore
+tile.contenttweaker.coarse_dirt_tungsten.name=Dirty Tungsten Ore
+
 entity.Villager.tinkerer=Tinkerer
 entity.Villager.crafter=Crafter
 entity.Villager.carpenter=Carpenter
