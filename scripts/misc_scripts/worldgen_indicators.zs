@@ -12,8 +12,14 @@ for metal in materials {
 
     if (!isNull(ore)) {
         if (!isNull(deposit)) {
-            var surfaceIndicator = SurfaceIndicator.create().add(deposit.items[0].asBlock());
-            var blockChecker = BlockChecker.create(1.0).addValid(ore.items[0].asBlock()).addIndicator(surfaceIndicator);
+            var surfaceIndicator = RelativeSurfaceIndicator.create(-1);
+            
+            surfaceIndicator.add(deposit.items[0].asBlock());
+            surfaceIndicator.add(<minecraft:dirt>.asBlock());
+            surfaceIndicator.add(<minecraft:grass>.asBlock());
+            surfaceIndicator.add(<minecraft:dirt:1>.asBlock());
+
+            var blockChecker = BlockChecker.create(1).addValid(ore.items[0].asBlock()).addIndicator(surfaceIndicator);
             WorldGenManager.addChecker(blockChecker);
         }
     }
