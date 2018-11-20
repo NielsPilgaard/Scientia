@@ -1,10 +1,26 @@
+# Folders to ignore
 journeymap/
 dumps/
 crash-reports/
-WailaErrorOutput.txt
-ItemDump.txt
-BotaniaVars.dat
 .mixin.out/
+logs/
+local/
+libraries/
+saves/
+TombManyGraves/
+screenshots/
+mods/
+
+# Utilities
+.github_changelog_generator
+GithubChangelogGenerator.bat
+
+# Client Configs
+config/InvTweaks.cfg
+config/MouseTweaks.cfg
+config/jei/worldSettings.cfg
+config/jei/lookupHistory.zip
+zs_export.json
 .curseclient
 .ReAuth.cfg
 usernamecache.json
@@ -13,17 +29,7 @@ minecraftinstance.json
 knownkeys.txt
 servers.dat
 realms_persistence.json
+WailaErrorOutput.txt
+ItemDump.txt
+BotaniaVars.dat
 options.txt
-zs_export.json
-logs/
-local/
-libraries/
-saves/
-TombManyGraves/
-screenshots/
-mputils/settings.dat
-mods/
-.github_changelog_generator
-GithubChangelogGenerator.bat
-config/jei/worldSettings.cfg
-
