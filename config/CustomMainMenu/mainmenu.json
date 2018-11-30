@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "mainmenu:scientia.png",
+            "image" : "scientia:scientia.png",
             "posX" : -37,
             "posY" : 30,
             "width" : 256,
@@ -12,22 +12,12 @@
         }/*,
 		"book_icon":
         {
-            "image" : "mainmenu:book_icon.png",
+            "image" : "scientia:logo_transparent.png",
             "posX" : -75,
             "posY" : 40,
             "width" : 48,
             "height" : 48,
             "alignment" : "top_center"
-        }/*,
-		
-		"transparentBox":
-        {
-            "image" : "mainmenu:verticalbox.png",
-            "posX" : 25,
-            "posY" : -120,
-            "width" : 140,
-            "height" : 250,
-            "alignment" : "left_center"
         }*/
     },
     
@@ -41,7 +31,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -57,7 +47,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -73,7 +63,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -89,7 +79,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -105,7 +95,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -121,7 +111,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openLink",
@@ -137,7 +127,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action" : 
             {
@@ -154,7 +144,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "mainmenu:button.png",
+            "texture": "scientia:button.png",
             "alignment": "left_center",
             "action": {
                 "type": "quit"
@@ -181,11 +171,9 @@
 	
 	"other":
     {
-        
-        
         "panorama":
         {
-            "images" : "mainmenu:panoramas/openairlibrary/panorama_%c.png",
+            "images" : "scientia:panoramas/openairlibrary/panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1.8,
             "blur" : false,
