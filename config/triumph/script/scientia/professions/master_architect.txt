@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:master_architect>)
-setTitle("Master Architect")
-setDescription("")
+setIcon(<architect:sketch, nbt:{"architect:data":{}}>)
+setTitle("TODO Master Architect")
+setDescription("The title of Master Architect comes with a lot of new tools: It gives you access to the mod Architect, which allows you to easily copy-paste builds, aswell as the top-tier Chisels and Builder's Wands. It also increases your range and block limit with Linear.")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_architect")
@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:master_architect>)
+
+setRewardItem(<gamestagebooks:master_architect>)

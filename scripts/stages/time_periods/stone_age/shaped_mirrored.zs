@@ -5,14 +5,7 @@ import crafttweaker.item.IIngredient;
 var stage = stages.stone_age;
 
 var recipeList as IIngredient[][][][IItemStack] = {
-	<rustic:rope> * 16 : [
-		[
-            [null, <hooked:microcrafting:1>, null],
-            [null, <hooked:microcrafting:1>, null], 
-            [null, <hooked:microcrafting:1>, null]
-        ]
-	],
-    <minecraft:lead> : [
+	<minecraft:lead> : [
         [
             [null, <ore:string>, <ore:string>],
             [null, <ore:string>, <ore:string>], 
@@ -69,6 +62,20 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [<ore:workbench>, <ore:workbench>, <ore:workbench>],
             [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
             [<ore:logWood>, null, <ore:logWood>]
+        ]
+    ],
+    <artisanworktables:worktable:2> : [
+        [
+            [<minecraft:brick>, <minecraft:stone_slab>, <minecraft:brick>],
+            [<minecraft:brick>, <ore:workbench>, <minecraft:brick>], 
+            [<ore:logWood>, null, <ore:logWood>]
+        ]
+    ],
+    <claybucket:unfiredclaybucket> : [
+        [
+            [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+            [null, <minecraft:clay_ball>, null], 
+            [null, null, null]
         ]
     ]
 

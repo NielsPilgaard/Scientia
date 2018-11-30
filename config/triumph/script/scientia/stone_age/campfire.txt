@@ -1,6 +1,6 @@
 setIcon(<campfire:campfire>)
 setTitle("Kumbaya")
-setDescription("Now that you've harnessed the power of fire, it's time to set a bunch of logs on fire! The Campfire can make Stone, Charcoal and cook Food.")
+setDescription("Now that you've harnessed the power of fire, it's time to set a bunch of logs on fire! The Campfire can make Stone, Charcoal, Bricks and cook Food.")
 setShowToast(true)
 
 addParent("scientia:stone_age/fire_sticks")

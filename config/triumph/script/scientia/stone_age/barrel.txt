@@ -1,0 +1,15 @@
+setIcon(<charset:barrel, nbt:{log:"minecraft:log;0",slab:"minecraft:wooden_slab;0"}>)
+setTitle("Barrelroll")
+setDescription("Barrels can store multitudes of 1 item type. Barrels take the Texture of the woodtype they are crafted with - If you mix types, it defaults to Oak.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Any Charset Barrel", "minecraft:inventory_changed")
+criteria.addItem(<charset:barrel, nbt:{}>)

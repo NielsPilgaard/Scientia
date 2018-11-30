@@ -3,7 +3,7 @@ setTitle("It Takes a Village")
 setDescription("Locate a Village. Right click your Village map to get the location of the nearest Village. Completing this Advancement unlocks professions. Hint: The map will tell you in which direction to go.")
 setShowToast(true)
 
-addParent("scientia:stone_age/crafting_table")
+addParent("scientia:stone_age/root")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

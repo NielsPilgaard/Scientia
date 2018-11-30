@@ -4,15 +4,23 @@ import mods.ItemStages.addItemStage;
 
 var stage = stages.sifting;
 
-Recipes.addShapedMirrored("pickletweaks_grass_mesh_custom", stage, 
-<pickletweaks:grass_mesh>, 
-[[<ore:stickWood>, <contenttweaker:plant_fiber>, <ore:stickWood>],
-[<contenttweaker:plant_fiber>, <contenttweaker:plant_fiber>, <contenttweaker:plant_fiber>], 
-[<ore:stickWood>, <contenttweaker:plant_fiber>, <ore:stickWood>]]);
-addItemStage(stage, <pickletweaks:grass_mesh>);
+Recipes.addShapedMirrored("pickletweaks_mesh_custom", stage, 
+<pickletweaks:mesh>, 
+[[<minecraft:stick>, <minecraft:string>, <minecraft:stick>], 
+[<minecraft:string>, <minecraft:string>, <minecraft:string>], 
+[<minecraft:stick>, <minecraft:string>, <minecraft:stick>]]);
+addItemStage(stage, <pickletweaks:mesh>);
 
 Recipes.addShapeless("minecraft_flint_custom", stage, 
 <minecraft:flint>, 
-[<pickletweaks:grass_mesh>.anyDamage(),<ore:gravel>]);
+[<pickletweaks:mesh>.anyDamage(),<ore:gravel>]);
+
+Recipes.addShapedMirrored("harvest_waterfilter_custom", stage, 
+<harvestcraft:waterfilter>, 
+[[<minecraft:stone:*>, <ore:materialCloth>, <minecraft:stone:*>],
+[<minecraft:stone:*>, <pickletweaks:mesh>.anyDamage(), <minecraft:stone:*>], 
+[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]]);
+addItemStage(stage, <harvestcraft:waterfilter>);
+
 
 # Pams Waterfilter

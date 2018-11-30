@@ -1,0 +1,16 @@
+setIcon(<contenttweaker:research_compass>)
+setTitle("Cartography")
+setDescription("Buy a Primitive Compass from a Cartographer or Librarian. Doing so will research Cartography, unlocking a Fullscreen Map §4J§7 and Death Waypoints.")
+setShowToast(true)
+
+addParent("scientia:stone_age/paper")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:research_compass>)
+
+setRewardExperience(20)

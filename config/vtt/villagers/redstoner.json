@@ -5,7 +5,6 @@
     "zombieTexture": "vtt:textures/entity/zombie_villager/zombie_redstoner.png"
   },
   "careers": [
-    "redstoner",
-	"crafter"
+    "redstoner"
   ]
 }

@@ -1,6 +1,6 @@
 setIcon(<minecraft:crafting_table>)
-setTitle("Crafting 101")
-setDescription("Craft a Crafting Table.")
+setTitle("Craftsman")
+setDescription("You can make a Crafting Table now! Woot!")
 setShowToast(true)
 
 addParent("scientia:stone_age/root")
@@ -10,5 +10,5 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Crafting Table", "minecraft:inventory_changed")
 criteria.setBlock(<minecraft:crafting_table>)

@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:skilled_miner>)
-setTitle("Skilled Miner")
-setDescription("")
+setIcon(<contenttweaker:ore_gold>)
+setTitle("TODO Skilled Miner")
+setDescription("The Skilled level of Mining lets you find Iron and Gold veins.")
 setShowToast(true)
 
 addParent("scientia:professions/apprentice_miner")
@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:skilled_miner>)
+
+setRewardItem(<gamestagebooks:skilled_miner>)

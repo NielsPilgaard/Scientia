@@ -11,7 +11,7 @@ var recipeList as IIngredient[][][IItemStack] = {
     <hooked:microcrafting:1> : [
         [<ore:fiber>,<ore:fiber>,<ore:fiber>]
     ],
-    <contenttweaker:spearhead> : [
+    <tconstruct:arrow_head>.withTag({Material: "stone"}) : [
         [<contenttweaker:rock>,<contenttweaker:rock>,<minecraft:cobblestone>]
     ],
     <spartanweaponry:material> : [
@@ -32,4 +32,15 @@ for item, recipesForItem in recipeList {
 	for recipe in recipesForItem {
 		mods.recipestages.Recipes.addShapeless(stage, item, recipe);
 	}
+}
+    var i = 0;
+
+for knife in <ore:artisansKnife>.items {
+    mods.ItemStages.addItemStage(stage, knife);
+    mods.recipestages.Recipes.addShapeless(
+        "minecraft_string_custom_" + i, 
+    stage, 
+    <minecraft:string> * 2, 
+    [<contenttweaker:woven_fiber>,knife.anyDamage().transformDamage()]);
+    i = i + 1;
 }

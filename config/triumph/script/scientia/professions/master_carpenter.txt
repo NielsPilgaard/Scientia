@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:master_carpenter>)
+setIcon(<architecturecraft:sawbench>)
 setTitle("Master Carpenter")
-setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests and 500 Wooden Planks of any kind. Completing this will unlock ArchitectureCraft, and upgrade some of your recipes.")
+setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests and 500 Wooden Planks of any kind. Completing this will unlock ArchitectureCraft, if you're also a Skilled Architect, and upgrade some of your recipes.")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_carpenter")

@@ -1,0 +1,17 @@
+setIcon(<claybucket:claybucket>)
+setTitle("Bucket of Balance")
+setDescription("The Wooden Basin is going to need water for it's recipes. Craft an Unfired Clay Bucket and throw it in fire to harden it.")
+setShowToast(true)
+
+addParent("scientia:stone_age/wooden_basin")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Clay Bucket", "minecraft:inventory_changed")
+criteria.setBlock(<claybucket:claybucket>)
+
+criteria = addCriteria("Completed Advancement Feuer Frei", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/fire_sticks")

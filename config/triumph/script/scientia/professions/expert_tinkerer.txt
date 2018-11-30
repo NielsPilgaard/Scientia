@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:expert_tinkerer>)
-setTitle("Expert Tinkerer")
-setDescription("")
+setIcon(<tconstruct:hammer, meta:0, count:1, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.6499996f,FreeModifiers:3,Durability:580,HarvestLevel:2,Attack:3.5f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.6499996f,FreeModifiers:0,Durability:580,HarvestLevel:2,Attack:3.5f},Special:{Categories:["harvest","aoe","weapon","tool"]},TinkerData:{Materials:["wood","iron","copper","copper"]}}>)
+setTitle("TODO Expert Tinkerer")
+setDescription("Being an Expert Tinkerer gives you access to all Tinkers' Tool and Weapon, with the exception of the Shuriken.")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_tinkerer")
@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:expert_tinkerer>)
+
+setRewardItem(<gamestagebooks:expert_tinkerer>)

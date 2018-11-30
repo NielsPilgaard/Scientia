@@ -8,26 +8,33 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[materials.copper.ore],
 		[materials.coal.ore],
 		[materials.lead.ore],
-		[materials.silver.ore]
+		[materials.silver.ore],
+		[materials.copper.deposit, <minecraft:dirt:1>],
+		[materials.coal.deposit, <minecraft:dirt:1>],
+		#[materials.lead.deposit, <minecraft:dirt:1>],
+		[materials.silver.deposit, <minecraft:dirt:1>]
 	],
 
 	stages.apprentice_miner : [
-		[materials.tin.ore]
-
+		[materials.tin.ore],
+		[materials.tin.deposit, <minecraft:dirt:1>]
 	],
 
 	stages.skilled_miner : [
 		[materials.iron.ore],
-		[materials.gold.ore]
+		[materials.gold.ore],
+		[materials.iron.deposit, <minecraft:dirt:1>],
+		[materials.gold.deposit, <minecraft:dirt:1>]
 	],
 
 	stages.expert_miner : [
-		[materials.diamond.ore]
+		[materials.diamond.ore],
+		[materials.diamond.deposit, <minecraft:dirt:1>]
 
 	],
 
 	stages.master_miner : [
-		[<minecraft:obsidian>, <chisel:basalt>]
+		[<minecraft:obsidian>, <chisel:basalt2:7>]
 		
 	]
 };

@@ -7,7 +7,8 @@ addDescription(<harvestcraft:saltitem>,
 # Water Filter
 addDescription(<harvestcraft:waterfilter>, 
 "The Water Filter produces Salt and Fresh Water.", 
-"You will need to place Woven Cotton in its inventory, and have flowing water above it.");
+"You will need to place Woven Cotton in its inventory, and have flowing water above it."
+"It's recommended to place it on a platform shaped like a +");
 
 # Plant Fiber
 addDescription(<contenttweaker:plant_fiber>,

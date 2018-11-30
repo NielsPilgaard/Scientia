@@ -1,4 +1,4 @@
-setIcon(<gamestagebooks:skilled_carpenter>)
+setIcon(<charset:chest>)
 setTitle("Skilled Carpenter")
 setDescription("To become a Skilled Carpenter, you must craft 64 Planks, 3 Drying Racks, 3 Shelves and 2 Cabinets. They can be any type. Unlocking this will upgrade some of your recipes, and grant you access to a lot of new ones - Some of which are Chests and furniture!")
 setShowToast(true)

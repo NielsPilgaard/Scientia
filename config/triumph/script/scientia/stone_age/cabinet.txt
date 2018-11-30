@@ -1,0 +1,15 @@
+setIcon(<rustic:cabinet>)
+setTitle("Cabinet")
+setDescription("Cabinets are rustic versions of Chests. If you put a block in front of a Cabinet, it won't open. Place a Cabinet on top of another to form a double Cabinet. Cabinets take the Texture of the woodtype they are crafted with - If you mix types, it defaults to Oak.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Any Rustic Cabinet", "minecraft:inventory_changed")
+criteria.addItem(<rustic:cabinet>)

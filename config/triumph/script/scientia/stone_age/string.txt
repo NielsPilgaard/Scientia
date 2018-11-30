@@ -1,0 +1,16 @@
+setIcon(<minecraft:string>)
+setTitle("String Quartet")
+setDescription("Craft String in order to learn more about weaving and sewing. This will unlock Sifting.")
+setShowToast(true)
+
+addParent("scientia:stone_age/artisans_knife")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("10 String", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:string>)
+
+setRewardFunction("research:sifting")

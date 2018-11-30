@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:master_miner>)
-setTitle("Master Miner")
-setDescription("")
+setIcon(<minecraft:obsidian>)
+setTitle("TODO Master Miner")
+setDescription("Master Mining allows you to find the hardest of all materials, Obsidian. Obsidian commonly generates where Water and Lava meets, at the bottom of the world.")
 setShowToast(true)
 
 addParent("scientia:professions/expert_miner")
@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:master_miner>)
+
+setRewardItem(<gamestagebooks:master_miner>)

@@ -24,3 +24,6 @@ RecipeBuilder.get("carpenter")
   .addOutput(<primal_tech:fire_sticks>)
   .addRequirement(GameStages.anyOf([stage]))
   .create();
+
+recipes.remove(<primal_tech:fire_sticks>);
+recipes.remove(<primal_tech:wooden_basin>);

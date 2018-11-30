@@ -11,12 +11,15 @@ import mods.ItemStages.addItemStage;
 
 mods.TinkerStages.addGeneralCraftingStage(stages.novice_tinkerer);
 
+stageTinkersTool(stages.novice_tinkerer, <tconstruct:kama>, "tconstruct:kama");
 stageTinkersTool(stages.novice_tinkerer, <tconstruct:frypan>, "tconstruct:frypan");
 stageTinkersTool(stages.novice_tinkerer, <tconstruct:battlesign>, "tconstruct:battlesign");
 
 # =========================================== #
 # Apprentice
 # =========================================== #
+
+mods.TinkerStages.addGeneralPartReplacingStage(stages.apprentice_tinkerer);
 
 val bowItems = [
     
@@ -103,6 +106,19 @@ stageTinkersPart(stages.skilled_tinkerer, <conarm:helmet_core>, "conarm:helmet_c
 stageTinkersPart(stages.skilled_tinkerer, <conarm:chest_core>, "conarm:chest_core");
 
 stageTinkersTool(stages.skilled_tinkerer, <conarm:helmet>, "conarm:helmet");
+stageTinkersTool(stages.skilled_tinkerer, <conarm:chestplate>, "conarm:chestplate");
+stageTinkersTool(stages.skilled_tinkerer, <conarm:leggings>, "conarm:leggings");
+stageTinkersTool(stages.skilled_tinkerer, <conarm:boots>, "conarm:boots");
+
+mods.recipestages.Recipes.addShapedMirrored(
+    "contenttweaker_research_shuriken", 
+    stages.skilled_tinkerer, 
+    <contenttweaker:research_shuriken>, 
+    [
+        [<tconstruct:knife_blade>.withTag({Material: "flint"}), <tconstruct:knife_blade>.withTag({Material: "bone"}), <tconstruct:knife_blade>.withTag({Material: "flint"})],
+        [<tconstruct:knife_blade>.withTag({Material: "bone"}), null, <tconstruct:knife_blade>.withTag({Material: "bone"})], 
+        [<tconstruct:knife_blade>.withTag({Material: "flint"}), <tconstruct:knife_blade>.withTag({Material: "bone"}), <tconstruct:knife_blade>.withTag({Material: "flint"})]
+    ]);
 
 # =========================================== #
 # Expert
@@ -153,8 +169,6 @@ stageTinkersTool(stages.expert_tinkerer, <tconstruct:scythe>, "tconstruct:scythe
 # Master
 # =========================================== #
 
-mods.TinkerStages.addGeneralPartReplacingStage(stages.master_tinkerer);
 mods.TinkerStages.addModifierStage(stages.master_tinkerer, "silktouch");
 mods.TinkerStages.addModifierStage(stages.master_tinkerer, "luck");
-mods.TinkerStages.addModifierStage(stages.master_tinkerer, "necrotic");
 mods.TinkerStages.addModifierStage(stages.master_tinkerer, "reinforced");

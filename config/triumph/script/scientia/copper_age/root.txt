@@ -1,0 +1,16 @@
+setIcon(<thermalfoundation:material, meta:128>)
+setTitle("TODO Copper Age")
+setDescription("")
+
+setShowToast(true)
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setAnnounceToChat(false)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1211,6 +1211,7 @@ val disableList = [
         <thermalfoundation:upgrade:256>,
 
         <pickletweaks:reinforced_mesh>,
+        <pickletweaks:grass_mesh>,
         <pickletweaks:grass_fiber>,
 
         <primal_tech:bone_axe>,

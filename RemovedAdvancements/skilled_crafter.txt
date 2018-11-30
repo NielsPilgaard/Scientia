@@ -1,9 +1,9 @@
-setIcon(<gamestagebooks:apprentice_crafter>)
-setTitle("Apprentice Crafter")
+setIcon(<gamestagebooks:skilled_crafter>)
+setTitle("Skilled Crafter")
 setDescription("")
 setShowToast(true)
 
-addParent("scientia:professions/novice_crafter")
+addParent("scientia:professions/apprentice_crafter")
 setRequiresParents()
 
 
@@ -12,4 +12,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:apprentice_crafter>)
+criteria.setBlock(<gamestagebooks:skilled_crafter>)
+
+setRewardItem(<gamestagebooks:skilled_crafter>)

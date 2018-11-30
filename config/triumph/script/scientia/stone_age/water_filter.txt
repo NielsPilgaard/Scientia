@@ -1,0 +1,15 @@
+setIcon(<harvestcraft:waterfilter>)
+setTitle("Water Filter")
+setDescription("The Water Filter produces Salt when supplied with Woven Cotton, and placed in flowing Water. The Water Filter is picky about how it's set up - Placing it on a platform shaped as a +, with a Water source block placed directly above it always works.")
+setShowToast(true)
+
+addParent("scientia:stone_age/mesh")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Water Filter", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:waterfilter>)
+setPos(192,175)

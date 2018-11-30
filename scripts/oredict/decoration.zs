@@ -25,9 +25,6 @@ for i in 0 to 7 {
 
     <ore:deskWood>.add(<bibliocraft:desk>.definition.makeStack(i));
 
-    <ore:armorStandWood>.add(<bibliocraft:armorstand>.definition.makeStack(i));
-    <ore:armorStandWood>.add(<minecraft:armor_stand>);
-
     <ore:furniturePanelerWood>.add(<bibliocraft:furniturepaneler>.definition.makeStack(i));
 
     <ore:seat>.add(<bibliocraft:seat>.definition.makeStack(i));
@@ -47,6 +44,8 @@ for i in 0 to 7 {
     <ore:seatBack>.add(<bibliocraft:seatback5>.definition.makeStack(i));
     <ore:seatBackLarge>.add(<bibliocraft:seatback5>.definition.makeStack(i));
 }
+
+    <ore:armorStandWood>.add(<minecraft:armor_stand>);
 
 for i in 0 to 16 {
     <ore:lanternGold>.add(<bibliocraft:lampgold>.definition.makeStack(i));

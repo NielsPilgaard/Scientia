@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:apprentice_miner>)
-setTitle("Apprentice Miner")
-setDescription("")
+setIcon(<contenttweaker:ore_tin>)
+setTitle("TODO Apprentice Miner")
+setDescription("Apprentice Mining lets you find Tin veins.")
 setShowToast(true)
 
 addParent("scientia:professions/novice_miner")
@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:apprentice_miner>)
+
+setRewardItem(<gamestagebooks:apprentice_miner>)

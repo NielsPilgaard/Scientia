@@ -1,5 +1,5 @@
-setIcon(<gamestagebooks:novice_architect>)
-setTitle("Novice Architect")
+setIcon(<betterbuilderswands:wandstone>)
+setTitle("TODO Novice Architect")
 setDescription("Novice Architecture gives you access to the mod Linear, which is a building utility, with a few different modes - Try holding down shift while building, to get an idea of it's capabilities. Novice Architecture also unlocks the Stone Wand.")
 setShowToast(true)
 

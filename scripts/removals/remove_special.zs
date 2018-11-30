@@ -93,5 +93,14 @@ var manaInfusionRecipes as IItemStack[] = [
 ];
 
 for item in manaInfusionRecipes {
-        ManaInfusion.removeRecipe(item);
+    ManaInfusion.removeRecipe(item);
+}
+
+# Furnace Smelting
+var furnaceRecipes as IItemStack[] = [
+    <claybucket:claybucket>
+];
+
+for item in furnaceRecipes {
+    furnace.remove(item);
 }

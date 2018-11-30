@@ -16,7 +16,6 @@ for item in loadedMods["architecturecraft"].items {
 }
 
 addItemStage(stages.skilled_architect, <chiselsandbits:chisel_iron>);
-addItemStage(stages.skilled_architect, <chiselsandbits:chisel_iron>);
 addItemStage(stages.skilled_architect, <betterbuilderswands:wandiron>);
 
 # =========================================== #

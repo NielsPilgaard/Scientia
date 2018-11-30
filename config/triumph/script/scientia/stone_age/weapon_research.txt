@@ -1,9 +1,9 @@
-setIcon(<contenttweaker:spearhead>)
+setIcon(<tconstruct:arrow_head, nbt:{Material:"stone"}>)
 setTitle("The Warrior's Path")
-setDescription("Struggling with nasty mobs? A weapon would probably help. Make a Primitive Spearhead to learn more about sharp objects.")
+setDescription("Struggling with mobs? A weapon would probably help. Research Weaponry by making a Stone Arrow Head.")
 setShowToast(true)
 
-addParent("scientia:stone_age/crafting_table")
+addParent("scientia:stone_age/novice_tinkerer")
 setRequiresParents()
 
 setCompletedIconColor(102, 0, 102)
@@ -11,4 +11,4 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:spearhead>)
+criteria.addItem(<tconstruct:arrow_head, nbt:{Material:"stone"}>)

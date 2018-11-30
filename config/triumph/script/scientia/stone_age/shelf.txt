@@ -1,0 +1,15 @@
+setIcon(<bibliocraft:shelf>)
+setTitle("Barrelroll")
+setDescription("Shelves can store up to 4 items - They're mostly for decoration.")
+setShowToast(true)
+
+addParent("scientia:stone_age/tools_of_the_trade")
+addParent("scientia:stone_age/carpenters_worktable")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Any Shelf", "minecraft:inventory_changed")
+criteria.addItem(<ore:shelfWood>)

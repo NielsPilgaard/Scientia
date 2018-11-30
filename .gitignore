@@ -6,6 +6,7 @@ crash-reports/
 logs/
 local/
 libraries/
+llibraries/
 saves/
 TombManyGraves/
 screenshots/
@@ -33,3 +34,6 @@ WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
 options.txt
+modpack_upload_settings.cfg
+ModpackUploadTool.bat
+.build.json

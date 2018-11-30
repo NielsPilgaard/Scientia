@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:processed_leather>)
+setTitle("Processed Hide")
+setDescription("Process Raw Hide by putting it in the Wooden Basin with some Salt, and stirring.")
+setShowToast(true)
+
+addParent("scientia:stone_age/wooden_basin")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("3 Processed Leather", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:processed_leather>)
+criteria.setCount(3)
+
+criteria = addCriteria("Completed Advancement Feuer Frei", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/fire_sticks")

@@ -1,0 +1,14 @@
+setIcon(<artisanworktables:artisans_knife_stone>)
+setTitle("Knife Party")
+setDescription("A Knife will allow you to refine Woven Fiber into String.")
+setShowToast(true)
+
+addParent("scientia:stone_age/internship")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Any Artisan's Knife", "minecraft:inventory_changed")
+criteria.addItem(<ore:artisansKnife>)

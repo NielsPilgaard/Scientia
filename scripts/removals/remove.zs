@@ -15,7 +15,8 @@ val removals = [
     <charset:barrel>.withTag({}),
 
     <harvestcraft:saltitem>,
-
+    <harvestcraft:waterfilter>,
+    
     <minecraft:dye:15>,
     <minecraft:flint>,
     <minecraft:lead>,

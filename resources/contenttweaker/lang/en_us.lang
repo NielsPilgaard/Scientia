@@ -3,7 +3,6 @@ item.contenttweaker.research_compass.name=Cartography Knowledge
 item.contenttweaker.research_fishing.name=Fishing Knowledge
 item.contenttweaker.research_shuriken.name=Crude Shuriken
 item.contenttweaker.research_tool_parts.name=Crude Tool Parts
-item.contenttweaker.spearhead.name=Primitive Spearhead
 item.contenttweaker.research_hammer.name=Crude Hammer
 
 item.contenttweaker.blank_pattern_frame.name=Blank Pattern Frame
@@ -14,7 +13,7 @@ item.contenttweaker.rock.name=Rock
 item.contenttweaker.bound_wheat.name=Bound Wheat
 item.contenttweaker.crude_haybale.name=Crude Haybale
 item.contenttweaker.wet_pulp.name=Wet Pulp
-item.contenttweaker.processed_leather.name=Processed Leather
+item.contenttweaker.processed_hide.name=Processed Hide
 item.contenttweaker.tannin.name=Tannin
 
 item.contenttweaker.amethyst.name=Amethyst
@@ -48,6 +47,7 @@ tile.contenttweaker.deposit_emerald.name=Emerald Deposit
 tile.contenttweaker.deposit_gold.name=Gold Deposit
 tile.contenttweaker.deposit_iron.name=Iron Deposit
 tile.contenttweaker.deposit_lapis.name=Lapis Deposit
+tile.contenttweaker.deposit_lead.name=Lead Deposit
 tile.contenttweaker.deposit_manganeese.name=Manganeese Deposit
 tile.contenttweaker.deposit_nickel.name=Nickel Deposit
 tile.contenttweaker.deposit_platinum.name=Platinum Deposit
@@ -55,7 +55,7 @@ tile.contenttweaker.deposit_redstone.name=Redstone Deposit
 tile.contenttweaker.deposit_silver.name=Silver Deposit
 tile.contenttweaker.deposit_tin.name=Tin Deposit
 tile.contenttweaker.deposit_tungsten.name=Tungsten Deposit
+tile.contenttweaker.deposit_uranium.name=Uranium Deposit
 
 entity.Villager.tinkerer=Tinkerer
-entity.Villager.crafter=Crafter
 entity.Villager.carpenter=Carpenter

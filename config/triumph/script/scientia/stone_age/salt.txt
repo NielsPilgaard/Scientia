@@ -1,0 +1,15 @@
+setIcon(<harvestcraft:saltitem>)
+setTitle("Salty Surprise")
+setDescription("Salt is useful for cleaning Hides, and for improving the taste of different foods.")
+setShowToast(true)
+
+addParent("scientia:stone_age/water_filter")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("32 Salt", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:saltitem>)
+criteria.setcount(32)

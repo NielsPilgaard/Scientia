@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:research_shuriken>)
+setTitle("Ninja Training")
+setDescription("There's one more weapon you have yet to discover, the Shuriken.")
+setShowToast(true)
+
+addParent("scientia:professions/expert_tinkerer")
+setRequiresParents()
+
+
+setCompletedIconColor(51, 204, 51)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 204, 51)
+
+criteria = addCriteria("Crude Shuriken", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:research_shuriken>)
+
+setRewardFunction("triumph:ninja")

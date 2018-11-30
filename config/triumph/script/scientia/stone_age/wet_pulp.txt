@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:wet_pulp>)
 setTitle("Useful Snot")
-setDescription("Wet Pulp is made by soaking 3 pieces of Bark in a Wooden Basin filled with water. Stir it by right clicking.")
+setDescription("Wet Pulp is made by soaking 3 pieces of Bark in a Wooden Basin filled with water. Stir it by right clicking. Bark is obtained by right clicking a Wood Log with a Hatchet.")
 setShowToast(true)
 
 addParent("scientia:stone_age/wooden_basin")

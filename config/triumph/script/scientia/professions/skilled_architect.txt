@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:skilled_architect>)
-setTitle("Skilled Architect")
-setDescription("Skilled Architecture gives access to the Architect's Sawbench, and the Iron Wand. You will need to have reached the Iron Age, and be at least a Skilled Carpenter to complete this Advancement.")
+setIcon(<betterbuilderswands:wandiron>)
+setTitle("TODO Skilled Architect")
+setDescription("Skilled Architecture gives access to the Architect's Sawbench, and the Iron Wand. It also increases your range and block limit with Linear. You will need to have reached the Iron Age, and be at least a Skilled Carpenter to complete this Advancement.")
 setShowToast(true)
 
 addParent("scientia:professions/novice_architect")
@@ -16,3 +16,9 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("invChanged", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:skilled_architect>)
+
+criteria = addCriteria("Reached the Iron Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:iron_age/root")
+
+criteria = addCriteria("Skilled Carpenter", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:professions/skilled_carpenter")

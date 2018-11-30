@@ -1,0 +1,16 @@
+setIcon(<tconstruct:tooltables, meta:3>)
+setTitle("Tinkering")
+setDescription("Buy the Novice Tinkerer book from a Smith or Tinkerer to reach the first level of the Tinkerer Profession.")
+setShowToast(true)
+
+addParent("scientia:stone_age/find_village")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:novice_tinkerer>)
+
+setRewardExperience(20)

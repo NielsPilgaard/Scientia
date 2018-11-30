@@ -25,13 +25,6 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>, <primal_tech:fire_sticks>]
         ]
 	],
-    <primal_tech:stone_grill> : [
-		[
-            [<ore:slabCobblestone>, <ore:slabCobblestone>, <ore:slabCobblestone>],
-            [<ore:stone>, null, <ore:stone>], 
-            [null, <ore:stone>, null]
-        ]
-	],
     <spartanshields:shield_basic_stone> : [
 		[
             [null, <ore:stone>, null],

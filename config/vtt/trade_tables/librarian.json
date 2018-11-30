@@ -2,10 +2,25 @@
   "Profession": "minecraft:librarian",
   "Career": "librarian",
   "Offers": {
-    "Recipes": [
-      {
-        "action": "clear"
+		"Recipes": [
+		{
+			"action": "clear"
+		},
+		{
+			"action": "add",
+			"CareerLevel": 1,
+			"buy": {
+			  "id": "minecraft:paper",
+			  "Count": {
+				"min": 13,
+				"max": 25
+				}
+			},
+			"sell": {
+			  "id": "contenttweaker:research_compass",
+			  "Count": 1
+        }
       }
-    ]
+	]
   }
 }

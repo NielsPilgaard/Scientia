@@ -1,5 +1,5 @@
 setIcon(<minecraft:diamond_pickaxe>)
-setTitle("Excavation")
+setTitle("TODO Excavation")
 setDescription("Unlocking this will give you permanent access to Ore Excavation, with any tool. It does not require a modifier or enchant. To enable Ore Excavation, first pick a keybinding for it in the Controls menu, and then you simply hold that key while breaking blocks to use it.")
 setShowToast(true)
 

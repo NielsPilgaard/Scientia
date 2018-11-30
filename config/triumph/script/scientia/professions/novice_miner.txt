@@ -1,6 +1,6 @@
-setIcon(<gamestagebooks:novice_miner>)
+setIcon(<immersiveengineering:ore>)
 setTitle("Novice Miner")
-setDescription("")
+setDescription("To be acknowledge as a Novice Miner, you'll need to get your hands dirty. Break 64 Stone, and 32 Dirt. Novice Mining allows you to find Coal, Copper, Lead and Silver Ore. Metal Deposits on the surface indicate a vein of the same type under it.")
 setShowToast(true)
 
 addParent("scientia:professions/root")
@@ -11,5 +11,12 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:novice_miner>)
+criteria = addCriteria("Break 64 Stone", "triumph:player_break_block")
+criteria.setBlock(<ore:stone>)
+criteria.setCount(64)
+
+criteria = addCriteria("Break 32 Dirt", "triumph:player_break_block")
+criteria.setBlock(<ore:dirt>)
+criteria.setCount(32)
+
+setRewardItem(<gamestagebooks:novice_miner>)

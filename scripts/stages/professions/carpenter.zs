@@ -137,6 +137,34 @@ RecipeBuilder.get("carpenter")
 # =========================================== #
 # Rustic & Charset Novice Carpenter
 
+var itemsToStageNovice as IItemStack[] = [
+
+  <rustic:cabinet>,
+  <charset:barrel>.withTag({log: "minecraft:log;0", slab: "minecraft:wooden_slab;0"}),
+  <charset:barrel>.withTag({log: "minecraft:log;1", slab: "minecraft:wooden_slab;1"}),
+  <charset:barrel>.withTag({log: "minecraft:log;2", slab: "minecraft:wooden_slab;2"}),
+  <charset:barrel>.withTag({log: "minecraft:log;3", slab: "minecraft:wooden_slab;3"}),
+  <charset:barrel>.withTag({log: "minecraft:log2;0", slab: "minecraft:wooden_slab;4"}),
+  <charset:barrel>.withTag({log: "minecraft:log2;1", slab: "minecraft:wooden_slab;5"}),
+  <charset:barrel>.withTag({log: "rustic:log;0", slab: "rustic:olive_slab_item;0"}),
+  <charset:barrel>.withTag({log: "rustic:log;1", slab: "rustic:ironwood_slab_item;0"}),
+  <charset:barrel>.withTag({log: "traverse:fir_log;0", slab: "traverse:fir_slab;0"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs;0", slab: "natura:overworld_slab;0"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs;1", slab: "natura:overworld_slab;1"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs;2", slab: "natura:overworld_slab;2"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs;3", slab: "natura:overworld_slab;3"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs2;0", slab: "natura:overworld_slab;4"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs2;1", slab: "natura:overworld_slab2;0"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs2;2", slab: "natura:overworld_slab2;1"}),
+  <charset:barrel>.withTag({log: "natura:overworld_logs2;3", slab: "natura:overworld_slab2;2"}),
+  <charset:barrel>.withTag({log: "natura:redwood_logs;1", slab: "natura:overworld_slab2;3"})
+
+];
+
+for item in itemsToStageNovice {
+  addItemStage(stages.novice_carpenter, item);
+}
+
 for wood in woodtypes {
 var plank = woodtypes[wood].plank;
 var log = woodtypes[wood].log;
@@ -329,26 +357,7 @@ RecipeBuilder.get("carpenter")
 
 var itemsToStageSkilled as IItemStack[] = [
 
-  <rustic:cabinet>,
-  <charset:chest>,
-  <charset:barrel>.withTag({log: "minecraft:log;0", slab: "minecraft:wooden_slab;0"}),
-  <charset:barrel>.withTag({log: "minecraft:log;1", slab: "minecraft:wooden_slab;1"}),
-  <charset:barrel>.withTag({log: "minecraft:log;2", slab: "minecraft:wooden_slab;2"}),
-  <charset:barrel>.withTag({log: "minecraft:log;3", slab: "minecraft:wooden_slab;3"}),
-  <charset:barrel>.withTag({log: "minecraft:log2;0", slab: "minecraft:wooden_slab;4"}),
-  <charset:barrel>.withTag({log: "minecraft:log2;1", slab: "minecraft:wooden_slab;5"}),
-  <charset:barrel>.withTag({log: "rustic:log;0", slab: "rustic:olive_slab_item;0"}),
-  <charset:barrel>.withTag({log: "rustic:log;1", slab: "rustic:ironwood_slab_item;0"}),
-  <charset:barrel>.withTag({log: "traverse:fir_log;0", slab: "traverse:fir_slab;0"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs;0", slab: "natura:overworld_slab;0"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs;1", slab: "natura:overworld_slab;1"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs;2", slab: "natura:overworld_slab;2"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs;3", slab: "natura:overworld_slab;3"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs2;0", slab: "natura:overworld_slab;4"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs2;1", slab: "natura:overworld_slab2;0"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs2;2", slab: "natura:overworld_slab2;1"}),
-  <charset:barrel>.withTag({log: "natura:overworld_logs2;3", slab: "natura:overworld_slab2;2"}),
-  <charset:barrel>.withTag({log: "natura:redwood_logs;1", slab: "natura:overworld_slab2;3"}),
+  <charset:chest>
 
 ];
 
@@ -443,18 +452,6 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 25)
   .addTool(<ore:artisansGemCutter>, 30)
   .addOutput(<bibliocraft:case>.definition.makeStack(vanillaWoodtypes[wood]))
-  .addRequirement(GameStages.anyOf([stages.skilled_carpenter]))
-  .create();
-
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [null, stick, null],
-        [null, stick, null], 
-        [slab, slab, slab]
-        ])
-  .setMirrored()  
-  .addTool(<ore:artisansHandsaw>, 30)
-  .addOutput(<bibliocraft:armorstand>.definition.makeStack(vanillaWoodtypes[wood]))
   .addRequirement(GameStages.anyOf([stages.skilled_carpenter]))
   .create();
 
@@ -565,18 +562,6 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 25)
   .addTool(<ore:artisansGemCutter>, 30)
   .addOutput(<bibliocraft:case:6>)
-  .addRequirement(GameStages.anyOf([stages.skilled_carpenter]))
-  .create();
-
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [null, stick, null],
-        [null, stick, null], 
-        [board, board, board]
-        ])
-  .setMirrored()  
-  .addTool(<ore:artisansHandsaw>, 30)
-  .addOutput(<bibliocraft:armorstand:6>)
   .addRequirement(GameStages.anyOf([stages.skilled_carpenter]))
   .create();
 
