@@ -6,7 +6,7 @@ crash-reports/
 logs/
 local/
 libraries/
-llibraries/
+llibrary/
 saves/
 TombManyGraves/
 screenshots/
@@ -15,6 +15,9 @@ mods/
 # Utilities
 .github_changelog_generator
 GithubChangelogGenerator.bat
+.build.json
+modpack_upload_settings.cfg
+ModpackUploadTool.bat
 
 # Client Configs
 config/InvTweaks.cfg
@@ -34,6 +37,3 @@ WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
 options.txt
-modpack_upload_settings.cfg
-ModpackUploadTool.bat
-.build.json
