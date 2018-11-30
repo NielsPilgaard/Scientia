@@ -14,6 +14,9 @@ item.contenttweaker.bound_wheat.name=Bound Wheat
 item.contenttweaker.crude_haybale.name=Crude Haybale
 item.contenttweaker.wet_pulp.name=Wet Pulp
 item.contenttweaker.processed_hide.name=Processed Hide
+item.contenttweaker.soaked_hide.name=Soaked Hide
+item.contenttweaker.soaked_leather.name=Soaked Leather
+
 item.contenttweaker.tannin.name=Tannin
 
 item.contenttweaker.amethyst.name=Amethyst

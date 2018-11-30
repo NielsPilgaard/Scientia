@@ -12,13 +12,16 @@ createRegisterItem("research_tool_parts", 1);
 
 createRegisterItem("blank_pattern_frame", 64);
 createRegisterItem("woven_fiber", 64);
-createRegisterItem("raw_hide", 64);
 createRegisterItem("plant_fiber", 64);
 createRegisterItem("rock", 64);
 createRegisterItem("bound_wheat", 64);
 createRegisterItem("crude_haybale", 16);
 createRegisterItem("wet_pulp", 64);
+
+createRegisterItem("raw_hide", 64);
+createRegisterItem("soaked_hide", 64);
 createRegisterItem("processed_hide", 64);
+createRegisterItem("soaked_leather", 64);
 createRegisterItem("tannin", 64);
 
 createRegisterItem("amethyst", 64);
