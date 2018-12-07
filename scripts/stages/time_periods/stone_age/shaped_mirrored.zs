@@ -75,10 +75,13 @@ var recipeList as IIngredient[][][][IItemStack] = {
         [
             [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
             [null, <minecraft:clay_ball>, null], 
-            [null, null, null]
+        ]
+    ],
+    <harvestcraft:wovencottonitem> * 3 : [
+        [
+            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
         ]
     ]
-
 };
 
 for item, recipesForItem in recipeList {

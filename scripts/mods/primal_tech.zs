@@ -24,7 +24,7 @@ for item in stoneAnvilRecipes {
 	mods.primaltech.WoodenBasin.addRecipe(IItemStack output, ILiquidStack inputFluid, IIngredient[] ingredients);
 */
 var woodenBasinRecipes as IIngredient[][][IItemStack] = {
-	<contenttweaker:processed_leather> * 3: [
+	<contenttweaker:processed_hide> * 3: [
 		[<harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>],

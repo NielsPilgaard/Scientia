@@ -1,3 +1,4 @@
+#priority 100
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
@@ -7,12 +8,12 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	stages.novice_miner : [
 		[materials.copper.ore],
 		[materials.coal.ore],
-		[materials.lead.ore],
-		[materials.silver.ore],
-		[materials.copper.deposit, <minecraft:dirt:1>],
-		[materials.coal.deposit, <minecraft:dirt:1>],
+		#[materials.lead.ore],
+		#[materials.silver.ore],
+		#[materials.copper.deposit, <minecraft:dirt:1>],
+		#[materials.coal.deposit, <minecraft:dirt:1>],
 		#[materials.lead.deposit, <minecraft:dirt:1>],
-		[materials.silver.deposit, <minecraft:dirt:1>]
+		#[materials.silver.deposit, <minecraft:dirt:1>]
 	],
 
 	stages.apprentice_miner : [

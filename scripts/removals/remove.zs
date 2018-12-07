@@ -16,7 +16,8 @@ val removals = [
 
     <harvestcraft:saltitem>,
     <harvestcraft:waterfilter>,
-    
+    <harvestcraft:wovencottonitem>,
+
     <minecraft:dye:15>,
     <minecraft:flint>,
     <minecraft:lead>,
@@ -26,9 +27,11 @@ val removals = [
     stick,
     
     <pickletweaks:grass_mesh>,
+    <pickletweaks:mesh>,
     
     <primal_tech:fibre_torch>,
     <primal_tech:fire_sticks>,
+    <primal_tech:wooden_basin>,
 
     <rustic:cabinet>,
 
