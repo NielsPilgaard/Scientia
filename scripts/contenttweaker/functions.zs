@@ -1,4 +1,4 @@
-#priority 2000
+#priority 3500
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;

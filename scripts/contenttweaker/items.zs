@@ -1,4 +1,4 @@
-#priority 1500
+#priority 3000
 #loader contenttweaker
 
 import scripts.contenttweaker.functions.createRegisterItem;

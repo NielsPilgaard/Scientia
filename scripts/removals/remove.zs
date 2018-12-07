@@ -28,12 +28,13 @@ val removals = [
     
     <pickletweaks:grass_mesh>,
     <pickletweaks:mesh>,
-    
+
     <primal_tech:fibre_torch>,
     <primal_tech:fire_sticks>,
     <primal_tech:wooden_basin>,
 
     <rustic:cabinet>,
+    <rustic:crop_stake>,
 
     <spartanshields:shield_basic_wood>,
 

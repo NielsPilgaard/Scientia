@@ -13,6 +13,28 @@ mods.ItemStages.addItemStage(stage, <rustic:crop_stake>);
 
 stageTinkersTool(stage, <tconstruct:mattock>, "tconstruct:mattock");
 
+RecipeBuilder.get("carpenter")
+  .setShaped([
+            [<tconstruct:rack:*>],
+            [<tconstruct:rack:*>], 
+            [<tconstruct:rack:*>]
+            ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addOutput(<rustic:crop_stake>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+            [<tconstruct:rack:*>, <tconstruct:rack:*>, <tconstruct:rack:*>]
+            ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addOutput(<rustic:crop_stake>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
 RecipeBuilder.get("basic")
   .setShapeless([<contenttweaker:plant_fiber>])
   .addTool(<ore:artisansKnife>, 2)

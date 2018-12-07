@@ -4,33 +4,50 @@ import crafttweaker.item.IItemStack;
 
 import mods.orestages.OreStages.addReplacement;
 
+var coarseDirt = <minecraft:dirt:1>;
+
+for metal in materials {
+	if (!isNull(materials[metal])) {
+		if (!isNull(materials[metal].ore)) {
+			print(metal + ":" + materials[metal].ore.items[0].name);
+		}
+		if (!isNull(materials[metal].ore_deposit)) {
+			print(metal + ":" + materials[metal].ore_deposit.items[0].name);
+		}		
+	}
+}
+
 var replacementItemsForStage as IIngredient[][][string] = {
 	stages.novice_miner : [
 		[materials.copper.ore],
 		[materials.coal.ore],
-		#[materials.lead.ore],
-		#[materials.silver.ore],
-		#[materials.copper.deposit, <minecraft:dirt:1>],
-		#[materials.coal.deposit, <minecraft:dirt:1>],
-		#[materials.lead.deposit, <minecraft:dirt:1>],
-		#[materials.silver.deposit, <minecraft:dirt:1>]
+		[materials.lead.ore],
+		[materials.silver.ore],
+
+		[materials.copper.deposit, coarseDirt],
+		[materials.coal.deposit, coarseDirt],
+		[materials.lead.deposit, coarseDirt],
+		[materials.silver.deposit, coarseDirt]
 	],
 
 	stages.apprentice_miner : [
-		[materials.tin.ore],
-		[materials.tin.deposit, <minecraft:dirt:1>]
+		[<contenttweaker:ore_tin>],
+
+		[<contenttweaker:deposit_tin>, coarseDirt]
 	],
 
 	stages.skilled_miner : [
 		[materials.iron.ore],
 		[materials.gold.ore],
-		[materials.iron.deposit, <minecraft:dirt:1>],
-		[materials.gold.deposit, <minecraft:dirt:1>]
+
+		[materials.iron.deposit, coarseDirt],
+		[materials.gold.deposit, coarseDirt]
 	],
 
 	stages.expert_miner : [
 		[materials.diamond.ore],
-		[materials.diamond.deposit, <minecraft:dirt:1>]
+
+		[materials.diamond.deposit, coarseDirt]
 
 	],
 

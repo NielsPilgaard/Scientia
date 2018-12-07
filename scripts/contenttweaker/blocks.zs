@@ -1,4 +1,4 @@
-#priority 1499
+#priority 3000
 #loader contenttweaker
 
 import scripts.contenttweaker.functions.createRegisterBlockOre;

@@ -1,4 +1,4 @@
-#priority 1400
+#priority 2900
 #loader contenttweaker
 #modloaded tconstruct
 

@@ -1,4 +1,4 @@
-#priority 1149
+#priority 2900
 #loader contenttweaker
 
 import mods.contenttweaker.Material;
