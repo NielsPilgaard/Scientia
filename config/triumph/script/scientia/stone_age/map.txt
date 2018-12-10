@@ -10,7 +10,7 @@ setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:research_compass>)
+criteria = addCriteria("Purchase Primitive Compass", "minecraft:villager_trade")
+criteria.setBlock(<contenttweaker:research_compass>)
 
 setRewardExperience(20)

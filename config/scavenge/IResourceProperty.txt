@@ -1,3 +1,21 @@
+- sendFlagToLoot:
+Description: Allows to send a flag to the Loot Generator to be processed
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"flagID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- sendNumberToLoot:
+Description: Allows to send a Number to the Loot Generator to be processed
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"NumberID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
 - require_player:
 Description: Allows to check for a Fake Player or Real Player
 Parameters:
@@ -470,6 +488,33 @@ Parameters:
 "consume": (If Forge Energy should be added or removed, Default: true) Boolean,
 "amount": (How much should be added or removed, Default: 0) IntNumber,
 Incompatible With: consume_item(Completely) 
+Type: Effect
+
+- require_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be checkt for) String,
+"required": (If the Stage is required or not allowed, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- set_stage:
+Description: Allows to grant or take a gamestage from a player
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (Which game Stage should be granted and which should be taken) String,
+"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
+Incompatible With: None
+Type: Effect
+
+- require_multi_stage:
+Description: Allows to check if a Player has reached a GameStage
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"names": (Which game Stages should be checkt for) StringArray,
+"all": (If all the Stages are required or not, Default: true) Boolean,
+Incompatible With: None
 Type: Effect
 
 - require_Spawn:
@@ -948,51 +993,6 @@ Description: Allows to Add Achievements to a Player
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
 "name": (The Achievement that should be given) String,
-Incompatible With: None
-Type: Effect
-
-- sendFlagToLoot:
-Description: Allows to send a flag to the Loot Generator to be processed
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"flagID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- sendNumberToLoot:
-Description: Allows to send a Number to the Loot Generator to be processed
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"NumberID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- require_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be checkt for) String,
-"required": (If the Stage is required or not allowed, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- set_stage:
-Description: Allows to grant or take a gamestage from a player
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (Which game Stage should be granted and which should be taken) String,
-"give": (If the Game Stage should be granted or taken, Default: true) Boolean,
-Incompatible With: None
-Type: Effect
-
-- require_multi_stage:
-Description: Allows to check if a Player has reached a GameStage
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"names": (Which game Stages should be checkt for) StringArray,
-"all": (If all the Stages are required or not, Default: true) Boolean,
 Incompatible With: None
 Type: Effect
 

@@ -12,11 +12,11 @@ addDescription(<harvestcraft:waterfilter>,
 
 # Plant Fiber
 addDescription(<contenttweaker:plant_fiber>,
-"Plant Fiber has a chance to drop from Grass.");
+"Has a chance to drop from Grass.");
 
 # Rock
 addDescription(<contenttweaker:rock>, 
-"Rocks drop from Stone and Cobblestone, until you've advanced enough to harvest it with greater precision.");
+"Drop from Stone and Cobblestone, until you've advanced enough to harvest it with greater precision.");
 
 # Flint
 addDescription(<minecraft:flint>,
@@ -24,15 +24,16 @@ addDescription(<minecraft:flint>,
 
 # Stick
 addDescription(stick,
-"Sticks drop from leaves.");
+"Drops from leaves.",
+"They will become craftable.");
 
 # Rustic Cabinet
 addDescription(<rustic:cabinet>,
-"The Cabinet's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak. The Cabinet can only be open from the front.");
+"The texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak. The Cabinet can only be open from the front.");
 
 # Charset Chest
 addDescription(<charset:chest>,
-"The Chest's texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
+"The texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
 
 # Blood Magic Wills
 var willText = "Obtained through the Resonance of the Faceted Crystal ritual.";
@@ -47,24 +48,24 @@ addDescription(<bloodmagic:item_demon_crystal>,
 
 # Blood Magic Guide
 addDescription(<guideapi:bloodmagic-guide>, 
-"Sneak-Right-Click on a Blood Altar with this book, and it will show you where to place the appropriate blocks for the different Blood Altar tiers. Right-click to change tier.");
+"Sneak Right Click on a Blood Altar with this book, and it will show you where to place the appropriate blocks for the different Blood Altar tiers. Right-click to change tier.");
 
 # Raw Hide
 addDescription(<contenttweaker:raw_hide>, "Drops from most animals.");
 
 # Bibliocraft Clipboard
-addDescription(<bibliocraft:biblioclipboard>, "The Clipboard can be used to keep track of all your different tasks and goals. Right click to open it. It can be placed in-world by holding shift while placing it.");
+addDescription(<bibliocraft:biblioclipboard>, "Can be used to keep track of all your different tasks and goals. Right click to open it. It can be placed in-world by holding shift while placing it.");
 
 # Bibliocraft Hand Drill
-addDescription(<bibliocraft:handdrill>, "The Hand Drill is the Wrench of Bibliocraft. You can use it to rotate some furniture, remove Carpet from Seats and Tables, aswell as remove Carpet below furniture.");
+addDescription(<bibliocraft:handdrill>, "The Wrench of Bibliocraft. You can use it to rotate some furniture, remove Carpet from Seats and Tables, aswell as remove Carpet below furniture.");
 
 # Bibliocraft Desk
-addDescription(<bibliocraft:desk:*>, "The Desk can be used to store, read and write written books, but it's main feature is probably it's good looks. Adjacent Desks can be joined with a Hand Drill");
+addDescription(<bibliocraft:desk:*>, "Can be used to store, read and write written books, but it's main feature is probably it's good looks. Adjacent Desks can be joined with a Hand Drill");
 
 # Bibliocraft Seat
 addDescription(<bibliocraft:seat:*>, "You can attach a Seat Back to a Seat by right clicking it. Where the Seat Back is on the Seat depends on how you placed the Seat - It will always attach to the opposite end of where you were standing when placing the Seat. You can rotate the Seat Back with the Hand Drill.");
 
 # Bibliocraft Carpet-ables
-addDescription(<bibliocraft:seat:*>, "You can change the colour of the wool, by right clicking the Seat with any Vanilla Carpet.");
-addDescription(<bibliocraft:table:*>, "You can change the colour of the wool, by right clicking the Tabke with any Vanilla Carpet.");
-addDescription(<bibliocraft:case:*>, "You can change the colour of the wool, by right clicking the Case with any Vanilla Carpet. The Case has to be open for it to work.");
+addDescription(<bibliocraft:seat:*>, "Change the colour of the wool by right clicking the Seat with any Vanilla Carpet.");
+addDescription(<bibliocraft:table:*>, "Change the colour of the wool by right clicking the Tabke with any Vanilla Carpet.");
+addDescription(<bibliocraft:case:*>, "Change the colour of the wool by right clicking the Case with any Vanilla Carpet. The Case has to be open.");

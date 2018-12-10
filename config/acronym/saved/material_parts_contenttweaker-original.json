@@ -1,28 +1,10 @@
 {
   "materialMappings": {
-    "steel_rod": 57,
-    "steel_gear": 29,
-    "tin_gear": 18,
-    "ender_pearl_plate": 50,
-    "diamond_plate": 47,
-    "diamond_rod": 48,
-    "bronze_plate": 1,
-    "gold_plate": 52,
-    "iron_gear": 28,
-    "ender_pearl_gear": 49,
-    "gold_rod": 53,
-    "bronze_rod": 2,
-    "ender_pearl_rod": 51,
     "diamond_gear": 26,
     "copper_gear": 6,
-    "tin_plate": 19,
     "copper_plate": 7,
-    "gold_gear": 27,
-    "steel_plate": 56,
-    "iron_rod": 55,
-    "tin_rod": 20,
-    "copper_rod": 8,
-    "iron_plate": 54,
-    "bronze_gear": 0
+    "diamond_plate": 47,
+    "diamond_rod": 93,
+    "copper_rod": 8
   }
 }

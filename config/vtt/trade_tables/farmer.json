@@ -3,9 +3,29 @@
   "Career": "farmer",
   "Offers": {
     "Recipes": [
-      {
-        "action": "clear"
+		{
+			"action": "clear"
+		},
+		{
+			"action": "add",
+			"CareerLevel": 1,
+			"buy": {
+			  "id": [
+			  "harvestcraft:wovencottonitem",
+			  "contenttweaker:woven_fiber",
+			  "minecraft:wheat"
+			  ],
+			  "Count": [
+				  {"min": 2,"max": 5},
+				  {"min": 3, "max": 6},
+				  {"min": 5, "max": 12}
+			  ]
+			},
+			"sell": {
+			  "id": "gamestagebooks:agriculture",
+			  "Count": 1
+        }
       }
-    ]
+	]
   }
 }

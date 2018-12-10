@@ -6,6 +6,8 @@ import mods.ItemStages.addItemStage;
 
 var stage = stages.iron_age;
 val itemsToStage as IItemStack[] = [
+
+	<minecraft:cauldron>
 	
 ];
 

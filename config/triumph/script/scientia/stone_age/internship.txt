@@ -11,6 +11,6 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("Complete Novice Carpenter", "minecraft:impossible")
 
 setRewardExperience(20)

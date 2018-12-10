@@ -14,6 +14,10 @@ val glass = [
     <botania:cosmetic:2>,
     <botania:cosmetic:27>,
 
+    <inspirations:glass_trapdoor>,
+    <inspirations:glass_door>,
+    <inspirations:dyed_bottle:*>,
+
     <minecraft:glass_bottle>,
     <minecraft:experience_bottle>,
     <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),

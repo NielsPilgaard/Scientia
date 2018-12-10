@@ -2,17 +2,19 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.utility.stageMod;
+
 var stage = stages.industrial_age;
-for item in loadedMods["industrialrenewal"].items {
-	mods.ItemStages.addItemStage(stage, item);
-}/*
+
+stageMod(stage, "industrialrenewal");
+
+/*
 var modIDs as string[] = [
 	"industrialrenewal",
 	""
 ];
 
 for mod in modIDs {
-	for item in loadedMods[mod].items {
-		mods.ItemStages.addItemStage(stage, item);
-	}
+	stageMod(stage, mod);
+}
 }*/

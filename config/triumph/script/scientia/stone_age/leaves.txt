@@ -11,6 +11,6 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("breakBlock", "triumph:player_break_block")
+criteria = addCriteria("Break 3 Leaves", "triumph:player_break_block")
 criteria.setBlock(<ore:treeLeaves>)
 criteria.setCount(3)

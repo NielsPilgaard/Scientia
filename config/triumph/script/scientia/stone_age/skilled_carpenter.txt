@@ -11,5 +11,5 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("advancementCompleted", "triumph:completed_advancement")
+criteria = addCriteria("Complete Skilled Carpenter", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:professions/skilled_carpenter")

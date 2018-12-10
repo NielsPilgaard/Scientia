@@ -10,5 +10,5 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Any pair of Wooden Shears", "minecraft:inventory_changed")
 criteria.setBlock(<woodenshears:wshears>)

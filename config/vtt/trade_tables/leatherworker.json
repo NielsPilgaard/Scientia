@@ -13,7 +13,7 @@
 			"buy": {
 			  "id": "contenttweaker:raw_hide",
 			  "Count": {
-				"min": 3,
+				"min": 8,
 				"max": 12
 				}
 			},
@@ -21,7 +21,7 @@
 			  "id": "minecraft:leather",
 			  "Count": {
 				"min": 1,
-				"max": 3
+				"max": 2
 			}
         }
       }

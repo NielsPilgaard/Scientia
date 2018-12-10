@@ -18,16 +18,15 @@ import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.addDescription;
 
 function disableItem(item as IItemStack) {
-	item.addTooltip(format.darkPurple("This item is disabled. If you somehow obtained it, please report it on Scientia's issue tracker."));
+	recipes.remove(item);
 	addDescription(item, 
 		"This item is disabled.", 
 		"If you somehow obtained it, please report it on Scientia's issue tracker.", 
 		"There's a link in the Game Menu and the Esc Menu.");
-	removeAndHide(item);
 	addItemStage("disabled", item);
 }
 
-function stageMod(mod as string, stage as string) {
+function stageMod(stage as string, mod as string) {
 	for item in loadedMods[mod].items {
 		addItemStage(stage, item);
 		setRecipeStage(stage, item);	
@@ -123,8 +122,7 @@ function stageTinkersPart(stage as string, part as IItemStack, partString as str
 
 function disableModStageList(mod as string, stage as string, exceptions as IItemStack[]) {
 	for item in loadedMods[mod].items {
-		item.addTooltip(format.darkPurple(
-		"This item is disabled. If you somehow obtained it, please report it on Scientia's issue tracker."));
+		recipes.remove(item);
 		addDescription(item, 
 		"This item is disabled.", 
 		"If you somehow obtained it, please report it on Scientia's issue tracker.", 

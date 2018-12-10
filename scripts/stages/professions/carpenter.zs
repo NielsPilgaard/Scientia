@@ -350,6 +350,99 @@ RecipeBuilder.get("carpenter")
   .addOutput(<bibliocraft:mapframe:6>)
   .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
   .create();
+# =========================================== #
+# More Cauldrons Novice
+# =========================================== #
+
+var plank = woodtypes.oak.plank;
+var slab = woodtypes.oak.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:oak_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
+
+plank = woodtypes.spruce.plank;
+slab = woodtypes.spruce.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:spruce_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
+
+plank = woodtypes.birch.plank;
+slab = woodtypes.birch.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:birch_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
+
+plank = woodtypes.jungle.plank;
+slab = woodtypes.jungle.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:jungle_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
+
+plank = woodtypes.acacia.plank;
+slab = woodtypes.acacia.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:acacia_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
+
+plank = woodtypes.dark_oak.plank;
+slab = woodtypes.dark_oak.plank;
+
+RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()  
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<morecauldrons:big_oak_cauldron>)
+  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+  .create();
 
 # =========================================== #
 # Skilled

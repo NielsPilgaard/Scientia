@@ -1,0 +1,14 @@
+setIcon(<minecraft:compass>)
+setTitle("Item Finder TODO")
+setDescription("Press Y on an item in JEI to access your subconscious memories, and smoke will appear on inventories that contain it.")
+setShowToast(true)
+
+addParent("scientia:stone_age/chest")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Cannot be completed", "minecraft:impossible")
+criteria.addItem(<ore:chestWood>)

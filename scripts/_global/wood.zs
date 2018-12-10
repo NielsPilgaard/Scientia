@@ -236,6 +236,19 @@ global woodtypes as IIngredient[string][string] = {
         gate : null,
         pressure_plate : null,
         leaves : null
+    },
+    ancient: {
+        log : <naturesaura:ancient_log>,
+        plank : <naturesaura:ancient_planks>,
+		slab : <naturesaura:ancient_slab>,
+		stair : <naturesaura:ancient_stairs>,
+		fence : null,
+        trapdoor : null,
+        door : null,
+        fence : null,
+        gate : null,
+        pressure_plate : null,
+        leaves : <naturesaura:ancient_leaves>
     }
 };
 

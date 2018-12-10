@@ -1,5 +1,5 @@
 setIcon(<bibliocraft:shelf>)
-setTitle("Barrelroll")
+setTitle("Shelf")
 setDescription("Shelves can store up to 4 items - They're mostly for decoration.")
 setShowToast(true)
 

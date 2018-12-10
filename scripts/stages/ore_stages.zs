@@ -18,40 +18,65 @@ for metal in materials {
 }
 
 var replacementItemsForStage as IIngredient[][][string] = {
-	stages.novice_miner : [
+	stages.novice_miner : [ # Obtainable in stone_age
 		[materials.copper.ore],
+		[materials.aluminum.ore],
 		[materials.coal.ore],
+		
+		[materials.copper.ore_deposit, coarseDirt],
+		[materials.aluminum.ore_deposit, coarseDirt],
+		[materials.coal.ore_deposit, coarseDirt],
+	],
+
+	stages.apprentice_miner : [ # Obtainable in copper_age
+		[materials.tin.ore],
 		[materials.lead.ore],
 		[materials.silver.ore],
 
-		[materials.copper.deposit, coarseDirt],
-		[materials.coal.deposit, coarseDirt],
-		[materials.lead.deposit, coarseDirt],
-		[materials.silver.deposit, coarseDirt]
+		[materials.lead.ore_deposit, coarseDirt],
+		[materials.silver.ore_deposit, coarseDirt],
+		[materials.tin.ore_deposit, coarseDirt]
 	],
 
-	stages.apprentice_miner : [
-		[<contenttweaker:ore_tin>],
+	stages.bronze_age : [ # Obtainable in bronze_age. Duh.
+		[materials.redstone.ore],
+		[materials.lapis.ore],
 
-		[<contenttweaker:deposit_tin>, coarseDirt]
+		[materials.redstone.ore, coarseDirt],
+		[materials.lapis.ore, coarseDirt]
 	],
 
-	stages.skilled_miner : [
+	stages.skilled_miner : [ # Obtainable in iron_age
 		[materials.iron.ore],
 		[materials.gold.ore],
+		[materials.nickel.ore],
 
-		[materials.iron.deposit, coarseDirt],
-		[materials.gold.deposit, coarseDirt]
+		[materials.nickel.ore_deposit, coarseDirt],
+		[materials.iron.ore_deposit, coarseDirt],
+		[materials.gold.ore_deposit, coarseDirt]
 	],
 
-	stages.expert_miner : [
+	stages.expert_miner : [ # Obtainable in industrial_age
 		[materials.diamond.ore],
+		[materials.emerald.ore],
+		[materials.manganeese.ore], # For stainless steel
 
-		[materials.diamond.deposit, coarseDirt]
+		[materials.manganeese.ore_deposit, coarseDirt],
+		[materials.diamond.ore_deposit, coarseDirt],
+		[materials.emerald.ore_deposit, coarseDirt]
 
 	],
 
-	stages.master_miner : [
+	stages.master_miner : [ # Obtainable in modern_age
+		[materials.platinum.ore],
+		[materials.adamantium.ore],
+		[materials.chrome.ore],
+		[materials.uranium.ore],
+
+		[materials.platinum.ore_deposit, coarseDirt],
+		[materials.adamantium.ore_deposit, coarseDirt],
+		[materials.chrome.ore_deposit, coarseDirt],
+		[materials.uranium.ore_deposit, coarseDirt],
 		[<minecraft:obsidian>, <chisel:basalt2:7>]
 		
 	]

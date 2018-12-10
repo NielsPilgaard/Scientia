@@ -30,6 +30,7 @@
     <ore:oreManganeese>.add(<contenttweaker:ore_manganeese>);
     <ore:orePlatinum>.add(<contenttweaker:ore_platinum>);
     <ore:oreTungsten>.add(<contenttweaker:ore_tungsten>);
+    <ore:oreIridum>.add(<contenttweaker:ore_iridum>);
 
 # Debarked Logs
     <ore:logDebarked>.add(<hitwithaxe:debarked_acacia>);

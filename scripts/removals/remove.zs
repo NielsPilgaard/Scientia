@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-val removals = [
+val removals as IItemStack[] = [
     <bibliocraft:handdrill>,
     <bibliocraft:framingboard>,
     <bibliocraft:framingsheet>,
@@ -25,14 +25,23 @@ val removals = [
     paper,
     <minecraft:string>,
     stick,
+    <minecraft:boat>,
+    <minecraft:spruce_boat>,
+    <minecraft:birch_boat>,
+    <minecraft:jungle_boat>,
+    <minecraft:acacia_boat>,
+    <minecraft:dark_oak_boat>,
     
     <pickletweaks:grass_mesh>,
     <pickletweaks:mesh>,
 
-    <primal_tech:fibre_torch>,
-    <primal_tech:fire_sticks>,
-    <primal_tech:wooden_basin>,
-
+    #<primal_tech:fibre_torch>,
+    #<primal_tech:fire_sticks>,
+    #<primal_tech:wooden_basin>,
+    <primal_tech:stone_grill>,
+    <primal_tech:stone_anvil>,
+    <primal_tech:stone_mallet>,
+    
     <rustic:cabinet>,
     <rustic:crop_stake>,
 
@@ -41,9 +50,9 @@ val removals = [
     <tconstruct:tooltables:*>,
     <tconstruct:rack:*>
 
-] as IItemStack[];
+];
 
-val oredictRemovals = [
+val oredictRemovals as IOreDictEntry[] = [
     
     <ore:wool>,
     <ore:plankWood>,
@@ -73,7 +82,12 @@ val oredictRemovals = [
     <ore:mapFrameWood>,
     <ore:armorStandWood>
 
-] as IOreDictEntry[];
+];
+
+val modRemovals as string[] = [
+    "morecauldrons",
+    "primal_tech"
+];
 
 for item in removals {
     recipes.remove(item);
@@ -81,4 +95,10 @@ for item in removals {
 
 for item in oredictRemovals {
     recipes.remove(item);
+}
+
+for mod in modRemovals {
+    for item in loadedMods[mod].items {
+        recipes.remove(item);
+    }
 }

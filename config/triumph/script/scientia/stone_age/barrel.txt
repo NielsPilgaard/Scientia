@@ -1,5 +1,5 @@
 setIcon(<charset:barrel, nbt:{log:"minecraft:log;0",slab:"minecraft:wooden_slab;0"}>)
-setTitle("Barrelroll")
+setTitle("Barrel Roll")
 setDescription("Barrels can store multitudes of 1 item type. Barrels take the Texture of the woodtype they are crafted with - If you mix types, it defaults to Oak.")
 setShowToast(true)
 

@@ -7,12 +7,36 @@ import mods.contenttweaker.MaterialPartData;
 import mods.contenttweaker.MaterialSystem;
 
 static customMaterials as Material[string] = {
-	"bronze": MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build(),
-	"copper": MaterialSystem.getMaterialBuilder().setName("Copper").setColor(15766817).build(),
-	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
-	"ender": MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(2870680).build(),
 	"gold": MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16776971).build(),
 	"iron": MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
-	"steel": MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build(),
-	"tin": MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build()
+	"copper": MaterialSystem.getMaterialBuilder().setName("Copper").setColor(Color.fromHex("89510d")).build(),
+	"tin": MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build(),
+	"aluminum": MaterialSystem.getMaterialBuilder().setName("Aluminum").setColor(Color.fromHex("b2bcc4")).build(),
+	"lead": MaterialSystem.getMaterialBuilder().setName("Lead").setColor(Color.fromHex("38375b")).build(),
+	"silver": MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("c8c7e0")).build(),
+	"nickel": MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("d1c3b1")).build(),
+	"uranium": MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(Color.fromHex("314736")).build(),
+	"platinum": MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("3a9ba8")).build(),
+	"iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("dfdee8")).build(),
+	"coal": MaterialSystem.getMaterialBuilder().setName("Coal").setColor(Color.fromHex("232326")).build(),
+	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("2828b7")).build(),
+	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("b25110")).build(),
+	"aluminum_brass": MaterialSystem.getMaterialBuilder().setName("Aluminum Brass").setColor(Color.fromHex("e5c93b")).build(),
+
+	"adamantium": MaterialSystem.getMaterialBuilder().setName("Adamantium").setColor(Color.fromHex("137760")).build(),
+	"chrome": MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(Color.fromHex("778481")).build(),
+	"manganeese": MaterialSystem.getMaterialBuilder().setName("Manganeese").setColor(Color.fromHex("562b15")).build(),
+	"tungsten": MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("3d3b3a")).build(),
+
+	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
+	"ender_pearl": MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(2870680).build(),
+	"emerald": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("21ce43")).build(),
+	
+	"stainless_steel" : MaterialSystem.getMaterialBuilder().setName("Stainless Steel").setColor(Color.fromHex("c9cdd3")).build(),
+	"invar": MaterialSystem.getMaterialBuilder().setName("Invar").setColor(Color.fromHex("bdc6c9")).build(),
+	"electrum": MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(Color.fromHex("d3c34a")).build(),
+	"constantan": MaterialSystem.getMaterialBuilder().setName("Constantan").setColor(Color.fromHex("ad5151")).build(),
+	"manyullyn": MaterialSystem.getMaterialBuilder().setName("Manyullyn").setColor(Color.fromHex("6a0e8c")).build(),
+	"bronze": MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build(),
+	"steel": MaterialSystem.getMaterialBuilder().setName("Steel").setColor(Color.fromHex("5d687a")).build()
 };

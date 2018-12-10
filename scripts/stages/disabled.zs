@@ -37,7 +37,13 @@ val disableList = [
         <ancientwarfarestructure:gate_proxy>,
         <ancientwarfarestructure:loot_chest_placer>,
         <ancientwarfarestructure:advanced_spawner>.withTag({spawnerSettings: {minDelay: 200, spawnDelay: 400, lightSensitive: 0 as byte, spawnGroups: [{settingsList: [{remainingSpawnCount: -1, forced: 0 as byte, maxToSpawn: 4, entityId: "minecraft:pig", minToSpawn: 2}], groupWeight: 1}], playerRange: 16, respondToRedstone: 0 as byte, inventory: {Size: 9, Items: []}, spawnRange: 4, transparent: 0 as byte, maxDelay: 400, xpToDrop: 0, mobRange: 4, debugMode: 0 as byte, maxNearbyMonsters: 8}}),
-
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 0 as byte, variant: "default"}),
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 1 as byte, variant: "default"}),
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 0 as byte, variant: "log"}),
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 1 as byte, variant: "log"}),
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 0 as byte, variant: "square"}),
+        <ancientwarfarestructure:fire_pit>.withTag({lit: 1 as byte, variant: "square"}),
+        
         <ancientwarfarevehicle:ammo_arrow>,
         <ancientwarfarevehicle:ammo_arrow_flame>,
         <ancientwarfarevehicle:ammo_arrow_iron>,
@@ -1131,6 +1137,11 @@ val disableList = [
         <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_weakness"}),
         <minecraft:tipped_arrow>.withTag({Potion: "minecraft:luck"}),
 
+        <morecauldrons:glass_cauldron>,
+        <morecauldrons:gold_cauldron>,
+        <morecauldrons:diamond_cauldron>,
+        <morecauldrons:obsidian_cauldron>,
+
         <natura:overworld_seed_bags:1>,
         <natura:overworld_seed_bags>,
         <natura:overworld_seeds:1>,
@@ -1204,11 +1215,6 @@ val disableList = [
         <tconstruct:firewood:1>,
         <tconstruct:firewood_slab>,
         <tconstruct:lavawood_stairs>,
-
-        <thermalfoundation:ore_fluid:2>,
-        <thermalfoundation:ore_fluid:3>,
-        <thermalfoundation:ore_fluid:4>,
-        <thermalfoundation:upgrade:256>,
 
         <pickletweaks:reinforced_mesh>,
         <pickletweaks:grass_mesh>,

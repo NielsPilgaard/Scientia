@@ -39,6 +39,7 @@ tile.contenttweaker.ore_platinum.name=Platinum Ore
 tile.contenttweaker.ore_redstone.name=Redstone Ore
 tile.contenttweaker.ore_tin.name=Tin Ore
 tile.contenttweaker.ore_tungsten.name=Tungsten Ore
+tile.contenttweaker.ore_iridium.name=Iridium Ore
 
 tile.contenttweaker.deposit_adamantium.name=Adamantium Deposit
 tile.contenttweaker.deposit_aluminum.name=Aluminum Deposit
@@ -59,6 +60,9 @@ tile.contenttweaker.deposit_silver.name=Silver Deposit
 tile.contenttweaker.deposit_tin.name=Tin Deposit
 tile.contenttweaker.deposit_tungsten.name=Tungsten Deposit
 tile.contenttweaker.deposit_uranium.name=Uranium Deposit
+tile.contenttweaker.deposit_iridium.name=Iridium Deposit
+
+fluid.tannin=Tannin
 
 entity.Villager.tinkerer=Tinkerer
 entity.Villager.carpenter=Carpenter

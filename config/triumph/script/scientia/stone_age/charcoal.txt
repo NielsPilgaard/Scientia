@@ -1,6 +1,6 @@
 setIcon(<minecraft:coal:1>)
 setTitle("Bad Children Get Charcoal")
-setDescription("You're going to need a bit of Charcoal to sustain your fires. Fire lit on Low Grade Charcoal doesn't go out, perfect for heating the Stone Grill.")
+setDescription("You're going to need Charcoal to sustain your fires later on.")
 setShowToast(true)
 
 addParent("scientia:stone_age/campfire")
@@ -10,5 +10,6 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("9 Charcoal", "minecraft:inventory_changed")
 criteria.setBlock(<minecraft:coal:1>)
+criteria.setCount(9)

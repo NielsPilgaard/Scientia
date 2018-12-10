@@ -10,6 +10,7 @@ import scripts.utility.stageTinkersTool;
 var stage = stages.agriculture;
 
 mods.ItemStages.addItemStage(stage, <rustic:crop_stake>);
+mods.ItemStages.addItemStage(stage, <minecraft:farmland>);
 
 stageTinkersTool(stage, <tconstruct:mattock>, "tconstruct:mattock");
 
@@ -38,12 +39,11 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("basic")
   .setShapeless([<contenttweaker:plant_fiber>])
   .addTool(<ore:artisansKnife>, 2)
-  .addOutput(<minecraft:carrots>)
-  .addOutput(<minecraft:potatoes>)
   .addOutput(<minecraft:beetroot_seeds>)
   .addOutput(<minecraft:wheat_seeds>)
   .addOutput(<minecraft:pumpkin_seeds>)
   .addOutput(<minecraft:melon_seeds>)
+
   .addOutput(<harvestcraft:garlicseeditem>)
   .addOutput(<harvestcraft:onionseeditem>)
   .addOutput(<harvestcraft:spiceleafseeditem>)
@@ -54,6 +54,16 @@ RecipeBuilder.get("basic")
   .addOutput(<harvestcraft:bellpepperseeditem>)
   .addOutput(<harvestcraft:strawberryseeditem>)
   .addOutput(<harvestcraft:gingerseeditem>)
+
   .addOutput(<immersiveengineering:seed>)
+
+  .addOutput(<rustic:tomato_seeds>)
+  .addOutput(<rustic:chili_pepper_seeds>)
+
+  .addOutput(<inspirations:carrot_seeds>)
+  .addOutput(<inspirations:cactus_seeds>)
+  .addOutput(<inspirations:sugar_cane_seeds>)
+  .addOutput(<inspirations:potato_seeds>)
+  
   .addRequirement(GameStages.anyOf([stage]))
   .create();

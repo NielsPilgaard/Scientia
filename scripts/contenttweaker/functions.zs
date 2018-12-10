@@ -4,6 +4,8 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
 
 import crafttweaker.item.IItemStack;
 
@@ -33,9 +35,12 @@ function createRegisterDirtOre(name as string, toolLevel as int) {
     block.register();
 }
 
-function addDefaultMoltenData(moltenData as MaterialPartData) {
-	moltenData.addDataValue("density", "4000");
-	moltenData.addDataValue("viscosity", "3000");
-	moltenData.addDataValue("temperature", "750");
-	moltenData.addDataValue("vaporize", "false");
+function createRegisterFluid(name as string, hexColor as string) {
+    VanillaFactory.createFluid(name, Color.fromHex(hexColor)).register();
+}
+
+function defaultMoltenData(molten as MaterialPartData) {
+    molten.addDataValue("density", "6000");
+	molten.addDataValue("viscosity", "3000");
+	molten.addDataValue("temperature", "1500");
 }

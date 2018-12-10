@@ -1,6 +1,6 @@
 setIcon(<minecraft:emerald>)
 setTitle("It Takes a Village")
-setDescription("Locate a Village. Right click your Village map to get the location of the nearest Village. Completing this Advancement unlocks professions. Hint: The map will tell you in which direction to go.")
+setDescription("Locate a Village. Right click your Village map to get the location of the nearest one. Completing this Advancement unlocks professions. Hint: The map will tell you in which direction to go.")
 setShowToast(true)
 
 addParent("scientia:stone_age/root")
@@ -10,7 +10,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("village", "minecraft:location")
+criteria = addCriteria("Find Village", "minecraft:location")
 criteria.setFeature("Village")
 
 setRewardFunction("professions:professions")
