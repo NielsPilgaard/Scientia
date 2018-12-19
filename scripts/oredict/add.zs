@@ -30,7 +30,9 @@
     <ore:oreManganeese>.add(<contenttweaker:ore_manganeese>);
     <ore:orePlatinum>.add(<contenttweaker:ore_platinum>);
     <ore:oreTungsten>.add(<contenttweaker:ore_tungsten>);
-    <ore:oreIridum>.add(<contenttweaker:ore_iridum>);
+    <ore:oreIridum>.add(<contenttweaker:ore_iridium>);
+
+# TODO: oreDict for ore deposits
 
 # Debarked Logs
     <ore:logDebarked>.add(<hitwithaxe:debarked_acacia>);

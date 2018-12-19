@@ -1,5 +1,17 @@
 {
   "savedSubBlockNames": {
-    "0": {}
+    "0": {
+      "0": "tungsten_block",
+      "1": "platinum_block",
+      "2": "invar_block",
+      "3": "ender_pearl_block",
+      "4": "iridium_block",
+      "5": "tin_block",
+      "6": "adamantium_block",
+      "7": "bronze_block",
+      "8": "stainless_steel_block",
+      "9": "manganeese_block",
+      "10": "chrome_block"
+    }
   }
 }

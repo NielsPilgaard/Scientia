@@ -16,7 +16,7 @@ var entitiesForStage as string[][string] = {
     stages.iron_age_mobs : [
         "minecraft:cow"
     ],
-    stages.dark_age_mobs : [
+    stages.middle_ages_mobs : [
         "minecraft:sheep"
     ]
 };
