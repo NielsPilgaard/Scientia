@@ -37,3 +37,8 @@ WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
 options.txt
+settings.cfg
+ServerStartLinux.sh
+ServerStart.bat
+README.md
+LICENSE_SERVER.md
