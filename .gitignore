@@ -42,3 +42,5 @@ ServerStartLinux.sh
 ServerStart.bat
 README.md
 LICENSE_SERVER.md
+github_changelog_generator.gemspec
+ChangelogGenerator.bat

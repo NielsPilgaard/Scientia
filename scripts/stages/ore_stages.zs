@@ -6,17 +6,6 @@ import mods.orestages.OreStages.addReplacement;
 
 var coarseDirt = <minecraft:dirt:1>;
 
-for metal in materials {
-	if (!isNull(materials[metal])) {
-		if (!isNull(materials[metal].ore)) {
-			print(metal + ":" + materials[metal].ore.items[0].name);
-		}
-		if (!isNull(materials[metal].ore_deposit)) {
-			print(metal + ":" + materials[metal].ore_deposit.items[0].name);
-		}		
-	}
-}
-
 var replacementItemsForStage as IIngredient[][][string] = {
 	stages.novice_miner : [ # Obtainable in stone_age
 		[materials.copper.ore],
@@ -42,8 +31,8 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[materials.redstone.ore],
 		[materials.lapis.ore],
 
-		[materials.redstone.ore, coarseDirt],
-		[materials.lapis.ore, coarseDirt]
+		[materials.redstone.ore_deposit, coarseDirt],
+		[materials.lapis.ore_deposit, coarseDirt]
 	],
 
 	stages.skilled_miner : [ # Obtainable in iron_age
