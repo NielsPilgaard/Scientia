@@ -17,7 +17,8 @@ global stages as string[string] = {
 	copper_age_mobs : "copper_age_mobs",
 	bronze_age_mobs : "bronze_age_mobs",
 	iron_age_mobs : "iron_age_mobs",
-	dark_age_mobs : "dark_age_mobs",
+	middle_ages_mobs : "middle_ages_mobs",
+	industrial_age_mobs : "industrial_age_mobs",
 
 # Research
 	sifting : "sifting", # Gives access to the Water Filter and Grass Mesh for Flint

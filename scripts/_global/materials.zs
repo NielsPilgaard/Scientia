@@ -354,5 +354,57 @@ global materials as IIngredient[string][string] = {
 		gear: <materialpart:stainless_steel:gear>,
 		plate: <materialpart:stainless_steel:plate>,
 		rod: <materialpart:stainless_steel:rod>
+	},
+    redstone: {
+		gem: null,
+        nugget: null,
+        ingot: null,
+		block: <minecraft:redstone_block>, 		
+		ore: <contenttweaker:ore_redstone>,
+		ore_deposit: <contenttweaker:deposit_redstone>, 		
+		dust: <minecraft:redstone>,
+        liquid: <materialpart:redstone:molten>, 
+		gear: null,
+		plate: null,
+		rod: null
+	},
+    lapis: {
+		gem: <minecraft:dye:4>,
+        nugget: null,
+        ingot: null,
+		block: <minecraft:lapis_block>, 		
+		ore: <contenttweaker:ore_lapis>,
+		ore_deposit: <contenttweaker:deposit_lapis>, 		
+		dust: null,
+        liquid: <materialpart:lapis:molten>, 
+		gear: null,
+		plate: null,
+		rod: null
+	},
+    quartz: {
+		gem: <minecraft:quartz>,
+        nugget: null,
+        ingot: null,
+		block: <minecraft:quartz_block>, 		
+		ore: <minecraft:quartz_ore>,
+		ore_deposit: null, 		
+		dust: <materialpart:quartz:dust>,
+        liquid: <materialpart:quartz:molten>, 
+		gear: null,
+		plate: null,
+		rod: null
+	},
+    glowstone: {
+		gem: null,
+        nugget: null,
+        ingot: null,
+		block: <minecraft:glowstone>, 		
+		ore: null,
+		ore_deposit: null, 		
+		dust: <minecraft:glowstone_dust>,
+        liquid: <materialpart:glowstone:molten>, 
+		gear: null,
+		plate: null,
+		rod: null
 	}
 };

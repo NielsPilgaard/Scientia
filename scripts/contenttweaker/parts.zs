@@ -53,6 +53,8 @@ var materialsForDust as Material[] = [
 	customMaterials.iron,
 	customMaterials.emerald,
 	customMaterials.coal,
+	customMaterials.lapis,
+	customMaterials.quartz,
 
 	customMaterials.ardite,
 	customMaterials.cobalt,
@@ -66,7 +68,11 @@ var materialsForMolten as Material[] = [
 	customMaterials.diamond,
 	customMaterials.ender_pearl,
 	customMaterials.emerald,
-	customMaterials.coal
+	customMaterials.coal,
+	customMaterials.redstone,
+	customMaterials.lapis,
+	customMaterials.quartz,
+	customMaterials.glowstone
 
 ];
 

@@ -31,7 +31,11 @@ static customMaterials as Material[string] = {
 	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
 	"ender_pearl": MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(2870680).build(),
 	"emerald": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("21ce43")).build(),
-	
+	"redstone": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("a30808")).build(),
+	"lapis": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("1b09a3")).build(),
+	"quartz": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("fffff7")).build(),
+	"glowstone": MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("f2f213")).build(),
+
 	"stainless_steel" : MaterialSystem.getMaterialBuilder().setName("Stainless Steel").setColor(Color.fromHex("c9cdd3")).build(),
 	"invar": MaterialSystem.getMaterialBuilder().setName("Invar").setColor(Color.fromHex("bdc6c9")).build(),
 	"electrum": MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(Color.fromHex("d3c34a")).build(),

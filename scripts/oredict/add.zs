@@ -1,4 +1,5 @@
 #priority 1250
+import crafttweaker.item.IItemStack;
 
 # ContentTweaker Research
     <ore:research>.add(<contenttweaker:research_note>);
@@ -59,3 +60,25 @@
 # Music Disc
     <ore:record>.add(<botania:recordgaia1>);
     <ore:record>.add(<botania:recordgaia2>);
+
+# trapdoorWood
+    <ore:trapdoorWood>.add(<engineersdoors:trapdoor_treated>);
+
+# slabWood
+    <ore:slabWood>.add(<naturesaura:ancient_slab>);
+    <ore:slabWood>.add(<botania:livingwood0slab>);
+    <ore:slabWood>.add(<botania:livingwood1slab>);
+    <ore:slabWood>.add(<botania:dreamwood0slab>);
+    <ore:slabWood>.add(<botania:dreamwood1slab>);
+    <ore:slabWood>.add(<botania:shimmerwoodplanks0slab>);
+
+#  stairWood / plankWood
+    <ore:stairWood>.add(<naturesaura:ancient_stairs>);
+    <ore:plankWood>.add(<naturesaura:ancient_planks>);
+for stair, plank in loglessStairPlankMap {
+    <ore:plankWood>.add(plank);
+    <ore:stairWood>.add(stair);
+}
+
+# logWood
+    <ore:logWood>.add(<naturesaura:ancient_log>);

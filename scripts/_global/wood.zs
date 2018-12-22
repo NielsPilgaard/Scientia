@@ -1,6 +1,7 @@
 #priority 1998
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 global woodtypes as IIngredient[string][string] = {
     oak: {
@@ -12,7 +13,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -25,7 +26,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -38,7 +39,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -51,7 +52,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -64,7 +65,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -77,7 +78,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -90,7 +91,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -103,7 +104,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -116,7 +117,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -129,7 +130,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -142,7 +143,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -155,7 +156,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -168,7 +169,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -181,7 +182,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -194,7 +195,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -207,7 +208,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -220,7 +221,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -233,7 +234,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : null
     },
@@ -246,7 +247,7 @@ global woodtypes as IIngredient[string][string] = {
         trapdoor : null,
         door : null,
         fence : null,
-        gate : null,
+        fence_gate : null,
         pressure_plate : null,
         leaves : <naturesaura:ancient_leaves>
     }
@@ -259,4 +260,15 @@ global vanillaWoodtypes as int[string] = {
   jungle : 3,
   acacia : 4,
   dark_oak : 5
+};
+
+global loglessStairPlankMap as IItemStack[IItemStack] = {
+  <botania:livingwood0stairs> : <botania:livingwood>,
+  <botania:livingwood1stairs> : <botania:livingwood:1>,
+  <botania:dreamwood0stairs> : <botania:dreamwood>,
+  <botania:dreamwood1stairs> : <botania:dreamwood:1>,
+  <botania:shimmerwoodplanks0stairs> : <botania:shimmerwoodplanks>,
+  <immersiveengineering:treated_wood_stairs0> : <immersiveengineering:treated_wood>,
+  <immersiveengineering:treated_wood_stairs1> : <immersiveengineering:treated_wood:1>,
+  <immersiveengineering:treated_wood_stairs2> : <immersiveengineering:treated_wood:2>
 };

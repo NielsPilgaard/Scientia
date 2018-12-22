@@ -4,6 +4,10 @@ import mods.jei.JEI.addDescription;
 addDescription(<harvestcraft:saltitem>, 
 "Salt can only be acquired through the Water Filter.");
 
+# Grinder
+addDescription(<harvestcraft:grinder>,
+"Grinds Raw Meat into 2 Ground Meat.");
+
 # Water Filter
 addDescription(<harvestcraft:waterfilter>, 
 "The Water Filter produces Salt and Fresh Water.", 
