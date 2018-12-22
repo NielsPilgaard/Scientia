@@ -224,10 +224,34 @@ if (!isNull(woodtypes[woodtype].pressure_plate)) {
   .create();
 }
 
+# Button
+if (!isNull(woodtypes[woodtype].button)) {
+  RecipeBuilder.get("carpenter")
+  .setShapeless([plank])
+  .addTool(<ore:artisansHandsaw>, 32)
+  .addOutput(woodtypes[woodtype].button.items[0] * 16)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Cauldron
+if (!isNull(woodtypes[woodtype].cauldron)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(woodtypes[woodtype].cauldron.items[0])
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
 }
 
 # =========================================== #
-# 
+# Engineer's Doors & Misc
 # =========================================== #
 
 # Engineer's Treated Trapdoor

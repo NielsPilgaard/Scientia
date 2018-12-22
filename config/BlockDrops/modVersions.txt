@@ -76,6 +76,7 @@
   "primal_tech": "0.3.3",
   "spartanweaponry": "beta 1.2.3",
   "moreoverlays": "1.14",
+  "woodenshears": "@MAJOR@.@MINOR@.@REVIS@.@BUILD@",
   "magicalmap": "3.3.2",
   "treetweaker": "1.5",
   "vtt": "0.6.4",

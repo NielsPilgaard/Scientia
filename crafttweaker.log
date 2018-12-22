@@ -11,7 +11,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[2000:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\wood.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -24,6 +24,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\smelting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\inspirations.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\primal_tech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\tinkers_construct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: stages\mob_stages.zs} as we are currently loading with a different loader
@@ -115,7 +116,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\advanced_cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 8ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\stages.zs} as we are currently loading with a different loader
@@ -130,7 +131,7 @@
 [PREINITIALIZATION][CLIENT][INFO] Item <item:contenttweaker:plant_fiber:0> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[2000:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\wood.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -143,6 +144,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\smelting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\inspirations.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\primal_tech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\tinkers_construct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: stages\mob_stages.zs} as we are currently loading with a different loader
@@ -234,7 +236,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\advanced_cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1173ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 410ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gamestagebooks]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gamestagebooks]
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\stages.zs} as we are currently loading with a different loader
@@ -248,7 +250,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[2000:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\wood.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -261,6 +263,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\smelting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\inspirations.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\primal_tech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: mods\tinkers_construct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: stages\mob_stages.zs} as we are currently loading with a different loader
@@ -370,7 +373,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\advanced_cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 10ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 7ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gamestagebooks], [recipeevent | crafttweaker]]
@@ -386,7 +389,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2000:crafttweaker]: unification\utility.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\wood.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\base.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage novice_tinkerer. Kama - tconstruct:kama:0
@@ -1012,6 +1015,38 @@
 [INITIALIZATION][CLIENT][INFO] Adding Sign to ore dictionary entry signWood
 [INITIALIZATION][CLIENT][INFO] Adding Scathed Music Disc to ore dictionary entry record
 [INITIALIZATION][CLIENT][INFO] Adding Scathed Music Disc to ore dictionary entry record
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Trapdoor to ore dictionary entry trapdoorWood
+[INITIALIZATION][CLIENT][INFO] Adding Ancient Wood Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Plank Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Plank Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Slab to ore dictionary entry slabWood
+[INITIALIZATION][CLIENT][INFO] Adding Ancient Wood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Ancient Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Plank Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Plank Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Ancient Log to ore dictionary entry logWood
+[INITIALIZATION][CLIENT][INFO] Adding Maple Button to ore dictionary entry buttonWood
+[INITIALIZATION][CLIENT][INFO] Adding Maple Pressure Plate to ore dictionary entry pressurePlateWood
+[INITIALIZATION][CLIENT][INFO] Adding Maple Fence to ore dictionary entry fenceWood
+[INITIALIZATION][CLIENT][INFO] Adding Maple Fence Gate to ore dictionary entry fenceGateWood
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry doorTreatedWood to doorWood
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry fencegateTreatedWood to fenceGateWood
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Oak Shelf to ore dictionary entry shelfWood
 [INITIALIZATION][CLIENT][INFO] Adding Oak Potion Shelf to ore dictionary entry potionShelfWood
@@ -1410,78 +1445,73 @@
 [INITIALIZATION][CLIENT][INFO] Adding entry contenttweaker:raw_hide to pool main
 [INITIALIZATION][CLIENT][INFO] Adding entry contenttweaker:raw_hide to pool main
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\smelting.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\inspirations.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\primal_tech.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\tinkers_construct.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\mob_stages.zs}
-[INITIALIZATION][CLIENT][INFO] Adding minecraft:sheep to stage.null
-[INITIALIZATION][CLIENT][INFO] Adding minecraft:skeleton to stage.dawn_of_time_mobs
-[INITIALIZATION][CLIENT][INFO] Adding minecraft:slime to stage.copper_age_mobs
-[INITIALIZATION][CLIENT][INFO] Adding minecraft:horse to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:shulker to stage.middle_ages_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:ender_dragon to stage.middle_ages_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:enderman to stage.middle_ages_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:endermite to stage.middle_ages_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:witch to stage.copper_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:zombie_pigman to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:blaze to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:ghast to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:magma_cube to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:wither to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:wither_skeleton to stage.bronze_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:cave_spider to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:evocation_illager to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:giant to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:husk to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:illusion_illager to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:silverfish to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:skeleton to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:slime to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:spider to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:stray to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:vex to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:vindication_illager to stage.stone_age_mobs
 [INITIALIZATION][CLIENT][INFO] Adding minecraft:zombie to stage.stone_age_mobs
-[INITIALIZATION][CLIENT][INFO] Adding minecraft:cow to stage.iron_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:zombie_villager to stage.stone_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:elder_guardian to stage.iron_age_mobs
+[INITIALIZATION][CLIENT][INFO] Adding minecraft:guardian to stage.iron_age_mobs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\ore_stages.zs}
-[INITIALIZATION][CLIENT][INFO] cobalt:tile.tconstruct.ore.cobalt
-[INITIALIZATION][CLIENT][INFO] aluminum:tile.immersiveengineering.ore.aluminum
-[INITIALIZATION][CLIENT][INFO] aluminum:tile.contenttweaker.deposit_aluminum
-[INITIALIZATION][CLIENT][INFO] gold:tile.contenttweaker.ore_gold
-[INITIALIZATION][CLIENT][INFO] gold:tile.contenttweaker.deposit_gold
-[INITIALIZATION][CLIENT][INFO] iridium:tile.contenttweaker.ore_iridium
-[INITIALIZATION][CLIENT][INFO] iridium:tile.contenttweaker.deposit_iridium
-[INITIALIZATION][CLIENT][INFO] platinum:tile.contenttweaker.ore_platinum
-[INITIALIZATION][CLIENT][INFO] platinum:tile.contenttweaker.deposit_platinum
-[INITIALIZATION][CLIENT][INFO] tungsten:tile.contenttweaker.ore_tungsten
-[INITIALIZATION][CLIENT][INFO] tungsten:tile.contenttweaker.deposit_tungsten
-[INITIALIZATION][CLIENT][INFO] tin:tile.contenttweaker.ore_tin
-[INITIALIZATION][CLIENT][INFO] tin:tile.contenttweaker.deposit_tin
-[INITIALIZATION][CLIENT][INFO] copper:tile.immersiveengineering.ore.copper
-[INITIALIZATION][CLIENT][INFO] copper:tile.contenttweaker.deposit_copper
-[INITIALIZATION][CLIENT][INFO] ardite:tile.tconstruct.ore.ardite
-[INITIALIZATION][CLIENT][INFO] nickel:tile.immersiveengineering.ore.nickel
-[INITIALIZATION][CLIENT][INFO] nickel:tile.contenttweaker.deposit_nickel
-[INITIALIZATION][CLIENT][INFO] chrome:tile.contenttweaker.ore_chrome
-[INITIALIZATION][CLIENT][INFO] chrome:tile.contenttweaker.deposit_chrome
-[INITIALIZATION][CLIENT][INFO] lead:tile.immersiveengineering.ore.lead
-[INITIALIZATION][CLIENT][INFO] lead:tile.contenttweaker.deposit_lead
-[INITIALIZATION][CLIENT][INFO] diamond:tile.contenttweaker.ore_diamond
-[INITIALIZATION][CLIENT][INFO] diamond:tile.contenttweaker.deposit_diamond
-[INITIALIZATION][CLIENT][INFO] manganeese:tile.contenttweaker.ore_manganeese
-[INITIALIZATION][CLIENT][INFO] manganeese:tile.contenttweaker.deposit_manganeese
-[INITIALIZATION][CLIENT][INFO] iron:tile.contenttweaker.ore_iron
-[INITIALIZATION][CLIENT][INFO] iron:tile.contenttweaker.deposit_iron
-[INITIALIZATION][CLIENT][INFO] coal:tile.contenttweaker.ore_coal
-[INITIALIZATION][CLIENT][INFO] coal:tile.contenttweaker.deposit_coal
-[INITIALIZATION][CLIENT][INFO] silver:tile.immersiveengineering.ore.silver
-[INITIALIZATION][CLIENT][INFO] silver:tile.contenttweaker.deposit_silver
-[INITIALIZATION][CLIENT][INFO] uranium:tile.immersiveengineering.ore.uranium
-[INITIALIZATION][CLIENT][INFO] uranium:tile.contenttweaker.deposit_uranium
-[INITIALIZATION][CLIENT][INFO] adamantium:tile.contenttweaker.ore_adamantium
-[INITIALIZATION][CLIENT][INFO] adamantium:tile.contenttweaker.deposit_adamantium
-[INITIALIZATION][CLIENT][INFO] emerald:tile.contenttweaker.ore_emerald
-[INITIALIZATION][CLIENT][INFO] emerald:tile.contenttweaker.deposit_emerald
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[100:crafttweaker]: stages\ore_stages.zs}: null
-java.lang.NullPointerException
-	at stages\Ore_stages.__script__(stages\ore_stages.zs:20)
-	at __ZenMain__.run(stages\Ore_stages)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:221)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:101)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:68)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_566_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:787)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:624)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:ore_tin will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. immersiveengineering:ore[type=lead] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. immersiveengineering:ore[type=silver] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:deposit_lead will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:deposit_silver will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:deposit_tin will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:ore_platinum will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:ore_adamantium will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:ore_chrome will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. immersiveengineering:ore[type=uranium] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:ore_iridium will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:deposit_platinum will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:deposit_adamantium will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:deposit_chrome will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:deposit_uranium will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:deposit_iridium will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. minecraft:obsidian will become chisel:basalt2[variation=7]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. immersiveengineering:ore[type=copper] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. immersiveengineering:ore[type=aluminum] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:ore_coal will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:deposit_copper will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:deposit_aluminum will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:deposit_coal will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:ore_iron will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:ore_gold will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. immersiveengineering:ore[type=nickel] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:deposit_nickel will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:deposit_iron will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:deposit_gold will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:ore_diamond will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:ore_emerald will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:ore_manganeese will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:deposit_diamond will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:deposit_emerald will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage expert_miner. contenttweaker:deposit_manganeese will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\architect.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage novice_architect. Stone Wand - betterbuilderswands:wandstone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage skilled_architect. Large Pulley - architecturecraft:largepulley:0
@@ -4716,105 +4746,105 @@ Framed Furniture Paneler - bibliocraft:furniturepaneler:6
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Blue Log - chiselsandbits:block_bit:0{id:1473}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Flux Glow - chiselsandbits:block_bit:0{id:1479}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Reinforced Marble - chiselsandbits:block_bit:0{id:1484}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Terracotta Shingles - chiselsandbits:block_bit:0{id:1503}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Oak Bark - chiselsandbits:block_bit:0{id:1504}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bark - chiselsandbits:block_bit:0{id:5600}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Birch Bark - chiselsandbits:block_bit:0{id:9696}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Jungle Bark - chiselsandbits:block_bit:0{id:13792}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Acacia Bark - chiselsandbits:block_bit:0{id:17888}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Dark Oak Bark - chiselsandbits:block_bit:0{id:21984}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Plate - chiselsandbits:block_bit:0{id:1505}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Rusty Iron Plate - chiselsandbits:block_bit:0{id:5601}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Sandy Bricks - chiselsandbits:block_bit:0{id:1506}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Thatch - chiselsandbits:block_bit:0{id:1507}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Charred Nether Brick - chiselsandbits:block_bit:0{id:1508}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Oak Wood - chiselsandbits:block_bit:0{id:1510}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Spruce Wood - chiselsandbits:block_bit:0{id:5606}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Birch Wood - chiselsandbits:block_bit:0{id:9702}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Jungle Wood - chiselsandbits:block_bit:0{id:13798}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Acacia Wood - chiselsandbits:block_bit:0{id:17894}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Dark Oak Wood - chiselsandbits:block_bit:0{id:21990}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - White Quilted Wool - chiselsandbits:block_bit:0{id:1513}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Orange Quilted Wool - chiselsandbits:block_bit:0{id:5609}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Magenta Quilted Wool - chiselsandbits:block_bit:0{id:9705}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Light Blue Quilted Wool - chiselsandbits:block_bit:0{id:13801}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Yellow Quilted Wool - chiselsandbits:block_bit:0{id:17897}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lime Quilted Wool - chiselsandbits:block_bit:0{id:21993}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Pink Quilted Wool - chiselsandbits:block_bit:0{id:26089}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gray Quilted Wool - chiselsandbits:block_bit:0{id:30185}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Light Gray Quilted Wool - chiselsandbits:block_bit:0{id:34281}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Cyan Quilted Wool - chiselsandbits:block_bit:0{id:38377}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Purple Quilted Wool - chiselsandbits:block_bit:0{id:42473}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Blue Quilted Wool - chiselsandbits:block_bit:0{id:46569}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Brown Quilted Wool - chiselsandbits:block_bit:0{id:50665}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Green Quilted Wool - chiselsandbits:block_bit:0{id:54761}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Red Quilted Wool - chiselsandbits:block_bit:0{id:58857}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Black Quilted Wool - chiselsandbits:block_bit:0{id:62953}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Sugar Block - chiselsandbits:block_bit:0{id:1514}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:1548}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:5644}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:9740}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:13836}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:17932}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lit Redstone Lamp - chiselsandbits:block_bit:0{id:1549}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Blaze Lantern - chiselsandbits:block_bit:0{id:1550}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Block of Charcoal - chiselsandbits:block_bit:0{id:1563}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:1528}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:5624}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:9720}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:13816}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bookshelf - chiselsandbits:block_bit:0{id:17912}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lit Redstone Lamp - chiselsandbits:block_bit:0{id:1529}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Blaze Lantern - chiselsandbits:block_bit:0{id:1530}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Block of Charcoal - chiselsandbits:block_bit:0{id:1543}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Terracotta Shingles - chiselsandbits:block_bit:0{id:1544}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Oak Bark - chiselsandbits:block_bit:0{id:1545}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Spruce Bark - chiselsandbits:block_bit:0{id:5641}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Birch Bark - chiselsandbits:block_bit:0{id:9737}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Jungle Bark - chiselsandbits:block_bit:0{id:13833}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Acacia Bark - chiselsandbits:block_bit:0{id:17929}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Dark Oak Bark - chiselsandbits:block_bit:0{id:22025}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Plate - chiselsandbits:block_bit:0{id:1546}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Rusty Iron Plate - chiselsandbits:block_bit:0{id:5642}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Sandy Bricks - chiselsandbits:block_bit:0{id:1547}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Thatch - chiselsandbits:block_bit:0{id:1548}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Charred Nether Brick - chiselsandbits:block_bit:0{id:1549}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Oak Wood - chiselsandbits:block_bit:0{id:1551}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Spruce Wood - chiselsandbits:block_bit:0{id:5647}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Birch Wood - chiselsandbits:block_bit:0{id:9743}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Jungle Wood - chiselsandbits:block_bit:0{id:13839}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Acacia Wood - chiselsandbits:block_bit:0{id:17935}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Carved Dark Oak Wood - chiselsandbits:block_bit:0{id:22031}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - White Quilted Wool - chiselsandbits:block_bit:0{id:1554}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Orange Quilted Wool - chiselsandbits:block_bit:0{id:5650}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Magenta Quilted Wool - chiselsandbits:block_bit:0{id:9746}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Light Blue Quilted Wool - chiselsandbits:block_bit:0{id:13842}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Yellow Quilted Wool - chiselsandbits:block_bit:0{id:17938}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lime Quilted Wool - chiselsandbits:block_bit:0{id:22034}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Pink Quilted Wool - chiselsandbits:block_bit:0{id:26130}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gray Quilted Wool - chiselsandbits:block_bit:0{id:30226}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Light Gray Quilted Wool - chiselsandbits:block_bit:0{id:34322}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Cyan Quilted Wool - chiselsandbits:block_bit:0{id:38418}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Purple Quilted Wool - chiselsandbits:block_bit:0{id:42514}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Blue Quilted Wool - chiselsandbits:block_bit:0{id:46610}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Brown Quilted Wool - chiselsandbits:block_bit:0{id:50706}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Green Quilted Wool - chiselsandbits:block_bit:0{id:54802}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Red Quilted Wool - chiselsandbits:block_bit:0{id:58898}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Black Quilted Wool - chiselsandbits:block_bit:0{id:62994}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Sugar Block - chiselsandbits:block_bit:0{id:1555}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Aluminum Deposit - chiselsandbits:block_bit:0{id:1565}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Uranium Deposit - chiselsandbits:block_bit:0{id:1566}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iridium Ore - chiselsandbits:block_bit:0{id:1567}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gold Deposit - chiselsandbits:block_bit:0{id:1569}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Chrome Deposit - chiselsandbits:block_bit:0{id:1571}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tin Ore - chiselsandbits:block_bit:0{id:1572}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Diamond Deposit - chiselsandbits:block_bit:0{id:1573}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tungsten Ore - chiselsandbits:block_bit:0{id:1575}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Emerald Deposit - chiselsandbits:block_bit:0{id:1576}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Coal Ore - chiselsandbits:block_bit:0{id:1577}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Redstone Ore - chiselsandbits:block_bit:0{id:1579}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Deposit - chiselsandbits:block_bit:0{id:1580}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lead Deposit - chiselsandbits:block_bit:0{id:1583}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tungsten Deposit - chiselsandbits:block_bit:0{id:1586}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Silver Deposit - chiselsandbits:block_bit:0{id:1587}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Copper Deposit - chiselsandbits:block_bit:0{id:1588}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Emerald Ore - chiselsandbits:block_bit:0{id:1589}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Platinum Deposit - chiselsandbits:block_bit:0{id:1590}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gold Ore - chiselsandbits:block_bit:0{id:1593}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lapis Ore - chiselsandbits:block_bit:0{id:1595}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Diamond Ore - chiselsandbits:block_bit:0{id:1596}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iridium Deposit - chiselsandbits:block_bit:0{id:1597}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Platinum Ore - chiselsandbits:block_bit:0{id:1599}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tin Deposit - chiselsandbits:block_bit:0{id:1600}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Adamantium Ore - chiselsandbits:block_bit:0{id:1601}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Coal Deposit - chiselsandbits:block_bit:0{id:1602}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Chrome Ore - chiselsandbits:block_bit:0{id:1604}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Manganeese Ore - chiselsandbits:block_bit:0{id:1605}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Redstone Deposit - chiselsandbits:block_bit:0{id:1606}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Adamantium Deposit - chiselsandbits:block_bit:0{id:1608}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Manganeese Deposit - chiselsandbits:block_bit:0{id:1609}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lapis Deposit - chiselsandbits:block_bit:0{id:1611}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Nickel Deposit - chiselsandbits:block_bit:0{id:1612}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Ore - chiselsandbits:block_bit:0{id:1613}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Well - chiselsandbits:block_bit:0{id:1816}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Honey Block - chiselsandbits:block_bit:0{id:1823}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Honeycomb Block - chiselsandbits:block_bit:0{id:1824}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Pressed Wax Block - chiselsandbits:block_bit:0{id:1825}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Waxcomb Block - chiselsandbits:block_bit:0{id:1826}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Acacia Wood East/West - chiselsandbits:block_bit:0{id:1860}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Birch Wood East/West - chiselsandbits:block_bit:0{id:1861}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Dark Oak Wood East/West - chiselsandbits:block_bit:0{id:1862}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Fir Wood East/West - chiselsandbits:block_bit:0{id:1863}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Jungle Wood East/West - chiselsandbits:block_bit:0{id:1864}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Oak Wood East/West - chiselsandbits:block_bit:0{id:1865}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Spruce Wood East/West - chiselsandbits:block_bit:0{id:1866}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Amaranth Log East/West - chiselsandbits:block_bit:0{id:1867}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Eucalyptus Log East/West - chiselsandbits:block_bit:0{id:1868}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Hopseed Log East/West - chiselsandbits:block_bit:0{id:1869}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Ironwood Log East/West - chiselsandbits:block_bit:0{id:1870}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Maple Log East/West - chiselsandbits:block_bit:0{id:1871}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Olive Log East/West - chiselsandbits:block_bit:0{id:1872}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Sakura Log East/West - chiselsandbits:block_bit:0{id:1873}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Silverbell Log East/West - chiselsandbits:block_bit:0{id:1874}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Tiger Log East/West - chiselsandbits:block_bit:0{id:1875}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Willow Log East/West - chiselsandbits:block_bit:0{id:1876}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gold Deposit - chiselsandbits:block_bit:0{id:1570}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Chrome Deposit - chiselsandbits:block_bit:0{id:1572}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tin Ore - chiselsandbits:block_bit:0{id:1573}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Diamond Deposit - chiselsandbits:block_bit:0{id:1574}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tungsten Ore - chiselsandbits:block_bit:0{id:1576}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Emerald Deposit - chiselsandbits:block_bit:0{id:1577}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Coal Ore - chiselsandbits:block_bit:0{id:1578}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Redstone Ore - chiselsandbits:block_bit:0{id:1580}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Deposit - chiselsandbits:block_bit:0{id:1581}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lead Deposit - chiselsandbits:block_bit:0{id:1584}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tungsten Deposit - chiselsandbits:block_bit:0{id:1588}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Silver Deposit - chiselsandbits:block_bit:0{id:1589}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Copper Deposit - chiselsandbits:block_bit:0{id:1590}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Emerald Ore - chiselsandbits:block_bit:0{id:1591}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Platinum Deposit - chiselsandbits:block_bit:0{id:1592}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Gold Ore - chiselsandbits:block_bit:0{id:1596}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lapis Ore - chiselsandbits:block_bit:0{id:1598}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Diamond Ore - chiselsandbits:block_bit:0{id:1599}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iridium Deposit - chiselsandbits:block_bit:0{id:1600}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Platinum Ore - chiselsandbits:block_bit:0{id:1602}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Tin Deposit - chiselsandbits:block_bit:0{id:1603}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Adamantium Ore - chiselsandbits:block_bit:0{id:1604}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Coal Deposit - chiselsandbits:block_bit:0{id:1605}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Chrome Ore - chiselsandbits:block_bit:0{id:1608}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Manganeese Ore - chiselsandbits:block_bit:0{id:1609}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Redstone Deposit - chiselsandbits:block_bit:0{id:1610}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Adamantium Deposit - chiselsandbits:block_bit:0{id:1612}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Manganeese Deposit - chiselsandbits:block_bit:0{id:1613}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Lapis Deposit - chiselsandbits:block_bit:0{id:1615}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Nickel Deposit - chiselsandbits:block_bit:0{id:1616}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Iron Ore - chiselsandbits:block_bit:0{id:1617}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Well - chiselsandbits:block_bit:0{id:1820}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Honey Block - chiselsandbits:block_bit:0{id:1827}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Honeycomb Block - chiselsandbits:block_bit:0{id:1828}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Pressed Wax Block - chiselsandbits:block_bit:0{id:1829}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Waxcomb Block - chiselsandbits:block_bit:0{id:1830}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Acacia Wood East/West - chiselsandbits:block_bit:0{id:1864}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Birch Wood East/West - chiselsandbits:block_bit:0{id:1865}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Dark Oak Wood East/West - chiselsandbits:block_bit:0{id:1866}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Fir Wood East/West - chiselsandbits:block_bit:0{id:1867}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Jungle Wood East/West - chiselsandbits:block_bit:0{id:1868}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Oak Wood East/West - chiselsandbits:block_bit:0{id:1869}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Spruce Wood East/West - chiselsandbits:block_bit:0{id:1870}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Amaranth Log East/West - chiselsandbits:block_bit:0{id:1871}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Eucalyptus Log East/West - chiselsandbits:block_bit:0{id:1872}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Hopseed Log East/West - chiselsandbits:block_bit:0{id:1873}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Ironwood Log East/West - chiselsandbits:block_bit:0{id:1874}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Maple Log East/West - chiselsandbits:block_bit:0{id:1875}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Olive Log East/West - chiselsandbits:block_bit:0{id:1876}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Sakura Log East/West - chiselsandbits:block_bit:0{id:1877}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Silverbell Log East/West - chiselsandbits:block_bit:0{id:1878}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Tiger Log East/West - chiselsandbits:block_bit:0{id:1879}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - Debarked Willow Log East/West - chiselsandbits:block_bit:0{id:1880}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:9}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:11}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:698}
@@ -4843,19 +4873,23 @@ Framed Furniture Paneler - bibliocraft:furniturepaneler:6
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:769}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:770}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:771}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1591}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1564}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1585}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1581}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1574}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1603}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1598}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1584}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1607}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1570}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1568}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1594}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1610}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1564}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1586}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1582}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1575}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1607}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1601}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1585}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1611}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1571}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1568}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1597}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1614}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1587}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1606}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1569}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1593}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1205}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1206}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage advanced_chisel. Chiseled Bit - chiselsandbits:block_bit:0{id:1207}
@@ -8155,8 +8189,8 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Javelin - spartanweaponry:javelin_bronze:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Axe - spartanweaponry:throwing_axe_bronze:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Knife - spartanweaponry:throwing_knife_bronze:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Axe - spartanweaponry:throwing_axe_bronze:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Helmet Core - conarm:helmet_core:0{Material:"bronze"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Chestplate Core - conarm:chest_core:0{Material:"bronze"}
@@ -8225,8 +8259,8 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Javelin - spartanweaponry:javelin_copper:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Knife - spartanweaponry:throwing_knife_copper:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Axe - spartanweaponry:throwing_axe_copper:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Knife - spartanweaponry:throwing_knife_copper:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Helmet Core - conarm:helmet_core:0{Material:"copper"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Chestplate Core - conarm:chest_core:0{Material:"copper"}
@@ -8772,6 +8806,15 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Maneuvering Rudders - immersivepetroleum:upgrades:3
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Emergency Paddles - immersivepetroleum:upgrades:4
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Lubricant Can - immersivepetroleum:oil_can:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Concrete Door - engineersdoors:door_concrete:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Concrete Door - engineersdoors:door_concrete_ornate:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Concrete Door - engineersdoors:door_concrete_reinforced:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Door - engineersdoors:door_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Door - engineersdoors:door_steel_ornate:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Door - engineersdoors:door_steel_reinforced:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Aluminum Fence Gate - engineersdoors:fencegate_aluminium:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Fence Gate - engineersdoors:fencegate_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Trapdoor - engineersdoors:trapdoor_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\mods.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Fire Extinguisher - industrialrenewal:item_fire_extinguisher:0
 [INITIALIZATION][CLIENT][INFO] Adding: <industrialrenewal:item_fire_extinguisher> to stage: "industrial_age"
@@ -8920,11 +8963,11 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Plated Shield - spartanshields:shield_basic_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Javelin - spartanweaponry:javelin_steel:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Heavy Plated Shield - immersiveengineering:shield:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Javelin - spartanweaponry:javelin_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Knife - spartanweaponry:throwing_knife_steel:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Axe - spartanweaponry:throwing_axe_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Knife - spartanweaponry:throwing_knife_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Helmet Core - conarm:helmet_core:0{Material:"electrum"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Chestplate Core - conarm:chest_core:0{Material:"electrum"}
@@ -9244,8 +9287,8 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Framed Clock - bibliocraft:clock:6
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Plated Shield - spartanshields:shield_basic_iron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Bulky Obsidian Shield - spartanshields:shield_basic_obsidian:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Plated Shield - spartanshields:shield_basic_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Javelin - spartanweaponry:javelin_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
@@ -9624,53 +9667,48 @@ Dark Oak Bookshelf - chisel:bookshelf_darkoak:9
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Whittled Fire Sticks - primal_tech:fire_sticks:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Mallet - primal_tech:stone_mallet:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}: null
-java.lang.NullPointerException
-	at stages\time_periods\stone_age\Mods.__script__(stages\time_periods\stone_age\mods.zs:17)
-	at __ZenMain__.run(stages\time_periods\stone_age\Mods)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:221)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:101)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:68)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_566_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:787)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:624)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Dark Oak Cauldron - morecauldrons:big_oak_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Jungle Cauldron - morecauldrons:jungle_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Polished Diorite Cauldron - morecauldrons:smooth_diorite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Oak Cauldron - morecauldrons:oak_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Spruce Cauldron - morecauldrons:spruce_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Birch Cauldron - morecauldrons:birch_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Polished Granite Cauldron - morecauldrons:smooth_granite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Granite Cauldron - morecauldrons:granite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Andesite Cauldron - morecauldrons:andesite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Polished Andesite Cauldron - morecauldrons:smooth_andesite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Diamond Cauldron - morecauldrons:diamond_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Cauldron - morecauldrons:stone_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Brick Cauldron - morecauldrons:brick_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Cobblestone Cauldron - morecauldrons:cobble_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Obsidian Cauldron - morecauldrons:obsidian_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Glass Cauldron - morecauldrons:glass_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Diorite Cauldron - morecauldrons:diorite_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Gold Cauldron - morecauldrons:gold_cauldron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Acacia Cauldron - morecauldrons:acacia_cauldron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Wooden Basin - primal_tech:wooden_basin:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Table - minecraft:crafting_table:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Wooden Basin - primal_tech:wooden_basin:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Camp Fire - campfire:campfire:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Pole - spartanweaponry:material:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crude Haybale - contenttweaker:crude_haybale:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Pole - spartanweaponry:material:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Carpenter's Worktable - artisanworktables:worktable:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Lead - minecraft:lead:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Woven Cotton - harvestcraft:wovencottonitem:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Javelin - spartanweaponry:javelin_stone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bound Wheat - contenttweaker:bound_wheat:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bed of Straw and Leaves - primal_tech:leaf_bed:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Mason's Worktable - artisanworktables:worktable:2
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Woven Cotton - harvestcraft:wovencottonitem:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Axe - spartanweaponry:throwing_axe_stone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Arrow Head - tconstruct:arrow_head:0{Material:"stone"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Rope - hooked:microcrafting:1
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Cobblestone - minecraft:cobblestone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Knife - spartanweaponry:throwing_knife_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Axe - spartanweaponry:throwing_axe_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Cobblestone - minecraft:cobblestone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Rope - hooked:microcrafting:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Wooden Knife - artisanworktables:artisans_knife_wood:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Stone Knife - artisanworktables:artisans_knife_stone:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Iron Knife - artisanworktables:artisans_knife_iron:32767
@@ -11158,6 +11196,45 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Tamarind Sapling - harvestcraft:tamarind_sapling:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Tamarind - harvestcraft:tamarinditem:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Tamarind - harvestcraft:pamtamarind:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Well - harvestcraft:well:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Agave - harvestcraft:agaveitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Agave Seed - harvestcraft:agaveseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Amaranth - harvestcraft:amaranthitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Amaranth Seed - harvestcraft:amaranthseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Arrowroot - harvestcraft:arrowrootitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Arrowroot Seed - harvestcraft:arrowrootseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Cassava - harvestcraft:cassavaitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Cassava Seed - harvestcraft:cassavaseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Chickpeas - harvestcraft:chickpeaitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Chickpea Seed - harvestcraft:chickpeaseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Elderberry - harvestcraft:elderberryitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Elderberry Seed - harvestcraft:elderberryseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Flax - harvestcraft:flaxitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Flax Seed - harvestcraft:flaxseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Green Grape - harvestcraft:greengrapeitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Green Grape Seed - harvestcraft:greengrapeseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Huckleberry - harvestcraft:huckleberryitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Huckleberry Seed - harvestcraft:huckleberryseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Jicama - harvestcraft:jicamaitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Jicama Seed - harvestcraft:jicamaseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Jute - harvestcraft:juteitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Jute Seed - harvestcraft:juteseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Kenaf - harvestcraft:kenafitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Kenaf Seed - harvestcraft:kenafseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Kohlrabi - harvestcraft:kohlrabiitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Kohlrabi Seed - harvestcraft:kohlrabiseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Lentils - harvestcraft:lentilitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Lentil Seed - harvestcraft:lentilseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Millet - harvestcraft:milletitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Millet Seed - harvestcraft:milletseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Mulberry - harvestcraft:mulberryitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Mulberry Seed - harvestcraft:mulberryseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Quinoa - harvestcraft:quinoaitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Quinoa Seed - harvestcraft:quinoaseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Sisal - harvestcraft:sisalitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Sisal Seed - harvestcraft:sisalseeditem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Taro - harvestcraft:taroitem:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Taro Seed - harvestcraft:taroseeditem:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Plant Fiber - hooked:microcrafting:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Molten Pigiron Bucket - forge:bucketfilled:0{FluidName:"pigiron",Amount:1000}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Molten Knightslime Bucket - forge:bucketfilled:0{FluidName:"knightslime",Amount:1000}
@@ -11611,15 +11688,15 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Translating tile.campfire.name to Campfire
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <campfire:campfire>: The Campfire can also cook Cobblestone and Wood Logs.
-[INITIALIZATION][CLIENT][INFO] Adding tooltip for <ore:barkWood>: Obtained by right clicking a Wood Log with a Hatchet.
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <ore:barkWood>: Obtained by right clicking a Wood Log with a Hatchet. Does not work on Dynamic Trees.
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\hitwithaxe.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\seed_drops.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: removals\remove_and_hide.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\containers.zs}
 [INITIALIZATION][CLIENT][INFO] Setting print containers to: true
-[INITIALIZATION][CLIENT][INFO] Setting stage of: appeng to: master_carpenter, adaptive_armor, skilled_crafter, copper_age_mobs, explosives, iron_age, master_miner, dawn_of_time_mobs, advanced_chisel, skilled_carpenter, fire, glassblowing, enchanting, apprentice_miner, novice_architect, master_tinkerer, stone_age_mobs, cartography, middle_ages, advanced_cartography, stone_age, expert_tinkerer, ninja, novice_miner, skilled_crafter, industrial_age, skilled_tinkerer, copper_age, bronze_age_mobs, locomotion, apprentice_tinkerer, bronze_age, agriculture, masonry, botanical_masonry, brewing, tool_parts, sifting, novice_tinkerer, leadership, writing, biome_compass, skilled_architect, disabled, cooking, skilled_miner, chisel, master_crafter, dawn_of_time, advanced_sifting, dark_age_mobs, skilled_crafter, master_architect, iron_age_mobs, novice_carpenter, expert_miner, maestro, novice_crafter, defender
-[INITIALIZATION][CLIENT][INFO] Setting stage of: mcjty.rftools.blocks.crafter to: master_carpenter, adaptive_armor, skilled_crafter, copper_age_mobs, explosives, iron_age, master_miner, dawn_of_time_mobs, advanced_chisel, skilled_carpenter, fire, glassblowing, enchanting, apprentice_miner, novice_architect, master_tinkerer, stone_age_mobs, cartography, middle_ages, advanced_cartography, stone_age, expert_tinkerer, ninja, novice_miner, skilled_crafter, industrial_age, skilled_tinkerer, copper_age, bronze_age_mobs, locomotion, apprentice_tinkerer, bronze_age, agriculture, masonry, botanical_masonry, brewing, tool_parts, sifting, novice_tinkerer, leadership, writing, biome_compass, skilled_architect, disabled, cooking, skilled_miner, chisel, master_crafter, dawn_of_time, advanced_sifting, dark_age_mobs, skilled_crafter, master_architect, iron_age_mobs, novice_carpenter, expert_miner, maestro, novice_crafter, defender
+[INITIALIZATION][CLIENT][INFO] Setting stage of: appeng to: master_carpenter, adaptive_armor, skilled_crafter, copper_age_mobs, explosives, iron_age, master_miner, dawn_of_time_mobs, advanced_chisel, skilled_carpenter, industrial_age_mobs, fire, glassblowing, enchanting, apprentice_miner, novice_architect, master_tinkerer, stone_age_mobs, cartography, middle_ages, advanced_cartography, stone_age, expert_tinkerer, middle_ages_mobs, ninja, novice_miner, skilled_crafter, industrial_age, skilled_tinkerer, copper_age, bronze_age_mobs, locomotion, apprentice_tinkerer, bronze_age, agriculture, masonry, botanical_masonry, brewing, tool_parts, sifting, novice_tinkerer, leadership, writing, biome_compass, skilled_architect, disabled, cooking, skilled_miner, chisel, master_crafter, dawn_of_time, advanced_sifting, skilled_crafter, master_architect, iron_age_mobs, novice_carpenter, expert_miner, maestro, novice_crafter, defender
+[INITIALIZATION][CLIENT][INFO] Setting stage of: mcjty.rftools.blocks.crafter to: master_carpenter, adaptive_armor, skilled_crafter, copper_age_mobs, explosives, iron_age, master_miner, dawn_of_time_mobs, advanced_chisel, skilled_carpenter, industrial_age_mobs, fire, glassblowing, enchanting, apprentice_miner, novice_architect, master_tinkerer, stone_age_mobs, cartography, middle_ages, advanced_cartography, stone_age, expert_tinkerer, middle_ages_mobs, ninja, novice_miner, skilled_crafter, industrial_age, skilled_tinkerer, copper_age, bronze_age_mobs, locomotion, apprentice_tinkerer, bronze_age, agriculture, masonry, botanical_masonry, brewing, tool_parts, sifting, novice_tinkerer, leadership, writing, biome_compass, skilled_architect, disabled, cooking, skilled_miner, chisel, master_crafter, dawn_of_time, advanced_sifting, skilled_crafter, master_architect, iron_age_mobs, novice_carpenter, expert_miner, maestro, novice_crafter, defender
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:gamestagebooks]: stages\gamestage_books.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\advanced_cartography.zs}
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map waypoint stage to advanced_cartography.
@@ -11628,7 +11705,7 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map deathpoint stage to cartography.
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map fullscreen stage to cartography.
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 2149ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1249ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <claybucket:claybucket>
 [POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <claybucket:claybucket>
 [POSTINITIALIZATION][CLIENT][INFO] Removing seeds <immersiveengineering:seed>
@@ -12107,6 +12184,73 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
@@ -12235,6 +12379,15 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped243498818
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped851068353
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1458637888
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped844893312
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1216533006
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped528404550
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped2114113220
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1269581789
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped778016952
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1847506171
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1926206279
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-85553750
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped754518982
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped594340025
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped696895700
@@ -12270,7 +12423,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped-1616252954
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-632330352
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped753623975
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped844893312
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped844893313
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped-498471586
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1575933170
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped-439179940
@@ -12305,52 +12458,52 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-1833050901
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped-343990660
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped414217766
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Axe with name ct_shapeless861518853
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Knife with name ct_shapeless-143963733
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Axe with name ct_shapeless861518853
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-92965481
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Braced Shield with name ct_shaped-1696956561
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Javelin with name ct_shaped-579888612
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Javelin with name ct_shaped1880272518
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Knife with name ct_shapeless-1170898101
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Axe with name ct_shapeless91375235
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Knife with name ct_shapeless-1170898101
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crude Tool Parts with name contenttweaker_research_toolparts_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Pattern Frame with name contenttweaker_blank_pattern_frame_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woven Fiber with name contenttweaker_woven_fiber_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hatchet with name tconstruct_flint_hatchet_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Plated Shield with name ct_shaped-1552909641
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Plated Shield with name ct_shaped72604092
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped110965150
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped802461214
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Plated Shield with name ct_shaped72604092
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Knife with name ct_shapeless1128024791
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Axe with name ct_shapeless1744948597
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plated Shield with name ct_shaped-544794016
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Knife with name ct_shapeless1128024791
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bulky Obsidian Shield with name ct_shaped1660365063
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plated Shield with name ct_shaped-544794016
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped1935794492
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped-1121434714
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Knife with name ct_shapeless341197995
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Axe with name ct_shapeless-1403272223
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Basin with name ct_shaped-1910981216
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crafting Table with name ct_shaped-526625437
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Basin with name ct_shaped-1910981216
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Campfire with name ct_shaped-698376743
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped1373089453
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped357259949
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-190195136
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead with name ct_shaped-1580387745
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woven Cotton with name ct_shaped215882682
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1787361302
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1906695958
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bound Wheat with name ct_shaped509353725
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bed of Straw and Leaves with name ct_shaped-432570205
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mason's Worktable with name ct_shaped623413337
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woven Cotton with name ct_shaped215882682
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Axe with name ct_shapeless976406069
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Arrow Head with name ct_shapeless-934747719
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rope with name ct_shapeless-1308562059
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cobblestone with name ct_shapeless953645605
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Knife with name ct_shapeless-1737343349
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Axe with name ct_shapeless976406069
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cobblestone with name ct_shapeless953645605
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rope with name ct_shapeless-1308562059
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_0
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_2
@@ -12376,8 +12529,11 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Removing AlchemyTable recipe for: [1xitem.rottenFlesh@0,1xitem.rottenFlesh@0,1xitem.rottenFlesh@0,1xitem.rottenFlesh@0,1xitem.flint@0,1xitem.bucketWater@0]
 [AVAILABLE][CLIENT][INFO] Attempting to remove mana infusion recipe for [<minecraft:leather>]
 [AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <minecraft:leather>
+[AVAILABLE][CLIENT][INFO] Altering Cauldron Fluid Recipe(s) for <liquid:tannin>
+[AVAILABLE][CLIENT][INFO] Altering Cauldron Fluid Recipe(s) for <contenttweaker:soaked_leather> * 4
 [AVAILABLE][CLIENT][INFO] Altering Drying Recipe(s) for <minecraft:paper>
 [AVAILABLE][CLIENT][INFO] Altering Drying Recipe(s) for <minecraft:leather>
+[AVAILABLE][CLIENT][INFO] Altering Drying Recipe(s) for <contenttweaker:processed_hide>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <ancientwarfare:engineering_station>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <ancientwarfare:info_tool>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <ancientwarfare:research_book>
@@ -13434,6 +13590,45 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:tamarind_sapling>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:tamarinditem>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:pamtamarind>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:well>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:agaveitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:agaveseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:amaranthitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:amaranthseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:arrowrootitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:arrowrootseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:cassavaitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:cassavaseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:chickpeaitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:chickpeaseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:elderberryitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:elderberryseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:flaxitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:flaxseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:greengrapeitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:greengrapeseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:huckleberryitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:huckleberryseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:jicamaitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:jicamaseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:juteitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:juteseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:kenafitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:kenafseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:kohlrabiitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:kohlrabiseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:lentilitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:lentilseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:milletitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:milletseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:mulberryitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:mulberryseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:quinoaitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:quinoaseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:sisalitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:sisalseeditem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:taroitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:taroseeditem>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <hooked:microcrafting>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <forge:bucketfilled>.withTag({FluidName: "pigiron", Amount: 1000})
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <forge:bucketfilled>.withTag({FluidName: "knightslime", Amount: 1000})
@@ -13646,6 +13841,7 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <spartanweaponry:bolt_tipped>.withTag({Potion: "quark:danger_sight"})
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <spartanweaponry:bolt_tipped>.withTag({Potion: "quark:long_danger_sight"})
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:saltitem>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:grinder>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:waterfilter>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <contenttweaker:plant_fiber>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <contenttweaker:rock>
@@ -13667,6 +13863,7 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <bibliocraft:seat:*>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <bibliocraft:table:*>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <bibliocraft:case:*>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <ore:barkWood>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:8>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:7>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:6>

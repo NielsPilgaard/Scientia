@@ -22,7 +22,8 @@ val itemsToStage as IItemStack[] = [
 	<engineersdoors:door_steel_ornate>,
 	<engineersdoors:door_steel_reinforced>,
 	<engineersdoors:fencegate_aluminium>,
-	<engineersdoors:fencegate_steel>
+	<engineersdoors:fencegate_steel>,
+	<engineersdoors:trapdoor_steel>
 	
 ];
 

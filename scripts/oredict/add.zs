@@ -72,9 +72,10 @@ import crafttweaker.item.IItemStack;
     <ore:slabWood>.add(<botania:dreamwood1slab>);
     <ore:slabWood>.add(<botania:shimmerwoodplanks0slab>);
 
-#  stairWood / plankWood
+# stairWood / plankWood
     <ore:stairWood>.add(<naturesaura:ancient_stairs>);
     <ore:plankWood>.add(<naturesaura:ancient_planks>);
+
 for stair, plank in loglessStairPlankMap {
     <ore:plankWood>.add(plank);
     <ore:stairWood>.add(stair);
@@ -82,3 +83,16 @@ for stair, plank in loglessStairPlankMap {
 
 # logWood
     <ore:logWood>.add(<naturesaura:ancient_log>);
+
+# Maple Button / Pressure Plate / Fence / Fence Gate
+
+    <ore:buttonWood>.add(<natura:maple_button>);
+    <ore:pressurePlateWood>.add(<natura:maple_pressure_plate>);
+    <ore:fenceWood>.add(<natura:maple_fence>);
+    <ore:fenceGateWood>.add(<natura:maple_fence_gate>);
+
+# doorWood
+    <ore:doorWood>.addAll(<ore:doorTreatedWood>);
+
+# fenceGateWood
+    <ore:fenceGateWood>.addAll(<ore:fencegateTreatedWood>);

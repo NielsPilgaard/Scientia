@@ -11,11 +11,15 @@ import mods.primaltech.WoodenBasin;
 	mods.primaltech.StoneAnvil.addRecipe(Itemstack output, IIngredient input);
 */
 var stoneAnvilRecipes as IItemStack[][] = [
-	[<primal_tech:charcoal_block>, <minecraft:coal:1> * 9]
+	[<primal_tech:charcoal_block>, <minecraft:coal:1> * 9],
 ];
 
 for item in stoneAnvilRecipes {
 	StoneAnvil.addRecipe(item[0], item[1]);
+}
+
+for bark in <ore:barkWood>.items {
+	StoneAnvil.addRecipe(<contenttweaker:tannin> * 2, bark);
 }
 
 /*
@@ -24,7 +28,7 @@ for item in stoneAnvilRecipes {
 	mods.primaltech.WoodenBasin.addRecipe(IItemStack output, ILiquidStack inputFluid, IIngredient[] ingredients);
 */
 var woodenBasinRecipes as IIngredient[][][IItemStack] = {
-	<contenttweaker:processed_hide> * 3: [
+	<contenttweaker:soaked_hide> * 3: [
 		[<harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>, <contenttweaker:raw_hide>],
 		[<contenttweaker:raw_hide>, <contenttweaker:raw_hide>, <harvestcraft:saltitem>, <contenttweaker:raw_hide>],

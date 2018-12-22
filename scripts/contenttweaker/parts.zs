@@ -10,12 +10,9 @@ import scripts.contenttweaker.functions.defaultMoltenData;
 var materialsForProcessingParts as Material[] = [
 
 	customMaterials.copper,
-	customMaterials.diamond,
-	customMaterials.ender_pearl,
 	customMaterials.gold,
 	customMaterials.iron,
 	customMaterials.steel,
-	customMaterials.emerald,
 	customMaterials.aluminum,
 	customMaterials.lead,
 	customMaterials.silver,
