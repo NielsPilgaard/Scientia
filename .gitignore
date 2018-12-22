@@ -24,6 +24,7 @@ config/InvTweaks.cfg
 config/MouseTweaks.cfg
 config/jei/worldSettings.cfg
 config/jei/lookupHistory.zip
+config/jei/bookmarks.ini
 zs_export.json
 .curseclient
 .ReAuth.cfg
@@ -44,3 +45,8 @@ README.md
 LICENSE_SERVER.md
 github_changelog_generator.gemspec
 ChangelogGenerator.bat
+twitch_export-win.exe
+crafttweaker.log
+config/BlockDrops/modVersions.txt
+config/InvTweaks/InvTweaks.cfg
+config/scavenge/IResourceProperty.txt
