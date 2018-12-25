@@ -22,7 +22,7 @@ for plank in <ore:plankWood>.items {
 }
 
 for debarkedlog in <ore:logDebarked>.items {
-    Recipes.addShaped(stage, 
+    Recipes.addShapedMirrored(stage, 
     <tconstruct:tooltables:2>.withTag({textureBlock: {id: debarkedlog.definition.id, Count: 1 as byte, Damage: debarkedlog.metadata as int}}), 
     [
         [<tconstruct:pattern>, <contenttweaker:research_tool_parts>], 

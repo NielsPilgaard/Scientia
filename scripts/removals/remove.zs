@@ -48,7 +48,8 @@ val removals as IItemStack[] = [
     <spartanshields:shield_basic_wood>,
 
     <tconstruct:tooltables:*>,
-    <tconstruct:rack:*>
+    <tconstruct:rack:*>,
+    <tconstruct:pattern>
 
 ];
 
@@ -80,8 +81,8 @@ val oredictRemovals as IOreDictEntry[] = [
     <ore:seat>,
     <ore:caseWood>,
     <ore:mapFrameWood>,
-    <ore:armorStandWood>
-
+    <ore:armorStandWood>,
+    <ore:doorTreatedWood>
 ];
 
 val modRemovals as string[] = [

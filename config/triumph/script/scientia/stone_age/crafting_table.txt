@@ -11,4 +11,4 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Crafting Table", "minecraft:inventory_changed")
-criteria.setBlock(<minecraft:crafting_table>)
+criteria.addItem(<minecraft:crafting_table>)

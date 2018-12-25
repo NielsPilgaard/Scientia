@@ -44,13 +44,6 @@
 					"name": "minecraft:flint",
 					"chance": 10
 				}
-			],
-			"messages":
-			[
-				{
-					"id": "require_sneak",
-					"message": "Hold Sneak to Scavenge"
-				}
 			]
 		},
 		{

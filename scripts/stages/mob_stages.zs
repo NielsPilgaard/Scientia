@@ -1,23 +1,43 @@
 #priority 100
 
 var entitiesForStage as string[][string] = {
-    stages.dawn_of_time_mobs : [
-        "minecraft:skeleton"
-    ],
     stages.stone_age_mobs : [
-        "minecraft:zombie"
+        "minecraft:cave_spider",
+        "minecraft:evocation_illager",
+        "minecraft:giant",
+        "minecraft:husk",
+        "minecraft:creeper",
+        "minecraft:illusion_illager",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:slime",
+        "minecraft:spider",
+        "minecraft:stray",
+        "minecraft:vex",
+        "minecraft:vindication_illager",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
     ],
     stages.copper_age_mobs : [
-        "minecraft:slime"
+        "minecraft:witch",
     ],
     stages.bronze_age_mobs : [
-        "minecraft:horse"
+        "minecraft:zombie_pigman",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:magma_cube",
+        "minecraft:wither",
+        "minecraft:wither_skeleton"
     ],
     stages.iron_age_mobs : [
-        "minecraft:cow"
+        "minecraft:elder_guardian",
+        "minecraft:guardian"
     ],
     stages.middle_ages_mobs : [
-        "minecraft:sheep"
+        "minecraft:shulker",
+        "minecraft:ender_dragon",
+        "minecraft:enderman",
+        "minecraft:endermite"
     ]
 };
 

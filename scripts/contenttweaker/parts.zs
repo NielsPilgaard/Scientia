@@ -10,12 +10,9 @@ import scripts.contenttweaker.functions.defaultMoltenData;
 var materialsForProcessingParts as Material[] = [
 
 	customMaterials.copper,
-	customMaterials.diamond,
-	customMaterials.ender_pearl,
 	customMaterials.gold,
 	customMaterials.iron,
 	customMaterials.steel,
-	customMaterials.emerald,
 	customMaterials.aluminum,
 	customMaterials.lead,
 	customMaterials.silver,
@@ -53,6 +50,8 @@ var materialsForDust as Material[] = [
 	customMaterials.iron,
 	customMaterials.emerald,
 	customMaterials.coal,
+	customMaterials.lapis,
+	customMaterials.quartz,
 
 	customMaterials.ardite,
 	customMaterials.cobalt,
@@ -66,7 +65,11 @@ var materialsForMolten as Material[] = [
 	customMaterials.diamond,
 	customMaterials.ender_pearl,
 	customMaterials.emerald,
-	customMaterials.coal
+	customMaterials.coal,
+	customMaterials.redstone,
+	customMaterials.lapis,
+	customMaterials.quartz,
+	customMaterials.glowstone
 
 ];
 

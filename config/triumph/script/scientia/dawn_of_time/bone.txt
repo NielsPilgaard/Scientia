@@ -1,6 +1,6 @@
 setIcon(<minecraft:bone>)
 setTitle("Them Bones")
-setDescription("Obtain Bone by scavenging through Dirt or Sand.")
+setDescription("Obtain Bone by scavenging through Sand.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/chop_wood")

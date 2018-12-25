@@ -4,6 +4,10 @@ import mods.jei.JEI.addDescription;
 addDescription(<harvestcraft:saltitem>, 
 "Salt can only be acquired through the Water Filter.");
 
+# Grinder
+addDescription(<harvestcraft:grinder>,
+"Grinds Raw Meat into 2 Ground Meat.");
+
 # Water Filter
 addDescription(<harvestcraft:waterfilter>, 
 "The Water Filter produces Salt and Fresh Water.", 
@@ -69,3 +73,6 @@ addDescription(<bibliocraft:seat:*>, "You can attach a Seat Back to a Seat by ri
 addDescription(<bibliocraft:seat:*>, "Change the colour of the wool by right clicking the Seat with any Vanilla Carpet.");
 addDescription(<bibliocraft:table:*>, "Change the colour of the wool by right clicking the Tabke with any Vanilla Carpet.");
 addDescription(<bibliocraft:case:*>, "Change the colour of the wool by right clicking the Case with any Vanilla Carpet. The Case has to be open.");
+
+# Bark
+addDescription(<ore:barkWood>, "Obtained by right clicking a Wood Log with a Hatchet. Does not work on Dynamic Trees.");

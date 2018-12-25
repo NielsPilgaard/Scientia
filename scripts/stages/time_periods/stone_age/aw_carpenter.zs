@@ -119,6 +119,192 @@ RecipeBuilder.get("carpenter")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
+for woodtype in woodtypes {
+var slab = woodtypes[woodtype].slab;
+var plank = woodtypes[woodtype].plank;
+
+# Slab
+if (!isNull(woodtypes[woodtype].slab)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, plank, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 6)
+  .addOutput(woodtypes[woodtype].slab.items[0] * 6)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Stairs
+if (!isNull(woodtypes[woodtype].stair)) {
+  var stair = woodtypes[woodtype].stair;
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, null, null],
+        [plank, plank, null], 
+        [plank, plank, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(woodtypes[woodtype].stair.items[0] * 8)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Trapdoor
+if (!isNull(woodtypes[woodtype].trapdoor)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [slab, slab],
+        [slab, slab]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansKnife>, 4)
+  .addOutput(woodtypes[woodtype].trapdoor.items[0] * 2)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Door
+if (!isNull(woodtypes[woodtype].door)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, board],
+        [plank, board], 
+        [plank, board]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 4)
+  .addOutput(woodtypes[woodtype].door.items[0] * 2)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Fence
+if (!isNull(woodtypes[woodtype].fence)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, board, plank],
+        [plank, board, plank], 
+        [plank, null, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 4)
+  .addOutput(woodtypes[woodtype].fence.items[0] * 4)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Fence Gate
+if (!isNull(woodtypes[woodtype].fence_gate)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, slab, plank],
+        [plank, board, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(woodtypes[woodtype].fence_gate.items[0] * 4)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Pressure Plate
+if (!isNull(woodtypes[woodtype].pressure_plate)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [slab, slab]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(woodtypes[woodtype].pressure_plate.items[0] * 8)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Button
+if (!isNull(woodtypes[woodtype].button)) {
+  RecipeBuilder.get("carpenter")
+  .setShapeless([plank])
+  .addTool(<ore:artisansHandsaw>, 32)
+  .addOutput(woodtypes[woodtype].button.items[0] * 16)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+
+# Cauldron
+if (!isNull(woodtypes[woodtype].cauldron)) {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, null, plank],
+        [plank, null, plank], 
+        [plank, slab, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(woodtypes[woodtype].cauldron.items[0])
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}
+}
+
 # =========================================== #
-# 
+# Engineer's Doors & Misc
 # =========================================== #
+
+# Engineer's Treated Trapdoor
+var treatedPlank = <ore:plankTreatedWood>;
+var treatedSlab = <ore:slabTreatedWood>;
+RecipeBuilder.get("carpenter")
+  .setShaped([
+        [treatedSlab, treatedSlab],
+        [treatedSlab, treatedSlab]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansKnife>, 4)
+  .addOutput(<engineersdoors:trapdoor_treated> * 2)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+# Engineer's Treated Door
+RecipeBuilder.get("carpenter")
+  .setShaped([
+        [treatedPlank, board],
+        [treatedPlank, board], 
+        [treatedPlank, board]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 4)
+  .addOutput(<engineersdoors:door_treated> * 2)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+# Engineer's Treated Fence Gate
+RecipeBuilder.get("carpenter")
+  .setShaped([
+        [treatedPlank, treatedSlab, treatedPlank],
+        [treatedPlank, board, treatedPlank], 
+        [treatedPlank, treatedSlab, treatedPlank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(<engineersdoors:fencegate_treated> * 4)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+# Stairs
+for stair, plank in loglessStairPlankMap {
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+        [plank, null, null],
+        [plank, plank, null], 
+        [plank, plank, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(stair * 8)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+}

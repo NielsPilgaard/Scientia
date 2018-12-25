@@ -1,6 +1,6 @@
 setIcon(<minecraft:double_plant>)
 setTitle("Welcome to Scientia")
-setDescription("The first advancements are designed to ease you into the world of Scientia. To complete this stage, you will need to §ocraft basic tools.")
+setDescription("The first advancements are designed to ease you into the world of Scientia. Enemies won't bother you at this stage, so take your time. To complete this stage, you will need to §ocraft basic tools.")
 
 setShowToast(true)
 
