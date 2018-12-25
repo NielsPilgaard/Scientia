@@ -13,43 +13,43 @@ setCompletedTitleColor(51, 102, 204)
 setRequirements("any")
 
 criteria = addCriteria("Carrot", "triumph:right_click_block")
-criteria.setBlock(<minecraft:carrot>)
+criteria.setBlock(<minecraft:carrot, meta:7>)
 
 criteria = addCriteria("Potato", "triumph:right_click_block")
-criteria.setBlock(<minecraft:potato>)
+criteria.setBlock(<minecraft:potato, meta:7>)
 
 criteria = addCriteria("Beetroot", "triumph:right_click_block")
-criteria.setBlock(<minecraft:beetroot>)
+criteria.setBlock(<minecraft:beetroots, meta:3>)
 
 criteria = addCriteria("Wheat", "triumph:right_click_block")
-criteria.setBlock(<minecraft:wheat>)
+criteria.setBlock(<minecraft:wheat, meta:7>)
 
 criteria = addCriteria("Garlic", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamgarliccrop>)
+criteria.setBlock(<harvestcraft:pamgarliccrop, meta:3>)
 
 criteria = addCriteria("Onion", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamonioncrop>)
+criteria.setBlock(<harvestcraft:pamonioncrop, meta:3>)
 
 criteria = addCriteria("Spice Leaf", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamspiceleafcrop>)
+criteria.setBlock(<harvestcraft:pamspiceleafcrop, meta:3>)
 
 criteria = addCriteria("Lettuce", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamlettucecrop>)
+criteria.setBlock(<harvestcraft:pamlettucecrop, meta:3>)
 
 criteria = addCriteria("Bean", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pambeancrop>)
+criteria.setBlock(<harvestcraft:pambeancrop, meta:3>)
 
 criteria = addCriteria("Curry Leaf", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamcurryleafcrop>)
+criteria.setBlock(<harvestcraft:pamcurryleafcrop, meta:3>)
 
 criteria = addCriteria("Eggplant", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pameggplantcrop>)
+criteria.setBlock(<harvestcraft:pameggplantcrop, meta:3>)
 
 criteria = addCriteria("Bellpepper", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pambellpeppercrop>)
+criteria.setBlock(<harvestcraft:pambellpeppercrop, meta:3>)
 
 criteria = addCriteria("Strawberry", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamstrawberrycrop>)
+criteria.setBlock(<harvestcraft:pamstrawberrycrop, meta:3>)
 
 criteria = addCriteria("Ginger", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamgingercrop>)
+criteria.setBlock(<harvestcraft:pamgingercrop, meta:3>)
