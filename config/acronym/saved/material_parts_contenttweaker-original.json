@@ -26,6 +26,7 @@
     "stainless_steel_plate": 215,
     "tungsten_plate": 207,
     "bronze_nugget": 147,
+    "lapis_dust": 237,
     "adamantium_dust": 186,
     "ender_pearl_dust": 223,
     "tin_plate": 167,
@@ -48,6 +49,7 @@
     "coal_dust": 227,
     "uranium_rod": 123,
     "gold_gear": 97,
+    "redstone_molten": 239,
     "tungsten_dust": 210,
     "iron_rod": 102,
     "aluminum_brass_plate": 140,
@@ -59,11 +61,13 @@
     "platinum_gear": 158,
     "gold_dust": 224,
     "lead_rod": 114,
+    "glowstone_molten": 242,
     "invar_dust": 178,
     "silver_rod": 117,
     "stainless_steel_nugget": 219,
     "platinum_plate": 159,
     "copper_gear": 6,
+    "quartz_dust": 238,
     "nickel_plate": 119,
     "stainless_steel_ingot": 217,
     "diamond_dust": 222,
@@ -78,6 +82,7 @@
     "iron_dust": 225,
     "adamantium_molten": 189,
     "invar_block": 180,
+    "quartz_molten": 241,
     "emerald_dust": 226,
     "stainless_steel_gear": 214,
     "bronze_plate": 143,
@@ -139,6 +144,7 @@
     "iron_gear": 100,
     "cobalt_plate": 131,
     "iridium_dust": 154,
-    "aluminum_brass_gear": 139
+    "aluminum_brass_gear": 139,
+    "lapis_molten": 240
   }
 }

@@ -1,6 +1,6 @@
 setIcon(<minecraft:flint>)
 setTitle("Getting Your Hands Dirty")
-setDescription("Find Flint by scavenging through Gravel, Dirt or Grass. You scavenge by shift-right clicking the block.")
+setDescription("Find Flint by scavenging through Gravel, Dirt or Grass. You scavenge by shift right clicking the block.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")

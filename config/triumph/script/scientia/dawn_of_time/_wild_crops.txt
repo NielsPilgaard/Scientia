@@ -1,6 +1,6 @@
 setIcon(<minecraft:carrot>)
 setTitle("Wild Crop Appeared!")
-setDescription("The only food available right now is found in the wild, gather some, but be careful not to destroy the farmland.")
+setDescription("The only food available right now is found in the wild, gather some, but be careful not to destroy the farmland. Any Wild Crop will complete this.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")
@@ -12,44 +12,44 @@ setCompletedTitleColor(51, 102, 204)
 
 setRequirements("any")
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
-criteria.setBlock(<minecraft:carrots>)
+criteria = addCriteria("Carrot", "triumph:right_click_block")
+criteria.setBlock(<minecraft:carrot>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
-criteria.setBlock(<minecraft:potatoes>)
+criteria = addCriteria("Potato", "triumph:right_click_block")
+criteria.setBlock(<minecraft:potato>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
-criteria.setBlock(<minecraft:beetroots>)
+criteria = addCriteria("Beetroot", "triumph:right_click_block")
+criteria.setBlock(<minecraft:beetroot>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Wheat", "triumph:right_click_block")
 criteria.setBlock(<minecraft:wheat>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Garlic", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamgarliccrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Onion", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamonioncrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Spice Leaf", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamspiceleafcrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Lettuce", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamlettucecrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Bean", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pambeancrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Curry Leaf", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamcurryleafcrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Eggplant", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pameggplantcrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Bellpepper", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pambellpeppercrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Strawberry", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamstrawberrycrop>)
 
-criteria = addCriteria("rightClick", "triumph:right_click_block")
+criteria = addCriteria("Ginger", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamgingercrop>)

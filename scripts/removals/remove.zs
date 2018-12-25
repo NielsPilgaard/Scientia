@@ -48,7 +48,8 @@ val removals as IItemStack[] = [
     <spartanshields:shield_basic_wood>,
 
     <tconstruct:tooltables:*>,
-    <tconstruct:rack:*>
+    <tconstruct:rack:*>,
+    <tconstruct:pattern>
 
 ];
 

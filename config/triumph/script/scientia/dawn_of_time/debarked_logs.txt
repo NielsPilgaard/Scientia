@@ -1,6 +1,6 @@
 setIcon(<hitwithaxe:debarked_oak>)
 setTitle("Barking Up the Wrong Tree")
-setDescription("You can debark Vanilla Wood Logs by right clicking them with a Hatchet.")
+setDescription("You can debark Wood Logs by right clicking them with a Hatchet.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/bone")

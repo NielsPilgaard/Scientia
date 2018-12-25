@@ -22,6 +22,11 @@ val disableList = [
         <ancientwarfare:stone_quill>,
         <ancientwarfare:wooden_quill>,
 
+        <ancientwarfare:backpack>,
+        <ancientwarfare:backpack:1>,
+        <ancientwarfare:backpack:2>,
+        <ancientwarfare:backpack:3>,
+
         <ancientwarfarestructure:block_info_clicker>,
         <ancientwarfarestructure:construction_tool>,
         <ancientwarfarestructure:construction_tool_lakes>,
@@ -288,6 +293,11 @@ val disableList = [
         <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Damage: 3 as short}}),
         
         <dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"}),
+
+        <dynamictreesphc:almondseed>,
+        <dynamictreesphc:lemonseed>,
+        <dynamictreesphc:peppercornseed>,
+        <dynamictreesphc:walnutseed>,
 
         <harvestcraft:akutuqitem>,
         <harvestcraft:anchovypepperonipizzaitem>,

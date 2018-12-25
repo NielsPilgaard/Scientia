@@ -6,6 +6,7 @@ var entitiesForStage as string[][string] = {
         "minecraft:evocation_illager",
         "minecraft:giant",
         "minecraft:husk",
+        "minecraft:creeper",
         "minecraft:illusion_illager",
         "minecraft:silverfish",
         "minecraft:skeleton",
