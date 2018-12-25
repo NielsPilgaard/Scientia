@@ -11,7 +11,7 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Clay Bucket", "minecraft:inventory_changed")
-criteria.setBlock(<claybucket:claybucket>)
+criteria.addItem(<claybucket:claybucket>)
 
 criteria = addCriteria("Completed Advancement Feuer Frei", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/fire_sticks")
