@@ -28,11 +28,11 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	],
 
 	stages.bronze_age : [ # Obtainable in bronze_age. Duh.
-		#[materials.redstone.ore],
-		#[materials.lapis.ore],
+		[materials.redstone.ore],
+		[materials.lapis.ore],
 
-		#[materials.redstone.ore_deposit, coarseDirt],
-		#[materials.lapis.ore_deposit, coarseDirt]
+		[materials.redstone.ore_deposit, coarseDirt],
+		[materials.lapis.ore_deposit, coarseDirt]
 	],
 
 	stages.skilled_miner : [ # Obtainable in iron_age
