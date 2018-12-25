@@ -14,7 +14,9 @@ mods/
 
 # Utilities
 .github_changelog_generator
-GithubChangelogGenerator.bat
+github_changelog_generator.gemspec
+twitch_export-win.exe
+ChangelogGenerator.bat
 .build.json
 modpack_upload_settings.cfg
 ModpackUploadTool.bat
@@ -42,3 +44,4 @@ ServerStartLinux.sh
 ServerStart.bat
 README.md
 LICENSE_SERVER.md
+crafttweaker.log
