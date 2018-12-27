@@ -84,7 +84,7 @@ Recipes.addShaped("tconstruct_cactus_shovel_custom", stage,
 addItem(<tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.0 as float, FreeModifiers: 3, Durability: 260, HarvestLevel: 1, Attack: 3.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.0 as float, FreeModifiers: 0, Durability: 260, HarvestLevel: 1, Attack: 3.4 as float}, Special: {Categories: ["aoe", "harvest", "tool"]}, TinkerData: {Materials: ["wood", "cactus", "plant_fiber"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "prickly", color: -16735985, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "prickly", "toolleveling"]}));
 
 Recipes.addShapeless("contenttweaker_blank_pattern_custom", stage, 
-<tconstruct:pattern> * 2, 
+<tconstruct:pattern> * 4, 
 [<contenttweaker:woven_fiber>, <contenttweaker:blank_pattern_frame>]);
 addItemStage(stage, <tconstruct:pattern>);
 

@@ -13,10 +13,10 @@ setCompletedTitleColor(51, 102, 204)
 setRequirements("any")
 
 criteria = addCriteria("Carrot", "triumph:right_click_block")
-criteria.setBlock(<minecraft:carrot, meta:7>)
+criteria.setBlock(<minecraft:carrots, meta:7>)
 
 criteria = addCriteria("Potato", "triumph:right_click_block")
-criteria.setBlock(<minecraft:potato, meta:7>)
+criteria.setBlock(<minecraft:potatoes, meta:7>)
 
 criteria = addCriteria("Beetroot", "triumph:right_click_block")
 criteria.setBlock(<minecraft:beetroots, meta:3>)

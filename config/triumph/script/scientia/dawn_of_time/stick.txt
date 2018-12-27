@@ -1,6 +1,6 @@
 setIcon(<minecraft:stick>)
 setTitle("Sticky Business")
-setDescription("Obtain Sticks by breaking leaves. Leaves have a chance of regrowing.")
+setDescription("Obtain Sticks by breaking leaves. The leaves on Dynamic Trees often grow back.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")

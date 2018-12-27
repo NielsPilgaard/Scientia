@@ -3,7 +3,7 @@ setTitle("Hunty")
 setDescription("Foraging for food won't keep you full forever - Acquire any type of meat.")
 setShowToast(true)
 
-addParent("scientia:dawn_of_time/fruit_trees")
+addParent("scientia:dawn_of_time/_wild_crops")
 setRequiresParents()
 
 setRequirements("any")

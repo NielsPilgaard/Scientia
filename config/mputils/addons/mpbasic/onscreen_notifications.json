@@ -4,35 +4,35 @@
       "id": "stone_age",
       "soundlocation": "minecraft:entity.player.levelup",
       "lines": [
-        "§2You have reached the Stone Age!"
+        "You have reached the §2Stone Age!"
       ]
     },
     {
       "id": "copper_age",
       "soundlocation": "minecraft:entity.player.levelup",
       "lines": [
-        "§2You have reached the Copper Age!"
+        "You have reached the §2Copper Age!"
       ]
     },
     {
       "id": "bronze_age",
       "soundlocation": "minecraft:entity.player.levelup",
       "lines": [
-        "§2You have reached the Bronze Age!"
+        "You have reached the §2Bronze Age!"
       ]
     },
     {
       "id": "iron_age",
       "soundlocation": "minecraft:entity.player.levelup",
       "lines": [
-        "§2You have reached the Iron Age!"
+        "You have reached the §2Iron Age!"
       ]
     },
     {
       "id": "professions",
       "soundlocation": "minecraft:entity.player.levelup",
       "lines": [
-        "§2You have unlocked the Professions tab!"
+        "You have unlocked the §2Professions tab!"
       ]
     }
   ]

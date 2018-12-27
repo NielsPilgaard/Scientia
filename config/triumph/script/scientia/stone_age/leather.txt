@@ -1,0 +1,15 @@
+setIcon(<minecraft:leather>)
+setTitle("Leather TODO")
+setDescription("Process Raw Hide into Leather.")
+setShowToast(true)
+
+addParent("scientia:stone_age/cauldron")
+addParent("scientia:stone_age/salt")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Leather", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:leather>)

@@ -3,7 +3,6 @@ setTitle("Barking Up the Wrong Tree")
 setDescription("You can debark Wood Logs by right clicking them with a Hatchet.")
 setShowToast(true)
 
-addParent("scientia:dawn_of_time/bone")
 addParent("scientia:dawn_of_time/trial_and_error")
 setRequiresParents()
 

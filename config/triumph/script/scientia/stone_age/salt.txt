@@ -1,5 +1,5 @@
 setIcon(<harvestcraft:saltitem>)
-setTitle("Salty Surprise")
+setTitle("Salty")
 setDescription("Salt is useful for cleaning Hides, and for improving the taste of different foods.")
 setShowToast(true)
 

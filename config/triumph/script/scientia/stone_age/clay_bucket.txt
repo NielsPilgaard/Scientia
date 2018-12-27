@@ -1,6 +1,6 @@
 setIcon(<claybucket:claybucket>)
 setTitle("Bucket of Balance")
-setDescription("The Wooden Basin is going to need water for it's recipes. Craft an Unfired Clay Bucket and throw it in fire to harden it.")
+setDescription("The Wooden Basin is going to need water for most of it's recipes. Craft an Unfired Clay Bucket and throw it in fire to harden it.")
 setShowToast(true)
 
 addParent("scientia:stone_age/wooden_basin")

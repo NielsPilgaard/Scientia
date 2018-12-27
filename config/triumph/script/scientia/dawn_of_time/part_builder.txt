@@ -1,6 +1,6 @@
 setIcon(<tconstruct:tooltables, meta:2, count:1, nbt:{textureBlock:{id:"minecraft:log",Count:1b,Damage:0s}}>)
 setTitle("Part Builder")
-setDescription("Craft a Part Builder.")
+setDescription("Craft a Part Builder. The Part Builder can access patterns in adjacent Pattern Chests.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/stencil_table")

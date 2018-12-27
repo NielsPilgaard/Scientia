@@ -1,6 +1,6 @@
 setIcon(<minecraft:log>)
-setTitle("Woodpecker")
-setDescription("Harvest any type of Wood Log. Harvesting Logs requires an Axe-type tool.")
+setTitle("Timbeeer!")
+setDescription("Harvest any type of Wood Log - It requires an Axe-type tool. Watch out for the trunk!")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/flint_hatchet")

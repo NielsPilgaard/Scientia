@@ -3,7 +3,7 @@ setTitle("Trial & Error")
 setDescription("Craft Crude Tool Parts. This will give you access to the Stencil Table and Part Builder, but you can only make a few different parts at the moment.")
 setShowToast(true)
 
-addParent("scientia:dawn_of_time/chop_wood")
+addParent("scientia:dawn_of_time/bone")
 setRequiresParents()
 
 setFrameType("Goal")
