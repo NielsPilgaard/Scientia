@@ -7,7 +7,7 @@ global materials as IIngredient[string][string] = {
         nugget: <minecraft:iron_nugget>,
         ingot: <minecraft:iron_ingot>,
 		block: <minecraft:iron_block>, 		
-		ore: <contenttweaker:ore_iron>,
+		ore: <minecraft:iron_ore>,
 		ore_deposit: <contenttweaker:deposit_iron>,
 		dust: <materialpart:iron:dust>,
         liquid: <liquid:iron>, 

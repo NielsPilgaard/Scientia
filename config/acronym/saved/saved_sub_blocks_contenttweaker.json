@@ -11,7 +11,45 @@
       "7": "bronze_block",
       "8": "stainless_steel_block",
       "9": "manganeese_block",
-      "10": "chrome_block"
-    }
+      "10": "chrome_block",
+      "11": "adamantium_ore",
+      "12": "manganeese_ore",
+      "13": "tin_ore",
+      "14": "platinum_ore",
+      "15": "iridium_ore"
+    },
+    "1": {
+      "0": "tungsten_ore",
+      "1": "silver_ore",
+      "2": "nickel_ore",
+      "3": "copper_ore",
+      "4": "chrome_ore",
+      "5": "diamond_poor_ore_minecraft_coarse_dirt",
+      "6": "uranium_ore",
+      "7": "lead_ore",
+      "8": "aluminum_ore",
+      "9": "chrome_poor_ore_minecraft_coarse_dirt",
+      "10": "lapis_poor_ore_minecraft_coarse_dirt",
+      "11": "gold_poor_ore_minecraft_coarse_dirt",
+      "12": "emerald_poor_ore_minecraft_coarse_dirt",
+      "13": "silver_poor_ore_minecraft_coarse_dirt",
+      "14": "redstone_poor_ore_minecraft_coarse_dirt",
+      "15": "iron_poor_ore_minecraft_coarse_dirt"
+    },
+    "2": {
+      "0": "iridium_poor_ore_minecraft_coarse_dirt",
+      "1": "platinum_poor_ore_minecraft_coarse_dirt",
+      "2": "aluminum_poor_ore_minecraft_coarse_dirt",
+      "3": "manganeese_poor_ore_minecraft_coarse_dirt",
+      "4": "tungsten_poor_ore_minecraft_coarse_dirt",
+      "5": "copper_poor_ore_minecraft_coarse_dirt",
+      "6": "nickel_poor_ore_minecraft_coarse_dirt",
+      "7": "coal_poor_ore_minecraft_coarse_dirt",
+      "8": "lead_poor_ore_minecraft_coarse_dirt",
+      "9": "tin_poor_ore_minecraft_coarse_dirt",
+      "10": "adamantium_poor_ore_minecraft_coarse_dirt",
+      "11": "uranium_poor_ore_minecraft_coarse_dirt"
+    },
+    "3": {}
   }
 }

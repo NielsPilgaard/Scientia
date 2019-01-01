@@ -17,7 +17,7 @@ static customMaterials as Material[string] = {
 	"nickel": MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("d1c3b1")).build(),
 	"uranium": MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(Color.fromHex("314736")).build(),
 	"platinum": MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("3a9ba8")).build(),
-	"iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("dfdee8")).build(),
+	"iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("dfdee8")).setHasEffect(true).build(),
 	"coal": MaterialSystem.getMaterialBuilder().setName("Coal").setColor(Color.fromHex("232326")).build(),
 	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("2828b7")).build(),
 	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("b25110")).build(),
@@ -26,7 +26,7 @@ static customMaterials as Material[string] = {
 	"adamantium": MaterialSystem.getMaterialBuilder().setName("Adamantium").setColor(Color.fromHex("137760")).build(),
 	"chrome": MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(Color.fromHex("778481")).build(),
 	"manganeese": MaterialSystem.getMaterialBuilder().setName("Manganeese").setColor(Color.fromHex("562b15")).build(),
-	"tungsten": MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("3d3b3a")).build(),
+	"tungsten": MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("3d3b3a")).setHasEffect(true).build(),
 
 	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
 	"ender_pearl": MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(2870680).build(),

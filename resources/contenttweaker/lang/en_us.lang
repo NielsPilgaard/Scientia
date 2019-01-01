@@ -62,6 +62,8 @@ tile.contenttweaker.deposit_tungsten.name=Tungsten Deposit
 tile.contenttweaker.deposit_uranium.name=Uranium Deposit
 tile.contenttweaker.deposit_iridium.name=Iridium Deposit
 
+tile.dimensional_portal.name=Portal
+
 fluid.tannin=Tannin
 
 entity.Villager.tinkerer=Tinkerer

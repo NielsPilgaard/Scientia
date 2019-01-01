@@ -1,0 +1,10 @@
+[
+  {
+    "content": "minecraft:gold_nugget",
+    "unitWorth": 100
+  },
+  {
+    "content": "minecraft:gold_ingot",
+    "unitWorth": 900
+  }
+]

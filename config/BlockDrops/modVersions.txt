@@ -60,6 +60,7 @@
   "botania": "r1.10-358",
   "togetherforever": "1.0.2",
   "resourceloader": "1.5.3",
+  "bountiful": "2.0",
   "dimstages": "2.0.23",
   "watercontrolextreme": "1.0.0",
   "worldgenindicators": "1.0",
