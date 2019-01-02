@@ -1,4 +1,5 @@
 {
+  "followingvillagers": "1.0.0",
   "tombmanygraves": "1.12-4.2.0",
   "cyclopscore": "0.11.11",
   "journeymapdefaults": "1.12-0.0.2",
@@ -130,6 +131,7 @@
   "crafttweaker": "4.1.13",
   "akashictome": "1.2-12",
   "botania_tweaks": "1.8.1",
+  "dirt2path": "1.7.1",
   "immersivepetroleum": "1.1.9",
   "forge": "14.23.5.2796",
   "prospectors": "1.0.2",
