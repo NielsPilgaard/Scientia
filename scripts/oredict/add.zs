@@ -17,24 +17,6 @@ import crafttweaker.item.IItemStack;
     <ore:fiber>.add(<immersiveengineering:material:4>);
     <ore:fiber>.add(<contenttweaker:plant_fiber>);
 
-# oreDict for custom ores
-    <ore:oreCoal>.add(<contenttweaker:ore_coal>);
-    <ore:oreRedstone>.add(<contenttweaker:ore_redstone>);
-    <ore:oreLapis>.add(<contenttweaker:ore_lapis>);
-    <ore:oreDiamond>.add(<contenttweaker:ore_diamond>);
-    <ore:oreEmerald>.add(<contenttweaker:ore_emerald>);
-    <ore:oreIron>.add(<contenttweaker:ore_iron>);
-    <ore:oreGold>.add(<contenttweaker:ore_gold>);
-    <ore:oreTin>.add(<contenttweaker:ore_tin>);
-    <ore:oreAdamantium>.add(<contenttweaker:ore_adamantium>);
-    <ore:oreChrome>.add(<contenttweaker:ore_chrome>);
-    <ore:oreManganeese>.add(<contenttweaker:ore_manganeese>);
-    <ore:orePlatinum>.add(<contenttweaker:ore_platinum>);
-    <ore:oreTungsten>.add(<contenttweaker:ore_tungsten>);
-    <ore:oreIridum>.add(<contenttweaker:ore_iridium>);
-
-# TODO: oreDict for ore deposits
-
 # Debarked Logs
     <ore:logDebarked>.add(<hitwithaxe:debarked_acacia>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_oak>);
@@ -96,3 +78,10 @@ for stair, plank in loglessStairPlankMap {
 
 # fenceGateWood
     <ore:fenceGateWood>.addAll(<ore:fencegateTreatedWood>);
+
+# cauldronWood
+for woodtype in woodtypes {
+    if (!isNull(woodtypes[woodtype].cauldron)) {
+        <ore:cauldronWood>.add(woodtypes[woodtype].cauldron);
+    }
+}

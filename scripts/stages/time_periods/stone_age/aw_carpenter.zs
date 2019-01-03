@@ -247,7 +247,7 @@ if (!isNull(woodtypes[woodtype].cauldron)) {
   .addOutput(woodtypes[woodtype].cauldron.items[0])
   .addRequirement(GameStages.anyOf([stage]))
   .create();
-}
+  }
 }
 
 # =========================================== #

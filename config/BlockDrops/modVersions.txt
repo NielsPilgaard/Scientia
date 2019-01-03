@@ -1,5 +1,4 @@
 {
-  "followingvillagers": "1.0.0",
   "tombmanygraves": "1.12-4.2.0",
   "cyclopscore": "0.11.11",
   "journeymapdefaults": "1.12-0.0.2",
@@ -11,6 +10,7 @@
   "modularmachinery": "1.9.4",
   "netherportalfix": "5.3.17",
   "oreveins": "2.0.2",
+  "tips": "1.0.2",
   "additionalbanners": "1.1.76",
   "contenttweaker": "1.12.2-4.8.0",
   "industrialrenewal": "0.7.0",

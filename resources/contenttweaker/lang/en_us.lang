@@ -64,6 +64,8 @@ tile.contenttweaker.deposit_iridium.name=Iridium Deposit
 
 tile.dimensional_portal.name=Portal
 
+base.part.poor_ore=%s Deposit
+
 fluid.tannin=Tannin
 
 entity.Villager.tinkerer=Tinkerer

@@ -2,7 +2,7 @@
 #loader contenttweaker
 import scripts.contenttweaker.functions.createRegisterBlockOre;
 import scripts.contenttweaker.functions.createRegisterDirtOre;
-
+/*
 createRegisterBlockOre("ore_adamantium", 4);
 createRegisterBlockOre("ore_chrome", 4);
 createRegisterBlockOre("ore_coal", 1);
@@ -38,3 +38,4 @@ createRegisterDirtOre("deposit_tin", 1);
 createRegisterDirtOre("deposit_tungsten", 4);
 createRegisterDirtOre("deposit_uranium", 4);
 createRegisterDirtOre("deposit_iridium", 4);
+*/

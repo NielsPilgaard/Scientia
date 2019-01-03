@@ -48,8 +48,29 @@
       "8": "lead_poor_ore_minecraft_coarse_dirt",
       "9": "tin_poor_ore_minecraft_coarse_dirt",
       "10": "adamantium_poor_ore_minecraft_coarse_dirt",
-      "11": "uranium_poor_ore_minecraft_coarse_dirt"
+      "11": "uranium_poor_ore_minecraft_coarse_dirt",
+      "12": "coal_dense_ore",
+      "13": "chrome_dense_ore",
+      "14": "iridium_dense_ore",
+      "15": "nickel_dense_ore"
     },
-    "3": {}
+    "3": {
+      "0": "manganeese_dense_ore",
+      "1": "copper_dense_ore",
+      "2": "tin_dense_ore",
+      "3": "redstone_dense_ore",
+      "4": "gold_dense_ore",
+      "5": "silver_dense_ore",
+      "6": "lead_dense_ore",
+      "7": "tungsten_dense_ore",
+      "8": "adamantium_dense_ore",
+      "9": "lapis_dense_ore",
+      "10": "platinum_dense_ore",
+      "11": "aluminum_dense_ore",
+      "12": "iron_dense_ore",
+      "13": "diamond_dense_ore",
+      "14": "uranium_dense_ore",
+      "15": "emerald_dense_ore"
+    }
   }
 }

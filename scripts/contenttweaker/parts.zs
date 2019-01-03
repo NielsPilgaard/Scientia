@@ -90,7 +90,7 @@ var materialsForOre as Material[] = [
 
 ];
 
-var materialsForDeposit as Material[] = [
+var materialsForPoorAndDense as Material[] = [
 
 	customMaterials.adamantium,
 	customMaterials.chrome,
@@ -149,19 +149,27 @@ for material in materialsForMolten {
 }
 
 for material in materialsForOre {
-	material.registerPart("ore");
+	var oreData = material.registerPart("ore").getData();
+	oreData.addDataValue("harvestTool", "pickaxe");
+	oreData.addDataValue("hardness", "4");
+	oreData.addDataValue("resistance", "30");
+	oreData.addDataValue("harvestLevel", "1");
 }
 
-/*for material in materialsForDeposit {
-	var oreData = material.registerPart("ore").getData();
-	oreData.addDataValue("variants", "minecraft:dirt:1");
-	oreData.addDataValue("harvestTool", "shovel");
-}*/
+for material in materialsForPoorAndDense {
+	var depositData = material.registerPart("poor_ore").getData();
+	depositData.addDataValue("variants", "minecraft:coarse_dirt");
+	depositData.addDataValue("harvestTool", "shovel");
+	depositData.addDataValue("hardness", "3");
+	depositData.addDataValue("resistance", "15");
+	depositData.addDataValue("sound", "soundtype:ground");
+	depositData.addDataValue("harvestLevel", "1");
 
-for material in materialsForDeposit {
-	var oreData = material.registerPart("poor_ore").getData();
-	oreData.addDataValue("variants", "minecraft:coarse_dirt");
-	oreData.addDataValue("harvestTool", "shovel");
+	var denseOreData = material.registerPart("dense_ore").getData();
+	denseOreData.addDataValue("harvestTool", "pickaxe");
+	denseOreData.addDataValue("hardness", "5");
+	denseOreData.addDataValue("resistance", "15");
+	denseOreData.addDataValue("harvestLevel", "1");
 }
 
 customMaterials.ender_pearl.registerPart("block");
