@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "scientia:scientia.png",
+            "image" : "scientia:textures/gui/scientia.png",
             "posX" : -60,
             "posY" : 20,
             "width" : 256,
@@ -22,7 +22,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -38,7 +38,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -54,7 +54,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -70,7 +70,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -86,7 +86,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openGui",
@@ -102,7 +102,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "openLink",
@@ -118,7 +118,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action" : 
             {
@@ -135,7 +135,7 @@
             "height": 20,
             "normalTextColor": 16777215,
             "hoverTextColor": 4286414205,
-            "texture": "scientia:button.png",
+            "texture": "scientia:textures/gui/button.png",
             "alignment": "left_center",
             "action": {
                 "type": "quit"

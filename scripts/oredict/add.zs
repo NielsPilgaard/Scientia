@@ -82,6 +82,6 @@ for stair, plank in loglessStairPlankMap {
 # cauldronWood
 for woodtype in woodtypes {
     if (!isNull(woodtypes[woodtype].cauldron)) {
-        <ore:cauldronWood>.add(woodtypes[woodtype].cauldron);
+        <ore:cauldronWood>.add(woodtypes[woodtype].cauldron.items[0]);
     }
 }

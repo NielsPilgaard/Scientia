@@ -5,14 +5,7 @@ import crafttweaker.item.IIngredient;
 var stage = stages.stone_age;
 
 var recipeList as IIngredient[][][][IItemStack] = {
-	<primal_tech:wooden_basin> : [
-		[
-            [<ore:logWood>, stick, <ore:logWood>],
-            [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
-            [<ore:cobblestone>, null, <ore:cobblestone>]
-        ]
-	],
-    <minecraft:crafting_table> : [
+	<minecraft:crafting_table> : [
         [
             [<ore:plankWood>, <ore:plankWood>],
             [<ore:plankWood>, <ore:plankWood>]

@@ -18,8 +18,12 @@ for metal in materials {
             dirtSurfaceIndicator.add(deposit.items[0].asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
             var dirtBlockChecker = BlockChecker.create(1)
@@ -58,6 +62,8 @@ for metal in materials {
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
+            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
+			sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
 			sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
             sandSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());

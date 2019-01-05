@@ -48,11 +48,11 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	stages.expert_miner : [ # Obtainable in industrial_age
 		[materials.diamond.ore],
 		[materials.emerald.ore],
-		[materials.manganeese.ore], # For stainless steel
+		[materials.manganese.ore], # For stainless steel
 
 		[materials.diamond.ore_deposit, coarseDirt],
 		[materials.emerald.ore_deposit, coarseDirt],
-		[materials.manganeese.ore_deposit, coarseDirt]
+		[materials.manganese.ore_deposit, coarseDirt]
 
 	],
 

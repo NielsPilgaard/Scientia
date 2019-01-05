@@ -15,7 +15,7 @@ global harvest_levels as int[IIngredient] = {
     materials.iron.ore : 1,
     materials.lapis.ore : 2,
     materials.lead.ore : 1,
-    materials.manganeese.ore : 2,
+    materials.manganese.ore : 2,
     materials.nickel.ore : 2,
     materials.platinum.ore : 3,
     materials.redstone.ore : 2,

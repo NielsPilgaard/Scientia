@@ -23,7 +23,10 @@ var materialsForProcessingParts as Material[] = [
 	customMaterials.cobalt,
 	customMaterials.ardite,
 	customMaterials.manyullyn,
-	customMaterials.aluminum_brass
+	customMaterials.aluminum_brass,
+	customMaterials.lithium,
+	customMaterials.posirite,
+	customMaterials.negarite
 
 ];
 
@@ -36,7 +39,7 @@ var materialsForAllParts as Material[] = [
 	customMaterials.invar,
 	customMaterials.adamantium,
 	customMaterials.chrome,
-	customMaterials.manganeese,
+	customMaterials.manganese,
 	customMaterials.tungsten,
 	customMaterials.stainless_steel
 
@@ -55,7 +58,10 @@ var materialsForDust as Material[] = [
 	customMaterials.ardite,
 	customMaterials.cobalt,
 	customMaterials.manyullyn,
-	customMaterials.aluminum_brass
+	customMaterials.aluminum_brass,
+	customMaterials.lithium,
+	customMaterials.posirite,
+	customMaterials.negarite
 
 ];
 
@@ -68,7 +74,10 @@ var materialsForMolten as Material[] = [
 	customMaterials.redstone,
 	customMaterials.lapis,
 	customMaterials.quartz,
-	customMaterials.glowstone
+	customMaterials.glowstone,
+	customMaterials.lithium,
+	customMaterials.posirite,
+	customMaterials.negarite
 
 ];
 
@@ -77,7 +86,7 @@ var materialsForOre as Material[] = [
 	customMaterials.adamantium,
 	customMaterials.chrome,
 	customMaterials.iridium,
-	customMaterials.manganeese,
+	customMaterials.manganese,
 	customMaterials.platinum,
 	customMaterials.tin,
 	customMaterials.tungsten,
@@ -95,7 +104,7 @@ var materialsForPoorAndDense as Material[] = [
 	customMaterials.adamantium,
 	customMaterials.chrome,
 	customMaterials.iridium,
-	customMaterials.manganeese,
+	customMaterials.manganese,
 	customMaterials.platinum,
 	customMaterials.tin,
 	customMaterials.tungsten,
@@ -111,7 +120,10 @@ var materialsForPoorAndDense as Material[] = [
 	customMaterials.emerald,
 	customMaterials.gold,
 	customMaterials.lapis,
-	customMaterials.redstone
+	customMaterials.redstone,
+	customMaterials.lithium,
+	customMaterials.posirite,
+	customMaterials.negarite
 	
 ];
 
@@ -162,7 +174,7 @@ for material in materialsForPoorAndDense {
 	depositData.addDataValue("harvestTool", "shovel");
 	depositData.addDataValue("hardness", "3");
 	depositData.addDataValue("resistance", "15");
-	depositData.addDataValue("sound", "soundtype:ground");
+	#depositData.addDataValue("soundtype", "soundtype:ground");
 	depositData.addDataValue("harvestLevel", "1");
 
 	var denseOreData = material.registerPart("dense_ore").getData();
