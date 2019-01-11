@@ -71,6 +71,14 @@
       "13": "lead_ore",
       "14": "adamantium_poor_ore_minecraft_coarse_dirt",
       "15": "emerald_dense_ore"
+    },
+    "4": {
+      "0": "lithium_poor_ore_minecraft_coarse_dirt",
+      "1": "posirite_poor_ore_minecraft_coarse_dirt",
+      "2": "lithium_dense_ore",
+      "3": "negarite_dense_ore",
+      "4": "negarite_poor_ore_minecraft_coarse_dirt",
+      "5": "posirite_dense_ore"
     }
   }
 }
