@@ -24,4 +24,4 @@ moveLabels: true
 #   or: owner/repo
 
 # Repository to extend settings from
-# _extends: repo
+extends: .github
