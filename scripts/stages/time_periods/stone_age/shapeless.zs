@@ -22,6 +22,9 @@ var recipeList as IIngredient[][][IItemStack] = {
     ],
     <spartanweaponry:throwing_axe_stone> : [
         [<spartanweaponry:material>, <tconstruct:axe_head>.withTag({Material: "stone"})]
+    ],
+    <minecraft:book> : [
+        [<minecraft:leather>, <contenttweaker:wet_pulp>, <minecraft:paper>, <minecraft:paper>]
     ]
 };
 

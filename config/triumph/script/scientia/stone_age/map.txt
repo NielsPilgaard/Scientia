@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:research_compass>)
 setTitle("Cartography")
-setDescription("Buy a Primitive Compass from a Cartographer or Librarian. Doing so will research Cartography, unlocking a Fullscreen Map §4J§7 and Death Waypoints.")
+setDescription("Buy a Primitive Compass from a Cartographer or Librarian. Doing so will research Cartography, unlocking the rest of Journeymap, hotkey §4J§7.")
 setShowToast(true)
 
 addParent("scientia:stone_age/paper")

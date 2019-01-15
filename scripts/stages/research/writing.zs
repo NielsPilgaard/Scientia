@@ -9,7 +9,6 @@ var stage = stages.writing;
 val items = [
 
     <bibliocraft:biblioclipboard>,
-    <minecraft:book>,
     <minecraft:writable_book>,
     <minecraft:written_book>
 

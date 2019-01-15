@@ -11,7 +11,8 @@ Advancements are grouped up into 3 categories:
 
 The chain of Advancements that lead to the next chapter have rounded edges.
 
-§bJourneymap§f can be unlocked early on, through a Research Advancement.
+
+The fullscreen map from §bJourneymap§f can be accessed with §4J§f, but the other functions must be unlocked through a Research Advancement.
 
 
 The majority of blocks and items are §8hidden§f until unlocked.

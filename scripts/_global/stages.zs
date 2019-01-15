@@ -23,8 +23,7 @@ global stages as string[string] = {
 # Research
 	sifting : "sifting", # Gives access to the Water Filter and Grass Mesh for Flint
 	advanced_sifting : "advanced_sifting", # Gives access to Water Strainers
-	cartography : "cartography", # Gives access to the fullscreen Journeymap
-	advanced_cartography : "advanced_cartography", # Gives access to minimap, waypoints and deathpoints
+	cartography : "cartography", # Gives access to Journeymap
 	biome_compass : "biome_compass", # Gives access to Nature's Compass
 	agriculture : "agriculture", # Gives access to hoes (Mattocks)
 	brewing : "brewing", # Gives access to potions and Brewing Stands

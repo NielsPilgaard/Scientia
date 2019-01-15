@@ -31,6 +31,7 @@ val removals as IItemStack[] = [
     <minecraft:jungle_boat>,
     <minecraft:acacia_boat>,
     <minecraft:dark_oak_boat>,
+    <minecraft:book>,
     
     <pickletweaks:grass_mesh>,
     <pickletweaks:mesh>,
