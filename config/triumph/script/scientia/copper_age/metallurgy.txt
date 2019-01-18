@@ -3,7 +3,7 @@ setTitle("Metallurgy TODO")
 setDescription("Use the good old trial and error technique to discover how to process Copper Ore.")
 setShowToast(true)
 
-addParent("scientia:copper_age/research_Station")
+addParent("scientia:copper_age/research_station")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

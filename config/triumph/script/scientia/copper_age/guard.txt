@@ -1,0 +1,15 @@
+setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"combat"}>)
+setTitle("Guard TODO")
+setDescription("Guards will protect you.")
+setShowToast(true)
+
+addParent("scientia:copper_age/better_tools")
+addParent("scientia:copper_age/cooking")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Hire Guard", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"guard"}>)

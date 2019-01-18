@@ -1,4 +1,4 @@
-setIcon(<minecraft:diamond_pickaxe>)
+setIcon(<tconstruct:broadsword, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:82,HarvestLevel:0,Attack:3.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:0,Durability:82,HarvestLevel:0,Attack:3.0f},Special:{Categories:["weapon","tool"]},TinkerData:{Materials:["wood","wood","wood"]},Traits:["ecological","toolleveling"]}>)
 setTitle("Better Tools TODO")
 setDescription("You should look into improving my tools - and maybe even fashioning some new ones.")
 setShowToast(true)

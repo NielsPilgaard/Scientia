@@ -1,5 +1,5 @@
 setIcon(<ancientwarfarenpc:food_bundle>)
-setTitle("Cooking TODO")
+setTitle("Food Bundle TODO")
 setDescription("If you want to expand your village and attract new Settlers, you to need to learn how to cook in bulk.")
 setShowToast(true)
 

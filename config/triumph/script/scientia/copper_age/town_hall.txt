@@ -3,7 +3,7 @@ setTitle("Town Hall TODO")
 setDescription("Test")
 setShowToast(true)
 
-addParent("scientia:copper_age/cooking")
+addParent("scientia:copper_age/food_bundle")
 addParent("scientia:copper_age/leadership")
 setRequiresParents()
 
