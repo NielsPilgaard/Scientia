@@ -1,0 +1,14 @@
+setIcon(<ancientwarfareautomation:crop_farm>)
+setTitle("Crop Farm TODO")
+setDescription("Test")
+setShowToast(true)
+
+addParent("scientia:copper_age/town_hall")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Crop Farm", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfareautomation:crop_farm>)

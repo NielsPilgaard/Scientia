@@ -1,0 +1,14 @@
+setIcon(<backpack:backpack>)
+setTitle("Backpack TODO")
+setDescription("Get yourself a backpack to store your sh*t.")
+setShowToast(true)
+
+addParent("scientia:stone_age/leather")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Basic Backpack", "minecraft:inventory_changed")
+criteria.setBlock(<backpack:backpack>)

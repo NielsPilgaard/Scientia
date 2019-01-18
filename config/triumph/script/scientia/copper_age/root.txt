@@ -1,10 +1,10 @@
-setIcon(<thermalfoundation:material, meta:128>)
-setTitle("TODO Copper Age")
-setDescription("")
+setIcon(<contenttweaker:sub_block_holder_1, meta:4>)
+setTitle("Copper Age TODO")
+setDescription("Welcome to the Copper Age! Your understanding of the world is beginning to take shape. You do however need to figure out a way to improve your approach to research.")
 
 setShowToast(true)
 
-setBackground("minecraft:textures/blocks/cobblestone.png")
+setBackground("immersiveengineering:textures/blocks/sheetmetal_copper.png")
 
 setAnnounceToChat(false)
 
@@ -13,4 +13,5 @@ setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
-criteria = addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("Complete Stone Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/final")

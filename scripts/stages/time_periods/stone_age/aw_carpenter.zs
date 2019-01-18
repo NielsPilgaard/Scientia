@@ -281,6 +281,27 @@ RecipeBuilder.get("carpenter")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
+RecipeBuilder.get("carpenter")
+  .setShapeless([<engineersdoors:door_treated>])
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<engineersdoors:door_treated_ornate>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShapeless([<engineersdoors:door_treated_ornate>])
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<engineersdoors:door_treated_reinforced>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShapeless([<engineersdoors:door_treated_reinforced>])
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<engineersdoors:door_treated>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
 # Engineer's Treated Fence Gate
 RecipeBuilder.get("carpenter")
   .setShaped([

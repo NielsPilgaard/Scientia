@@ -1,0 +1,14 @@
+setIcon(<minecraft:diamond_pickaxe>)
+setTitle("Better Tools TODO")
+setDescription("You should look into improving my tools - and maybe even fashioning some new ones.")
+setShowToast(true)
+
+addParent("scientia:copper_age/research_station")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Tool Research", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:book>)

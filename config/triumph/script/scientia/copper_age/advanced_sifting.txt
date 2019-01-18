@@ -1,0 +1,17 @@
+setIcon(<waterstrainer:strainer_base>)
+setTitle("Advanced Sifting TODO")
+setDescription("You should try your luck with sifting for other things than Flint.")
+setShowToast(true)
+
+addParent("scientia:copper_age/research_station")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Strainer Base", "minecraft:inventory_changed")
+criteria.addItem(<waterstrainer:strainer_base>)
+
+criteria = addCriteria("Net", "minecraft:inventory_changed")
+criteria.addItem(<waterstrainer:net>)

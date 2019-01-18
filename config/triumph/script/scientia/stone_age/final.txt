@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:sub_block_holder_1:4>)
+setTitle("Copper Last Advancement TODO")
+setDescription("Test")
+setShowToast(true)
+
+addParent("scientia:stone_age/stone_grill")
+addParent("scientia:stone_age/book")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Copper", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreCopper>)
+
+setRewardFunction("time_period:copper_age")

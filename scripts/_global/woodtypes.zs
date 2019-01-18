@@ -17,7 +17,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : <minecraft:wooden_pressure_plate>,
         leaves : <minecraft:leaves>,
         button : <minecraft:wooden_button>,
-        cauldron : <morecauldrons:oak_cauldron>
+        cauldron : <morecauldrons:oak_cauldron>,
+		bookshelf : null
     },
     spruce: {
         log : <minecraft:log:1>,
@@ -32,7 +33,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : <morecauldrons:spruce_cauldron>
+        cauldron : <morecauldrons:spruce_cauldron>,
+		bookshelf : null
     },
     birch: {
         log : <minecraft:log:2>,
@@ -47,7 +49,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : <morecauldrons:birch_cauldron>
+        cauldron : <morecauldrons:birch_cauldron>,
+		bookshelf : null
     },
     jungle: {
         log : <minecraft:log:3>,
@@ -62,7 +65,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : <morecauldrons:jungle_cauldron>
+        cauldron : <morecauldrons:jungle_cauldron>,
+		bookshelf : null
     },
     acacia: {
         log : <minecraft:log2>,
@@ -77,7 +81,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : <morecauldrons:acacia_cauldron>
+        cauldron : <morecauldrons:acacia_cauldron>,
+		bookshelf : null
     },
     dark_oak: {
         log : <minecraft:log2:1>,
@@ -92,7 +97,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : <morecauldrons:big_oak_cauldron>
+        cauldron : <morecauldrons:big_oak_cauldron>,
+		bookshelf : null
     },
     maple: {
         log : <natura:overworld_logs>,
@@ -107,7 +113,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : <natura:maple_pressure_plate>,
         leaves : <natura:overworld_leaves>,
         button : <natura:maple_button>,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     silverbell: {
         log : <natura:overworld_logs:1>,
@@ -122,7 +129,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     amaranth: {
         log : <natura:overworld_logs:2>,
@@ -137,7 +145,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     tiger: {
         log : <natura:overworld_logs:3>,
@@ -152,7 +161,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     willow: {
         log : <natura:overworld_logs2>,
@@ -167,7 +177,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     eucalyptus: {
         log : <natura:overworld_logs2:1>,
@@ -182,7 +193,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     hopseed: {
         log : <natura:overworld_logs2:2>,
@@ -197,7 +209,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     sakura: {
         log : <natura:overworld_logs2:3>,
@@ -212,7 +225,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     redwood: {
         log : <natura:redwood_logs:1>,
@@ -227,7 +241,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     olive: {
         log : <rustic:log>,
@@ -242,7 +257,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     ironwood: {
         log : <rustic:log:1>,
@@ -257,7 +273,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     fir: {
         log : <traverse:fir_log>,
@@ -272,7 +289,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : null,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     },
     ancient: {
         log : <naturesaura:ancient_log>,
@@ -287,7 +305,8 @@ global woodtypes as IIngredient[string][string] = {
         pressure_plate : null,
         leaves : <naturesaura:ancient_leaves>,
 		button : null,
-        cauldron : null
+        cauldron : null,
+		bookshelf : null
     }
 };
 

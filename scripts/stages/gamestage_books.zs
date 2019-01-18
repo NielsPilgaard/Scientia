@@ -50,3 +50,4 @@ Book.addBook("master_architect", "Master Architect", "Master Architect", "minecr
 
 Book.addBook("writing", "Writing", "The First Book", "minecraft:book", 0xff9400);
 Book.addBook("agriculture", "Agriculture", "Agricultural Knowledge", "minecraft:iron_hoe", 0x5ac452);
+Book.addBook("metallurgy", "Metallurgy", "Metallurgic Knowledge", "minecraft:iron_ore", 0xe0880d);
