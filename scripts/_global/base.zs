@@ -10,3 +10,9 @@ global paper as IItemStack = <minecraft:paper>;
 global book as IItemStack = <minecraft:book>;
 global stone as IItemStack = <minecraft:stone>;
 global cobble as IItemStack = <minecraft:cobblestone>;
+
+global preferredOutputMods as string[] = [
+	"minecraft",
+	"contenttweaker",
+	"immersiveengineering"
+]
