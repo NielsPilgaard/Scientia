@@ -19,7 +19,9 @@ function purgeOreDictEntry(oreDictEntry as IOreDictEntry) {
 		if (!item.matches(getPreferredItem(oreDictEntry))) {
 			print("Now purging " ~ item.displayName);
 			purgeItem(item);
+			if (item.definition.owner != "chisel") {
 			oreDictEntry.remove(item);
+			}
 		}
 	}
 }

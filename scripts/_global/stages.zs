@@ -36,8 +36,7 @@ global stages as string[string] = {
 	enchanting : "enchanting", # Gives access to the Enchanting Table and Enchanted Books
 	fire : "fire", # Gives access to torches and furnaces
 	writing : "writing", # Gives access to paper, books and the first research station
-	chisel : "chisel", # Unlocks Chisel
-	advanced_chisel : "advanced_chisel", # Unlocks Chisels & Bits
+	chisel : "chisel", # Unlocks Chisel and Chisels&Bits
 	cooking : "cooking", # Unlocks Pam's utensils & machines other than the Water Filter
 	defender : "defender", # Unlocks Shields
 	locomotion : "locomotion", # Unlocks Rails, Minecarts etc
