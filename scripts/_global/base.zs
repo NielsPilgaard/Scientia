@@ -15,4 +15,4 @@ global preferredOutputMods as string[] = [
 	"minecraft",
 	"contenttweaker",
 	"immersiveengineering"
-]
+];

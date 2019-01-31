@@ -106,10 +106,10 @@ global materials as IIngredient[string][string] = {
 		ore: <materialpart:nickel:ore>,
 		ore_deposit: <materialpart:nickel:poor_ore_minecraft_coarse_dirt>, 		
 		dust: <immersiveengineering:metal:13>,
-        liquid: <liquid:uranium>, 
-		gear: <materialpart:uranium:gear>,
-		plate: <materialpart:uranium:plate>,
-		rod: <materialpart:uranium:rod>
+        liquid: <liquid:nickel>, 
+		gear: <materialpart:nickel:gear>,
+		plate: <materialpart:nickel:plate>,
+		rod: <materialpart:nickel:rod>
 	},
     uranium: {
         nugget: <immersiveengineering:metal:25>,
