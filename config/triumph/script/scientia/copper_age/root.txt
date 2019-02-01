@@ -15,3 +15,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Complete Stone Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/final")
+
+setRewardExperience(25)

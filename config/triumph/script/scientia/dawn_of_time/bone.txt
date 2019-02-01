@@ -12,3 +12,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Bone", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bone>)
+
+setRewardExperience(25)

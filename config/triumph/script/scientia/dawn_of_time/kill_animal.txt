@@ -22,7 +22,9 @@ criteria = addCriteria("Kill 1 Sheep", "minecraft:player_killed_entity")
 criteria.setEntityType("sheep")
 
 criteria = addCriteria("Kill 1 Rabbit", "minecraft:player_killed_entity")
-criteria.setEntityType("Kill 1 rabbit")
+criteria.setEntityType("rabbit")
 
-criteria = addCriteria("Pig", "minecraft:player_killed_entity")
-criteria.setEntityType("Kill 1 pig")
+criteria = addCriteria("Kill 1 pig", "minecraft:player_killed_entity")
+criteria.setEntityType("pig")
+
+setRewardExperience(25)

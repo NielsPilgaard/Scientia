@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Throwing Knife", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:throwing_knife_stone>)
+
+setRewardExperience(25)

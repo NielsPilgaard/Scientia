@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Cannot be completed", "minecraft:impossible")
 criteria.addItem(<ore:chestWood>)
+
+setRewardExperience(25)

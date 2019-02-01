@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Crafting Table", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:crafting_table>)
+
+setRewardExperience(25)

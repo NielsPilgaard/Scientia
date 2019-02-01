@@ -16,3 +16,5 @@ criteria.addItem(<tconstruct:binding, nbt:{Material:"plant_fiber"}>)
 
 criteria = addCriteria("Wooden Tool Rod", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tool_rod, nbt:{Material:"wood"}>)
+
+setRewardExperience(25)

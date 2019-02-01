@@ -14,3 +14,5 @@ criteria = addCriteria("10 String", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:string>)
 
 setRewardFunction("research:sifting")
+
+setRewardExperience(25)

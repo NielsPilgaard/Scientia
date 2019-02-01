@@ -15,3 +15,5 @@ criteria = addCriteria("Expert Tinkerer Book", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:expert_tinkerer>)
 
 setRewardItem(<gamestagebooks:expert_tinkerer>)
+
+setRewardExperience(25)

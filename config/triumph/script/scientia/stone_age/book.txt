@@ -15,3 +15,5 @@ criteria = addCriteria("Book", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:book>)
 
 setRewardFunction("research:writing")
+
+setRewardExperience(25)

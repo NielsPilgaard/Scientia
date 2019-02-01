@@ -13,3 +13,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Any Wood Log", "minecraft:inventory_changed")
 criteria.addItem(<ore:logWood>)
+
+setRewardExperience(25)

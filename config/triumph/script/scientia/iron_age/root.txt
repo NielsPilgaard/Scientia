@@ -15,3 +15,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Complete Bronze Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:bronze_age/final")
+
+setRewardExperience(25)

@@ -15,3 +15,5 @@ criteria = addCriteria("Master Miner Book", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:master_miner>)
 
 setRewardItem(<gamestagebooks:master_miner>)
+
+setRewardExperience(25)

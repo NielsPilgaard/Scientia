@@ -15,3 +15,5 @@ criteria.addItem(<waterstrainer:strainer_base>)
 
 criteria = addCriteria("Net", "minecraft:inventory_changed")
 criteria.addItem(<waterstrainer:net>)
+
+setRewardExperience(25)

@@ -13,4 +13,4 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Advancement Novice Carpenter", "minecraft:impossible")
 
-setRewardExperience(20)
+setRewardExperience(25)

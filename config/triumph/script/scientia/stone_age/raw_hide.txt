@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("4 Raw Hide", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:raw_hide>)
+
+setRewardExperience(25)

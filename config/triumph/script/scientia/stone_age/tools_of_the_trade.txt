@@ -19,3 +19,5 @@ criteria.addItem(<artisanworktables:artisans_framing_hammer_stone>)
 
 criteria = addCriteria("Artisan's Stone Handsaw", "minecraft:inventory_changed")
 criteria.addItem(<artisanworktables:artisans_handsaw_stone>)
+
+setRewardExperience(25)

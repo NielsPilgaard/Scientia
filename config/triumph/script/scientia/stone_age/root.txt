@@ -17,3 +17,5 @@ criteria = addCriteria("Complete the Dawn of Time age", "triumph:completed_advan
 criteria.setAdvancement("triumph:dawn_of_time/final")
 
 setRewardItem(<magicalmap:map, nbt:{display:{Name:"Village"}}>)
+
+setRewardExperience(25)

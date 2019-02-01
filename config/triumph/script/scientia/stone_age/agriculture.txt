@@ -13,5 +13,6 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("Purchase Agricultural Knowledge", "minecraft:villager_trade")
 criteria.setItem(<gamestagebooks:agriculture>)
 
-setRewardExperience(30)
 setRewardItem(<minecraft:farmland, count:8>)
+
+setRewardExperience(25)

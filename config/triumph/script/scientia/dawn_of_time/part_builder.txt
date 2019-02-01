@@ -13,3 +13,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Part Builder", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables, meta:2>)
+
+setRewardExperience(25)

@@ -22,3 +22,5 @@ criteria.addItem(<tconstruct:shovel_head, nbt:{}>)
 
 criteria = addCriteria("Axe Head", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:axe_head, nbt:{}>)
+
+setRewardExperience(25)

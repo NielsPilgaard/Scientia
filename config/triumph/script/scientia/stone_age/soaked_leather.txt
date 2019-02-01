@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("4 Soaked Leather", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:soaked_leather>)
 criteria.setCount(4)
+
+setRewardExperience(25)

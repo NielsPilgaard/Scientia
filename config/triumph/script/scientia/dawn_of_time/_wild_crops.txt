@@ -53,3 +53,5 @@ criteria.setBlock(<harvestcraft:pamstrawberrycrop, meta:3>)
 
 criteria = addCriteria("Ginger", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamgingercrop, meta:3>)
+
+setRewardExperience(25)

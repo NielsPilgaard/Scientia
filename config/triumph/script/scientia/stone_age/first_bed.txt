@@ -15,3 +15,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Bed of Straw and Leaves", "minecraft:inventory_changed")
 criteria.setBlock(<primal_tech:leaf_bed>)
+
+setRewardExperience(25)

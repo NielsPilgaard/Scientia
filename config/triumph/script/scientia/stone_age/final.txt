@@ -15,3 +15,5 @@ criteria = addCriteria("Copper", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreCopper>)
 
 setRewardFunction("time_period:copper_age")
+
+setRewardExperience(25)

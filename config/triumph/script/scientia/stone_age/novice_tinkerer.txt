@@ -13,4 +13,4 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("Novice Tinkerer", "minecraft:inventory_changed")
 criteria.addItem(<gamestagebooks:novice_tinkerer>)
 
-setRewardExperience(20)
+setRewardExperience(25)

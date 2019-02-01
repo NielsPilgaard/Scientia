@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Crop Farm", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:crop_farm>)
+
+setRewardExperience(25)

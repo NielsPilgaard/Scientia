@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Anvil", "minecraft:inventory_changed")
 criteria.setBlock(<primal_tech:stone_anvil>)
+
+setRewardExperience(25)

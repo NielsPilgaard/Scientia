@@ -12,3 +12,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Any Wood Plank", "minecraft:inventory_changed")
 criteria.addItem(<ore:plankWood>)
+
+setRewardExperience(25)

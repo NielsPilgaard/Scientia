@@ -14,3 +14,5 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("6 Soaked Hide", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:soaked_hide>)
 criteria.setCount(6)
+
+setRewardExperience(25)

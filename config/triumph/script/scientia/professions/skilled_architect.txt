@@ -22,3 +22,5 @@ criteria.setAdvancement("triumph:iron_age/root")
 
 criteria = addCriteria("Completed Advancement Skilled Carpenter", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:professions/skilled_carpenter")
+
+setRewardExperience(25)

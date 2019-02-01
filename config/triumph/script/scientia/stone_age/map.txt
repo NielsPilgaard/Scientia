@@ -13,4 +13,4 @@ setCompletedTitleColor(102, 0, 102)
 criteria = addCriteria("Purchase Primitive Compass", "minecraft:villager_trade")
 criteria.setBlock(<contenttweaker:research_compass>)
 
-setRewardExperience(20)
+setRewardExperience(25)

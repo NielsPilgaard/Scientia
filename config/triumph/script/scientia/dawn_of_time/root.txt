@@ -18,3 +18,5 @@ setCompletedTitleColor(30, 61, 123)
 addCriteria("location", "minecraft:location")
 
 setRewardFunction("time_period:dawn_of_time")
+
+setRewardExperience(25)

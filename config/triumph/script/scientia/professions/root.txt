@@ -15,3 +15,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Dawn of Time", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:dawn_of_time/final")
+
+setRewardExperience(25)

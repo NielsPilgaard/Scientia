@@ -27,3 +27,5 @@ criteria.addItem(<rustic:cabinet>)
 criteria.setCount(2)
 
 setRewardItem(<gamestagebooks:skilled_carpenter>)
+
+setRewardExperience(25)

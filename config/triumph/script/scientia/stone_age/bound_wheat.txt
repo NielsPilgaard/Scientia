@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("3 Bound Wheat", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:bound_wheat>)
 criteria.setCount(3)
+
+setRewardExperience(25)

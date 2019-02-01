@@ -20,3 +20,5 @@ criteria.setBlock(<ore:dirt>)
 criteria.setCount(32)
 
 setRewardItem(<gamestagebooks:novice_miner>)
+
+setRewardExperience(25)

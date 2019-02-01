@@ -12,3 +12,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Any Debarked Wood Log", "minecraft:inventory_changed")
 criteria.addItem(<ore:logDebarked>)
+
+setRewardExperience(25)

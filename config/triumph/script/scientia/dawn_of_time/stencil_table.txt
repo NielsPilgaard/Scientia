@@ -16,3 +16,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Stencil Table", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables, meta:1>)
+
+setRewardExperience(25)

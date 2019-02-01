@@ -15,3 +15,5 @@ criteria.addItem(<claybucket:claybucket>)
 
 criteria = addCriteria("Completed Advancement Feuer Frei", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/fire_sticks")
+
+setRewardExperience(25)

@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Skilled Carpenter", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:professions/skilled_carpenter")
+
+setRewardExperience(25)

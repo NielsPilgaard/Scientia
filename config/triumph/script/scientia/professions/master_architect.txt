@@ -15,3 +15,5 @@ criteria = addCriteria("Master Architect Book", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:master_architect>)
 
 setRewardItem(<gamestagebooks:master_architect>)
+
+setRewardExperience(25)

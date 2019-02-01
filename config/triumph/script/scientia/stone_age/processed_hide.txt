@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Wooden Cauldron", "minecraft:inventory_changed")
 criteria.addItem(<ore:processed_hide>)
+
+setRewardExperience(25)

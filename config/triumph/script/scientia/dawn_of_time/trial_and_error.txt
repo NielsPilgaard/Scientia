@@ -15,3 +15,5 @@ criteria = addCriteria("Crude Tool Parts", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:research_tool_parts>)
 
 setRewardFunction("research:tool_parts")
+
+setRewardExperience(25)

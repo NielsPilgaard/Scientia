@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Cooking Research", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:food_bundle>)
+
+setRewardExperience(25)

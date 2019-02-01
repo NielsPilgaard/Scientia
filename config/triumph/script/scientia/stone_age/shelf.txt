@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Any Shelf", "minecraft:inventory_changed")
 criteria.addItem(<ore:shelfWood>)
+
+setRewardExperience(25)

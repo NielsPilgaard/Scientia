@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Javelin", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:javelin_stone>)
+
+setRewardExperience(25)

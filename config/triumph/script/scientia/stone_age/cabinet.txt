@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Any Rustic Cabinet", "minecraft:inventory_changed")
 criteria.addItem(<rustic:cabinet>)
+
+setRewardExperience(25)

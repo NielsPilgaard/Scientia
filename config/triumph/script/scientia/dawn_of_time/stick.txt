@@ -12,3 +12,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Stick", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stick>)
+
+setRewardExperience(5)

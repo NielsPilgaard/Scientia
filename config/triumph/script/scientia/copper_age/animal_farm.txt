@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Animal Farm", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:animal_farm>)
+
+setRewardExperience(25)

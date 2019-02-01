@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Mason's Worktable", "minecraft:inventory_changed")
 criteria.setBlock(<artisanworktables:worktable:2>)
+
+setRewardExperience(25)

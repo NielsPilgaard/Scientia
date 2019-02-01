@@ -15,3 +15,5 @@ criteria = addCriteria("Crude Shuriken", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:research_shuriken>)
 
 setRewardFunction("triumph:ninja")
+
+setRewardExperience(25)

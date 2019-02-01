@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Flint", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:flint>)
+
+setRewardExperience(5)

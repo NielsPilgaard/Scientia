@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Mallet", "minecraft:inventory_changed")
 criteria.setBlock(<primal_tech:stone_mallet>)
+
+setRewardExperience(25)

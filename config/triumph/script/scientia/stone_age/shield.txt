@@ -14,3 +14,5 @@ criteria = addCriteria("Any Door", "minecraft:inventory_changed")
 criteria.addItem(<ore:doorWood>)
 
 setRewardFunction("research:defender")
+
+setRewardExperience(25)

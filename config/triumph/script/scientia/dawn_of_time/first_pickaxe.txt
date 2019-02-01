@@ -14,3 +14,5 @@ setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Any Available Pickaxe", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:pickaxe>)
+
+setRewardExperience(25)

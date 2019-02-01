@@ -23,3 +23,5 @@ criteria.setItem(<ore:plankWood>)
 criteria.setcount(500)
 
 setRewardItem(<gamestagebooks:master_carpenter>)
+
+setRewardExperience(25)

@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Any Chest", "minecraft:inventory_changed")
 criteria.addItem(<ore:chestWood>)
+
+setRewardExperience(25)

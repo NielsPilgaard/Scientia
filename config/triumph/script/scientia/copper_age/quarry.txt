@@ -12,3 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Tree Farm", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:quarry>)
+
+setRewardExperience(25)

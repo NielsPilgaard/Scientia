@@ -12,3 +12,5 @@ setCompletedTitleColor(102, 0, 102)
 
 criteria = addCriteria("Stone Arrow Head", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:arrow_head, nbt:{Material:"stone"}>)
+
+setRewardExperience(25)

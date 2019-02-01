@@ -15,3 +15,5 @@ criteria.setItem(<*>)
 criteria.setCount(1000)
 
 setRewardFunction("professions:excavation")
+
+setRewardExperience(25)

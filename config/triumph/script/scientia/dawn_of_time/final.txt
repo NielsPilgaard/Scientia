@@ -15,3 +15,5 @@ criteria = addCriteria("Rock", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:rock>)
 
 setRewardFunction("time_period:stone_age")
+
+setRewardExperience(100)

@@ -17,3 +17,5 @@ criteria = addCriteria("Used Fire Sticks", "triumph:right_click_block")
 criteria.setItem(<primal_tech:fire_sticks>)
 
 setRewardFunction("research:fire")
+
+setRewardExperience(25)

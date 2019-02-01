@@ -13,3 +13,5 @@ setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("Novice Architect Book", "minecraft:inventory_changed")
 criteria.addItem(<gamestagebooks:novice_architect>)
+
+setRewardExperience(25)
