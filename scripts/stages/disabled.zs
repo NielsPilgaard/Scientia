@@ -1618,7 +1618,11 @@ val disableList = [
         <villagenames:koentusvillagebook>,
         <villagenames:fronosvillagebook>,
         <villagenames:nibiruvillagebook>,
-        <villagenames:abandonedbasebook>
+        <villagenames:abandonedbasebook>,
+
+        <waystones:return_scroll>,
+        <waystones:bound_scroll>,
+        <waystones:warp_scroll>
 
     ] as IItemStack[];
 

@@ -1,0 +1,16 @@
+setIcon(<waystones:waystone>)
+setTitle("Ancient Device")
+setDescription("Find the stone shrine of your village.\nClicking the pillar in the middle makes it light up, revealing strange glyphs.\nWhat could it be?")
+setShowToast(true)
+
+addParent("scientia:stone_age/find_village")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Touch the Village Waystone", "triumph:right_click_block")
+criteria.setBlock(<waystones:waystone>)
+
+setRewardExperience(25)

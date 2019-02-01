@@ -1,4 +1,4 @@
-setIcon(<thermalfoundation:material, meta:163>)
+setIcon(<contenttweaker:material_part, meta:48>)
 setTitle("TODO Bronze Age")
 setDescription("")
 
