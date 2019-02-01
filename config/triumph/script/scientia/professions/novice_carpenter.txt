@@ -1,6 +1,6 @@
 setIcon(<rustic:cabinet>)
 setTitle("Novice Carpenter")
-setDescription("Congratulations on reaching the Novice level of Carpentry. This Profession allows you to craft Shelves, Planks, Barrels and Cabinets!")
+setDescription("Congratulations on reaching the Novice level of Carpentry. This level of the Profession allows you to craft Shelves, Planks, Barrels and Cabinets!")
 setShowToast(true)
 
 addParent("scientia:professions/root")
@@ -10,5 +10,5 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Novice Carpenter Book", "minecraft:inventory_changed")
 criteria.addItem(<gamestagebooks:novice_carpenter>)

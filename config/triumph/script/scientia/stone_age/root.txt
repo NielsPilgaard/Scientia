@@ -14,6 +14,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Complete the Dawn of Time age", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:dawn_of_time/rock")
+criteria.setAdvancement("triumph:dawn_of_time/final")
 
-setRewardFunction("triumph:village_map")
+setRewardItem(<magicalmap:map, nbt:{display:{Name:"Village"}}>)

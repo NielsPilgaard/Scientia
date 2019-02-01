@@ -1,6 +1,6 @@
 setIcon(<minecraft:crafting_table>)
 setTitle("Craftsman")
-setDescription("You can make a Crafting Table now! Woot!")
+setDescription("You can now make a Crafting Table now! Woot!")
 setShowToast(true)
 
 addParent("scientia:stone_age/root")

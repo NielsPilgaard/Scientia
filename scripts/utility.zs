@@ -18,12 +18,12 @@ import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.addDescription;
 
 function disableItem(item as IItemStack) {
-	recipes.remove(item);
 	addDescription(item, 
 		"This item is disabled.", 
 		"If you somehow obtained it, please report it on Scientia's issue tracker.", 
 		"There's a link in the Game Menu and the Esc Menu.");
 	addItemStage("disabled", item);
+	furnace.remove(item);
 }
 
 function stageMod(stage as string, mod as string) {

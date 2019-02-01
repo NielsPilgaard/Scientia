@@ -406,5 +406,18 @@ global materials as IIngredient[string][string] = {
 		gear: null,
 		plate: null,
 		rod: null
+	},
+	wood: {
+		gem: null,
+        nugget: null,
+        ingot: null,
+		block: <minecraft:log>, 		
+		ore: null,
+		ore_deposit: null, 		
+		dust: null,
+        liquid: null, 
+		gear: <materialpart:wood:gear>,
+		plate: null,
+		rod: <minecraft:stick>
 	}
 };

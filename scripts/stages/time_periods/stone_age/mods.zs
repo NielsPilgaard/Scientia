@@ -7,7 +7,6 @@ import mods.ItemStages.addItemStage;
 var stage = stages.stone_age;
 
 var modIDs as string[] = [
-	"woodenshears",
 	"morecauldrons"
 ];
 

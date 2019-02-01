@@ -69,8 +69,8 @@ global stages as string[string] = {
 	apprentice_miner : "apprentice_miner", # Tin Ore
 	skilled_miner : "skilled_miner", # Iron Ore
 	expert_miner : "expert_miner", # Diamond?
-	master_miner : "master_miner", # Obsidian?
+	master_miner : "master_miner" # Obsidian?
 
 # Disabling
-	disabled : "disabled" # A stage designed to disable items, hiding them and making them inaccessible
+	//disabled : "disabled" # A stage designed to disable items, hiding them and making them inaccessible
 };

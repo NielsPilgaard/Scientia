@@ -13,4 +13,5 @@ setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
-criteria = addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("Complete Copper Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:copper_age/final")

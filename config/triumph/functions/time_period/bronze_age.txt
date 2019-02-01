@@ -1,5 +1,5 @@
 summon minecraft:fireworks_rocket ~ ~ ~
 summon minecraft:fireworks_rocket ~ ~ ~
 mpa notify @p bronze_age
-gamestage add @p bronze_age
-gamestage add @p bronze_age_mobs
+gamestage silentadd @p bronze_age
+gamestage silentadd @p bronze_age_mobs

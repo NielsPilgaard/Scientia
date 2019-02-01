@@ -14,11 +14,11 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Skilled Architect Book", "minecraft:inventory_changed")
 criteria.setBlock(<gamestagebooks:skilled_architect>)
 
 criteria = addCriteria("Reached the Iron Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:iron_age/root")
 
-criteria = addCriteria("Skilled Carpenter", "triumph:completed_advancement")
+criteria = addCriteria("Completed Advancement Skilled Carpenter", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:professions/skilled_carpenter")

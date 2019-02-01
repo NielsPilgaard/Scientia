@@ -1,2 +1,2 @@
 summon minecraft:fireworks_rocket ~ ~ ~
-gamestage add @p defender
+gamestage silentadd @p defender

@@ -12,17 +12,17 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("cow", "minecraft:player_killed_entity")
+criteria = addCriteria("Kill 1 Cow", "minecraft:player_killed_entity")
 criteria.setEntityType("cow")
 
-criteria = addCriteria("chicken", "minecraft:player_killed_entity")
+criteria = addCriteria("Kill 1 Chicken", "minecraft:player_killed_entity")
 criteria.setEntityType("chicken")
 
-criteria = addCriteria("sheep", "minecraft:player_killed_entity")
+criteria = addCriteria("Kill 1 Sheep", "minecraft:player_killed_entity")
 criteria.setEntityType("sheep")
 
-criteria = addCriteria("rabbit", "minecraft:player_killed_entity")
-criteria.setEntityType("rabbit")
+criteria = addCriteria("Kill 1 Rabbit", "minecraft:player_killed_entity")
+criteria.setEntityType("Kill 1 rabbit")
 
-criteria = addCriteria("pig", "minecraft:player_killed_entity")
-criteria.setEntityType("pig")
+criteria = addCriteria("Pig", "minecraft:player_killed_entity")
+criteria.setEntityType("Kill 1 pig")

@@ -1,6 +1,6 @@
 setIcon(<charset:chest>)
 setTitle("Skilled Carpenter")
-setDescription("To become a Skilled Carpenter, you must craft 64 Planks, 3 Drying Racks, 3 Shelves and 2 Cabinets. They can be any type. Unlocking this will upgrade some of your recipes, and grant you access to a lot of new ones - Some of which are Chests and furniture!")
+setDescription("Unlocking the Skilled level of will upgrade some of your recipes, and grant you access to a lot of new ones - Including Chests and furniture!")
 setShowToast(true)
 
 addParent("scientia:professions/novice_carpenter")
@@ -10,16 +10,19 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Any 64 Wooden Planks", "minecraft:inventory_changed")
 criteria.addItem(<ore:plankWood>)
 criteria.setCount(64)
 
-criteria.addItem(<tconstruct:rack>)
+criteria = addCriteria("3 Drying Racks", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:rack:1>)
 criteria.setCount(3)
 
+criteria = addCriteria("Any 3 Shelves", "minecraft:inventory_changed")
 criteria.addItem(<ore:shelfWood>)
 criteria.setCount(3)
 
+criteria = addCriteria("2 Cabinets", "minecraft:inventory_changed")
 criteria.addItem(<rustic:cabinet>)
 criteria.setCount(2)
 

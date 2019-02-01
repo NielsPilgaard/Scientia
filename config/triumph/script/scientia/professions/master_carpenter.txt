@@ -1,6 +1,6 @@
 setIcon(<architecturecraft:sawbench>)
 setTitle("Master Carpenter")
-setDescription("The pinnacle of Carpentry experience! To unlock this level of Carpentry, craft 100 furniture of any kind, 25 Wooden Chests and 500 Wooden Planks of any kind. Completing this will unlock ArchitectureCraft, if you're also a Skilled Architect, and upgrade some of your recipes.")
+setDescription("The pinnacle of Carpentry experience! Completing this will unlock ArchitectureCraft, if you're also a Skilled Architect, and upgrade some of your recipes.")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_carpenter")
@@ -10,13 +10,15 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Any 100 Furniture", "minecraft:inventory_changed")
 criteria.setItem(<ore:furniture>)
 criteria.setCount(100)
 
+criteria = addCriteria("Any 25 Wooden Chests", "minecraft:inventory_changed")
 criteria.setItem(<ore:chestWood>)
 criteria.setCount(25)
 
+criteria = addCriteria("Any 500 Wooden Planks", "minecraft:inventory_changed")
 criteria.setItem(<ore:plankWood>)
 criteria.setcount(500)
 

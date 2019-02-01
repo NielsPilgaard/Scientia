@@ -1,2 +1,2 @@
 summon minecraft:fireworks_rocket ~ ~ ~
-gamestage add @p biome_compass
+gamestage silentadd @p biome_compass

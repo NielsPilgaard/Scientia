@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:novice_carpenter>)
 setTitle("Internship")
-setDescription("Become a Novice Carpenter by using the Novice Carpenter book, which can be purchased in Villages. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or "make room" for new Villagers to spawn.")
+setDescription("Become a Novice Carpenter by using the Novice Carpenter book, which can be purchased in Villages. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or \"make room\" for new Villagers to spawn.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")
@@ -11,6 +11,6 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Complete Novice Carpenter", "minecraft:impossible")
+criteria = addCriteria("Complete Advancement Novice Carpenter", "minecraft:impossible")
 
 setRewardExperience(20)

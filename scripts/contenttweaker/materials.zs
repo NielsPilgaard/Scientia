@@ -46,6 +46,8 @@ static customMaterials as Material[string] = {
 
 	"lithium": MaterialSystem.getMaterialBuilder().setName("Lithium").setColor(Color.fromHex("e6efee")).build(),
 	"posirite": MaterialSystem.getMaterialBuilder().setName("Posirite").setColor(Color.fromHex("107fe8")).build(),
-	"negarite": MaterialSystem.getMaterialBuilder().setName("Negarite").setColor(Color.fromHex("dfea44")).build()
+	"negarite": MaterialSystem.getMaterialBuilder().setName("Negarite").setColor(Color.fromHex("dfea44")).build(),
+
+	"wood": MaterialSystem.getMaterialBuilder().setName("Wood").setColor(Color.fromHex("6b3905")).build()
 
 };

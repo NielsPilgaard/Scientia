@@ -1,6 +1,5 @@
 summon minecraft:fireworks_rocket ~ ~ ~
 summon minecraft:fireworks_rocket ~ ~ ~
 mpa notify @p stone_age
-gamestage add @p stone_age
-gamestage add @p stone_age_mobs
-advancement grant @p only scientia:stone_age/root
+gamestage silentadd @p stone_age
+gamestage silentadd @p stone_age_mobs

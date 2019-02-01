@@ -10,7 +10,8 @@ setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
-criteria.setBlock(<minecraft:carrots>)
+criteria = addCriteria("Break 1000 Blocks", "triumph:player_break_block")
+criteria.setItem(<*>)
+criteria.setCount(1000)
 
 setRewardFunction("professions:excavation")

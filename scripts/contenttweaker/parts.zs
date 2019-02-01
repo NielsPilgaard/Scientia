@@ -185,3 +185,4 @@ for material in materialsForPoorAndDense {
 }
 
 customMaterials.ender_pearl.registerPart("block");
+customMaterials.wood.registerPart("gear");

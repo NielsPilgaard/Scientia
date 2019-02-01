@@ -11,6 +11,8 @@ setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Plant Fiber Binding", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:binding, nbt:{Material:"plant_fiber"}>)
+
+criteria = addCriteria("Wooden Tool Rod", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tool_rod, nbt:{Material:"wood"}>)

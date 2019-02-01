@@ -13,5 +13,5 @@ setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(30, 61, 123)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Flint Hatchet", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:hatchet>)

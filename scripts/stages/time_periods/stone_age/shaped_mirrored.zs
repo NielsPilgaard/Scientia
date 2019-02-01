@@ -81,13 +81,6 @@ var recipeList as IIngredient[][][][IItemStack] = {
         [
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
         ]
-    ],
-    <woodenshears:wshears>.withTag({mType: 0 as byte}) : [
-        [
-            [<ore:plankWood>, null, <ore:plankWood>],
-            [null, <ore:treeSapling>, null], 
-            [stick, null, stick]
-        ]
     ]
 };
 

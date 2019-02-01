@@ -1,2 +1,2 @@
-gamestage add @p dawn_of_time
-gamestage add @p dawn_of_time_mobs
+gamestage silentadd @p dawn_of_time
+gamestage silentadd @p dawn_of_time_mobs

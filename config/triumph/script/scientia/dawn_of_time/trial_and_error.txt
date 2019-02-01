@@ -11,7 +11,7 @@ setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("invChanged", "minecraft:inventory_changed")
+criteria = addCriteria("Crude Tool Parts", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:research_tool_parts>)
 
 setRewardFunction("research:tool_parts")

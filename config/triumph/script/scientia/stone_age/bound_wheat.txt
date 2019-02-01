@@ -3,7 +3,7 @@ setTitle("Bound for Greatness")
 setDescription("Craft Bound Wheat.")
 setShowToast(true)
 
-addParent("scientia:stone_age/shears")
+addParent("scientia:stone_age/kama")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)
