@@ -42,6 +42,7 @@ global stages as string[string] = {
 	explosives : "explosives", # Unlocks gunpowder, TNT, EFLN
 	maestro : "maestro", # Unlocks Music Discs and tools to play them
 	ninja : "ninja", # Unlocks the TiC Shuriken and Grappling Hooks
+	dye : "dye", # Gives access to the Inspirations dyes
 	
 # Profession Research 
 	novice_tinkerer : "novice_tinkerer", # Gives access to the Tool Table
@@ -56,14 +57,14 @@ global stages as string[string] = {
 
 	novice_carpenter : "novice_carpenter", # Planks in Artisan Worktable, Bibliocraft Shelves, Barrels, Cabinets
 	skilled_carpenter : "skilled_carpenter", # Better plank recipe, all furniture, chests
-	master_carpenter : "master_carpenter", # Best plank recipe, ArchitectureCraft
-	
+	master_carpenter : "master_carpenter", # Best plank recipe, ArchitectureCraft, beds
+	/*
 	novice_crafter : "novice_crafter", # Tier 1 Artisan Worktable, Crafting Table, String, Wool
 	apprentice_crafter : "skilled_crafter", # Tier 2 Artisan Worktable
 	skilled_crafter : "skilled_crafter", # Tier 3 Artisan Worktable
 	expert_crafter : "skilled_crafter", # Autocrafter
 	master_crafter : "master_crafter", # AE Crafting Terminal
-
+	*/
 	novice_miner : "novice_miner", # Copper Ore
 	apprentice_miner : "apprentice_miner", # Tin Ore
 	skilled_miner : "skilled_miner", # Iron Ore

@@ -29,6 +29,11 @@ function disableItem(item as IItemStack) {
 		"There's a link in the Game Menu and the Esc Menu.");
 	addItemStage("disabled", item);
 	furnace.remove(item);
+	if (!isNull(item.ores)) {
+		for oredict in item.ores {
+			oredict.remove(item);
+		}
+	}
 }
 
 function stageMod(stage as string, mod as string) {
@@ -140,8 +145,6 @@ function disableModStageList(mod as string, stage as string, exceptions as IItem
 		addItemStage(stage, item);
 	}
 }
-
-
 
 function createGlobalArmorGroup(name as string, equipChance as double, armors as IItemStack[], stage as string) as ArmorGroup {
 # Order is head, chest, legs, feet, mainhand, offhand

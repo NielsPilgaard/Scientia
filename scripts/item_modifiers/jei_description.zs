@@ -33,11 +33,11 @@ addDescription(stick,
 
 # Rustic Cabinet
 addDescription(<rustic:cabinet>,
-"The texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak. The Cabinet can only be open from the front.");
+"The texture matches the planks used to craft it. If more than one type of plank is used, it defaults to Oak. The Cabinet can only be opened from the front.");
 
 # Charset Chest
 addDescription(<charset:chest>,
-"The texture matches the Planks used to craft it. If more than one type of Plank is used, it defaults to Oak.");
+"The texture matches the planks used to craft it. If more than one type of plank is used, it defaults to Oak.");
 
 # Blood Magic Wills
 var willText = "Obtained through the Resonance of the Faceted Crystal ritual.";

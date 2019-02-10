@@ -5,3 +5,5 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 <ore:string>.remove(<primal_tech:twine>);
+
+<ore:dye>.remove(<minecraft:dye:*>);

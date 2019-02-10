@@ -795,6 +795,9 @@ for item in loadedMods["architecturecraft"].items {
   addItemStage(stages.master_carpenter, item);
 }
 
+# Beds
+mods.recipestages.Recipes.setRecipeStage("one", <minecraft:bed:*>);
+
 for log in woodtypes {
 
 RecipeBuilder.get("carpenter")
@@ -813,13 +816,12 @@ RecipeBuilder.get("carpenter")
   .setName("master_slabs_" + i)
   .create();
 
+  i = i + 1;
+}
+
 RecipeBuilder.get("carpenter")
-  .setShapeless([woodtypes[log].slab.items[0]])
+  .setShapeless([<ore:slabWood>])
   .addTool(<ore:artisansKnife>, 4)
   .addOutput(stick * 8)
   .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
-  .setName("master_sticks_" + i)
   .create();
-
-  i = i + 1;
-}

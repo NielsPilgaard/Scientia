@@ -85,3 +85,6 @@ for woodtype in woodtypes {
         <ore:cauldronWood>.add(woodtypes[woodtype].cauldron.items[0]);
     }
 }
+
+# dye
+    <ore:dye>.add(<inspirations:dyed_bottle:*>);

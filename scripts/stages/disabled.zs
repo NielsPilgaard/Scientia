@@ -1711,6 +1711,7 @@ val disableList = [
         <forge:bucketfilled>.withTag({FluidName: "pigiron", Amount: 1000}),
         <forge:bucketfilled>.withTag({FluidName: "knightslime", Amount: 1000}),
 
+        <minecraft:dye:*>,
         <minecraft:chest>,
         <minecraft:white_shulker_box>,
         <minecraft:orange_shulker_box>,

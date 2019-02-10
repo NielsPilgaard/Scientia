@@ -152,7 +152,6 @@ val sticks = [
     <natura:sticks:2>,
     <natura:sticks:1>,
     <natura:sticks>,
-    <natura:sticks:*>
     ] as IItemStack[];
 
 for item in sticks {

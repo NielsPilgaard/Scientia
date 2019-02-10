@@ -124,7 +124,6 @@ mods.recipestages.Recipes.addShapedMirrored(
 # Expert
 # =========================================== #
 
-stageTinkersPart(stages.expert_tinkerer, <tconstruct:bolt_core>, "tconstruct:bolt_core");
 stageTinkersPart(stages.expert_tinkerer, <tconstruct:large_plate>, "tconstruct:large_plate");
 stageTinkersPart(stages.expert_tinkerer, <tconstruct:tough_binding>, "tconstruct:tough_binding");
 stageTinkersPart(stages.expert_tinkerer, <tconstruct:tough_tool_rod>, "tconstruct:tough_tool_rod");
