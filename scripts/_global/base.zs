@@ -1,4 +1,4 @@
-#priority 1997
+#priority 10000
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -15,4 +15,15 @@ global preferredOutputMods as string[] = [
 	"minecraft",
 	"contenttweaker",
 	"immersiveengineering"
+];
+
+global armoreableEntities as string[] = [
+        "minecraft:husk",
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:vex",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:zombie_pigman",
+        "minecraft:wither_skeleton"
 ];

@@ -83,7 +83,8 @@ val oredictRemovals as IOreDictEntry[] = [
     <ore:caseWood>,
     <ore:mapFrameWood>,
     <ore:armorStandWood>,
-    <ore:doorTreatedWood>
+    <ore:doorTreatedWood>,
+    <ore:bookshelf>
 ];
 
 val modRemovals as string[] = [

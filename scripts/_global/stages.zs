@@ -29,7 +29,6 @@ global stages as string[string] = {
 	brewing : "brewing", # Gives access to potions and Brewing Stands
 	masonry : "masonry", # Gives access to basic stone building blocks
 	botanical_masonry : "botanical_masonry", # Gives access to biome stones and blocks of coloured quartz
-	adaptive_armor : "adaptive_armor", # Gives access to Blood Magic Living and Sentient Armor
 	glassblowing : "glassblowing", # Gives access to glass
 	tool_parts : "tool_parts", # Gives access to the Stencil Table and Part Builder
 	leadership : "leadership", # Gives access to Ancient Warfare NPCs

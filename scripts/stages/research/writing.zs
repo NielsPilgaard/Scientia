@@ -47,6 +47,29 @@ RecipeBuilder.get("carpenter")
   .create();
 }
 
+for woodtype in woodtypes {
+
+var plank = woodtypes[woodtype].plank;
+
+if (!isNull(woodtypes[woodtype].bookshelf)) {
+  RecipeBuilder.get("carpenter")  
+  .setShaped([
+        [plank, plank, plank],
+        [book, book, book], 
+        [plank, plank, plank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 10)
+  .addOutput(woodtypes[woodtype].bookshelf.items[0])
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+  }
+}
+
+
+
+
+
 RecipeBuilder.get("carpenter")  
   .setShaped([
         [null, sheet, null],

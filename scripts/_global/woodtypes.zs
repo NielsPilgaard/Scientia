@@ -18,7 +18,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : <minecraft:leaves>,
         button : <minecraft:wooden_button>,
         cauldron : <morecauldrons:oak_cauldron>,
-		bookshelf : null
+		bookshelf : <minecraft:bookshelf>
     },
     spruce: {
         log : <minecraft:log:1>,
@@ -34,7 +34,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : <morecauldrons:spruce_cauldron>,
-		bookshelf : null
+		bookshelf : <quark:custom_bookshelf>
     },
     birch: {
         log : <minecraft:log:2>,
@@ -50,7 +50,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : <morecauldrons:birch_cauldron>,
-		bookshelf : null
+		bookshelf : <quark:custom_bookshelf:1>
     },
     jungle: {
         log : <minecraft:log:3>,
@@ -66,7 +66,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : <morecauldrons:jungle_cauldron>,
-		bookshelf : null
+		bookshelf : <quark:custom_bookshelf:2>
     },
     acacia: {
         log : <minecraft:log2>,
@@ -82,7 +82,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : <morecauldrons:acacia_cauldron>,
-		bookshelf : null
+		bookshelf : <quark:custom_bookshelf:3>
     },
     dark_oak: {
         log : <minecraft:log2:1>,
@@ -98,7 +98,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : <morecauldrons:big_oak_cauldron>,
-		bookshelf : null
+		bookshelf : <quark:custom_bookshelf:4>
     },
     maple: {
         log : <natura:overworld_logs>,
@@ -114,7 +114,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : <natura:overworld_leaves>,
         button : <natura:maple_button>,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves>
     },
     silverbell: {
         log : <natura:overworld_logs:1>,
@@ -130,7 +130,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:1>
     },
     amaranth: {
         log : <natura:overworld_logs:2>,
@@ -146,7 +146,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:2>
     },
     tiger: {
         log : <natura:overworld_logs:3>,
@@ -162,7 +162,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:3>
     },
     willow: {
         log : <natura:overworld_logs2>,
@@ -178,7 +178,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:4>
     },
     eucalyptus: {
         log : <natura:overworld_logs2:1>,
@@ -194,7 +194,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:5>
     },
     hopseed: {
         log : <natura:overworld_logs2:2>,
@@ -210,7 +210,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:6>
     },
     sakura: {
         log : <natura:overworld_logs2:3>,
@@ -226,7 +226,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:7>
     },
     redwood: {
         log : <natura:redwood_logs:1>,
@@ -242,7 +242,7 @@ global woodtypes as IIngredient[string][string] = {
         leaves : null,
 		button : null,
         cauldron : null,
-		bookshelf : null
+		bookshelf : <natura:overworld_bookshelves:8>
     },
     olive: {
         log : <rustic:log>,

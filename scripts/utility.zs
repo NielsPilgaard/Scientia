@@ -17,6 +17,11 @@ import mods.ItemStages.removeItemStage;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.addDescription;
 
+import mods.armoreablemobs.ArmorHandler;
+import mods.armoreablemobs.ArmorEntity;
+import mods.armoreablemobs.ArmorSlot;
+import mods.armoreablemobs.ArmorGroup;
+
 function disableItem(item as IItemStack) {
 	addDescription(item, 
 		"This item is disabled.", 
@@ -134,4 +139,25 @@ function disableModStageList(mod as string, stage as string, exceptions as IItem
 		setRecipeStage(stage, item);
 		addItemStage(stage, item);
 	}
+}
+
+
+
+function createGlobalArmorGroup(name as string, equipChance as double, armors as IItemStack[], stage as string) as ArmorGroup {
+# Order is head, chest, legs, feet, mainhand, offhand
+var group = ArmorHandler.createArmorGroup(name, equipChance);
+    group.addArmor(ArmorHandler.createArmorSlot("head", armors[0], 1, 0.1));
+    group.addArmor(ArmorHandler.createArmorSlot("chest", armors[1], 1, 0.1));
+    group.addArmor(ArmorHandler.createArmorSlot("legs", armors[2], 1, 0.1));
+    group.addArmor(ArmorHandler.createArmorSlot("feet", armors[3], 1, 0.1));
+    group.addArmor(ArmorHandler.createArmorSlot("mainhand", armors[4], 1, 0.1));
+    group.addArmor(ArmorHandler.createArmorSlot("offhand", armors[5], 1, 0.1));
+    
+    group.addGameStage(stage);
+
+    for entity in armoreableEntities {
+        group.addEntity(ArmorHandler.createArmorEntity(entity));
+    } 
+
+    return group;
 }

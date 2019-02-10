@@ -1,16 +1,18 @@
 # Folders to ignore
-journeymap/
-dumps/
-crash-reports/
-.mixin.out/
-logs/
-local/
-libraries/
-llibrary/
-saves/
-TombManyGraves/
+/journeymap/
+/dumps/
+/crash-reports/
+/.mixin.out/
+/logs/
+/local/
+/libraries/
+/llibrary/
+/saves/
+/TombManyGraves/
 screenshots/
-mods/
+/mods/
+/backups/
+/world/
 
 # Utilities
 .github_changelog_generator
@@ -55,4 +57,3 @@ config/InvTweaks/InvTweaks.cfg
 config/scavenge/IResourceProperty.txt
 dropt.log
 journeymapdefaults.firstrun
-backups/
