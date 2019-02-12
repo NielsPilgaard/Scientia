@@ -5,5 +5,5 @@ import crafttweaker.item.IIngredient;
 
 for i in 0 to 15 {
 	recipes.replaceAllOccurences(<minecraft:dye>.definition.makeStack(i), <inspirations:dyed_bottle>.definition.makeStack(i));
+	recipes.replaceAllOccurences(<botania:dye>.definition.makeStack(i), <inspirations:dyed_bottle>.definition.makeStack(i));
 }
-

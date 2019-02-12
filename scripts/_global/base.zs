@@ -6,10 +6,26 @@ import crafttweaker.item.IIngredient;
 global sheet as IItemStack = <bibliocraft:framingsheet>;
 global board as IItemStack = <bibliocraft:framingboard>;
 global stick as IItemStack = <minecraft:stick>;
-global paper as IItemStack = <minecraft:paper>;
 global book as IItemStack = <minecraft:book>;
+global paper as IItemStack = <minecraft:paper>;
 global stone as IItemStack = <minecraft:stone>;
 global cobble as IItemStack = <minecraft:cobblestone>;
+/*
+global colors as IIngredient[string] = {
+	white : ,
+	orange : ,
+	magenta : ,
+	light_blue : ,
+	yellow : ,
+	lime : ,
+	pink : ,
+	gray : ,
+	light_gray : ,
+	cyan : ,
+	purple : ,
+	brown : ,
+	black : 
+}*/
 
 global preferredOutputMods as string[] = [
 	"minecraft",

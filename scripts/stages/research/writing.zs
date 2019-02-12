@@ -25,7 +25,7 @@ mods.recipestages.Recipes.addShapedMirrored(
     "bibliocraft_clipboard_custom", stage, 
     <bibliocraft:biblioclipboard>, 
     [
-        [<ore:paper>, materials.iron.nugget, <ore:paper>],
+        [<ore:paper>, <ore:paper>, <ore:paper>],
         [<ore:paper>, <bibliocraft:framingsheet>, <ore:paper>], 
         [<ore:paper>, <ore:paper>, <ore:paper>]
     ]);

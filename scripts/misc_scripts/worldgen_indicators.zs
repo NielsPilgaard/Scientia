@@ -14,11 +14,12 @@ for metal in materials {
     if (!isNull(ore)) {
         if (!isNull(deposit)) {
             var dirtSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
-            
             dirtSurfaceIndicator.add(deposit.items[0].asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
+            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
@@ -35,7 +36,6 @@ for metal in materials {
             WorldGenManager.addChecker(dirtBlockChecker);
 
             var stoneSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
-            
             stoneSurfaceIndicator.add(ore.items[0].asBlock());
             stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
 			stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
@@ -57,7 +57,6 @@ for metal in materials {
             WorldGenManager.addChecker(stoneBlockChecker);
 			
 			var sandSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
-            
             sandSurfaceIndicator.add(deposit.items[0].asBlock());
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
             sandSurfaceIndicator.add(<minecraft:sand>.asBlock());

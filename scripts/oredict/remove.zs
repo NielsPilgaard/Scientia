@@ -7,3 +7,8 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:string>.remove(<primal_tech:twine>);
 
 <ore:dye>.remove(<minecraft:dye:*>);
+<ore:dye>.remove(<botania:dye:*>);
+
+<ore:dyeRed>.remove(<rustic:wildberries>);
+<ore:dyeLightGray>.remove(<rustic:ironberries>);
+<ore:dyePurple>.remove(<rustic:grapes>);

@@ -29,6 +29,7 @@ function disableItem(item as IItemStack) {
 		"There's a link in the Game Menu and the Esc Menu.");
 	addItemStage("disabled", item);
 	furnace.remove(item);
+	recipes.remove(item);
 	if (!isNull(item.ores)) {
 		for oredict in item.ores {
 			oredict.remove(item);

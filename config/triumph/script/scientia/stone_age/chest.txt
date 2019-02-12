@@ -1,5 +1,5 @@
 setIcon(<charset:chest>)
-setTitle("Storage for days!")
+setTitle("Storage For Days!")
 setDescription("You can now craft Chests! Charset Chests take the texture of the planks they're crafted with. They can be placed next to each other without linking, by holding shift.")
 setShowToast(true)
 

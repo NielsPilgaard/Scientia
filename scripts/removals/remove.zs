@@ -50,7 +50,9 @@ val removals as IItemStack[] = [
 
     <tconstruct:tooltables:*>,
     <tconstruct:rack:*>,
-    <tconstruct:pattern>
+    <tconstruct:pattern>,
+
+    <waystones:waystone>
 
 ];
 
