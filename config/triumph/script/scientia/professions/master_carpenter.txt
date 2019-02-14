@@ -1,6 +1,6 @@
 setIcon(<architecturecraft:sawbench>)
 setTitle("Master Carpenter")
-setDescription("The pinnacle of Carpentry experience! Completing this will upgrade some of your recipes, allow you to craft beds, and unlock ArchitectureCraft if you're a Skilled Architect.")
+setDescription("The pinnacle of Carpentry experience! Completing this will upgrade some of your recipes, allow you to craft beds, and unlock ArchitectureCraft!")
 setShowToast(true)
 
 addParent("scientia:professions/skilled_carpenter")

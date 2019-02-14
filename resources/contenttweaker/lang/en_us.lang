@@ -62,6 +62,9 @@ tile.contenttweaker.deposit_tungsten.name=Tungsten Deposit
 tile.contenttweaker.deposit_uranium.name=Uranium Deposit
 tile.contenttweaker.deposit_iridium.name=Iridium Deposit
 
+tile.treetweaker.livingwood_large_oak.name=Livingwood Sapling
+tile.treetweaker.dreamwood_braided.name=Dreamwood Sapling
+
 tile.dimensional_portal.name=Portal
 
 base.part.poor_ore=%s Deposit
