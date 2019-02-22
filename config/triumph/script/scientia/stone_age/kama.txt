@@ -1,6 +1,6 @@
 setIcon(<tconstruct:kama, nbt:{TinkerData:{Materials:["wood","flint","wood"],Modifiers:["toolleveling"]},Modifiers:[{identifier:"ecological",color:-7444965,level:1},{identifier:"crude",color:-9868951,level:2,crude2:1b},{identifier:"toolleveling",color:16777215,level:1}]}>)
-setTitle("Shear Luck TODO")
-setDescription("Craft a Kama to shear leaves with.")
+setTitle("Shear Luck")
+setDescription("The Kama can be used to shear Sheep and harvest leaves.")
 setShowToast(true)
 
 addParent("scientia:stone_age/root")

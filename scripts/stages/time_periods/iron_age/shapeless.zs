@@ -10,6 +10,12 @@ var recipeList as IIngredient[][][IItemStack] = {
     ],
     <spartanweaponry:throwing_axe_iron> : [
         [<spartanweaponry:material>, <tconstruct:axe_head>.withTag({Material: "iron"})]
+    ],
+    <bibliocraft:lampiron> : [
+        [<ore:dyeBlue>,<ore:lanternIron>]
+    ],
+    <bibliocraft:lampiron:11> : [
+        [<ore:dyeWhite>,<ore:lanternIron>]
     ]
 };
 

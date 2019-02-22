@@ -73,6 +73,12 @@ global stages as string[string] = {
 	skilled_warlock : "skilled_warlock",
 	expert_warlock : "expert_warlock",  
 	master_warlock : "master_warlock",
+	
+	novice_cook : "novice_cook",
+	apprentice_cook : "apprentice_cook",
+	skilled_cook : "skilled_cook",
+	expert_cook : "expert_cook",  
+	master_cook : "master_cook",
 
 # Disabling
 	//disabled : "disabled" # A stage designed to disable items, hiding them and making them inaccessible

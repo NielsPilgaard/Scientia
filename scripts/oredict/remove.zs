@@ -12,3 +12,5 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:dyeRed>.remove(<rustic:wildberries>);
 <ore:dyeLightGray>.remove(<rustic:ironberries>);
 <ore:dyePurple>.remove(<rustic:grapes>);
+
+<ore:stickWood>.remove(<naturesaura:ancient_stick>);

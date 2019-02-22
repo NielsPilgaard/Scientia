@@ -6,8 +6,7 @@ var itemsToRemove = [
     <magicalmap:map>,
     <magicalmap:structure_map>,
     
-    #<minecraft:chest>, 
-    
+    /*
     <modularmachinery:blockinputbus>,
     <modularmachinery:blockinputbus:1>,
     <modularmachinery:blockinputbus:6>,
@@ -30,6 +29,7 @@ var itemsToRemove = [
     <modularmachinery:blockenergyoutputhatch:1>,
     <modularmachinery:blockenergyoutputhatch:6>,
     <modularmachinery:blockenergyoutputhatch:7>,
+    */
 
     <modulardiversity:blockjackhatch>,
 

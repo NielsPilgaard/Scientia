@@ -10,22 +10,25 @@ global book as IItemStack = <minecraft:book>;
 global paper as IItemStack = <minecraft:paper>;
 global stone as IItemStack = <minecraft:stone>;
 global cobble as IItemStack = <minecraft:cobblestone>;
-/*
+
 global colors as IIngredient[string] = {
-	white : ,
-	orange : ,
-	magenta : ,
-	light_blue : ,
-	yellow : ,
-	lime : ,
-	pink : ,
-	gray : ,
-	light_gray : ,
-	cyan : ,
-	purple : ,
-	brown : ,
-	black : 
-}*/
+	white : <botania:dye>,
+	orange : <botania:dye:1>,
+	magenta : <botania:dye:2>,
+	light_blue : <botania:dye:3>,
+	yellow : <botania:dye:4>,
+	lime : <botania:dye:5>,
+	pink : <botania:dye:6>,
+	gray : <botania:dye:7>,
+	light_gray : <botania:dye:8>,
+	cyan : <botania:dye:9>,
+	purple : <botania:dye:10>,
+	blue : <botania:dye:11>,
+	brown : <botania:dye:12>,
+	green : <botania:dye:13>,
+	red : <botania:dye:14>,
+	black : <botania:dye:15>
+};
 
 global preferredOutputMods as string[] = [
 	"minecraft",

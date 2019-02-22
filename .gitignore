@@ -57,3 +57,6 @@ config/InvTweaks/InvTweaks.cfg
 config/scavenge/IResourceProperty.txt
 dropt.log
 journeymapdefaults.firstrun
+*.jar
+server.properties
+eula.txt

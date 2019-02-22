@@ -10,13 +10,14 @@ import crafttweaker.item.IItemStack;
 events.onPlayerTick(function(event as PlayerTickEvent){
 	var player = event.player;
 	var mainhand = crafttweaker.entity.IEntityEquipmentSlot.mainHand();
-	var item = player.currentItem.index;
-	
+
 	if (!isNull(player.currentItem)) {
-		print("Current item: " ~ player.currentItem.displayName);
-		if (player.currentItem.matches(<buildinggadgets:buildingtool:*>.withTag({}))) {
-		player.manaRepairSlot(mainhand, 10, 1);
-		//<buildinggadgets:buildingtool:*>.manaRepair(player, 10, 1);
+		var heldItemName = player.currentItem.name;
+		if (heldItemName.matches(<buildinggadgets:buildingtool>.name)|
+			heldItemName.matches(<buildinggadgets:exchangertool>.name)|
+			heldItemName.matches(<buildinggadgets:copypastetool>.name)|
+			heldItemName.matches(<buildinggadgets:destructiontool>.name)) {
+		player.manaRepairSlot(mainhand, 100, 1);
 		}
 	}
 });

@@ -796,7 +796,7 @@ for item in loadedMods["architecturecraft"].items {
 }
 
 # Beds
-mods.recipestages.Recipes.setRecipeStage("one", <minecraft:bed:*>);
+mods.recipestages.Recipes.setRecipeStage(stages.master_carpenter, <minecraft:bed:*>);
 
 for log in woodtypes {
 

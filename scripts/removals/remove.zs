@@ -5,6 +5,12 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 val removals as IItemStack[] = [
+    
+    <backpack:backpack_piece:*>,
+    <backpack:stick>,
+    <backpack:backpack>,
+    <backpack:backpack_frame>,
+
     <bibliocraft:handdrill>,
     <bibliocraft:framingboard>,
     <bibliocraft:framingsheet>,
@@ -32,10 +38,14 @@ val removals as IItemStack[] = [
     <minecraft:acacia_boat>,
     <minecraft:dark_oak_boat>,
     <minecraft:book>,
-    
+    <minecraft:bone_block>,
+
+    <naturesaura:ancient_stick>,
+
     <pickletweaks:grass_mesh>,
     <pickletweaks:mesh>,
-
+	<pickletweaks:watering_can>,
+	
     #<primal_tech:fibre_torch>,
     #<primal_tech:fire_sticks>,
     #<primal_tech:wooden_basin>,

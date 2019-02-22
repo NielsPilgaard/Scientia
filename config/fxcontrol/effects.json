@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "timeout": 20,
+        "structure": "Village",
+        "potion": "minecraft:regeneration,200,0",
+        "gamestage": "novice_carpenter"
+    }
+]

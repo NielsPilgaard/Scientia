@@ -1,0 +1,16 @@
+setIcon(<minecraft:dye, meta:15>)
+setTitle("Basic Fertilizer")
+setDescription("Bone Meal can be used to make crops grow faster. It's also a key ingredient in the recipe for the Watering Can.")
+setShowToast(true)
+
+addParent("scientia:stone_age/stone_anvil")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("15 Bone Meal", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dye, meta:15, count:15>)
+
+setRewardExperience(25)

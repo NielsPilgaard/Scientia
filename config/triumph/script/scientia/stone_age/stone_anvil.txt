@@ -1,6 +1,6 @@
 setIcon(<primal_tech:stone_anvil>)
 setTitle("Apply Force")
-setDescription("The Stone Anvil is used to compress hard items, such as Charcoal.")
+setDescription("The Stone Anvil is used to compress or break items, such as Charcoal and Bone. Place the item on the Anvil, and bash it with a Stone Mallet.")
 setShowToast(true)
 
 addParent("scientia:stone_age/masons_worktable")
@@ -12,5 +12,8 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Anvil", "minecraft:inventory_changed")
 criteria.setBlock(<primal_tech:stone_anvil>)
+
+criteria = addCriteria("Stone Mallet", "minecraft:inventory_changed")
+criteria.setBlock(<primal_tech:stone_mallet>)
 
 setRewardExperience(25)

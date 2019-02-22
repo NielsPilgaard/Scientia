@@ -88,3 +88,6 @@ for woodtype in woodtypes {
 
 # dye
     <ore:dye>.add(<inspirations:dyed_bottle:*>);
+
+# fertilizer
+    <ore:fertilizer>.add(<minecraft:dye:15>);

@@ -10,7 +10,7 @@
     "Vanilla Mushrooms": true,
     "Natura Nether Bushes": false,
     "Vanilla Saplings": true,
-    "Bonemeal": true,
+    "Bonemeal": false,
     "Animal Eggs": true,
     "Pams Harvestcraft Seeds": false
   },

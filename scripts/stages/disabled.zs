@@ -565,6 +565,10 @@ val disableList = [
         <bibliocraft:bibliocreativelock>,
         <bibliocraft:framingsaw>,
         
+        <backpack:stick>,
+        <backpack:backpack_frame:1>,
+        <backpack:backpack_frame:2>,
+        
         <bloodmagic:blood_tank>,
         <bloodmagic:blood_tank:1>,
         <bloodmagic:blood_tank:2>,
@@ -1710,8 +1714,21 @@ val disableList = [
 
         <forge:bucketfilled>.withTag({FluidName: "pigiron", Amount: 1000}),
         <forge:bucketfilled>.withTag({FluidName: "knightslime", Amount: 1000}),
+        
+        <minecraft:dye>,
+        <minecraft:dye:1>,
+        <minecraft:dye:2>,
+        <minecraft:dye:5>,
+        <minecraft:dye:6>,
+        <minecraft:dye:7>,
+        <minecraft:dye:8>,
+        <minecraft:dye:9>,
+        <minecraft:dye:10>,
+        <minecraft:dye:11>,
+        <minecraft:dye:12>,
+        <minecraft:dye:13>,
+        <minecraft:dye:14>,
 
-        <minecraft:dye:*>,
         <minecraft:chest>,
         <minecraft:white_shulker_box>,
         <minecraft:orange_shulker_box>,
@@ -1770,6 +1787,7 @@ val disableList = [
         <morecauldrons:diamond_cauldron>,
         <morecauldrons:obsidian_cauldron>,
 
+        <natura:bonemeal_bag>,
         <natura:overworld_seed_bags:1>,
         <natura:overworld_seed_bags>,
         <natura:overworld_seeds:1>,
@@ -1797,6 +1815,7 @@ val disableList = [
         <natura:clouds:2>,
         <natura:clouds:3>,
 
+        <rustic:fertile_soil>,
         <rustic:beeswax>,
         <rustic:honeycomb>,
         <rustic:bee>,
@@ -1828,6 +1847,7 @@ val disableList = [
         <tconstruct:wood_rail>,
         <tconstruct:stone_ladder>,
         <tconstruct:stone_torch>,
+        <tconstruct:stone_stick>,
         
         <tconstruct:nuggets:4>,
         <tconstruct:ingots:4>,

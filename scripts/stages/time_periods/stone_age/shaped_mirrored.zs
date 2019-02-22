@@ -81,6 +81,13 @@ var recipeList as IIngredient[][][][IItemStack] = {
         [
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
         ]
+    ], 
+    <backpack:backpack_frame> : [
+        [
+            [<tconstruct:rack>.anyDamage(), <ore:string>, <tconstruct:rack>.anyDamage()],
+            [<ore:string>, null, <ore:string>], 
+            [<tconstruct:rack>.anyDamage(), <ore:string>, <tconstruct:rack>.anyDamage()]
+        ]
     ]
 };
 
@@ -91,3 +98,9 @@ for item, recipesForItem in recipeList {
 		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
 	}
 }
+/*
+<backpack:backpack>.withTag({slots: 27, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 3, slots_per_row: 9})
+
+<backpack:backpack:100>.withTag({slots: 45, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 5, slots_per_row: 9})
+<backpack:backpack>.withTag({"backpack-UID": "98d751c7-9121-4eb8-99c6-de88c8847b47", slots: 18, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 1, slots_per_row: 9})
+<backpack:backpack:200>.withTag({slots: 63, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 7, slots_per_row: 9}) */
