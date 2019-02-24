@@ -1,9 +1,9 @@
 setIcon(<contenttweaker:soaked_leather>)
-setTitle("Soaked Leather TODO")
-setDescription("The Cauldron will allow you to craft with liquids, and it's needed to process Processed Hide into Soaked Leather.")
+setTitle("Leatherworking IV")
+setDescription("Dip the Processed Hide in a Wooden Cauldron to turn it into Soaked Leather.")
 setShowToast(true)
 
-addParent("scientia:stone_age/processed_hide")
+addParent("scientia:stone_age/leather_3")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)
@@ -13,5 +13,8 @@ setCompletedTitleColor(51, 102, 204)
 criteria = addCriteria("4 Soaked Leather", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:soaked_leather>)
 criteria.setCount(4)
+
+criteria = addCriteria("Any Wooden Cauldron", "minecraft:inventory_changed")
+criteria.addItem(<ore:cauldronWood>)
 
 setRewardExperience(25)

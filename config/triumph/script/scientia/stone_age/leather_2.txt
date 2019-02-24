@@ -1,9 +1,9 @@
 setIcon(<contenttweaker:soaked_hide>)
-setTitle("Soaked Hide TODO")
-setDescription("Soaked Hide is made with 3 Raw Hide and 1 Salt, in a Wooden Crucible filled with Water.")
+setTitle("Leatherworking II")
+setDescription("Soaked Hide is made with 3 Raw Hide and 1 Salt, in a Wooden Basin filled with Water.")
 setShowToast(true)
 
-addParent("scientia:stone_age/raw_hide")
+addParent("scientia:stone_age/leather_1")
 addParent("scientia:stone_age/salt")
 setRequiresParents()
 

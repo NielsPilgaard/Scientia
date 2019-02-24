@@ -1,9 +1,9 @@
 setIcon(<minecraft:leather>)
-setTitle("FINALLY! TODO")
-setDescription("You did it!")
+setTitle("Leatherworking V")
+setDescription("Dry the Soaked Leather in order to turn it into usable Leather.")
 setShowToast(true)
 
-addParent("scientia:stone_age/soaked_leather")
+addParent("scientia:stone_age/leather_4")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

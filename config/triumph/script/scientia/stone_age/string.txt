@@ -1,9 +1,9 @@
 setIcon(<minecraft:string>)
 setTitle("String Quartet")
-setDescription("Craft String in order to learn more about weaving and sewing. This will unlock Sifting.")
+setDescription("Craft String in order to learn more about weaving and sewing. This will unlock Sifting, and allow you to make Artisan's Tools.")
 setShowToast(true)
 
-addParent("scientia:stone_age/artisans_knife")
+addParent("scientia:stone_age/internship")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

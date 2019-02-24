@@ -12,6 +12,5 @@ setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Water Filter", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:waterfilter>)
-setPos(192,175)
 
 setRewardExperience(25)

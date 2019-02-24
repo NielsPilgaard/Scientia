@@ -8,8 +8,8 @@ val removals as IItemStack[] = [
     
     <backpack:backpack_piece:*>,
     <backpack:stick>,
-    <backpack:backpack>,
     <backpack:backpack_frame>,
+    <backpack:bound_leather>,
 
     <bibliocraft:handdrill>,
     <bibliocraft:framingboard>,
@@ -45,13 +45,6 @@ val removals as IItemStack[] = [
     <pickletweaks:grass_mesh>,
     <pickletweaks:mesh>,
 	<pickletweaks:watering_can>,
-	
-    #<primal_tech:fibre_torch>,
-    #<primal_tech:fire_sticks>,
-    #<primal_tech:wooden_basin>,
-    <primal_tech:stone_grill>,
-    <primal_tech:stone_anvil>,
-    <primal_tech:stone_mallet>,
     
     <rustic:cabinet>,
     <rustic:crop_stake>,

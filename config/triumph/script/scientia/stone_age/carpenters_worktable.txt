@@ -1,9 +1,9 @@
 setIcon(<artisanworktables:worktable, meta:1>)
 setTitle("Better Crafting Table")
-setDescription("Craft a Carpenter's Worktable. The majority of the Carpenter Profession recipes are made in the Carpenter's Worktable.")
+setDescription("The majority of the Carpenter Profession-recipes are made in the Carpenter's Worktable.")
 setShowToast(true)
 
-addParent("scientia:stone_age/internship")
+addParent("scientia:stone_age/string")
 setRequiresParents()
 
 

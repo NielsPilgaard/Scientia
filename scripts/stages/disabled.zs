@@ -568,7 +568,7 @@ val disableList = [
         <backpack:stick>,
         <backpack:backpack_frame:1>,
         <backpack:backpack_frame:2>,
-        
+
         <bloodmagic:blood_tank>,
         <bloodmagic:blood_tank:1>,
         <bloodmagic:blood_tank:2>,
@@ -879,6 +879,7 @@ val disableList = [
         <dynamictreesphc:peppercornseed>,
         <dynamictreesphc:walnutseed>,
 
+        <harvestcraft:hardenedleatheritem>,
         <harvestcraft:akutuqitem>,
         <harvestcraft:anchovypepperonipizzaitem>,
         <harvestcraft:anchovyrawitem>,

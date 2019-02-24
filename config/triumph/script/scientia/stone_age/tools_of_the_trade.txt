@@ -3,7 +3,7 @@ setTitle("Tools of the Trade")
 setDescription("Worktable recipes often require a tool. Craft Stone versions of the Hammer, Framing Hammer and Handsaw.")
 setShowToast(true)
 
-addParent("scientia:stone_age/internship")
+addParent("scientia:stone_age/string")
 setRequiresParents()
 
 

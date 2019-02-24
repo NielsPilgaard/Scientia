@@ -47,17 +47,6 @@ RecipeBuilder.get("mason")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
-RecipeBuilder.get("mason")
-  .setShaped([
-            [<ore:stone>],
-            [<ore:stone>]
-            ])
-  .setMirrored()
-  .addTool(<ore:artisansHammer>, 2)
-  .addOutput(<backpack:stick>)
-  .addRequirement(GameStages.anyOf([stage]))
-  .create();
-
 # =========================================== #
 # More Cauldrons
 # =========================================== #

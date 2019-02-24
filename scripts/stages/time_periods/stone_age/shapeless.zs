@@ -25,6 +25,9 @@ var recipeList as IIngredient[][][IItemStack] = {
     ],
     <minecraft:book> : [
         [<minecraft:leather>, <contenttweaker:wet_pulp>, <minecraft:paper>, <minecraft:paper>]
+    ],
+    <tconstruct:tooltables> : [
+        [<ore:workbench>]
     ]
 };
 
@@ -36,7 +39,8 @@ for item, recipesForItem in recipeList {
 		mods.recipestages.Recipes.addShapeless(stage, item, recipe);
 	}
 }
-    var i = 0;
+
+var i = 0;
 
 for knife in <ore:artisansKnife>.items {
     mods.ItemStages.addItemStage(stage, knife);

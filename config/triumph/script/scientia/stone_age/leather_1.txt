@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:raw_hide>)
-setTitle("Raw Hide TODO")
-setDescription("Most animals drop Raw Hide - The amount of hides dropped scale with animal size.")
+setTitle("Leatherworking I")
+setDescription("Most animals drop Raw Hide when killed - The amount they drop scale with size.")
 setShowToast(true)
 
 addParent("scientia:stone_age/wooden_basin")
@@ -10,7 +10,8 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("4 Raw Hide", "minecraft:inventory_changed")
+criteria = addCriteria("6 Raw Hide", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:raw_hide>)
+criteria.setCount(6)
 
 setRewardExperience(25)

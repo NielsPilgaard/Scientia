@@ -1,0 +1,19 @@
+setIcon(<contenttweaker:processed_hide>)
+setTitle("Leatherworking III")
+setDescription("Drying Soaked Hide on a Drying Rack for 30 seconds will turn it into Processed Hide.")
+setShowToast(true)
+
+addParent("scientia:stone_age/leather_2")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Processed Hide", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:processed_hide>)
+
+criteria = addCriteria("Any Wooden Cauldron", "minecraft:inventory_changed")
+criteria.addItem(<ore:cauldronWood>)
+
+setRewardExperience(25)

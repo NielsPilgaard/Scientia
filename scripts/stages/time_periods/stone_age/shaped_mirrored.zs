@@ -77,16 +77,18 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [null, <minecraft:clay_ball>, null], 
         ]
     ],
-    <harvestcraft:wovencottonitem> * 3 : [
-        [
-            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
-        ]
-    ], 
     <backpack:backpack_frame> : [
         [
             [<tconstruct:rack>.anyDamage(), <ore:string>, <tconstruct:rack>.anyDamage()],
             [<ore:string>, null, <ore:string>], 
             [<tconstruct:rack>.anyDamage(), <ore:string>, <tconstruct:rack>.anyDamage()]
+        ]
+    ],
+    <artisanworktables:worktable:5> : [
+        [
+            [<ore:workbench>, <ore:workbench>, <ore:workbench>],
+            [<ore:workbench>, <ore:logWood>, <ore:workbench>], 
+            [<ore:logWood>, null, <ore:logWood>]
         ]
     ]
 };

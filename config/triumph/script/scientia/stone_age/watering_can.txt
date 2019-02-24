@@ -3,7 +3,7 @@ setTitle("Agricultural Expansion II")
 setDescription("Watering Crops with the Watering Can will speed up their growth. You need to fill it with water, by clicking on a water source block.")
 setShowToast(true)
 
-addParent("scientia:stone_age/agriculture")
+addParent("scientia:stone_age/bone_meal")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

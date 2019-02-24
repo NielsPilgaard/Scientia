@@ -77,19 +77,11 @@ var recipeList as IIngredient[][][][IItemStack] = {
         ]
     ],
 
-    <backpack:backpack>.withTag({slots: 18, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 1, slots_per_row: 9}) : [ 
+    <minecraft:string> * 3 : [ 
         [
-            [<backpack:tanned_leather>, <backpack:tanned_leather>, <backpack:tanned_leather>],
-            [<backpack:tanned_leather>, <backpack:backpack_frame>, <backpack:tanned_leather>], 
-            [<backpack:tanned_leather>, <backpack:tanned_leather>, <backpack:tanned_leather>]
-        ]
-    ],
-
-    <backpack:backpack>.withTag({slots: 12, leather_tier: "II", frame_tier: "III", slots_used: 0, module_slots: 1, slots_per_row: 6}) : [ 
-        [
-            [<ore:leather>, <ore:leather>, <ore:leather>],
-            [<ore:leather>, <backpack:backpack_frame>, <ore:leather>], 
-            [<ore:leather>, <ore:leather>, <ore:leather>]
+            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>],
+            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>], 
+            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, n<contenttweaker:woven_fiber>ll]
         ]
     ]
 };

@@ -26,6 +26,8 @@ item.contenttweaker.peridot.name=Peridot
 item.contenttweaker.sapphire.name=Sapphire
 item.contenttweaker.ruby.name=Ruby
 
+item.backpack.tanned_leather.name=Sturdy Leather
+
 tile.contenttweaker.ore_adamantium.name=Adamantium Ore
 tile.contenttweaker.ore_chrome.name=Chrome Ore
 tile.contenttweaker.ore_coal.name=Coal Ore
