@@ -1,19 +1,30 @@
-setIcon(<contenttweaker:sub_block_holder_1:4>)
-setTitle("Copper Last Advancement TODO")
-setDescription("Test")
+setIcon(<immersiveengineering:storage>)
+setTitle("Discovery of a Lifetime")
+setDescription("Your acquisition of Copper Ore, ability to craft Books, and mastery of agriculture marks the end of the Stone Age, and the beginning of the Copper Age.")
 setShowToast(true)
 
-addParent("scientia:stone_age/stone_grill")
+addParent("scientia:stone_age/copper_ore")
 addParent("scientia:stone_age/book")
+addParent("scientia:stone_age/fertilizer")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+drawDirectLines(true)
 
-criteria = addCriteria("Copper", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreCopper>)
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/book")
+
+criteria = addCriteria("Complete Advancement Diggy Diggy Hole", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/copper_ore")
+
+criteria = addCriteria("Complete Advancement Agricultural Expansion III", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/watering_can")
 
 setRewardFunction("time_period:copper_age")
 
 setRewardExperience(25)
+
+setPos(403,148)

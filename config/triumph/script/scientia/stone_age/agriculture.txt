@@ -1,14 +1,15 @@
 setIcon(<minecraft:stone_hoe>)
-setTitle("Agricultural Expansion")
-setDescription("The settlers in the Village nearby know how to cultivate the land. Barter with a Farmer for his knowledge.")
+setTitle("Agricultural Expansion I")
+setDescription("The Farmers in the Village nearby know how to cultivate the land. Barter with a Farmer for his knowledge.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Purchase Agricultural Knowledge", "minecraft:villager_trade")
 criteria.setItem(<gamestagebooks:agriculture>)

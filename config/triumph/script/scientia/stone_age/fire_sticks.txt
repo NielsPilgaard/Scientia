@@ -7,6 +7,7 @@ addParent("scientia:stone_age/tools_of_the_trade")
 addParent("scientia:stone_age/carpenters_worktable")
 setRequiresParents()
 
+setFrameType("Goal")
 setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)

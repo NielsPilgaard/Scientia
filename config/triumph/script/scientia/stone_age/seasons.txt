@@ -1,0 +1,16 @@
+setIcon(<sereneseasons:season_clock>)
+setTitle("Seasons")
+setDescription("The Farmer wants you to know, that not all plants can grow at all times. Specific crops need specific seasons, and will not grow off-season.\nThis can be avoided by placing Greenhouse Glass over the farmland, but you have no idea how to make it. For now.\n\nThe Farmer has given you a special Clock that shows you which season it currently is.")
+setShowToast(true)
+
+addParent("scientia:stone_age/agriculture")
+setRequiresParents()
+
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+criteria = addCriteria("Complete Advancement Agricultural Expansion I", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/agriculture")
+
+setRewardItem(<sereneseasons:season_clock>)

@@ -795,9 +795,6 @@ for item in loadedMods["architecturecraft"].items {
   addItemStage(stages.master_carpenter, item);
 }
 
-# Beds
-mods.recipestages.Recipes.setRecipeStage(stages.master_carpenter, <minecraft:bed:*>);
-
 for log in woodtypes {
 
 RecipeBuilder.get("carpenter")
@@ -825,3 +822,22 @@ RecipeBuilder.get("carpenter")
   .addOutput(stick * 8)
   .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
   .create();
+
+  # Bed
+var wool = <minecraft:wool>;
+var bed = <minecraft:bed>;
+
+for i in 0 to 15 {
+wool = <minecraft:wool>.definition.makeStack(i);
+bed = <minecraft:bed>.definition.makeStack(i);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+        [wool, wool, wool], 
+        [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 20)
+  .addOutput(bed)
+  .addRequirement(GameStages.anyOf([stages.master_carpenter]))
+  .create();
+}

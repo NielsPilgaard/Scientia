@@ -1,10 +1,12 @@
 setIcon(<backpack:backpack>)
 setTitle("Backpacker")
-setDescription("Now that you have Leather, you can make a Backpack!\nThere are 3 different sizes of Backpack, and 2 tiers. The cheapest Backpack is made by surrounding a Wooden Backpack Frame with either Leather or Sturdy Leather. Using the Sturdy Leather will result in a larger Backpack.\nThe recipes for the other Backpacks can be viewed in JEI.")
+setDescription("Now that you have Leather, you can make a Backpack!\n\nThere are 3 different sizes of Backpack, and 2 tiers.\n\nThe cheapest Backpack is made by surrounding a Wooden Backpack Frame with either Leather or Sturdy Leather. Using the Sturdy Leather will result in a larger Backpack.")
 setShowToast(true)
 
-addParent("scientia:stone_age/leather")
+addParent("scientia:stone_age/leather_5")
 setRequiresParents()
+
+drawDirectLines(true)
 
 setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
@@ -14,3 +16,4 @@ criteria = addCriteria("Any Backpack", "minecraft:inventory_changed")
 criteria.setBlock(<backpack:backpack:*>)
 
 setRewardExperience(25)
+setPos(352,256)

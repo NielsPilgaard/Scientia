@@ -1,0 +1,16 @@
+setIcon(<minecraft:bed, meta:14>)
+setTitle("Masterpiece")
+setDescription("At last, after mastering your craft you can get a good night's sleep.")
+setShowToast(true)
+
+addParent("scientia:stone_age/quilted_wool")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Bed of any colour", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bed:*>)
+
+setRewardExperience(25)

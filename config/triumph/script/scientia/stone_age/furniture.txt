@@ -1,6 +1,6 @@
 setIcon(<bibliocraft:seat>)
 setTitle("Fancy Living")
-setDescription("Your newfound Carpentry skills have given you access to all sorts of furniture. Now would be a great time to spruce up your Village! Craft any 10 Furniture items, preferably of differing types.")
+setDescription("Your newfound Carpentry skills have given you access to all sorts of furniture. Now would be a great time to spruce up your Village!")
 setShowToast(true)
 
 addParent("scientia:stone_age/skilled_carpenter")

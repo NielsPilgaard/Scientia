@@ -3,8 +3,10 @@ setTitle("Leatherworking VI")
 setDescription("Leather can be refined even further, by sewing two pieces of Leather together with string, and then smelting it.")
 setShowToast(true)
 
-addParent("scientia:stone_age/leather_4")
+addParent("scientia:stone_age/leather_5")
 setRequiresParents()
+
+drawDirectLines(true)
 
 setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
@@ -14,3 +16,4 @@ criteria = addCriteria("Leather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:leather>)
 
 setRewardExperience(25)
+setPos(352,229)

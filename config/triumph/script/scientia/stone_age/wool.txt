@@ -1,0 +1,17 @@
+setIcon(<minecraft:wool>)
+setTitle("Woll-E")
+setDescription("Get some Wool by shearing Sheep with your Kama. Wool can be used to make Carpet, Banners and Quilted Wool.")
+setShowToast(true)
+
+addParent("scientia:stone_age/kama")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("3 Wool of any colour", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wool>)
+criteria.setCount(3)
+
+setRewardExperience(25)

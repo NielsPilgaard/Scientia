@@ -6,9 +6,10 @@ setShowToast(true)
 addParent("scientia:stone_age/campfire")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Mason's Worktable", "minecraft:inventory_changed")
 criteria.setBlock(<artisanworktables:worktable:2>)

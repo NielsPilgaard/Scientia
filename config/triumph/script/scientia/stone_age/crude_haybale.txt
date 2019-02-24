@@ -3,7 +3,7 @@ setTitle("Off the Floor")
 setDescription("Use Bound Wheat and Woven Fiber to craft a makeshift mattress, of sorts.")
 setShowToast(true)
 
-addParent("scientia:stone_age/bound_wheat")
+addParent("scientia:stone_age/kama")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

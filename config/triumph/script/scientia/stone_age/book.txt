@@ -1,19 +1,25 @@
 setIcon(<minecraft:book>)
-setTitle("Scholar TODO")
+setTitle("Scholar")
 setDescription("The ability to make books allows you to write down your studies, which will help you and your village progress.")
 setShowToast(true)
 
-addParent("scientia:stone_age/leather")
-addParent("scientia:stone_age/paper")
+addParent("scientia:stone_age/leather_5")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
+drawDirectLines(true)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("Book", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:book>)
 
+criteria = addCriteria("Complete Advancement Papyrus", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/paper")
+
 setRewardFunction("research:writing")
 
-setRewardExperience(25)
+setRewardExperience(100)
+setPos(352,175)

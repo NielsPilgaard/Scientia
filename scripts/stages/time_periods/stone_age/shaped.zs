@@ -81,7 +81,7 @@ var recipeList as IIngredient[][][][IItemStack] = {
         [
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>],
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>], 
-            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, n<contenttweaker:woven_fiber>ll]
+            [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
         ]
     ]
 };

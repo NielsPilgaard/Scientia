@@ -1,0 +1,23 @@
+setIcon(<contenttweaker:sub_block_holder_1:4>)
+setTitle("Diggy Diggy Hole")
+setDescription("Progressing further requires you to have access to new materials, so there's new something to experiment with.\n\nIf you haven't already, unlock the Novice level of Mining, to be able to see Copper Veins.")
+setShowToast(true)
+
+addParent("scientia:stone_age/stone_grill")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("Copper", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreCopper>)
+
+criteria = addCriteria("Complete Advancement Novice Miner", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:profession/novice_miner")
+
+setRewardExperience(25)
+setPos(352,121)

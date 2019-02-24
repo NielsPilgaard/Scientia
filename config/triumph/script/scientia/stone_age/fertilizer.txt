@@ -1,0 +1,17 @@
+setIcon(<farmingforblockheads:fertilizer>)
+setTitle("Agricultural Expansion III")
+setDescription("Your experience with farming has taught you which nutrients and fertilizers plants need in order to flourish.\n\nRed Fertilizer will speed up the growth of plants.\n\nGreen Fertilizer increases the yield of plants.\n\nYellow Fertilizer prevents farmland from being trampled.")
+setShowToast(true)
+
+addParent("scientia:stone_age/watering_can")
+setRequiresParents()
+
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(30, 61, 123)
+
+criteria = addCriteria("Red, Green or Yellow Fertilizer", "minecraft:inventory_changed")
+criteria.setItem(<farmingforblockheads:fertilizer>)
+
+setRewardExperience(25)

@@ -4,10 +4,11 @@ Scientia is designed to give the player a new and unique Minecraft experience.
 
 The progression system is based on Advancements - Access it with §4L§f
 
-Advancements are grouped up into 3 categories:
+Advancements are grouped up into 4 categories:
 - §9Normal§f
 - §5Research§f
 - §2Profession§f
+- §4Information§f
 
 The chain of Advancements that lead to the next chapter have rounded edges.
 
@@ -24,5 +25,5 @@ To share Advancements and Gamestages with others, use the mod §9Together Foreve
 This information and changelogs can be accessed again by pausing the game and clicking the §aInfo§f icon on the right side of the screen.
 
 -----------------------------------------------------------------
-See the changelogs under every update at 
-https://minecraft.curseforge.com/projects/scientia/files
+See the changelogs for every update at 
+https://github.com/NillerMedDild/Scientia/releases

@@ -20,6 +20,8 @@ val removals as IItemStack[] = [
     <charset:chest>.withTag({}),
     <charset:barrel>.withTag({}),
 
+    <farmingforblockheads:market>,
+    
     <harvestcraft:saltitem>,
     <harvestcraft:waterfilter>,
     <harvestcraft:wovencottonitem>,

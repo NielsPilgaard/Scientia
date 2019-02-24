@@ -1,16 +1,18 @@
 setIcon(<minecraft:compass>)
 setTitle("Find Me")
-setDescription("Press Y on an item in your inventory or in JEI, and smoke will appear on inventories that have that item.")
+setDescription("Press §4Y§7 on an item in your inventory or in JEI, and smoke will appear on inventories that have that item.")
 setShowToast(true)
 
 addParent("scientia:stone_age/chest")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+drawDirectLines(true)
 
-criteria = addCriteria("Completed Advancement Storage For Days!", "triumph:completed_advancement")
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/chest")
 
 setRewardExperience(25)

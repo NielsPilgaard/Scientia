@@ -1,14 +1,15 @@
 setIcon(<minecraft:string>)
 setTitle("String Quartet")
-setDescription("Craft String in order to learn more about weaving and sewing. This will unlock Sifting, and allow you to make Artisan's Tools.")
+setDescription("Get String in order to learn more about weaving and sewing.\n\nYou'll have to piece together a bunch of Woven Fiber and tear strings off of the bundle to get your first pieces of string, but you'll be able to craft it much more easily when you have Artisan's Tools.")
 setShowToast(true)
 
 addParent("scientia:stone_age/internship")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("10 String", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:string>)

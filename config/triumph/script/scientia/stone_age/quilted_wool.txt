@@ -1,0 +1,17 @@
+setIcon(<quark:quilted_wool>)
+setTitle("Fabric")
+setDescription("Quilted Wool is a good building material, and it can also be used to make beds - You'll need to master the Carpentry profession to craft it though.")
+setShowToast(true)
+
+addParent("scientia:stone_age/wool")
+setRequiresParents()
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("3 Quilted Wool of any colour", "minecraft:inventory_changed")
+criteria.addItem(<quark:quilted_wool>)
+criteria.setCount(3)
+
+setRewardExperience(25)

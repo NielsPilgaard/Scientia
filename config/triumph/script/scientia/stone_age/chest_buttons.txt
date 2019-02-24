@@ -1,0 +1,18 @@
+setIcon(<minecraft:stone_button>)
+setTitle("Chest Buttons")
+setDescription("In your inventory there's a button that allows you to merge your inventory with that of nearby chests.\nSo if you're carrying something that is stored inside one of the chests near you, it goes to that chest. Think of it as a tool to enforce early game sorting.\n\nWhen looking in a chest, you can see two buttons,\nMerge and Restock.\nMerge puts everything from your inventory into the chest, if the chest already contains that item.\nRestock does the exact opposite of Merge, it will fill your inventory instead of the chest's.\n\nThese nifty buttons can all be set to different keybindings in the Controls menu.")
+setShowToast(true)
+
+addParent("scientia:stone_age/chest")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/chest")
+
+setRewardExperience(25)

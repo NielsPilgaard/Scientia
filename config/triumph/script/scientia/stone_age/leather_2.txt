@@ -4,15 +4,18 @@ setDescription("Soaked Hide is made with 3 Raw Hide and 1 Salt, in a Wooden Basi
 setShowToast(true)
 
 addParent("scientia:stone_age/leather_1")
-addParent("scientia:stone_age/salt")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
+setFrameType("Goal")
+setCompletedIconColor(30, 61, 123)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
+setCompletedTitleColor(30, 61, 123)
 
 criteria = addCriteria("6 Soaked Hide", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:soaked_hide>)
 criteria.setCount(6)
+
+criteria = addCriteria("Complete Advancement Salty", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/salt")
 
 setRewardExperience(25)
