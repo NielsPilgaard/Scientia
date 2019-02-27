@@ -1,0 +1,32 @@
+{
+# For a list of Biome Tags, see 
+# https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/main/java/net/minecraftforge/common/BiomeDictionary.java
+  "gold_ore": {
+    "type": "sphere",
+    "ore": "ore:oreGold",
+    "stone": "minecraft:stone",
+    "rarity": 80,
+    "min_y": 20,
+    "max_y": 70,
+    "density": 800,
+    "vertical_size": 4,
+    "horizontal_size": 8,
+    "biomes": [
+      "mesa"
+	]
+  },
+  "emerald_ore": {
+    "type": "sphere",
+    "ore": "ore:oreEmerald",
+    "stone": "minecraft:stone",
+    "rarity": 110,
+    "min_y": 5,
+    "max_y": 20,
+    "density": 800,
+    "vertical_size": 3,
+    "horizontal_size": 6,
+    "biomes": [
+      "mountain"
+	]
+  }
+}

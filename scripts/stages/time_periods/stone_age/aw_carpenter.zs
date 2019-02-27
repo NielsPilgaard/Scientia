@@ -315,6 +315,19 @@ RecipeBuilder.get("carpenter")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
+# Ladder
+RecipeBuilder.get("carpenter")
+  .setShaped([
+        [treatedPlank, treatedSlab, treatedPlank],
+        [treatedPlank, board, treatedPlank], 
+        [treatedPlank, treatedSlab, treatedPlank]
+        ])
+  .setMirrored()
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(<engineersdoors:fencegate_treated> * 4)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
 # Stairs
 for stair, plank in loglessStairPlankMap {
   RecipeBuilder.get("carpenter")

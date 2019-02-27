@@ -76,3 +76,6 @@ addDescription(<bibliocraft:case:*>, "Change the colour of the wool by right cli
 
 # Bark
 addDescription(<ore:barkWood>, "Obtained by right clicking a Wood Log with a Hatchet. Does not work on Dynamic Trees.");
+
+# Farming for Blockheads Market
+addDescription(<farmingforblockheads:market>, "The Market sells Seeds, Saplings, Flowers and Animals.", "It has a chance to spawn in Villages, and cannot be crafted.");

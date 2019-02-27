@@ -22,9 +22,9 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[materials.lead.ore],
 		[materials.silver.ore],
 
+		[materials.tin.ore_deposit, coarseDirt],
 		[materials.lead.ore_deposit, coarseDirt],
-		[materials.silver.ore_deposit, coarseDirt],
-		[materials.tin.ore_deposit, coarseDirt]
+		[materials.silver.ore_deposit, coarseDirt]
 	],
 
 	stages.bronze_age : [ # Obtainable in bronze_age. Duh.
@@ -40,9 +40,9 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[materials.gold.ore],
 		[materials.nickel.ore],
 
-		[materials.nickel.ore_deposit, coarseDirt],
 		[materials.iron.ore_deposit, coarseDirt],
-		[materials.gold.ore_deposit, coarseDirt]
+		[materials.gold.ore_deposit, coarseDirt],
+		[materials.nickel.ore_deposit, coarseDirt]
 	],
 
 	stages.expert_miner : [ # Obtainable in industrial_age

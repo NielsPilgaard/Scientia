@@ -21,11 +21,11 @@
             ] 
           },
           "harvester": {
-            "gamestages": {
+            "type": "PLAYER",			
+			"gamestages": {
               "require": "ANY",
               "stages": [
-                "dawn_of_time",
-                "stone_age"
+                "dawn_of_time"
               ]
             }
           }
@@ -47,7 +47,7 @@
         {
           "selector": {
             "weight": {
-              "value": 60
+              "value": 50
             }
           }
         }

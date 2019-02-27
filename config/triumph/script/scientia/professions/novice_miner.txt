@@ -1,6 +1,6 @@
-setIcon(<immersiveengineering:ore>)
+setIcon(<contenttweaker:sub_block_holder_1, meta:4>)
 setTitle("Novice Miner")
-setDescription("To be acknowledge as a Novice Miner, you'll need to get your hands dirty. Break 64 Stone, and 32 Dirt. Novice Mining allows you to find Coal, Copper, Lead and Silver Ore. Metal Deposits on the surface indicate a vein of the same type under it.")
+setDescription("To be acknowledge as a Novice Miner, you'll need to get your hands dirty.\n\nNovice Mining allows you to find Coal, Aluminum and Copper Ore.\n\nMetal Deposits on the surface indicate a vein of the same type under it.")
 setShowToast(true)
 
 addParent("scientia:professions/root")

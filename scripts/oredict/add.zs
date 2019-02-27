@@ -91,3 +91,17 @@ for woodtype in woodtypes {
 
 # fertilizer
     <ore:fertilizer>.add(<minecraft:dye:15>);
+    <ore:fertilizer>.add(<farmingforblockheads:fertilizer>);
+    <ore:fertilizer>.add(<farmingforblockheads:fertilizer:1>);
+    <ore:fertilizer>.add(<farmingforblockheads:fertilizer:2>);
+
+# flowerRed
+    <ore:flowerRed>.add(<minecraft:double_plant:4>);
+
+# flowerYellow
+    <ore:flowerYellow>.add(<minecraft:double_plant>);
+	
+# alfheimPortalFrame
+	<ore:alfheimPortalFrame>.add(<botania:alfheimportal>);
+	<ore:alfheimPortalFrame>.add(<botania:livingwood:*>);
+	<ore:alfheimPortalFrame>.add(<botania:livingwood0wall>);

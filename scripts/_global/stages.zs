@@ -4,10 +4,10 @@ global stages as string[string] = {
 
 # Time Period
 	dawn_of_time : "dawn_of_time",
-	stone_age : "stone_age",
-	copper_age : "copper_age",
-	bronze_age : "bronze_age",
-	iron_age : "iron_age",
+	stone_age : "stone_age", # Able to mine Copper / Aluminum / Coal
+	copper_age : "copper_age", # Able to mine Tin / Lead / Silver
+	bronze_age : "bronze_age", # Able to mine Redstone / Lapis
+	iron_age : "iron_age", # Able to mine Nickel / Iron / Gold
 	middle_ages : "middle_ages",
 	industrial_age : "industrial_age",
 
@@ -58,9 +58,9 @@ global stages as string[string] = {
 	skilled_carpenter : "skilled_carpenter", # Better plank recipe, all furniture, chests
 	master_carpenter : "master_carpenter", # Best plank recipe, ArchitectureCraft, beds
 	
-	novice_miner : "novice_miner", # Copper Ore
-	apprentice_miner : "apprentice_miner", # Tin Ore
-	skilled_miner : "skilled_miner", # Iron Ore
+	novice_miner : "novice_miner", # Copper/Coal/Aluminum Ore
+	apprentice_miner : "apprentice_miner", # Tin/Silver/Lead Ore (Redstone/Lapis in Bronze_Age)
+	skilled_miner : "skilled_miner", # Iron/Gold/Nickel Ore
 	expert_miner : "expert_miner", # Diamond?
 	master_miner : "master_miner", # Obsidian?
 

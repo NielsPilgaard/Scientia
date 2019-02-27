@@ -11,7 +11,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\harvest_levels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\ores.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1995:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -21,6 +21,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\events.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove_shaped.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\mana_tweaks.zs} as we are currently loading with a different loader
@@ -116,7 +117,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:gamestagebooks]: stages\gamestage_books.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 502ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 362ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
@@ -131,7 +132,7 @@
 [PREINITIALIZATION][CLIENT][INFO] Item <item:contenttweaker:plant_fiber:0> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\harvest_levels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\ores.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1995:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -141,6 +142,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\events.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove_shaped.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\mana_tweaks.zs} as we are currently loading with a different loader
@@ -236,7 +238,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:gamestagebooks]: stages\gamestage_books.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 308ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 284ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gamestagebooks]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gamestagebooks]
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
@@ -250,7 +252,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\materials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1998:crafttweaker]: _global\woodtypes.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\harvest_levels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1997:crafttweaker]: _global\ores.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1995:crafttweaker]: unification\utility.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1500:crafttweaker]: stages\professions\tinkerer.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1250:crafttweaker]: oredict\add.zs} as we are currently loading with a different loader
@@ -260,6 +262,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\events.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\remove_shaped.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: removals\temporary_remove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\loottweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: misc_scripts\mana_tweaks.zs} as we are currently loading with a different loader
@@ -374,7 +377,7 @@
 [PREINITIALIZATION][CLIENT][INFO] Adding a gamestagebook for stage: metallurgy
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 21ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 18ms
 [PREINITIALIZATION][CLIENT][INFO] Adding sapling for livingwood_large_oak
 [PREINITIALIZATION][CLIENT][INFO] Adding sapling for dreamwood_braided
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
@@ -392,7 +395,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[2900:contenttweaker]: contenttweaker\tconstruct.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\harvest_levels.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\ores.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1995:crafttweaker]: unification\utility.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage novice_tinkerer. Kama - tconstruct:kama:0
@@ -998,10 +1001,10 @@
 [INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Slab to ore dictionary entry slabWood
 [INITIALIZATION][CLIENT][INFO] Adding Ancient Wood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Ancient Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Plank Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Dreamwood to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Dreamwood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Plank Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Livingwood to ore dictionary entry plankWood
@@ -1029,6 +1032,14 @@
 [INITIALIZATION][CLIENT][INFO] Adding Spruce Cauldron to ore dictionary entry cauldronWood
 [INITIALIZATION][CLIENT][INFO] Adding Dyed Water Bottle to ore dictionary entry dye
 [INITIALIZATION][CLIENT][INFO] Adding Bone Meal to ore dictionary entry fertilizer
+[INITIALIZATION][CLIENT][INFO] Adding Red Fertilizer to ore dictionary entry fertilizer
+[INITIALIZATION][CLIENT][INFO] Adding Green Fertilizer to ore dictionary entry fertilizer
+[INITIALIZATION][CLIENT][INFO] Adding Yellow Fertilizer to ore dictionary entry fertilizer
+[INITIALIZATION][CLIENT][INFO] Adding Rose Bush to ore dictionary entry flowerRed
+[INITIALIZATION][CLIENT][INFO] Adding Sunflower to ore dictionary entry flowerYellow
+[INITIALIZATION][CLIENT][INFO] Adding Elven Gateway Core to ore dictionary entry alfheimPortalFrame
+[INITIALIZATION][CLIENT][INFO] Adding tile.botania:livingwood32767.name to ore dictionary entry alfheimPortalFrame
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Wall to ore dictionary entry alfheimPortalFrame
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Oak Shelf to ore dictionary entry shelfWood
 [INITIALIZATION][CLIENT][INFO] Adding Oak Potion Shelf to ore dictionary entry potionShelfWood
@@ -1418,6 +1429,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\events.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove_shaped.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\temporary_remove.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\loottweaker.zs}
 [INITIALIZATION][CLIENT][INFO] Removing entry minecraft:leather from pool main
@@ -1471,9 +1483,9 @@
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_0[sub_block_number=6] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_3[sub_block_number=13] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_2[sub_block_number=5] will become minecraft:stone[variant=stone]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_1[sub_block_number=13] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_3[sub_block_number=11] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. contenttweaker:sub_block_holder_2[sub_block_number=10] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
-[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage apprentice_miner. minecraft:barrier will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:sub_block_holder_3[sub_block_number=6] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:sub_block_holder_0[sub_block_number=0] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage master_miner. contenttweaker:sub_block_holder_0[sub_block_number=14] will become minecraft:stone[variant=stone]
@@ -1488,15 +1500,15 @@
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:sub_block_holder_1[sub_block_number=4] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:sub_block_holder_1[sub_block_number=12] will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. minecraft:coal_ore will become minecraft:stone[variant=stone]
-[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. minecraft:barrier will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:sub_block_holder_1[sub_block_number=5] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:sub_block_holder_1[sub_block_number=3] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage novice_miner. contenttweaker:sub_block_holder_3[sub_block_number=10] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. minecraft:iron_ore will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. minecraft:gold_ore will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:sub_block_holder_0[sub_block_number=7] will become minecraft:stone[variant=stone]
-[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:sub_block_holder_3[sub_block_number=7] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:sub_block_holder_1[sub_block_number=1] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:sub_block_holder_2[sub_block_number=7] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
+[INITIALIZATION][CLIENT][INFO] Adding a replacement for stage skilled_miner. contenttweaker:sub_block_holder_3[sub_block_number=7] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage bronze_age. minecraft:redstone_ore, minecraft:lit_redstone_ore will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage bronze_age. minecraft:lapis_ore will become minecraft:stone[variant=stone]
 [INITIALIZATION][CLIENT][INFO] Adding a replacement for stage bronze_age. contenttweaker:sub_block_holder_2[sub_block_number=12] will become minecraft:dirt[snowy=false,variant=coarse_dirt]
@@ -1663,7 +1675,6 @@ Trapped Chest - minecraft:trapped_chest:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage master_carpenter. Circular Saw Blade - architecturecraft:sawblade:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage master_carpenter. Architect's Sawbench - architecturecraft:sawbench:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage master_carpenter. Architect's Chisel - architecturecraft:chisel:0
-[INITIALIZATION][CLIENT][INFO] Adding: <minecraft:bed:*> to stage: "master_carpenter"
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\cook.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\crafter.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\druid.zs}
@@ -4248,6 +4259,7 @@ Trapped Chest - minecraft:trapped_chest:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage defender. Crude Wooden Shield - spartanshields:shield_basic_wood:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\dye.zs}
 [INITIALIZATION][CLIENT][INFO] Adding: <inspirations:dyed_bottle:*> to stage: "dye"
+[INITIALIZATION][CLIENT][INFO] Adding: <minecraft:painting> to stage: "dye"
 [INITIALIZATION][CLIENT][INFO] Adding to item stage dye. Dyed Water Bottle - inspirations:dyed_bottle:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\enchanting.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage enchanting. Lightly Enchanted Tools Upgrade - ancientwarfareautomation:worksite_upgrade:4
@@ -4815,7 +4827,9 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Silver Gilded Shield - spartanshields:shield_basic_silver:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Season Sensor - sereneseasons:season_sensor_spring:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Javelin - spartanweaponry:javelin_bronze:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Season Clock - sereneseasons:season_clock:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Knife - spartanweaponry:throwing_knife_bronze:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Axe - spartanweaponry:throwing_axe_bronze:0
@@ -4893,8 +4907,8 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Javelin - spartanweaponry:javelin_copper:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Knife - spartanweaponry:throwing_knife_copper:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Axe - spartanweaponry:throwing_axe_copper:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Throwing Knife - spartanweaponry:throwing_knife_copper:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Helmet Core - conarm:helmet_core:0{Material:"copper"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage copper_age. Copper Chestplate Core - conarm:chest_core:0{Material:"copper"}
@@ -5620,8 +5634,8 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Heavy Plated Shield - immersiveengineering:shield:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Javelin - spartanweaponry:javelin_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Axe - spartanweaponry:throwing_axe_steel:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Knife - spartanweaponry:throwing_knife_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Axe - spartanweaponry:throwing_axe_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Helmet Core - conarm:helmet_core:0{Material:"electrum"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Chestplate Core - conarm:chest_core:0{Material:"electrum"}
@@ -5941,15 +5955,15 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Framed Clock - bibliocraft:clock:6
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Plated Shield - spartanshields:shield_basic_iron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Bulky Obsidian Shield - spartanshields:shield_basic_obsidian:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Plated Shield - spartanshields:shield_basic_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Javelin - spartanweaponry:javelin_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:11
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Throwing Knife - spartanweaponry:throwing_knife_iron:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Throwing Axe - spartanweaponry:throwing_axe_iron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:11
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Helmet Core - conarm:helmet_core:0{Material:"iron"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Chestplate Core - conarm:chest_core:0{Material:"iron"}
@@ -6345,38 +6359,43 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Gold Cauldron - morecauldrons:gold_cauldron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Acacia Cauldron - morecauldrons:acacia_cauldron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"III",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Table - minecraft:crafting_table:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Camp Fire - campfire:campfire:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"II",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. String - minecraft:string:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"III",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bone Block - minecraft:bone_block:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"II",frame_tier:"III"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"II",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Camp Fire - campfire:campfire:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Chicken Nest - farmingforblockheads:chicken_nest:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Green Fertilizer - farmingforblockheads:fertilizer:1
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Red Fertilizer - farmingforblockheads:fertilizer:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Feeding Trough - farmingforblockheads:feeding_trough:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"II",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. String - minecraft:string:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Yellow Fertilizer - farmingforblockheads:fertilizer:2
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bone Block - minecraft:bone_block:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Table - minecraft:crafting_table:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"II",frame_tier:"III"}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Javelin - spartanweaponry:javelin_stone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Mason's Worktable - artisanworktables:worktable:2
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crude Haybale - contenttweaker:crude_haybale:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bound Wheat - contenttweaker:bound_wheat:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Wooden Frame - backpack:backpack_frame:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bed of Straw and Leaves - primal_tech:leaf_bed:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Lead - minecraft:lead:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bound Wheat - contenttweaker:bound_wheat:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Carpenter's Worktable - artisanworktables:worktable:1
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Basic Worktable - artisanworktables:worktable:5
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Lead - minecraft:lead:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Pole - spartanweaponry:material:1
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crude Haybale - contenttweaker:crude_haybale:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Javelin - spartanweaponry:javelin_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Mason's Worktable - artisanworktables:worktable:2
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Basic Worktable - artisanworktables:worktable:5
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Arrow Head - tconstruct:arrow_head:0{Material:"stone"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Book - minecraft:book:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Rope - hooked:microcrafting:1
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Station - tconstruct:tooltables:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Knife - spartanweaponry:throwing_knife_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Rope - hooked:microcrafting:1
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Book - minecraft:book:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Axe - spartanweaponry:throwing_axe_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Cobblestone - minecraft:cobblestone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Station - tconstruct:tooltables:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Wooden Knife - artisanworktables:artisans_knife_wood:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Stone Knife - artisanworktables:artisans_knife_stone:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Iron Knife - artisanworktables:artisans_knife_iron:32767
@@ -6875,6 +6894,12 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Now purging Manyullyn Ingot
 [INITIALIZATION][CLIENT][INFO] Removing Crusher Recipe for output: Manyullyn Ingot
 [INITIALIZATION][CLIENT][INFO] Removing Manyullyn Ingot from ore dictionary entry ingotManyullyn
+[INITIALIZATION][CLIENT][INFO] Now purging Manganese Ore
+[INITIALIZATION][CLIENT][INFO] Removing Crusher Recipe for output: Manganese Ore
+[INITIALIZATION][CLIENT][INFO] Removing Manganese Ore from ore dictionary entry oreManganese
+[INITIALIZATION][CLIENT][INFO] Now purging Manganese Ingot
+[INITIALIZATION][CLIENT][INFO] Removing Crusher Recipe for output: Manganese Ingot
+[INITIALIZATION][CLIENT][INFO] Removing Manganese Ingot from ore dictionary entry ingotManganese
 [INITIALIZATION][CLIENT][INFO] Now purging Glowstone
 [INITIALIZATION][CLIENT][INFO] Removing Crusher Recipe for output: Glowstone
 [INITIALIZATION][CLIENT][INFO] Now purging Glowstone
@@ -10646,6 +10671,9 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Clay Kiln - primal_tech:clay_kiln:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Flint Block - primal_tech:flint_block:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Twine - primal_tech:twine:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Iron Ladder - quark:iron_ladder:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Block of Charcoal - quark:charcoal_block:0
+[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Diamond Reinforced Shield - spartanshields:shield_basic_diamond:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Explosive Charge - spartanweaponry:material:2
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Dynamite - spartanweaponry:dynamite:0
@@ -10956,6 +10984,8 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\name.zs}
 [INITIALIZATION][CLIENT][INFO] Translating item.rustic.ironberries.name to Concord Grapes
 [INITIALIZATION][CLIENT][INFO] Translating tile.campfire.name to Campfire
+[INITIALIZATION][CLIENT][INFO] Translating item.tanned_leather.name to Sturdy Leather
+[INITIALIZATION][CLIENT][INFO] Translating item.backpack_frame_wood.name to Wooden Backpack Frame
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <campfire:campfire>: The Campfire can also cook Cobblestone and Wood Logs.
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <ore:barkWood>: Obtained by right clicking a Wood Log with a Hatchet. Does not work on Dynamic Trees.
@@ -11005,11 +11035,15 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map waypoint stage to cartography.
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map minimap stage to cartography.
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 4542ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 3561ms
 [INITIALIZATION][CLIENT][INFO] Translating item.rustic.ironberries.name to Concord Grapes
 [INITIALIZATION][CLIENT][INFO] Translating tile.campfire.name to Campfire
+[INITIALIZATION][CLIENT][INFO] Translating item.tanned_leather.name to Sturdy Leather
+[INITIALIZATION][CLIENT][INFO] Translating item.backpack_frame_wood.name to Wooden Backpack Frame
 [INITIALIZATION][CLIENT][INFO] Adding LARGE_OAK tree 'livingwood_large_oak' to world gen
 [INITIALIZATION][CLIENT][INFO] Adding BRAIDED tree 'dreamwood_braided' to world gen
+[POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <minecraft:bed:*>
+[POSTINITIALIZATION][CLIENT][INFO] 16 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:dye> and replacing them with <inspirations:dyed_bottle>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:dye> and replacing them with <inspirations:dyed_bottle>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:dye:1> and replacing them with <inspirations:dyed_bottle:1>
@@ -11220,6 +11254,10 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <tconstruct:metal:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:2>
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <tconstruct:ingots:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ariente:manganeseore>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <ariente:manganeseore>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ariente:ingot_manganese>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <ariente:ingot_manganese>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <chisel:glowstone>
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <chisel:glowstone>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <chisel:glowstone:1>
@@ -15644,6 +15682,10 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <primal_tech:flint_block>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <primal_tech:twine>
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <primal_tech:twine>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <quark:iron_ladder>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <quark:iron_ladder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <quark:charcoal_block>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <quark:charcoal_block>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <spartanshields:shield_basic_diamond>
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <spartanshields:shield_basic_diamond>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <spartanweaponry:material:2>
@@ -16223,6 +16265,21 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
@@ -16417,6 +16474,7 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
@@ -16429,7 +16487,7 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
-[POSTINITIALIZATION][CLIENT][INFO] Setting the stages for recipes based on their output stack, 3 stages
+[POSTINITIALIZATION][CLIENT][INFO] Setting the stages for recipes based on their output stack, 2 stages
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Shuriken with name contenttweaker_research_shuriken
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Olive Wood Table with name rustic_table_olive
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ironwood Table with name rustic_table_ironwood
@@ -16548,11 +16606,11 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1458637888
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped552754601
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped844893312
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped778016952
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1926206279
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped2114113220
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1269581789
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped778016952
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1847506171
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1269581789
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped2114113220
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1216533006
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-85553750
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped528404550
@@ -16624,16 +16682,18 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pattern Chest with name tconstruct_filled_pattern_chest_cast
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Clipboard with name bibliocraft_clipboard_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-2145541773
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Sensor with name ct_shaped901184556
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped-343990660
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped414217766
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Clock with name ct_shaped-678274820
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Knife with name ct_shapeless-143963733
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Axe with name ct_shapeless861518853
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-92965481
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Braced Shield with name ct_shaped-1696956561
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Javelin with name ct_shaped-579888612
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Javelin with name ct_shaped1880272518
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Knife with name ct_shapeless-1170898101
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Axe with name ct_shapeless91375235
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Copper Throwing Knife with name ct_shapeless-1170898101
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crude Tool Parts with name contenttweaker_research_toolparts_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Pattern Frame with name contenttweaker_blank_pattern_frame_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woven Fiber with name contenttweaker_woven_fiber_custom
@@ -16642,48 +16702,53 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Plated Shield with name ct_shaped1415886742
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped110965150
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped802461214
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Axe with name ct_shapeless1744948597
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Knife with name ct_shapeless1128024791
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plated Shield with name ct_shaped-544794016
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Axe with name ct_shapeless1744948597
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bulky Obsidian Shield with name ct_shaped1660365063
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plated Shield with name ct_shaped-544794016
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped1935794492
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped-1121434714
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless1115603364
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Knife with name ct_shapeless341197995
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless-919932913
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Axe with name ct_shapeless-1403272223
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped2084719032
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crafting Table with name ct_shaped-526625437
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Campfire with name ct_shaped-698376743
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped-126466799
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for String with name ct_shaped-1225602350
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped-1908628293
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bone Block with name ct_shaped-1270024513
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped315665605
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless1115603364
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless-919932913
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped2125736219
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Campfire with name ct_shaped-698376743
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chicken Nest with name ct_shaped1255127457
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped-142602141
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Green Fertilizer with name ct_shaped-427749891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped-1908628293
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Fertilizer with name ct_shaped1670452244
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Feeding Trough with name ct_shaped1054065186
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped2084719032
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped315665605
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for String with name ct_shaped-1225602350
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Yellow Fertilizer with name ct_shaped-1618924581
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bone Block with name ct_shaped-1270024513
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crafting Table with name ct_shaped-526625437
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped-126466799
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Backpack Frame with name ct_shaped-1637885740
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bed of Straw and Leaves with name ct_shaped-432570205
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bound Wheat with name ct_shaped509353725
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-190195136
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead with name ct_shaped-1580387745
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped1373089453
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped357259949
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1787361302
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1906695958
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mason's Worktable with name ct_shaped623413337
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bound Wheat with name ct_shaped509353725
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Frame with name ct_shaped-1637885740
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bed of Straw and Leaves with name ct_shaped-432570205
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead with name ct_shaped-1580387745
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-190195136
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Worktable with name ct_shaped-714668482
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped1373089453
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped357259949
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Arrow Head with name ct_shapeless-934747719
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Book with name ct_shapeless1447795718
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rope with name ct_shapeless-1308562059
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crafting Station with name ct_shapeless-987938181
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Knife with name ct_shapeless-1737343349
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rope with name ct_shapeless-1308562059
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Book with name ct_shapeless1447795718
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Axe with name ct_shapeless976406069
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cobblestone with name ct_shapeless953645605
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crafting Station with name ct_shapeless-987938181
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_0
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_2
@@ -18557,6 +18622,8 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <primal_tech:clay_kiln>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <primal_tech:flint_block>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <primal_tech:twine>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <quark:iron_ladder>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <quark:charcoal_block>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <spartanshields:shield_basic_diamond>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <spartanweaponry:material:2>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <spartanweaponry:dynamite>
@@ -18650,6 +18717,7 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <bibliocraft:table:*>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <bibliocraft:case:*>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <ore:barkWood>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <farmingforblockheads:market>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:8>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:7>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <natura:overworld_workbenches:6>
@@ -18730,6 +18798,8 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:nuggets:2>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:metal:2>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:ingots:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <ariente:manganeseore>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <ariente:ingot_manganese>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chisel:glowstone>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chisel:glowstone:1>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chisel:glowstone:2>
@@ -19163,515 +19233,3 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [AVAILABLE][CLIENT][INFO] Adding <backpack:backpack:200>.withTag({slots: 36, leather_tier: "II", frame_tier: "III", slots_used: 0, module_slots: 6, slots_per_row: 9}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <backpack:backpack:200>.withTag({slots: 54, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 6, slots_per_row: 9}) to JEI
 [SERVER_STARTED][CLIENT][INFO] Fixed the RecipeBook
-recipes.addShapeless("minecraft:white_bed", <minecraft:bed>, [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]);
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[100:preinit]: misc_scripts\treetweaker.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 4ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3500:contenttweaker]: contenttweaker\functions.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluids.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\items.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2999:contenttweaker]: contenttweaker\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\parts.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\blocks.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 33ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [gamestagebooks]
-[SERVER_STARTED][SERVER][INFO] [gamestagebooks | SIDE_CLIENT]: Loading Script: {[0:gamestagebooks]: stages\gamestage_books.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[9999:crafttweaker]: utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\harvest_levels.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1995:crafttweaker]: unification\utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\add.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\natura.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\events.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove_shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\temporary_remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\loottweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\mana_tweaks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\smelting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\inspirations.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\primal_tech.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\tinkers_construct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\armoreable_mobs.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\mob_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\ore_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\carpenter.zs}
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:835 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:836 > could not find stage
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\cook.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\crafter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\druid.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\miner.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\warlock.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\advanced_sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\agriculture.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\botanical_masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\brewing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\chisel.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\defender.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\enchanting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\explosives.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\fire.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\glassblowing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\leadership.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\locomotion.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\maestro.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\ninja.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\tool_parts.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\writing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\conttenttweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_basic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_carpenter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_mason.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: dev.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_by_name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_modded.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: stages\disabled.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\jei_description.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\hitwithaxe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\seed_drops.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: removals\remove_and_hide.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\containers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\cartography.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 206ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[100:preinit]: misc_scripts\treetweaker.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 2ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3500:contenttweaker]: contenttweaker\functions.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluids.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\items.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2999:contenttweaker]: contenttweaker\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\parts.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\blocks.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 8ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [gamestagebooks]
-[SERVER_STARTED][SERVER][INFO] [gamestagebooks | SIDE_CLIENT]: Loading Script: {[0:gamestagebooks]: stages\gamestage_books.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[9999:crafttweaker]: utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\harvest_levels.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1995:crafttweaker]: unification\utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\add.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\natura.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\events.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove_shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\temporary_remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\loottweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\mana_tweaks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\smelting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\inspirations.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\primal_tech.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\tinkers_construct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\armoreable_mobs.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\mob_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\ore_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\carpenter.zs}
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:830 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:835 > No such member in crafttweaker.item.IItemStack: makeStack
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:836 > could not find master_carpenter
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\cook.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\crafter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\druid.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\miner.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\warlock.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\advanced_sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\agriculture.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\botanical_masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\brewing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\chisel.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\defender.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\enchanting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\explosives.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\fire.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\glassblowing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\leadership.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\locomotion.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\maestro.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\ninja.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\tool_parts.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\writing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\conttenttweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_basic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_carpenter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_mason.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: dev.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_by_name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_modded.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: stages\disabled.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\jei_description.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\hitwithaxe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\seed_drops.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: removals\remove_and_hide.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\containers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\cartography.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 160ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[100:preinit]: misc_scripts\treetweaker.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3500:contenttweaker]: contenttweaker\functions.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluids.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\items.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2999:contenttweaker]: contenttweaker\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\parts.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\blocks.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 5ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [gamestagebooks]
-[SERVER_STARTED][SERVER][INFO] [gamestagebooks | SIDE_CLIENT]: Loading Script: {[0:gamestagebooks]: stages\gamestage_books.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[9999:crafttweaker]: utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\harvest_levels.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1995:crafttweaker]: unification\utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\add.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\natura.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\events.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove_shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\temporary_remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\loottweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\mana_tweaks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\smelting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\inspirations.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\primal_tech.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\tinkers_construct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\armoreable_mobs.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\mob_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\ore_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\carpenter.zs}
-[SERVER_STARTED][SERVER][ERROR] stages\professions\carpenter.zs:841 > could not find master_carpenter
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\cook.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\crafter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\druid.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\miner.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\warlock.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\advanced_sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\agriculture.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\botanical_masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\brewing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\chisel.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\defender.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\enchanting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\explosives.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\fire.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\glassblowing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\leadership.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\locomotion.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\maestro.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\ninja.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\tool_parts.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\writing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\conttenttweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_basic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_carpenter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_mason.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: dev.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_by_name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_modded.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: stages\disabled.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\jei_description.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\hitwithaxe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\seed_drops.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: removals\remove_and_hide.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\containers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\cartography.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 151ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[100:preinit]: misc_scripts\treetweaker.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3500:contenttweaker]: contenttweaker\functions.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluids.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\items.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2999:contenttweaker]: contenttweaker\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\parts.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[2900:contenttweaker]: contenttweaker\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\blocks.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 9ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [gamestagebooks]
-[SERVER_STARTED][SERVER][INFO] [gamestagebooks | SIDE_CLIENT]: Loading Script: {[0:gamestagebooks]: stages\gamestage_books.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[10000:crafttweaker]: _global\stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[9999:crafttweaker]: utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\materials.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1998:crafttweaker]: _global\woodtypes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1997:crafttweaker]: _global\harvest_levels.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1995:crafttweaker]: unification\utility.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1500:crafttweaker]: stages\professions\tinkerer.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\add.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\decoration.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\natura.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1250:crafttweaker]: oredict\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\events.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: misc_scripts\worldgen_indicators.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\remove_shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: removals\temporary_remove.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\loottweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\mana_tweaks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: misc_scripts\smelting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\inspirations.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\primal_tech.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: mods\tinkers_construct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\armoreable_mobs.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\mob_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\ore_stages.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\carpenter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\cook.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\crafter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\druid.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\miner.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\professions\warlock.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\advanced_sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\agriculture.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\botanical_masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\brewing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\chisel.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\defender.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\enchanting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\explosives.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\fire.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\glassblowing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\leadership.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\locomotion.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\maestro.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\masonry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\ninja.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\sifting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\tool_parts.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\research\writing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\copper_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\conttenttweaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\dawn_of_time\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\middle_ages\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_basic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_carpenter.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\aw_mason.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\items.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\mods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\base.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: unification\dye.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: dev.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_by_name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: removals\remove_modded.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1:crafttweaker]: stages\disabled.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\jei_description.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\name.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: item_modifiers\tooltip.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\hitwithaxe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc_scripts\seed_drops.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: removals\remove_and_hide.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\containers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\cartography.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 147ms

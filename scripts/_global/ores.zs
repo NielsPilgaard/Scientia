@@ -26,3 +26,7 @@ global harvest_levels as int[IIngredient] = {
     materials.iridium.ore : 4
 
 };
+
+global ore_stages as string[IIngredient] = {
+    
+};

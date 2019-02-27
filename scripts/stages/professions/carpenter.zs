@@ -824,15 +824,15 @@ RecipeBuilder.get("carpenter")
   .create();
 
   # Bed
-var wool = <minecraft:wool>;
+var quilted_wool = <quark:quilted_wool>;
 var bed = <minecraft:bed>;
 
 for i in 0 to 15 {
-wool = <minecraft:wool>.definition.makeStack(i);
+quilted_wool = <quark:quilted_wool>.definition.makeStack(i);
 bed = <minecraft:bed>.definition.makeStack(i);
 RecipeBuilder.get("carpenter")
   .setShaped([
-        [wool, wool, wool], 
+        [quilted_wool, quilted_wool, quilted_wool], 
         [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
         ])
   .setMirrored()

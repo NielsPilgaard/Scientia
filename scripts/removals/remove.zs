@@ -19,8 +19,6 @@ val removals as IItemStack[] = [
     
     <charset:chest>.withTag({}),
     <charset:barrel>.withTag({}),
-
-    <farmingforblockheads:market>,
     
     <harvestcraft:saltitem>,
     <harvestcraft:waterfilter>,
@@ -50,6 +48,9 @@ val removals as IItemStack[] = [
     
     <rustic:cabinet>,
     <rustic:crop_stake>,
+
+    <sereneseasons:season_clock>,
+    <sereneseasons:season_sensor_spring>,
 
     <spartanshields:shield_basic_wood>,
 
@@ -96,7 +97,8 @@ val oredictRemovals as IOreDictEntry[] = [
 
 val modRemovals as string[] = [
     "morecauldrons",
-    "primal_tech"
+    "primal_tech",
+    "farmingforblockheads"
 ];
 
 for item in removals {

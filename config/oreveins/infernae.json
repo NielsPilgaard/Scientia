@@ -1,0 +1,16 @@
+{
+  "quartz_ore": {
+    "type": "sphere",
+    "ore": "ore:oreQuartz",
+    "stone": "minecraft:netherrack",
+    "rarity": 10,
+    "min_y": 5,
+    "max_y": 150,
+    "density": 800,
+    "vertical_size": 5,
+    "horizontal_size": 10,
+	"dimensions": [
+		3
+	]
+  }
+}

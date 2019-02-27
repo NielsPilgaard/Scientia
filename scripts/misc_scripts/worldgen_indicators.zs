@@ -1,4 +1,5 @@
 #priority 1000
+#modloaded worldgenindicators
 import mods.worldgenindicators.BlockChecker;
 import mods.worldgenindicators.WorldGenManager;
 import mods.worldgenindicators.SurfaceIndicator;
@@ -16,60 +17,43 @@ for metal in materials {
             var dirtSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
             dirtSurfaceIndicator.add(deposit.items[0].asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:grass>.asBlock());
-            dirtSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
-            var dirtBlockChecker = BlockChecker.create(1)
-			.addWhitelistEntry(<minecraft:dirt>.asBlock())
-			.addWhitelistEntry(<minecraft:dirt:1>.asBlock())
+            var dirtBlockChecker = BlockChecker.create(0.25)
 			.addWhitelistEntry(<minecraft:grass>.asBlock())
+			.addWhitelistEntry(<minecraft:dirt:2>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(dirtSurfaceIndicator);
             WorldGenManager.addChecker(dirtBlockChecker);
+			
+			var coarseDirtSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
+            coarseDirtSurfaceIndicator.add(deposit.items[0].asBlock());
+            coarseDirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
+
+            var coarseDirtBlockChecker = BlockChecker.create(0.25)
+			.addWhitelistEntry(<minecraft:dirt:1>.asBlock())
+			.addValid(ore.items[0].asBlock())
+			.addIndicator(coarseDirtSurfaceIndicator);
+            WorldGenManager.addChecker(coarseDirtBlockChecker);
 
             var stoneSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
             stoneSurfaceIndicator.add(ore.items[0].asBlock());
-            stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
-			stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
-            stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
-			stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
-			stoneSurfaceIndicator.add(<minecraft:stone>.asBlock());
-			stoneSurfaceIndicator.add(<minecraft:stone:5>.asBlock());
 			stoneSurfaceIndicator.add(<minecraft:stone:5>.asBlock());
 			stoneSurfaceIndicator.add(<minecraft:cobblestone>.asBlock());
-            stoneSurfaceIndicator.add(<minecraft:cobblestone>.asBlock());
-            stoneSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
-            var stoneBlockChecker = BlockChecker.create(1)
+            var stoneBlockChecker = BlockChecker.create(0.35)
 			.addWhitelistEntry(<minecraft:stone>.asBlock())
-			.addWhitelistEntry(<minecraft:cobblestone>.asBlock())
-			.addWhitelistEntry(<minecraft:stone:5>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(stoneSurfaceIndicator);
             WorldGenManager.addChecker(stoneBlockChecker);
 			
 			var sandSurfaceIndicator = RelativeSurfaceIndicator.create(-1);
             sandSurfaceIndicator.add(deposit.items[0].asBlock());
-            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-			sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-            sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-			sandSurfaceIndicator.add(<minecraft:sand>.asBlock());
-            sandSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
             sandSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
-            var sandBlockChecker = BlockChecker.create(1)
+            var sandBlockChecker = BlockChecker.create(0.2)
 			.addWhitelistEntry(<minecraft:sand>.asBlock())
+			.addWhitelistEntry(<minecraft:sand:1>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(sandSurfaceIndicator);
             WorldGenManager.addChecker(sandBlockChecker);

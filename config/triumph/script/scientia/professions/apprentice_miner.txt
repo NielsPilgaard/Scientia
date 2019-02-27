@@ -1,6 +1,6 @@
-setIcon(<contenttweaker:ore_tin>)
-setTitle("TODO Apprentice Miner")
-setDescription("Apprentice Mining lets you find Tin veins.")
+setIcon(<contenttweaker:sub_block_holder_0, meta:6>)
+setTitle("Apprentice Miner")
+setDescription("You need to find and harvest the ores that Novice Mining has unlocked in order to level further.\n\nApprentice Mining lets you find Tin, Lead and Silver veins.\n\nWhen the Bronze Age is reached, Redstone and Lapis Veins will become visible.")
 setShowToast(true)
 
 addParent("scientia:professions/novice_miner")
@@ -11,8 +11,20 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Apprentice Miner Book", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:apprentice_miner>)
+criteria = addCriteria("Break 16 Copper Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreCopper>)
+criteria.setCount(16)
+
+criteria = addCriteria("Break 8 Aluminum Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreAluminum>)
+criteria.setCount(8)
+
+criteria = addCriteria("Break 32 Coal Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreCoal>)
+criteria.setCount(32)
+
+criteria = addCriteria("Complete the Final Advancement of the Copper Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:copper_age/final")
 
 setRewardItem(<gamestagebooks:apprentice_miner>)
 

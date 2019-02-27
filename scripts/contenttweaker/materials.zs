@@ -25,7 +25,7 @@ static customMaterials as Material[string] = {
 
 	"adamantium": MaterialSystem.getMaterialBuilder().setName("Adamantium").setColor(Color.fromHex("137760")).build(),
 	"chrome": MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(Color.fromHex("778481")).build(),
-	"manganese": MaterialSystem.getMaterialBuilder().setName("manganese").setColor(Color.fromHex("562b15")).build(),
+	"manganese": MaterialSystem.getMaterialBuilder().setName("Manganese").setColor(Color.fromHex("562b15")).build(),
 	"tungsten": MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("3d3b3a")).build(),
 
 	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),

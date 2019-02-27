@@ -1893,6 +1893,9 @@ val disableList = [
         <primal_tech:flint_block>,
         <primal_tech:twine>,
 
+        <quark:iron_ladder>,
+        <quark:charcoal_block>,
+        
         <spartanshields:shield_basic_diamond>,
 
         <spartanweaponry:material:2>,

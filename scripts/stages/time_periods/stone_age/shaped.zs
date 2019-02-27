@@ -83,6 +83,45 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>], 
             [<contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>, <contenttweaker:woven_fiber>]
         ]
+    ],
+
+    <farmingforblockheads:fertilizer:1> * 9 : [
+        [
+            [<minecraft:reeds>|<minecraft:cactus>, <minecraft:reeds>|<minecraft:cactus>, <minecraft:reeds>|<minecraft:cactus>],
+            [<minecraft:dye:15>, <natura:seed_bags>, <minecraft:dye:15>], 
+            [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]
+        ]
+    ],
+
+    <farmingforblockheads:fertilizer:2> * 9 : [
+        [
+            [<ore:flowerYellow>, <ore:flowerYellow>, <ore:flowerYellow>],
+            [<minecraft:dye:15>, <natura:seed_bags>, <minecraft:dye:15>], 
+            [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]
+        ]    
+    ],
+
+    <farmingforblockheads:fertilizer> * 9 : [
+        [
+            [<ore:flowerRed>, <ore:flowerRed>, <ore:flowerRed>],
+            [<minecraft:dye:15>, <natura:seed_bags>, <minecraft:dye:15>], 
+            [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]
+        ]
+    ],
+
+    <farmingforblockheads:feeding_trough> : [
+        [
+            [<ore:slabWood>, <minecraft:hay_block>, <ore:slabWood>],
+            [<ore:plankWood>, <minecraft:hay_block>, <ore:plankWood>],
+            [<ore:plankWood>, sheet, <ore:plankWood>]
+        ]
+    ],
+
+    <farmingforblockheads:chicken_nest> : [
+        [
+            [<ore:slabWood>, <minecraft:hay_block>, <ore:slabWood>],
+            [<ore:slabWood>, sheet, <ore:slabWood>]
+        ]
     ]
 };
 
@@ -94,3 +133,6 @@ for item, recipesForItem in recipeList {
 		mods.recipestages.Recipes.addShaped(stage, item, recipe);
 	}
 }
+
+
+

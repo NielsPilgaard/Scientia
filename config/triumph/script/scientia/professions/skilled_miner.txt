@@ -1,6 +1,6 @@
-setIcon(<contenttweaker:ore_gold>)
-setTitle("TODO Skilled Miner")
-setDescription("The Skilled level of Mining lets you find Iron and Gold veins.")
+setIcon(<minecraft:iron_ore>)
+setTitle("Skilled Miner")
+setDescription("Like the prior level, you need to find and harvest the ores that Apprentice Mining has unlocked in order to level further.\n\nThe Skilled level of Mining lets you find Iron, Gold and Nickel Veins.")
 setShowToast(true)
 
 addParent("scientia:professions/apprentice_miner")
@@ -11,8 +11,20 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Skilled Miner Book", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:skilled_miner>)
+criteria = addCriteria("Break 32 Iron Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreIron>)
+criteria.setCount(32)
+
+criteria = addCriteria("Break 8 Gold Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreGold>)
+criteria.setCount(8)
+
+criteria = addCriteria("Break 8 Nickel Ore", "triumph:player_break_block")
+criteria.setBlock(<ore:oreNickel>)
+criteria.setCount(8)
+
+criteria = addCriteria("Complete the Final Advancement of the Bronze Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:bronze_age/final")
 
 setRewardItem(<gamestagebooks:skilled_miner>)
 

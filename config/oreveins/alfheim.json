@@ -1,0 +1,16 @@
+{
+  "gold_ore": {
+    "type": "sphere",
+    "ore": "ore:oreGold",
+    "stone": "minecraft:stone",
+    "rarity": 20,
+    "min_y": 40,
+    "max_y": 70,
+    "density": 800,
+    "vertical_size": 4,
+    "horizontal_size": 6,
+    "dimensions": [
+        2
+    ]
+  }
+}
