@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/FBp7Yic.png)
+![Logo](https://i.imgur.com/FBp7Yic.png =250x)
 
 * * *
 
