@@ -2,9 +2,11 @@
 
 ## <span style="color: #000000;"><span style="font-size: 24px;">About</span></span>
 
-*   Start at the Dawn of Time, and discover new skills, resources and technologies in order to progress.
-*   <span style="color: #000000;">Learn Professions and master them to gain access to new abilities and recipes.  
-    </span>
+You start at the Dawn of Time, and have to discover new skills, resources and technologies in order to progress.
+
+Colaborate with villages and rival other settlements on your journey towards understanding the world.
+
+*   Learn Professions and master them to gain access to new abilities and recipes.  
 *   The progression is guided by a thorough Advancement system.
 *   Unique items, recipes and dimensions.
 *   A large assortment of both Magic and Tech content.
