@@ -41,4 +41,4 @@ To update, the steps are as follow:
 
 * * *
 
-[![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/Vxp9u6d)
+[![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/bZRcmju)
