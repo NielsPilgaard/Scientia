@@ -13,7 +13,7 @@
 
 [![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/HnWNd7X)
 
-<iframe src="https://discordapp.com/widget?id=550610040898322432&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"/>
+<iframe src="https://discordapp.com/widget?id=550610040898322432&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 
 * * *
 
