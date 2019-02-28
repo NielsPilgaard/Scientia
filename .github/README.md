@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://i.imgur.com/FBp7Yic.png" alt="drawing" width="400"/></div>
+<img align="center" img src="https://i.imgur.com/FBp7Yic.png" alt="drawing" width="400"/>
 
 ## <span style="color: #000000;"><span style="font-size: 24px;">About</span></span>
 
