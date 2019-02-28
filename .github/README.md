@@ -1,5 +1,4 @@
-## <span style="font-size: 40px; color: #000000;">Scientia</span><span style="font-size: 18px;">  
-</span>
+![Logo](https://i.imgur.com/FBp7Yic.png)
 
 * * *
 
