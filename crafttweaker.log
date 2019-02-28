@@ -117,7 +117,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:gamestagebooks]: stages\gamestage_books.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 362ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 573ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
@@ -238,7 +238,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:gamestagebooks]: stages\gamestage_books.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 284ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 165ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gamestagebooks]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gamestagebooks]
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[10000:crafttweaker]: _global\base.zs} as we are currently loading with a different loader
@@ -377,7 +377,7 @@
 [PREINITIALIZATION][CLIENT][INFO] Adding a gamestagebook for stage: metallurgy
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\cartography.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gamestagebooks | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages\research\excavation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 18ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 6ms
 [PREINITIALIZATION][CLIENT][INFO] Adding sapling for livingwood_large_oak
 [PREINITIALIZATION][CLIENT][INFO] Adding sapling for dreamwood_braided
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
@@ -1001,20 +1001,20 @@
 [INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Slab to ore dictionary entry slabWood
 [INITIALIZATION][CLIENT][INFO] Adding Ancient Wood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Ancient Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Dreamwood to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Planks to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Livingwood Plank Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Dreamwood Planks to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Dreamwood Plank Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Livingwood to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Livingwood Stairs to ore dictionary entry stairWood
-[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
-[INITIALIZATION][CLIENT][INFO] Adding Livingwood Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Livingwood Plank Stairs to ore dictionary entry stairWood
-[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Planks to ore dictionary entry plankWood
-[INITIALIZATION][CLIENT][INFO] Adding Shimmerwood Plank Stairs to ore dictionary entry stairWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding Dreamwood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Planks to ore dictionary entry plankWood
 [INITIALIZATION][CLIENT][INFO] Adding Treated Wood Stairs to ore dictionary entry stairWood
 [INITIALIZATION][CLIENT][INFO] Adding Ancient Log to ore dictionary entry logWood
@@ -4827,12 +4827,12 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Silver Gilded Shield - spartanshields:shield_basic_silver:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Season Sensor - sereneseasons:season_sensor_spring:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Javelin - spartanweaponry:javelin_bronze:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Season Clock - sereneseasons:season_clock:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Javelin - spartanweaponry:javelin_bronze:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Season Sensor - sereneseasons:season_sensor_spring:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Knife - spartanweaponry:throwing_knife_bronze:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Axe - spartanweaponry:throwing_axe_bronze:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Throwing Knife - spartanweaponry:throwing_knife_bronze:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\bronze_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Helmet Core - conarm:helmet_core:0{Material:"bronze"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage bronze_age. Bronze Chestplate Core - conarm:chest_core:0{Material:"bronze"}
@@ -5631,11 +5631,11 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Plated Shield - spartanshields:shield_basic_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Heavy Plated Shield - immersiveengineering:shield:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Javelin - spartanweaponry:javelin_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Heavy Plated Shield - immersiveengineering:shield:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Knife - spartanweaponry:throwing_knife_steel:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Axe - spartanweaponry:throwing_axe_steel:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Steel Throwing Knife - spartanweaponry:throwing_knife_steel:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\industrial_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Helmet Core - conarm:helmet_core:0{Material:"electrum"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage industrial_age. Electrum Chestplate Core - conarm:chest_core:0{Material:"electrum"}
@@ -5955,15 +5955,15 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Framed Clock - bibliocraft:clock:6
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\mods.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Bulky Obsidian Shield - spartanshields:shield_basic_obsidian:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Plated Shield - spartanshields:shield_basic_iron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Bulky Obsidian Shield - spartanshields:shield_basic_obsidian:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shaped_mirrored.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Javelin - spartanweaponry:javelin_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Throwing Knife - spartanweaponry:throwing_knife_iron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Throwing Axe - spartanweaponry:throwing_axe_iron:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:11
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Fancy Lamp - bibliocraft:lampiron:11
+[INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Throwing Knife - spartanweaponry:throwing_knife_iron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\iron_age\tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Helmet Core - conarm:helmet_core:0{Material:"iron"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage iron_age. Iron Chestplate Core - conarm:chest_core:0{Material:"iron"}
@@ -6359,43 +6359,43 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Gold Cauldron - morecauldrons:gold_cauldron:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Acacia Cauldron - morecauldrons:acacia_cauldron:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"II",frame_tier:"III"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Camp Fire - campfire:campfire:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Chicken Nest - farmingforblockheads:chicken_nest:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"III",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Green Fertilizer - farmingforblockheads:fertilizer:1
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"III",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Red Fertilizer - farmingforblockheads:fertilizer:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Feeding Trough - farmingforblockheads:feeding_trough:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"III",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"II",frame_tier:"III"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. String - minecraft:string:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Green Fertilizer - farmingforblockheads:fertilizer:1
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Chicken Nest - farmingforblockheads:chicken_nest:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Yellow Fertilizer - farmingforblockheads:fertilizer:2
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bone Block - minecraft:bone_block:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Table - minecraft:crafting_table:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"III",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Braced Shield - spartanshields:shield_basic_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Red Fertilizer - farmingforblockheads:fertilizer:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bottom Backpack Piece - backpack:backpack_piece:2{leather_tier:"II",frame_tier:"III"}
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bone Block - minecraft:bone_block:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. String - minecraft:string:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Top Backpack Piece - backpack:backpack_piece:0{leather_tier:"II",frame_tier:"III"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Middle Backpack Piece - backpack:backpack_piece:1{leather_tier:"II",frame_tier:"III"}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shaped_mirrored.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Wooden Frame - backpack:backpack_frame:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bed of Straw and Leaves - primal_tech:leaf_bed:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bound Wheat - contenttweaker:bound_wheat:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Carpenter's Worktable - artisanworktables:worktable:1
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Mason's Worktable - artisanworktables:worktable:2
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Javelin - spartanweaponry:javelin_stone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Lead - minecraft:lead:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Pole - spartanweaponry:material:1
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Unfired Clay Bucket - claybucket:unfiredclaybucket:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crude Haybale - contenttweaker:crude_haybale:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Javelin - spartanweaponry:javelin_stone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Mason's Worktable - artisanworktables:worktable:2
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Wooden Frame - backpack:backpack_frame:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bed of Straw and Leaves - primal_tech:leaf_bed:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Carpenter's Worktable - artisanworktables:worktable:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Basic Worktable - artisanworktables:worktable:5
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crude Haybale - contenttweaker:crude_haybale:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Bound Wheat - contenttweaker:bound_wheat:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: stages\time_periods\stone_age\shapeless.zs}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Arrow Head - tconstruct:arrow_head:0{Material:"stone"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Knife - spartanweaponry:throwing_knife_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Axe - spartanweaponry:throwing_axe_stone:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Station - tconstruct:tooltables:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Rope - hooked:microcrafting:1
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Book - minecraft:book:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Axe - spartanweaponry:throwing_axe_stone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Arrow Head - tconstruct:arrow_head:0{Material:"stone"}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Cobblestone - minecraft:cobblestone:0
-[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Crafting Station - tconstruct:tooltables:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Handle - spartanweaponry:material:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Stone Throwing Knife - spartanweaponry:throwing_knife_stone:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Wooden Knife - artisanworktables:artisans_knife_wood:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Stone Knife - artisanworktables:artisans_knife_stone:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage stone_age. Artisan's Iron Knife - artisanworktables:artisans_knife_iron:32767
@@ -8638,14 +8638,90 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Armor Forge - conarm:armorforge:0{textureBlock:{id:"tconstruct:metal",Damage:4s}}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Armor Forge - conarm:armorforge:0{textureBlock:{id:"tconstruct:metal",Damage:3s}}
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Woodland Staff - dynamictrees:staff:0{code:"P",tree:"dynamictrees:oak"}
-[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Almond Tree Seed - dynamictreesphc:almondseed:0
-[INITIALIZATION][CLIENT][INFO] Removing Almond Tree Seed from ore dictionary entry treeSapling
-[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Lemon Tree Seed - dynamictreesphc:lemonseed:0
-[INITIALIZATION][CLIENT][INFO] Removing Lemon Tree Seed from ore dictionary entry treeSapling
-[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Peppercorn Tree Seed - dynamictreesphc:peppercornseed:0
-[INITIALIZATION][CLIENT][INFO] Removing Peppercorn Tree Seed from ore dictionary entry treeSapling
-[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Walnut Tree Seed - dynamictreesphc:walnutseed:0
-[INITIALIZATION][CLIENT][INFO] Removing Walnut Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Apricot Tree Seed - dynamictreesphc:apricotseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Apricot Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Avocado Tree Seed - dynamictreesphc:avocadoseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Avocado Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Banana Tree Seed - dynamictreesphc:bananaseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Banana Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Breadfruit Seed - dynamictreesphc:breadfruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Breadfruit Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Cashew Tree Seed - dynamictreesphc:cashewseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Cashew Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Cherry Tree Seed - dynamictreesphc:cherryseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Cherry Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Chestnut Tree Seed - dynamictreesphc:chestnutseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Chestnut Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Dynamic Cinnamon Tree - dynamictreesphc:cinnamonbranch:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Cinnamon Tree Seed - dynamictreesphc:cinnamonseed:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Coconut Tree Seed - dynamictreesphc:coconutseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Coconut Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Date Tree Seed - dynamictreesphc:dateseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Date Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Dragonfruit Tree Seed - dynamictreesphc:dragonfruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Dragonfruit Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Durian Tree Seed - dynamictreesphc:durianseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Durian Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Fig Tree Seed - dynamictreesphc:figseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Fig Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Gooseberry Tree Seed - dynamictreesphc:gooseberryseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Gooseberry Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Grapefruit Tree Seed - dynamictreesphc:grapefruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Grapefruit Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Guava Seed - dynamictreesphc:guavaseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Guava Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Hazelnut Seed - dynamictreesphc:hazelnutseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Hazelnut Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Jackfruit Seed - dynamictreesphc:jackfruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Jackfruit Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Lime Tree Seed - dynamictreesphc:limeseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Lime Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Lychee Seed - dynamictreesphc:lycheeseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Lychee Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Mango Tree Seed - dynamictreesphc:mangoseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Mango Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Dynamic Maple Tree - dynamictreesphc:maplebranch:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Maple Tree Seed - dynamictreesphc:mapleseed:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Nutmeg Tree Seed - dynamictreesphc:nutmegseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Nutmeg Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Olive Tree Seed - dynamictreesphc:oliveseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Olive Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Orange Tree Seed - dynamictreesphc:orangeseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Orange Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Papaya Tree Seed - dynamictreesphc:papayaseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Papaya Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Dynamic Paper Bark Tree - dynamictreesphc:paperbarkbranch:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Paperbark Tree Seed - dynamictreesphc:paperbarkseed:0
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Passionfruit Seed - dynamictreesphc:passionfruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Passionfruit Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Pawpaw Seed - dynamictreesphc:pawpawseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Pawpaw Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Peach Tree Seed - dynamictreesphc:peachseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Peach Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Pear Tree Seed - dynamictreesphc:pearseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Pear Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Pecan Tree Seed - dynamictreesphc:pecanseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Pecan Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Persimmon Tree Seed - dynamictreesphc:persimmonseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Persimmon Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Pistachio Tree Seed - dynamictreesphc:pistachioseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Pistachio Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Plum Tree Seed - dynamictreesphc:plumseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Plum Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Pomegranate Tree Seed - dynamictreesphc:pomegranateseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Pomegranate Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Rambutan Seed - dynamictreesphc:rambutanseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Rambutan Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Soursop Seed - dynamictreesphc:soursopseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Soursop Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. SpiderWeb Tree Seed - dynamictreesphc:spiderwebseed:0
+[INITIALIZATION][CLIENT][INFO] Removing SpiderWeb Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Starfruit Tree Seed - dynamictreesphc:starfruitseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Starfruit Tree Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Tamarind Seed - dynamictreesphc:tamarindseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Tamarind Seed from ore dictionary entry treeSapling
+[INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Vanilla Tree Seed - dynamictreesphc:vanillabeanseed:0
+[INITIALIZATION][CLIENT][INFO] Removing Vanilla Tree Seed from ore dictionary entry treeSapling
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Hardened Leather - harvestcraft:hardenedleatheritem:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage disabled. Akutuq - harvestcraft:akutuqitem:0
 [INITIALIZATION][CLIENT][INFO] Removing Akutuq from ore dictionary entry foodAkutuq
@@ -11035,7 +11111,7 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map waypoint stage to cartography.
 [INITIALIZATION][CLIENT][INFO] Restricting Journey Map minimap stage to cartography.
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: stages\research\excavation.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 3561ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 3122ms
 [INITIALIZATION][CLIENT][INFO] Translating item.rustic.ironberries.name to Concord Grapes
 [INITIALIZATION][CLIENT][INFO] Translating tile.campfire.name to Campfire
 [INITIALIZATION][CLIENT][INFO] Translating item.tanned_leather.name to Sturdy Leather
@@ -13680,14 +13756,96 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Damage: 3 as short}})
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"})
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"})
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:almondseed>
-[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:almondseed>
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:lemonseed>
-[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:lemonseed>
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:peppercornseed>
-[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:peppercornseed>
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:walnutseed>
-[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:walnutseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:apricotseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:apricotseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:avocadoseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:avocadoseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:bananaseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:bananaseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:breadfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:breadfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:cashewseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:cashewseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:cherryseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:cherryseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:chestnutseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:chestnutseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:cinnamonbranch>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:cinnamonbranch>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:cinnamonseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:cinnamonseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:coconutseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:coconutseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:dateseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:dateseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:dragonfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:dragonfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:durianseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:durianseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:figseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:figseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:gooseberryseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:gooseberryseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:grapefruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:grapefruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:guavaseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:guavaseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:hazelnutseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:hazelnutseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:jackfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:jackfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:limeseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:limeseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:lycheeseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:lycheeseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:mangoseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:mangoseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:maplebranch>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:maplebranch>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:mapleseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:mapleseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:nutmegseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:nutmegseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:oliveseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:oliveseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:orangeseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:orangeseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:papayaseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:papayaseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:paperbarkbranch>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:paperbarkbranch>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:paperbarkseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:paperbarkseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:passionfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:passionfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:pawpawseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:pawpawseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:peachseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:peachseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:pearseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:pearseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:pecanseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:pecanseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:persimmonseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:persimmonseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:pistachioseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:pistachioseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:plumseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:plumseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:pomegranateseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:pomegranateseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:rambutanseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:rambutanseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:soursopseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:soursopseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:spiderwebseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:spiderwebseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:starfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:starfruitseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:tamarindseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:tamarindseed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <dynamictreesphc:vanillabeanseed>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <dynamictreesphc:vanillabeanseed>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <harvestcraft:hardenedleatheritem>
 [POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <harvestcraft:hardenedleatheritem>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <harvestcraft:akutuqitem>
@@ -16606,14 +16764,14 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1458637888
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped552754601
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped844893312
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1926206279
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped778016952
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1847506171
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1269581789
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped2114113220
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1216533006
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-85553750
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped528404550
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1216533006
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped778016952
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped2114113220
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped1269581789
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1926206279
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stencil Table with name ct_shaped-1847506171
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped754518982
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped594340025
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Part Builder with name ct_shaped696895700
@@ -16682,12 +16840,12 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pattern Chest with name tconstruct_filled_pattern_chest_cast
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Clipboard with name bibliocraft_clipboard_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-2145541773
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Sensor with name ct_shaped901184556
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Clock with name ct_shaped-678274820
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped-343990660
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Javelin with name ct_shaped414217766
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Clock with name ct_shaped-678274820
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Knife with name ct_shapeless-143963733
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Season Sensor with name ct_shaped901184556
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Axe with name ct_shapeless861518853
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bronze Throwing Knife with name ct_shapeless-143963733
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Gilded Shield with name ct_shaped-92965481
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Braced Shield with name ct_shaped-1696956561
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Javelin with name ct_shaped-579888612
@@ -16699,56 +16857,56 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woven Fiber with name contenttweaker_woven_fiber_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hatchet with name tconstruct_flint_hatchet_custom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Plated Shield with name ct_shaped-1552909641
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Plated Shield with name ct_shaped1415886742
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped110965150
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Javelin with name ct_shaped802461214
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Knife with name ct_shapeless1128024791
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Plated Shield with name ct_shaped1415886742
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Axe with name ct_shapeless1744948597
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bulky Obsidian Shield with name ct_shaped1660365063
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Steel Throwing Knife with name ct_shapeless1128024791
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plated Shield with name ct_shaped-544794016
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bulky Obsidian Shield with name ct_shaped1660365063
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped1935794492
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Javelin with name ct_shaped-1121434714
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Knife with name ct_shapeless341197995
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Axe with name ct_shapeless-1403272223
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless1115603364
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless-919932913
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped2125736219
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fancy Lamp with name ct_shapeless1115603364
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Throwing Knife with name ct_shapeless341197995
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Campfire with name ct_shaped-698376743
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chicken Nest with name ct_shaped1255127457
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped-142602141
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Green Fertilizer with name ct_shaped-427749891
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped-1908628293
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Fertilizer with name ct_shaped1670452244
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Feeding Trough with name ct_shaped1054065186
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped2084719032
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped315665605
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for String with name ct_shaped-1225602350
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Green Fertilizer with name ct_shaped-427749891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped-142602141
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chicken Nest with name ct_shaped1255127457
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Yellow Fertilizer with name ct_shaped-1618924581
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bone Block with name ct_shaped-1270024513
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crafting Table with name ct_shaped-526625437
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped2084719032
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped-1908628293
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Braced Shield with name ct_shaped-659379891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Fertilizer with name ct_shaped1670452244
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottom Backpack Piece with name ct_shaped315665605
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bone Block with name ct_shaped-1270024513
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for String with name ct_shaped-1225602350
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Top Backpack Piece with name ct_shaped2125736219
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Middle Backpack Piece with name ct_shaped-126466799
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Backpack Frame with name ct_shaped-1637885740
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bed of Straw and Leaves with name ct_shaped-432570205
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bound Wheat with name ct_shaped509353725
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-190195136
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mason's Worktable with name ct_shaped623413337
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1787361302
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1906695958
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead with name ct_shaped-1580387745
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped1373089453
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pole with name ct_shaped357259949
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unfired Clay Bucket with name ct_shaped2134882437
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1787361302
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Javelin with name ct_shaped-1906695958
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mason's Worktable with name ct_shaped623413337
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Backpack Frame with name ct_shaped-1637885740
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bed of Straw and Leaves with name ct_shaped-432570205
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-190195136
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Worktable with name ct_shaped-714668482
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Arrow Head with name ct_shapeless-934747719
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Knife with name ct_shapeless-1737343349
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crude Haybale with name ct_shaped-894517161
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bound Wheat with name ct_shaped509353725
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Axe with name ct_shapeless976406069
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crafting Station with name ct_shapeless-987938181
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rope with name ct_shapeless-1308562059
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Book with name ct_shapeless1447795718
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Axe with name ct_shapeless976406069
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Arrow Head with name ct_shapeless-934747719
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cobblestone with name ct_shapeless953645605
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Crafting Station with name ct_shapeless-987938181
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Handle with name ct_shapeless95544399
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Throwing Knife with name ct_shapeless-1737343349
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_0
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for String with name minecraft_string_custom_2
@@ -17621,10 +17779,51 @@ tile.quark:custom_bookshelf.name - quark:custom_bookshelf:32767
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Damage: 4 as short}})
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Damage: 3 as short}})
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"})
-[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:almondseed>
-[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:lemonseed>
-[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:peppercornseed>
-[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:walnutseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:apricotseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:avocadoseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:bananaseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:breadfruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:cashewseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:cherryseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:chestnutseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:cinnamonbranch>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:cinnamonseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:coconutseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:dateseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:dragonfruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:durianseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:figseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:gooseberryseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:grapefruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:guavaseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:hazelnutseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:jackfruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:limeseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:lycheeseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:mangoseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:maplebranch>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:mapleseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:nutmegseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:oliveseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:orangeseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:papayaseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:paperbarkbranch>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:paperbarkseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:passionfruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:pawpawseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:peachseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:pearseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:pecanseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:persimmonseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:pistachioseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:plumseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:pomegranateseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:rambutanseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:soursopseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:spiderwebseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:starfruitseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:tamarindseed>
+[AVAILABLE][CLIENT][INFO] Adding description in JEI for: <dynamictreesphc:vanillabeanseed>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:hardenedleatheritem>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:akutuqitem>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <harvestcraft:anchovypepperonipizzaitem>

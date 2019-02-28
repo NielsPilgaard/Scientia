@@ -13,6 +13,7 @@ screenshots/
 /mods/
 /backups/
 /world/
+/mputils/
 
 # Utilities
 .github_changelog_generator
