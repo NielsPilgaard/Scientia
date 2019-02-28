@@ -1,5 +1,5 @@
-![Logo](https://i.imgur.com/FBp7Yic.png =250x)
-
+![Logo](https://i.imgur.com/FBp7Yic.png)
+<img src="https://i.imgur.com/FBp7Yic.png" alt="drawing" width="350"/>
 * * *
 
 ## <span style="color: #000000;"><span style="font-size: 24px;">About</span></span>
