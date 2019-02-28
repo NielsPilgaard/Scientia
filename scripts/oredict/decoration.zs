@@ -1,4 +1,5 @@
 #priority 1250
+#modloaded bibliocraft
 import crafttweaker.item.IItemStack;
 
 for i in 0 to 7 {

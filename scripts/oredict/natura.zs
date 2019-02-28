@@ -1,4 +1,5 @@
 #priority 1250
+#modloaded natura
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;

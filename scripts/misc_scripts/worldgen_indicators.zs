@@ -19,7 +19,7 @@ for metal in materials {
             dirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
             dirtSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
-            var dirtBlockChecker = BlockChecker.create(0.25)
+            var dirtBlockChecker = BlockChecker.create(0.1)
 			.addWhitelistEntry(<minecraft:grass>.asBlock())
 			.addWhitelistEntry(<minecraft:dirt:2>.asBlock())
 			.addValid(ore.items[0].asBlock())
@@ -30,7 +30,7 @@ for metal in materials {
             coarseDirtSurfaceIndicator.add(deposit.items[0].asBlock());
             coarseDirtSurfaceIndicator.add(<minecraft:dirt>.asBlock());
 
-            var coarseDirtBlockChecker = BlockChecker.create(0.25)
+            var coarseDirtBlockChecker = BlockChecker.create(0.1)
 			.addWhitelistEntry(<minecraft:dirt:1>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(coarseDirtSurfaceIndicator);
@@ -41,8 +41,10 @@ for metal in materials {
 			stoneSurfaceIndicator.add(<minecraft:stone:5>.asBlock());
 			stoneSurfaceIndicator.add(<minecraft:cobblestone>.asBlock());
 
-            var stoneBlockChecker = BlockChecker.create(0.35)
+            var stoneBlockChecker = BlockChecker.create(0.15)
 			.addWhitelistEntry(<minecraft:stone>.asBlock())
+			.addWhitelistEntry(<traverse:blue_rock>.asBlock())
+			.addWhitelistEntry(<traverse:red_rock>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(stoneSurfaceIndicator);
             WorldGenManager.addChecker(stoneBlockChecker);
@@ -51,7 +53,7 @@ for metal in materials {
             sandSurfaceIndicator.add(deposit.items[0].asBlock());
             sandSurfaceIndicator.add(<minecraft:dirt:1>.asBlock());
 
-            var sandBlockChecker = BlockChecker.create(0.2)
+            var sandBlockChecker = BlockChecker.create(0.1)
 			.addWhitelistEntry(<minecraft:sand>.asBlock())
 			.addWhitelistEntry(<minecraft:sand:1>.asBlock())
 			.addValid(ore.items[0].asBlock())
