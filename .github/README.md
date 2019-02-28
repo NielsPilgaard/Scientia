@@ -1,4 +1,4 @@
-<img align="center" img src="https://i.imgur.com/FBp7Yic.png" alt="logo" width="400"/>
+<img src="https://i.imgur.com/FBp7Yic.png" alt="logo" width="400"/>
 
 ## <span style="color: #000000;"><span style="font-size: 24px;">About</span></span>
 
@@ -8,16 +8,6 @@
 *   The progression is guided by a thorough Advancement system.
 *   Unique items, recipes and dimensions.
 *   A large assortment of both Magic and Tech content.
-
-* * *
-
-[![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/Vxp9u6d)
-
-* * *
-
-### <span style="font-size: 24px;">Requirements</span>
-
-*   You will need to allocate at least 3GB of RAM to Minecraft to run this modpack. 4-5GB is recommended.
 
 * * *
 
@@ -42,3 +32,13 @@ To update, the steps are as follow:
 1) Pull from master from the Scientia repository into your fork
 2) Delete the mods folder from your local instance
 3) Repeat steps 3-5 from the setup
+
+* * *
+
+### <span style="font-size: 24px;">Requirements</span>
+
+*   You will need to allocate at least 3GB of RAM to Minecraft to run this modpack. 4-5GB is recommended.
+
+* * *
+
+[![](https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png "source: imgur.com")](https://discord.gg/Vxp9u6d)
