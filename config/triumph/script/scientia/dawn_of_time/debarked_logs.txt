@@ -6,9 +6,9 @@ setShowToast(true)
 addParent("scientia:dawn_of_time/trial_and_error")
 setRequiresParents()
 
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Any Debarked Wood Log", "minecraft:inventory_changed")
 criteria.addItem(<ore:logDebarked>)

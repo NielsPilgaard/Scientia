@@ -342,6 +342,7 @@ val disableList = [
         <ancientwarfarestructure:altar_long_cloth>.withTag({dyeColor: 14}),
         <ancientwarfarestructure:altar_long_cloth>.withTag({dyeColor: 15}),
         <ancientwarfarestructure:altar_long_cloth>,
+        <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 0}),
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 1}),
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 2}),
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 3}),
@@ -357,7 +358,6 @@ val disableList = [
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 13}),
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 14}),
         <ancientwarfarestructure:altar_candle>.withTag({dyeColor: 15}),
-        <ancientwarfarestructure:altar_candle>,
         <ancientwarfarestructure:altar_lectern>,
         <ancientwarfarestructure:altar_sun>,
 
@@ -1757,6 +1757,8 @@ val disableList = [
         <forge:bucketfilled>.withTag({FluidName: "pigiron", Amount: 1000}),
         <forge:bucketfilled>.withTag({FluidName: "knightslime", Amount: 1000}),
         
+        <immersiveengineering:pickaxe_steel>,
+
         <minecraft:dye>,
         <minecraft:dye:1>,
         <minecraft:dye:2>,

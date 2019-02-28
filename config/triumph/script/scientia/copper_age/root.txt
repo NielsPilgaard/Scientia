@@ -1,5 +1,5 @@
 setIcon(<immersiveengineering:metal>)
-setTitle("Copper Age TODO")
+setTitle("Copper Age NYI")
 setDescription("Welcome to the Copper Age! Your understanding of the world is beginning to take shape. You do however need to figure out a way to improve your approach to research.")
 
 setShowToast(true)
@@ -9,9 +9,9 @@ setBackground("immersiveengineering:textures/blocks/sheetmetal_copper.png")
 setAnnounceToChat(false)
 
 setFrameType("Goal")
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Stone Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/final")

@@ -22,3 +22,4 @@ criteria.setCount(32)
 setRewardItem(<gamestagebooks:novice_miner>)
 
 setRewardExperience(25)
+setPos(32,54)

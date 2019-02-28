@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "treetweaker:blocks/dreamwood_braided"
+        "layer0": "treetweaker:blocks/dreamwood"
     }
 }

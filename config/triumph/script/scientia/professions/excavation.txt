@@ -1,19 +1,20 @@
 setIcon(<minecraft:diamond_pickaxe>)
-setTitle("TODO Excavation")
-setDescription("Unlocking this will give you permanent access to Ore Excavation, with any tool. It does not require a modifier or enchant. To enable Ore Excavation, first pick a keybinding for it in the Controls menu, and then you simply hold that key while breaking blocks to use it.")
+setTitle("Excavation")
+setDescription("Unlocking this will give you permanent access to Ore Excavation, however it can only be used to veinmine Ores. It does not require a modifier or enchant. To enable Ore Excavation, first pick a keybinding for it in the Controls menu, and then you simply hold that key while breaking blocks to use it.")
 setShowToast(true)
 
-addParent("scientia:professions/skilled_miner")
+addParent("scientia:professions/novice_miner")
 setRequiresParents()
 
 setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("Break 1000 Blocks", "triumph:player_break_block")
+criteria = addCriteria("Break 250 Blocks", "triumph:player_break_block")
 criteria.setItem(<*>)
-criteria.setCount(1000)
+criteria.setCount(250)
 
 setRewardFunction("professions:excavation")
 
 setRewardExperience(25)
+setPos(64,81)

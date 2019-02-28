@@ -1,5 +1,5 @@
 setIcon(<tconstruct:materials:16>)
-setTitle("TODO Master Tinkerer")
+setTitle("Master Tinkerer NYI")
 setDescription("Master Tinkering gives you access to the last modifiers: Luck, Silktouch and Reinforced.")
 setShowToast(true)
 

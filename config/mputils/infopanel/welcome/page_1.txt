@@ -1,6 +1,8 @@
 Welcome to Scientia!
 
-Scientia is designed to give the player a new and unique Minecraft experience.
+You start at the Dawn of Time, and have to discover new skills, resources and technologies in order to progress.
+
+Colaborate with villages and rival other settlements on your journey towards understanding the world.
 
 The progression system is based on Advancements - Access it with §4L§f
 

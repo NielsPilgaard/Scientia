@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:storage>)
 setTitle("Discovery of a Lifetime")
-setDescription("Your acquisition of Copper Ore, ability to craft Books, and mastery of agriculture marks the end of the Stone Age, and the beginning of the Copper Age.")
+setDescription("Your acquisition of Copper Ore, ability to craft Books, and mastery of agriculture marks the end of the Stone Age, and the beginning of the Copper Age.\n\n§4This Advancement marks the end of the Early Access alpha - Thank you for playing, I look forward to bringing you tons of content, this is only the beginning.")
 setShowToast(true)
 
 addParent("scientia:stone_age/copper_ore")
@@ -10,9 +10,9 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/book")

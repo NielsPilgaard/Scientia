@@ -1,5 +1,5 @@
 setIcon(<tconstruct:shortbow, meta:0, count:1, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,DrawSpeed:1.0f,FreeModifiers:3,ProjectileBonusDamage:0.0f,Durability:35,HarvestLevel:0,Attack:2.0f,Range:1.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,DrawSpeed:1.0f,FreeModifiers:0,ProjectileBonusDamage:0.0f,Durability:35,HarvestLevel:0,Attack:2.0f,Range:1.0f},Special:{Categories:["launcher","tool"]},TinkerData:{Materials:["wood","wood","string"]}}>)
-setTitle("TODO Apprentice Tinkerer")
+setTitle("Apprentice Tinkerer NYI")
 setDescription("Apprentice Tinkering gives you access to weapons! You have access to the Shortbow, Broadsword, Rapier and Longsword. Additionally, you can now change the parts of your existing tools.")
 setShowToast(true)
 

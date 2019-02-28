@@ -9,9 +9,9 @@ setBackground("minecraft:textures/blocks/cobblestone.png")
 setAnnounceToChat(false)
 
 setFrameType("Goal")
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete the Dawn of Time age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:dawn_of_time/final")

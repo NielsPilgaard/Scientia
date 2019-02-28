@@ -1,0 +1,17 @@
+setIcon(<dynamictrees:oakbranch>)
+setTitle("Dynamic Trees")
+setDescription("There are two different kinds of trees: Normal and Dynamic.\n\nDynamic Trees grow in stages, their leaves regrow, and they are most commonly grown from Acorns.\n\nYou will be able to convert between the two types of tree saplings in the middle of the next age.")
+setShowToast(true)
+
+addParent("scientia:dawn_of_time/chop_wood")
+setRequiresParents()
+
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+criteria = addCriteria("Complete Advancement Timbeeer!", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:dawn_of_time/chop_wood")
+
+setRewardExperience(25)
+setPos(128,67)

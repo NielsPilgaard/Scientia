@@ -29,3 +29,4 @@ criteria.setAdvancement("triumph:bronze_age/final")
 setRewardItem(<gamestagebooks:skilled_miner>)
 
 setRewardExperience(25)
+setPos(96,54)

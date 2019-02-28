@@ -7,9 +7,9 @@ addParent("scientia:stone_age/find_village")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Purchase Agricultural Knowledge", "minecraft:villager_trade")
 criteria.setItem(<gamestagebooks:agriculture>)

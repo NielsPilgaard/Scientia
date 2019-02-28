@@ -1,5 +1,5 @@
 setIcon(<tconstruct:hammer, meta:0, count:1, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.6499996f,FreeModifiers:3,Durability:580,HarvestLevel:2,Attack:3.5f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.6499996f,FreeModifiers:0,Durability:580,HarvestLevel:2,Attack:3.5f},Special:{Categories:["harvest","aoe","weapon","tool"]},TinkerData:{Materials:["wood","iron","copper","copper"]}}>)
-setTitle("TODO Expert Tinkerer")
+setTitle("Expert Tinkerer NYI")
 setDescription("Being an Expert Tinkerer gives you access to all Tinkers' Tool and Weapon, with the exception of the Shuriken.")
 setShowToast(true)
 

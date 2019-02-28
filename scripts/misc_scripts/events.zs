@@ -1,24 +1,11 @@
-/*
-An example of CraftTweaker events, might come in handy
-
 #priority 1000
-import crafttweaker.event.PlayerCraftedEvent;
+import crafttweaker.event.EntityLivingUseItemEvent.All;
 
-events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){
-    var player = event.player;
-	var item = event.output.definition.id;
+events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.All){
+	var usedItem = event.item.definition.id;
 
-	if(item == "gamestagebooks:novice_architect")
+	if(usedItem == "dynamictrees:dirtbucket")
 	{
-	}
-
-	else if(item == "gamestagebooks:skilled_architect")
-	{
-	}
-
-	else if(item == "gamestagebooks:master_architect")
-	{
+		event.cancel();
 	}
 });
-
-*/

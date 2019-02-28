@@ -1,5 +1,5 @@
 setIcon(<contenttweaker:ore_diamond>)
-setTitle("TODO Expert Miner")
+setTitle("Expert Miner NYI")
 setDescription("Expert Mining gives you access to Diamond veins.")
 setShowToast(true)
 

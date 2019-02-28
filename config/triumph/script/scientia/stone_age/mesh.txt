@@ -7,9 +7,9 @@ addParent("scientia:stone_age/string")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Mesh", "minecraft:inventory_changed")
 criteria.addItem(<pickletweaks:mesh>)

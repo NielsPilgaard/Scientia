@@ -1,5 +1,5 @@
 setIcon(<minecraft:iron_ingot>)
-setTitle("TODO Iron Age")
+setTitle("Iron Age NYI")
 setDescription("")
 
 setShowToast(true)
@@ -9,9 +9,9 @@ setBackground("minecraft:textures/blocks/iron_block.png")
 setAnnounceToChat(false)
 
 setFrameType("Goal")
-setCompletedIconColor(30, 61, 123)
+setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(30, 61, 123)
+setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Complete Bronze Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:bronze_age/final")
