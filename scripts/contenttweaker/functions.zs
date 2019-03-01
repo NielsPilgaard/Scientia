@@ -21,6 +21,9 @@ function createRegisterLeaves(name as string) {
     block.setBlockResistance(3.0);
     block.setToolClass("axe");
     block.setBlockSoundType(<soundtype:plant>);
+    block.setPassable(true);
+    block.setFullBlock(false);
+    block.setTranslucent(true);
     block.register();
 }
 
