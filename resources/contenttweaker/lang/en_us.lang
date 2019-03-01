@@ -67,6 +67,9 @@ tile.contenttweaker.deposit_iridium.name=Iridium Deposit
 tile.treetweaker.livingwood_large_oak.name=Livingwood Sapling
 tile.treetweaker.dreamwood.name=Dreamwood Sapling
 
+tile.contenttweaker.leaves_livingwood.name=Livingwood Leaves
+tile.contenttweaker.leaves_dreamwood.name=Dreamwood Leaves
+
 tile.dimensional_portal.name=Portal
 
 base.part.poor_ore=%s Deposit

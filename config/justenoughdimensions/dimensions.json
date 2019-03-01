@@ -30,7 +30,7 @@
       },
       "worldinfo_onetime": {
         "generatorName": "customized",
-        "generatorOptions": "{\"coordinateScale\":100,\"heightScale\":15,\"lowerLimitScale\":1000,\"upperLimitScale\":600,\"depthNoiseScaleX\":400,\"depthNoiseScaleZ\":200,\"depthNoiseScaleExponent\":1.1,\"mainNoiseScaleX\":800.9908,\"mainNoiseScaleY\":500.5343,\"mainNoiseScaleZ\":1183.464,\"baseSize\":1.8758626,\"stretchY\":1.7137525,\"biomeDepthWeight\":1.7553768,\"biomeDepthOffset\":3.4701107,\"biomeScaleWeight\":1.0,\"biomeScaleOffset\":2.535211,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":5}"
+        "generatorOptions": "{\"coordinateScale\":175.0,\"heightScale\":75.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":13.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":5}"
       }
     },
     {
@@ -55,7 +55,7 @@
       },
       "worldinfo_onetime": {
         "generatorName": "customized",
-        "generatorOptions": "{\"coordinateScale\":120,\"heightScale\":30,\"lowerLimitScale\":1000,\"upperLimitScale\":800,\"depthNoiseScaleX\":374.93652,\"depthNoiseScaleZ\":288.65228,\"depthNoiseScaleExponent\":1.2092624,\"mainNoiseScaleX\":1355.9908,\"mainNoiseScaleY\":745.5343,\"mainNoiseScaleZ\":1183.464,\"baseSize\":1.8758626,\"stretchY\":1.7137525,\"biomeDepthWeight\":1.7553768,\"biomeDepthOffset\":3.4701107,\"biomeScaleWeight\":1.0,\"biomeScaleOffset\":2.535211,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":4}"
+        "generatorOptions": "{\"coordinateScale\":175.0,\"heightScale\":75.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":13.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":true,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":4}"
       }
     }
   ]

@@ -2,7 +2,7 @@
   "gold_ore": {
     "type": "sphere",
     "ore": "ore:oreGold",
-    "stone": "minecraft:stone",
+    "stone": "botania:livingrock",
     "rarity": 20,
     "min_y": 40,
     "max_y": 70,

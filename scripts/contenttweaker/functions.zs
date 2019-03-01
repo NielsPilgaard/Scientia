@@ -15,23 +15,12 @@ function createRegisterItem(name as string, stacksize as int) {
     item.register();
 }
 
-function createRegisterBlockOre(name as string, toolLevel as int) {
-    val block = VanillaFactory.createBlock(name, <blockmaterial:rock>);
-    block.setBlockHardness(3.8);
-    block.setBlockResistance(30.0);
-    block.setToolClass("pickaxe");
-    block.setToolLevel(toolLevel);
-    block.setBlockSoundType(<soundtype:stone>);
-    block.register();
-}
-
-function createRegisterDirtOre(name as string, toolLevel as int) {
-    val block = VanillaFactory.createBlock(name, <blockmaterial:ground>);
-    block.setBlockHardness(2.5);
-    block.setBlockResistance(15.0);
-    block.setToolClass("shovel");
-    block.setToolLevel(toolLevel);
-    block.setBlockSoundType(<soundtype:ground>);
+function createRegisterLeaves(name as string) {
+    val block = VanillaFactory.createBlock(name, <blockmaterial:leaves>);
+    block.setBlockHardness(1);
+    block.setBlockResistance(3.0);
+    block.setToolClass("axe");
+    block.setBlockSoundType(<soundtype:plant>);
     block.register();
 }
 
