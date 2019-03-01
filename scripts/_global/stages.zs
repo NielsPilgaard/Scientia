@@ -35,9 +35,8 @@ global stages as string[string] = {
 	fire : "fire", # Gives access to torches and furnaces
 	writing : "writing", # Gives access to paper, books and the first research station
 	chisel : "chisel", # Unlocks Chisel and Chisels&Bits
-	cooking : "cooking", # Unlocks Pam's utensils & machines other than the Water Filter
 	defender : "defender", # Unlocks Shields
-	locomotion : "locomotion", # Unlocks Rails, Minecarts etc
+	locomotion : "locomotion", # Unlocks Rails, Minecarts etc, Railcraft?
 	explosives : "explosives", # Unlocks gunpowder, TNT, EFLN
 	maestro : "maestro", # Unlocks Music Discs and tools to play them
 	ninja : "ninja", # Unlocks the TiC Shuriken and Grappling Hooks
@@ -49,10 +48,6 @@ global stages as string[string] = {
 	skilled_tinkerer : "skilled_tinkerer", # Gives access to armor and modifiers
 	expert_tinkerer : "expert_tinkerer", # Gives access to the Tool Forge
 	master_tinkerer : "master_tinkerer", #  Gives access to part replacing, luck, silktouch, excavation & reinforced modifiers
-
-	novice_architect : "novice_architect", # Gives access to Stone Builder's Wand
-	skilled_architect : "skilled_architect", # Gives access to ArchitectureCraft, Iron Builder's Wand
-	master_architect : "master_architect", # Gives access to Architect, Diamond/Unbreaking Builder's Wand and Building Gadgets
 
 	novice_carpenter : "novice_carpenter", # Planks in Artisan Worktable, Bibliocraft Shelves, Barrels, Cabinets
 	skilled_carpenter : "skilled_carpenter", # Better plank recipe, all furniture, chests
@@ -69,16 +64,16 @@ global stages as string[string] = {
 	master_druid : "master_druid",
 
 	novice_warlock : "novice_warlock", # The Blood Magic profession, gives access to Floocraft teleportation
-	apprentice_warlock : "apprentice_warlock",
+	#apprentice_warlock : "apprentice_warlock",
 	skilled_warlock : "skilled_warlock",
-	expert_warlock : "expert_warlock",  
+	#expert_warlock : "expert_warlock",  
 	master_warlock : "master_warlock",
 	
-	novice_cook : "novice_cook",
-	apprentice_cook : "apprentice_cook",
-	skilled_cook : "skilled_cook",
-	expert_cook : "expert_cook",  
-	master_cook : "master_cook",
+	novice_chef : "novice_chef",
+	#apprentice_chef : "apprentice_chef",
+	skilled_chef : "skilled_chef",
+	#expert_chef : "expert_chef",  
+	master_chef : "master_chef"
 
 # Disabling
 	//disabled : "disabled" # A stage designed to disable items, hiding them and making them inaccessible

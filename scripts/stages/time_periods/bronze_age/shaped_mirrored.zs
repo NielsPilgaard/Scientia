@@ -16,25 +16,10 @@ var recipeList1 as IIngredient[][][][IItemStack] = {
             [null, <spartanweaponry:material:1>, null], 
             [<spartanweaponry:material:1>, null, null]
         ]
-	],
-    
-    <sereneseasons:season_clock> : [ 
-        [
-            [<ore:fertilizer>, <ore:blockBone>, <ore:fertilizer>],
-            [<ore:blockBone>, materials.redstone.dust, <ore:blockBone>], 
-            [<ore:fertilizer>, <ore:blockBone>, <ore:fertilizer>]
-        ]
-    ],
-
-    <sereneseasons:season_sensor_spring> : [ 
-        [
-            [materials.redstone.dust, materials.redstone.dust, materials.redstone.dust],
-            [<ore:fertilizer>, <sereneseasons:season_clock>, <ore:fertilizer>], 
-            [<ore:slabCobblestone>, <ore:slabCobblestone>, <ore:slabCobblestone>]
-        ]
-    ]
+	]
 };
 
+# For items that should not be item-staged
 var recipeList2 as IIngredient[][][][IItemStack] = {
     <sereneseasons:season_clock> : [ 
         [
@@ -62,6 +47,7 @@ for item, recipesForItem in recipeList1 {
 	}
 }
 
+# For items that should not be item-staged
 for item, recipesForItem in recipeList2 {
     recipes.remove(item);
 

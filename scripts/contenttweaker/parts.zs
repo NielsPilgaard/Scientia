@@ -186,3 +186,6 @@ for material in materialsForPoorAndDense {
 
 customMaterials.ender_pearl.registerPart("block");
 customMaterials.wood.registerPart("gear");
+
+#customMaterials.livingwood.registerPart("metal_leaves");
+#customMaterials.dreamwood.registerPart("metal_leaves");

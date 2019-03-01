@@ -17,7 +17,7 @@ function createRegisterItem(name as string, stacksize as int) {
 
 function createRegisterLeaves(name as string) {
     val block = VanillaFactory.createBlock(name, <blockmaterial:leaves>);
-    block.setBlockHardness(1);
+    block.setBlockHardness(0.2);
     block.setBlockResistance(3.0);
     block.setToolClass("axe");
     block.setBlockSoundType(<soundtype:plant>);

@@ -1,9 +1,9 @@
 {
-    "rules": [
-      {
-        "match": {
-          "blocks": {
-            "blocks": [
+  "rules":[
+    {
+      "match":{
+        "blocks":{
+          "blocks":[
             "minecraft:leaves:*",
             "minecraft:leaves2:*",
             "dynamictrees:leaves0:*",
@@ -18,40 +18,34 @@
             "traverse:orange_autumnal_leaves:*",
             "traverse:red_autumnal_leaves:*",
             "traverse:brown_autumnal_leaves:*"
-            ] 
-          },
-          "harvester": {
-            "type": "PLAYER",			
-			"gamestages": {
-              "require": "ANY",
-              "stages": [
-                "dawn_of_time"
-              ]
-            }
-          }
+          ]
         },
-        "replaceStrategy": "ADD",
-      "drops": [
+        "harvester":{
+          "type":"PLAYER"
+        }
+      },
+      "replaceStrategy":"ADD",
+      "drops":[
         {
-          "selector": {
-            "weight": {
-              "value": 40
+          "selector":{
+            "weight":{
+              "value":40
             }
           },
-          "item": {
-            "items": [
+          "item":{
+            "items":[
               "minecraft:stick:0"
             ]
           }
         },
         {
-          "selector": {
-            "weight": {
-              "value": 50
+          "selector":{
+            "weight":{
+              "value":50
             }
           }
         }
       ]
-      }
-    ]
-  }
+    }
+  ]
+}

@@ -11,7 +11,7 @@ var stage = stages.agriculture;
 
 mods.ItemStages.addItemStage(stage, <rustic:crop_stake>);
 mods.ItemStages.addItemStage(stage, <minecraft:farmland>);
-//mods.ItemStages.addItemStage(stage, <pickletweaks:watering_can>);
+mods.ItemStages.addItemStage(stage, <pickletweaks:watering_can>.withTag({Water: 0 as byte}));
 
 stageTinkersTool(stage, <tconstruct:mattock>, "tconstruct:mattock");
 

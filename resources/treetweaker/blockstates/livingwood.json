@@ -2,7 +2,7 @@
     "forge_marker": 1,
     "defaults": {
         "textures": {
-            "cross": "treetweaker:blocks/livingwood_large_oak"
+            "cross": "treetweaker:blocks/livingwood"
         }
     },
     "variants": {
@@ -10,7 +10,7 @@
             "model": "tinted_cross"
         },
         "inventory": {
-            "model": "treetweaker:livingwood_large_oak"
+            "model": "treetweaker:livingwood"
         }
     }
 }

@@ -2,8 +2,9 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-import mods.orestages.OreStages.addReplacement;
-
+/*
+Due to a bug, this script will temporarily utilize itemstages 
+*/
 var coarseDirt = <minecraft:dirt:1>;
 
 var replacementItemsForStage as IIngredient[][][string] = {
@@ -76,11 +77,14 @@ var replacementItemsForStage as IIngredient[][][string] = {
 for stage, replaceItemPairs in replacementItemsForStage {
 	for replaceItemPair in replaceItemPairs {
 		var length = replaceItemPair.length;
+		
+		mods.ItemStages.addItemStage(stage, replaceItemPair[0]);
 
+/*
 		if (length == 1) {
-			addReplacement(stage, replaceItemPair[0]);
+			mods.orestages.OreStages.addReplacement(stage, replaceItemPair[0]);
 		} else if (length == 2) {
-			addReplacement(stage, replaceItemPair[0], replaceItemPair[1].items[0]);
+			mods.orestages.OreStages.addReplacement(stage, replaceItemPair[0], replaceItemPair[1].items[0]);
 		}
-	}
+*/	}
 }

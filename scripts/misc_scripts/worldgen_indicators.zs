@@ -22,6 +22,8 @@ for metal in materials {
             var dirtBlockChecker = BlockChecker.create(0.1)
 			.addWhitelistEntry(<minecraft:grass>.asBlock())
 			.addWhitelistEntry(<minecraft:dirt:2>.asBlock())
+            .addWhitelistEntry(<botania:altgrass:2>.asBlock())
+            .addWhitelistEntry(<botania:altgrass:3>.asBlock())
 			.addValid(ore.items[0].asBlock())
 			.addIndicator(dirtSurfaceIndicator);
             WorldGenManager.addChecker(dirtBlockChecker);

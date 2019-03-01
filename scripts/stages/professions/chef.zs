@@ -5,31 +5,31 @@ import mods.ItemStages.addItemStage;
 # Novice
 # =========================================== #
 
-var stage = stages.novice_cook;
+var stage = stages.novice_chef;
 
 # =========================================== #
 # Apprentice
 # =========================================== #
 
-stage = stages.apprentice_cook;
+stage = stages.apprentice_chef;
 
 
 # =========================================== #
 # Skilled
 # =========================================== #
 
-stage = stages.skilled_cook;
+stage = stages.skilled_chef;
 
 
 # =========================================== #
 # Expert
 # =========================================== #
 
-stage = stages.expert_cook;
+stage = stages.expert_chef;
 
 
 # =========================================== #
 # Master
 # =========================================== #
 
-stage = stages.master_cook;
+stage = stages.master_chef;
