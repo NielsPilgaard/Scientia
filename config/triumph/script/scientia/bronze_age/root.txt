@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part, meta:48>)
+setIcon(<contenttweaker:material_part, meta:57>)
 setTitle("Bronze Age NYI")
 setDescription("")
 

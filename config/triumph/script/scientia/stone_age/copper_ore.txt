@@ -1,6 +1,6 @@
-setIcon(<contenttweaker:sub_block_holder_1:4>)
+setIcon(<contenttweaker:sub_block_holder_1:7>)
 setTitle("Diggy Diggy Hole")
-setDescription("Progressing further requires you to have access to new materials, so there's something to experiment with.\n\nIf you haven't already, unlock the Novice level of Mining, to be able to see Copper Veins.")
+setDescription("Progressing further requires you to have access to new materials, so you have something to experiment with.\n\nIf you haven't already, unlock the Novice level of Mining, to be able to see Copper Veins.")
 setShowToast(true)
 
 addParent("scientia:stone_age/stone_grill")

@@ -24,6 +24,8 @@ function createRegisterLeaves(name as string) {
     block.setPassable(true);
     block.setFullBlock(false);
     block.setTranslucent(true);
+    block.setBlockLayer("CUTOUT");
+    block.setLightOpacity(0);
     block.register();
 }
 

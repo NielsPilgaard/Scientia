@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:sub_block_holder_0, meta:6>)
+setIcon(<contenttweaker:sub_block_holder_0, meta:7>)
 setTitle("Apprentice Miner")
 setDescription("You need to find and harvest the ores that Novice Mining has unlocked in order to level further.\n\nApprentice Mining lets you find Tin, Lead and Silver veins.\n\nWhen the Bronze Age is reached, Redstone and Lapis Veins will become visible.")
 setShowToast(true)

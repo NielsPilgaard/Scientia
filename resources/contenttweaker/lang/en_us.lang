@@ -75,6 +75,14 @@ tile.dimensional_portal.name=Portal
 base.part.poor_ore=%s Deposit
 
 fluid.tannin=Tannin
+fluid.tomato_soup=Tomato Soup
+fluid.onion_soup=Onion Soup
+fluid.pumpkin_soup=Pumpkin Soup
+fluid.potato_soup=Potato Soup
+fluid.carrot_soup=Carrot Soup
+fluid.garden_soup=Garden Soup
+fluid.spider_eye_soup=Spider Eye Soup
+fluid.stock=Stock
 
 entity.Villager.tinkerer=Tinkerer
 entity.Villager.carpenter=Carpenter

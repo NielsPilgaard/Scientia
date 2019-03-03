@@ -35,7 +35,7 @@ import crafttweaker.item.IItemStack;
     <ore:logDebarked>.add(<hitwithaxe:debarked_silverbell>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_tiger>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_willow>);
-
+	<ore:logDebarked>.add(<hitwithaxe:debarked_ancient>);
 # Sign
     <ore:signWood>.add(<minecraft:sign>);
 
