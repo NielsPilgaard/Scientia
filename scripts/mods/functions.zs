@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 function createSoup(soupFluid as ILiquidStack, soupItem as IItemStack, ingredient as IIngredient, ingredientAmount as int) {
+    recipes.remove(soupItem);
     mods.inspirations.Cauldron.addFluidTransform(soupFluid, ingredient * ingredientAmount, <liquid:stock>, 4, true);
     if (ingredientAmount % 2 == 0) {
         mods.inspirations.Cauldron.addFluidTransform(soupFluid, ingredient * (ingredientAmount / 2), <liquid:stock>, 2, true);

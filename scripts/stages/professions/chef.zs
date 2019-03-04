@@ -1,5 +1,6 @@
 #priority 100
 import mods.ItemStages.addItemStage;
+import crafttweaker.item.IItemStack;
 
 # =========================================== #
 # Novice

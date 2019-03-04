@@ -19,9 +19,13 @@ mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather> * 3, <
 mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather> * 4, <contenttweaker:processed_hide> * 4, <liquid:tannin>, 4);
 
 # Stock, used for Soup
+recipes.remove(<harvestcraft:stockitem>);
 mods.inspirations.Cauldron.addFluidTransform(<liquid:stock>, <ore:bone> * 2, <liquid:water>, 4, true);
 mods.inspirations.Cauldron.addFluidTransform(<liquid:stock>, <ore:bone>, <liquid:water>, 2, true);
-mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem>, bowl, <liquid:stock>, 1);
+mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem>, <minecraft:bowl>, <liquid:stock>, 1);
+mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem> * 2, <minecraft:bowl> * 2, <liquid:stock>, 2);
+mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem> * 3, <minecraft:bowl> * 3, <liquid:stock>, 3);
+mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem> * 4, <minecraft:bowl> * 4, <liquid:stock>, 4);
 
 # Soups!
 createSoup(<liquid:pumpkin_soup>, <harvestcraft:pumpkinsoupitem>, <minecraft:pumpkin>, 2);
