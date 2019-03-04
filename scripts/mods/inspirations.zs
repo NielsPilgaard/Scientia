@@ -14,26 +14,26 @@ mods.inspirations.Cauldron.addFluidTransform(<liquid:tannin>, <contenttweaker:ta
 
 # Soaked Leather
 mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather>, <contenttweaker:processed_hide>, <liquid:tannin>, 1);
-
-var bowl as IItemStack = <minecraft:bowl>;
+mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather> * 2, <contenttweaker:processed_hide> * 2, <liquid:tannin>, 2);
+mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather> * 3, <contenttweaker:processed_hide> * 3, <liquid:tannin>, 3);
+mods.inspirations.Cauldron.addFluidRecipe(<contenttweaker:soaked_leather> * 4, <contenttweaker:processed_hide> * 4, <liquid:tannin>, 4);
 
 # Stock, used for Soup
 mods.inspirations.Cauldron.addFluidTransform(<liquid:stock>, <ore:bone> * 2, <liquid:water>, 4, true);
 mods.inspirations.Cauldron.addFluidTransform(<liquid:stock>, <ore:bone>, <liquid:water>, 2, true);
 mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:stockitem>, bowl, <liquid:stock>, 1);
 
-# Soup
-mods.inspirations.Cauldron.addFluidTransform(<liquid:carrot_soup>, <ore:cropCarrot> * 8, <liquid:stock>, 4, true);
-mods.inspirations.Cauldron.addFluidTransform(<liquid:potato_soup>, <ore:cropPotato> * 8, <liquid:stock>, 4, true);
-mods.inspirations.Cauldron.addFluidTransform(<liquid:spider_eye_soup>, <minecraft:spider_eye> * 2, <liquid:stock>, 4, true);
-mods.inspirations.Cauldron.addFluidTransform(<liquid:tomato_soup>, <ore:cropTomato> * 8, <liquid:stock>, 4, true);
-# Come up with a way to make Garden Soup, since it takes ingredients that some of other soups also require
-# mods.inspirations.Cauldron.addFluidTransform(<liquid:garden_soup>, <ore:crop> * 2, <liquid:stock>);
-mods.inspirations.Cauldron.addFluidTransform(<liquid:onion_soup>, <ore:cropOnion> * 16, <liquid:stock>, 4, true);
-
-
-
+# Soups!
 createSoup(<liquid:pumpkin_soup>, <harvestcraft:pumpkinsoupitem>, <minecraft:pumpkin>, 2);
+createSoup(<liquid:carrot_soup>, <harvestcraft:carrotsoupitem>, <minecraft:carrot>, 8);
+createSoup(<liquid:potato_soup>, <harvestcraft:potatosoupitem>, <minecraft:potato>, 8);
+createSoup(<liquid:spider_eye_soup>, <harvestcraft:spidereyesoupitem>, <minecraft:spider_eye>, 2);
+createSoup(<liquid:tomato_soup>, <harvestcraft:tomatosoupitem>, <harvestcraft:tomatoitem>, 8);
+createSoup(<liquid:onion_soup>, <harvestcraft:onionsoupitem>, <harvestcraft:onionitem>, 16);
+
+
+
+
 
 
 

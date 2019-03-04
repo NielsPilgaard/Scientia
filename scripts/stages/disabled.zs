@@ -874,6 +874,7 @@ val disableList = [
         
         <dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"}),
 
+        <harvestcraft:gardensoupitem>,
         <dynamictreesphc:apricotseed>,
         <dynamictreesphc:avocadoseed>,
         <dynamictreesphc:bananaseed>,
