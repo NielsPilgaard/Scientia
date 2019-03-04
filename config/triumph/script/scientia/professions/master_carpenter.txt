@@ -11,16 +11,16 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("Any 100 Furniture", "minecraft:inventory_changed")
-criteria.setItem(<ore:furniture>)
+criteria.addItem(<ore:furniture>)
 criteria.setCount(100)
 
 criteria = addCriteria("Any 25 Wooden Chests", "minecraft:inventory_changed")
-criteria.setItem(<ore:chestWood>)
+criteria.addItem(<ore:chestWood>)
 criteria.setCount(25)
 
 criteria = addCriteria("Any 500 Wooden Planks", "minecraft:inventory_changed")
-criteria.setItem(<ore:plankWood>)
-criteria.setcount(500)
+criteria.addItem(<ore:plankWood>)
+criteria.setCount(500)
 
 setRewardItem(<gamestagebooks:master_carpenter>)
 

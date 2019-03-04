@@ -12,7 +12,7 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("Expert Miner Book", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:expert_miner>)
+criteria.addItem(<gamestagebooks:expert_miner>)
 
 setRewardItem(<gamestagebooks:expert_miner>)
 

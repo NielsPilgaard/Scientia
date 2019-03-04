@@ -12,6 +12,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Campfire", "minecraft:inventory_changed")
-criteria.setBlock(<campfire:campfire>)
+criteria.addItem(<campfire:campfire>)
 
 setRewardExperience(25)

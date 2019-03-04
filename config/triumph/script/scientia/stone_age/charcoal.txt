@@ -12,7 +12,7 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("9 Charcoal", "minecraft:inventory_changed")
-criteria.setBlock(<minecraft:coal:1>)
+criteria.addItem(<minecraft:coal:1>)
 criteria.setCount(9)
 
 setRewardExperience(25)

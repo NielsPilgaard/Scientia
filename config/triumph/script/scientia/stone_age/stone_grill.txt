@@ -12,6 +12,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Grill", "minecraft:inventory_changed")
-criteria.setBlock(<primal_tech:stone_grill>)
+criteria.addItem(<primal_tech:stone_grill>)
 
 setRewardExperience(25)

@@ -6,13 +6,12 @@ setShowToast(true)
 addParent("scientia:professions/expert_miner")
 setRequiresParents()
 
-
 setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("Master Miner Book", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:master_miner>)
+criteria.addItem(<gamestagebooks:master_miner>)
 
 setRewardItem(<gamestagebooks:master_miner>)
 

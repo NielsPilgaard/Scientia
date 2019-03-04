@@ -12,9 +12,9 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Stone Anvil", "minecraft:inventory_changed")
-criteria.setBlock(<primal_tech:stone_anvil>)
+criteria.addItem(<primal_tech:stone_anvil>)
 
 criteria = addCriteria("Stone Mallet", "minecraft:inventory_changed")
-criteria.setBlock(<primal_tech:stone_mallet>)
+criteria.addItem(<primal_tech:stone_mallet>)
 
 setRewardExperience(25)

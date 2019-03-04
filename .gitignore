@@ -65,3 +65,4 @@ whitelist.json
 ops.json
 banned-players.json
 banned-ips.json
+*.zip

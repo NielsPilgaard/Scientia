@@ -12,7 +12,7 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
 criteria = addCriteria("Apprentice Tinkerer Book", "minecraft:inventory_changed")
-criteria.setBlock(<gamestagebooks:apprentice_tinkerer>)
+criteria.addItem(<gamestagebooks:apprentice_tinkerer>)
 
 setRewardItem(<gamestagebooks:apprentice_tinkerer>)
 

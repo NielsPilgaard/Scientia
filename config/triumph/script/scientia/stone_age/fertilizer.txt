@@ -12,6 +12,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Red, Green or Yellow Fertilizer", "minecraft:inventory_changed")
-criteria.setItem(<farmingforblockheads:fertilizer>)
+criteria.addItem(<farmingforblockheads:fertilizer>)
 
 setRewardExperience(25)

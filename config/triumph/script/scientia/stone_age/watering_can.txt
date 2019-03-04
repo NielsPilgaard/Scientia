@@ -12,6 +12,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Watering Can", "minecraft:inventory_changed")
-criteria.setItem(<pickletweaks:watering_can>)
+criteria.addItem(<pickletweaks:watering_can>)
 
 setRewardExperience(25)

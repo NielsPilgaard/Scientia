@@ -11,7 +11,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
 criteria = addCriteria("Break 250 Blocks", "triumph:player_break_block")
-criteria.setItem(<*>)
 criteria.setCount(250)
 
 setRewardFunction("professions:excavation")

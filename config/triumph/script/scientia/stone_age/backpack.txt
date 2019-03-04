@@ -13,7 +13,7 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
 criteria = addCriteria("Any Backpack", "minecraft:inventory_changed")
-criteria.setBlock(<backpack:backpack:*>)
+criteria.addItem(<backpack:backpack>)
 
 setRewardExperience(25)
 setPos(352,256)
