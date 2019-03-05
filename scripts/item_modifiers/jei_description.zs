@@ -82,3 +82,9 @@ addDescription(<ore:logDebarked>, "Obtained by right clicking a Wood Log with a 
 
 # Farming for Blockheads Market
 addDescription(<farmingforblockheads:market>, "The Market sells Seeds, Saplings, Flowers and Animals.", "It has a chance to spawn in Villages, and cannot be crafted.");
+
+# Rustic Chili / Tomato
+addDescription(<rustic:tomato>, "Grown on a Wooden Stake with Farmland underneath.");
+addDescription(<rustic:tomato_seeds>, "Grown on a Wooden Stake with Farmland underneath.");
+addDescription(<rustic:chili_pepper>, "Grown on a Wooden Stake with Farmland underneath.");
+addDescription(<rustic:chili_pepper_seeds>, "Grown on a Wooden Stake with Farmland underneath.");

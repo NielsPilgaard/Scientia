@@ -1,12 +1,67 @@
-{ 
-	"Profession":"vtt:brewer", 
-	"Career":"brewer",
-
-	"Offers": {
-		"Recipes": [
-		  {
-			"action": "clear"
-		  }
-		]
-	}
+{
+  "Profession":"vtt:brewer",
+  "Career":"brewer",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:spider_eye",
+          "Count":{
+            "min":8,
+            "max":12
+          }
+        },
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":{
+            "min":1,
+            "max":2
+          }
+        }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:sugar",
+          "Count":{
+            "min":18,
+            "max":32
+          }
+        },
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":1
+        }
+      },
+      {
+        "action":"add",
+        "CareerLevel":2,
+        "buy":{
+					"id":"minecraft:fish",
+					"Damage":[
+            1,
+            2,
+            3
+          ],
+          "Count":{
+            "min":1,
+            "max":2
+          }
+        },
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":{
+            "min":1,
+            "max":2
+          }
+        }
+      }
+    ]
+  }
 }

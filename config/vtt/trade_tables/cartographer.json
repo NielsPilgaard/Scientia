@@ -1,26 +1,26 @@
 {
-  "Profession": "minecraft:librarian",
-  "Career": "cartographer",
-  "Offers": {
-		"Recipes": [
-		{
-			"action": "clear"
-		},
-		{
-			"action": "add",
-			"CareerLevel": 1,
-			"buy": {
-			  "id": "minecraft:paper",
-			  "Count": {
-				"min": 13,
-				"max": 25
-				}
-			},
-			"sell": {
-			  "id": "contenttweaker:research_compass",
-			  "Count": 1
+  "Profession":"minecraft:librarian",
+  "Career":"cartographer",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:paper",
+          "Count":{
+            "min":13,
+            "max":25
+          }
+        },
+        "sell":{
+          "id":"contenttweaker:research_compass",
+          "Count":1
         }
       }
-	]
+    ]
   }
 }

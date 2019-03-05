@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.recipes.ICraftingRecipe;
 
 import mods.recipestages.Recipes.setRecipeStage;
 
@@ -23,18 +24,20 @@ import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
 function disableItem(item as IItemStack) {
+	var output as IItemStack;
 	addDescription(item, 
 		"This item is disabled.", 
 		"If you somehow obtained it, please report it on Scientia's issue tracker.", 
 		"There's a link in the Game Menu and the Esc Menu.");
 	addItemStage("disabled", item);
 	furnace.remove(item);
-	recipes.remove(item);
+	removeAndHide(item);
+
 	if (!isNull(item.ores)) {
 		for oredict in item.ores {
 			oredict.remove(item);
 		}
-	}
+	}	
 }
 
 function stageMod(stage as string, mod as string) {

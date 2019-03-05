@@ -1,12 +1,11 @@
-{ 
-	"Profession": "vtt:redstoner", 
-	"Career":"redstoner",
-
-	"Offers": {
-		"Recipes": [
-		{
-			"action": "clear"
-		}
-	]
+{
+  "Profession":"vtt:redstoner",
+  "Career":"redstoner",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      }
+    ]
   }
 }

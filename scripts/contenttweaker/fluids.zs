@@ -10,4 +10,6 @@ createRegisterFluid("potato_soup", "ffda7f");
 createRegisterFluid("spider_eye_soup", "a83217");
 createRegisterFluid("tomato_soup", "c94508");
 createRegisterFluid("onion_soup", "eabe96");
+createRegisterFluid("cactus_soup", "a0dd56");
+createRegisterFluid("seed_soup", "d6d85b");
 createRegisterFluid("stock", "ffd2aa");

@@ -82,6 +82,9 @@ fluid.potato_soup=Potato Soup
 fluid.carrot_soup=Carrot Soup
 fluid.garden_soup=Garden Soup
 fluid.spider_eye_soup=Spider Eye Soup
+fluid.cactus_soup=Cactus Soup
+fluid.seed_soup=Seed Soup
+
 fluid.stock=Stock
 
 entity.Villager.tinkerer=Tinkerer

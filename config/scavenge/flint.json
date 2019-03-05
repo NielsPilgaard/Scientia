@@ -31,7 +31,7 @@
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.2
+					"amount": 0.1
 				},
 				{
 					"type": "drop_items"
@@ -42,7 +42,7 @@
 			[
 				{
 					"name": "minecraft:flint",
-					"chance": 10
+					"chance": 20
 				}
 			]
 		},
@@ -76,7 +76,7 @@
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.2
+					"amount": 0.1
 				},
 				{
 					"type": "drop_items"
@@ -87,7 +87,7 @@
 			[
 				{
 					"name": "minecraft:flint",
-					"chance": 5
+					"chance": 10
 				}
 			]
 		},
@@ -122,7 +122,7 @@
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.2
+					"amount": 0.1
 				},
 				{
 					"type": "drop_items"
@@ -133,7 +133,7 @@
 			[
 				{
 					"name": "minecraft:flint",
-					"chance": 10
+					"chance": 15
 				}
 			]
 		}

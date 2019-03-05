@@ -29,7 +29,7 @@ var recipeList as IIngredient[][][IItemStack] = {
     <tconstruct:tooltables> : [
         [<ore:workbench>]
     ],
-    <dynamictrees:dirtbucket> : [
+    <contenttweaker:dirt_bucket> : [
         [<claybucket:claybucket>, <ore:dirt>]
     ]
 };

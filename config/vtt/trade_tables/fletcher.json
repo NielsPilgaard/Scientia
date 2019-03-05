@@ -1,12 +1,11 @@
-{ 
-	"Profession":"minecraft:farmer",
-	"Career":"fletcher",
-
-	"Offers": {
-		"Recipes": [
-		  {
-			"action": "clear"
-		  }
-		]
-	}
+{
+  "Profession":"minecraft:farmer",
+  "Career":"fletcher",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      }
+    ]
+  }
 }

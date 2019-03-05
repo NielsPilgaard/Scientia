@@ -17,6 +17,7 @@ createRegisterItem("rock", 64);
 createRegisterItem("bound_wheat", 64);
 createRegisterItem("crude_haybale", 16);
 createRegisterItem("wet_pulp", 64);
+createRegisterItem("dirt_bucket", 64);
 
 createRegisterItem("raw_hide", 64);
 createRegisterItem("soaked_hide", 64);

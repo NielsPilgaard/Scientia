@@ -14,4 +14,5 @@ function createSoup(soupFluid as ILiquidStack, soupItem as IItemStack, ingredien
         }
     }
     mods.inspirations.Cauldron.addFluidRecipe(soupItem, <minecraft:bowl>, soupFluid, 1);
+    mods.inspirations.Cauldron.addFillRecipe(soupItem, soupFluid, 1, <minecraft:bowl>);
 }

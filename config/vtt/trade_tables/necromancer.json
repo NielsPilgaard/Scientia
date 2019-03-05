@@ -1,12 +1,11 @@
-{ 
-	"Profession":"minecraft:priest", 
-	"Career":"necromancer",
-
-	"Offers": {
-		"Recipes": [
-		  {
-			"action": "clear"
-		  }
-		]
-	}
+{
+  "Profession":"minecraft:priest",
+  "Career":"necromancer",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      }
+    ]
+  }
 }

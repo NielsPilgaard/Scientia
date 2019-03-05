@@ -1,10 +1,10 @@
 {
-  "Profession": "minecraft:priest",
-  "Career": "cleric",
-  "Offers": {
-    "Recipes": [
+  "Profession":"minecraft:priest",
+  "Career":"cleric",
+  "Offers":{
+    "Recipes":[
       {
-        "action": "clear"
+        "action":"clear"
       }
     ]
   }

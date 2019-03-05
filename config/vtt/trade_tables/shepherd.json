@@ -1,12 +1,11 @@
-{ 
-	"Profession":"minecraft:farmer",
-	"Career":"shepherd",
-
-	"Offers": {
-		"Recipes": [
-		  {
-			"action": "clear"
-		  }
-		]
-	}
+{
+  "Profession":"minecraft:farmer",
+  "Career":"shepherd",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      }
+    ]
+  }
 }

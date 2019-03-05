@@ -1,12 +1,38 @@
-{ 
-	"Profession":"minecraft:butcher", 
-	"Career":"butcher",
-
-	"Offers": {
-		"Recipes": [
-		  {
-			"action": "clear"
-		  }
-		]
-	}
+{
+  "Profession":"minecraft:butcher",
+  "Career":"butcher",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":[
+						"minecraft:fish",
+						"minecraft:beef",
+						"minecraft:chicken",
+						"minecraft:mutton",
+						"minecraft:porkchop"
+					],
+          "Count":[
+						{"min":2,"max":4},
+						{"min":4,"max":6},
+						{"min":5,"max":7},
+						{"min":4,"max":6},
+						{"min":4,"max":6}
+					]
+        },
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":{
+						"min":1,
+						"max":2
+					}
+        }
+      }
+    ]
+  }
 }

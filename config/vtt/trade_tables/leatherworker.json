@@ -1,30 +1,29 @@
-{ 
-	"Profession":"minecraft:butcher", 
-	"Career":"leather",
-
-	"Offers": {
-		"Recipes": [
-		{
-			"action": "clear"
-		},
-		{
-			"action": "add",
-			"CareerLevel": 1,
-			"buy": {
-			  "id": "contenttweaker:raw_hide",
-			  "Count": {
-				"min": 8,
-				"max": 12
-				}
-			},
-			"sell": {
-			  "id": "minecraft:leather",
-			  "Count": {
-				"min": 1,
-				"max": 2
-			}
+{
+  "Profession":"minecraft:butcher",
+  "Career":"leather",
+  "Offers":{
+    "Recipes":[
+      {
+        "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"contenttweaker:raw_hide",
+          "Count":{
+            "min":8,
+            "max":12
+          }
+        },
+        "sell":{
+          "id":"minecraft:leather",
+          "Count":{
+            "min":1,
+            "max":2
+          }
         }
       }
-	]
+    ]
   }
 }
