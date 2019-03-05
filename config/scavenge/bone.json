@@ -14,7 +14,7 @@
 				{
 					"type": "per_block_limit",
 					"usage": 1,
-					"max": 20
+					"max": 15
 				},
 				{
 					"type": "require_sneak"
@@ -42,7 +42,7 @@
 			[
 				{
 					"name": "minecraft:bone",
-					"chance": 15
+					"chance": 10
 				}
 			]
 		}

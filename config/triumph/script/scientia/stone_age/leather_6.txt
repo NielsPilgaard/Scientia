@@ -16,4 +16,4 @@ criteria = addCriteria("Leather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:leather>)
 
 setRewardExperience(25)
-setPos(352,229)
+setPos(352,189)

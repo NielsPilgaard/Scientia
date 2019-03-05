@@ -16,4 +16,4 @@ criteria = addCriteria("Any Backpack", "minecraft:inventory_changed")
 criteria.addItem(<backpack:backpack>)
 
 setRewardExperience(25)
-setPos(352,256)
+setPos(320,216)

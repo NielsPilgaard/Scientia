@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:rock>)
 setTitle("The Stone Age")
-setDescription("Acquire Rocks by mining Stone. This will advance you to the Stone Age.")
+setDescription("Acquire Rocks by mining Stone. This will advance you to the Stone Age.\n\n§4Warning!§r Mobs can spawn as soon as you complete this advancement.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/first_pickaxe")

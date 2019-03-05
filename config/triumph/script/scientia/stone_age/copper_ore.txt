@@ -20,4 +20,4 @@ criteria = addCriteria("Complete Advancement Novice Miner", "triumph:completed_a
 criteria.setAdvancement("triumph:profession/novice_miner")
 
 setRewardExperience(25)
-setPos(352,121)
+setPos(352,81)

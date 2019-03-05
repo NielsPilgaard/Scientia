@@ -1,6 +1,6 @@
 setIcon(<tconstruct:binding, nbt:{Material:"plant_fiber"}>)
 setTitle("Basic Tool Parts")
-setDescription("Craft a Wooden Tool Rod and a Plant Fiber Binding. Bindings and Rods play a large part in determining tool durability.")
+setDescription("Craft a Wooden Tool Rod and a Plant Fiber Binding.\n\nTool Rods and Bindings play a large part in determining tool durability.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/part_builder")

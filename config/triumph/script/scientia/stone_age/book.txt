@@ -22,4 +22,4 @@ criteria.setAdvancement("triumph:stone_age/paper")
 setRewardFunction("research:writing")
 
 setRewardExperience(100)
-setPos(352,175)
+setPos(352,148)

@@ -3,7 +3,7 @@ setTitle("Shear Luck")
 setDescription("The Kama can be used to shear Sheep and harvest leaves.")
 setShowToast(true)
 
-addParent("scientia:stone_age/root")
+addParent("scientia:stone_age/novice_tinkerer")
 setRequiresParents()
 
 setCompletedIconColor(51, 102, 204)

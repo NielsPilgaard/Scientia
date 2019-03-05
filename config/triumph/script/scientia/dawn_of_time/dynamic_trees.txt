@@ -10,8 +10,4 @@ setCompletedIconColor(173, 6, 6)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(173, 6, 6)
 
-criteria = addCriteria("Complete Advancement Timbeeer!", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:dawn_of_time/chop_wood")
-
-setRewardExperience(25)
 setPos(128,67)

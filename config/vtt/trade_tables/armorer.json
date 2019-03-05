@@ -8,7 +8,7 @@
       },
       {
         "action":"add",
-        "CareerLevel":2,
+        "CareerLevel":1,
         "buy":[
 					{"id":"conarm:helmet_core", "tag":{"Material":"plant_fiber"},"Count":1},
 					{"id":"conarm:chest_core", "tag":{"Material":"plant_fiber"},"Count":1},

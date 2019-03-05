@@ -1,18 +1,27 @@
 setIcon(<tconstruct:shortbow, meta:0, count:1, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,DrawSpeed:1.0f,FreeModifiers:3,ProjectileBonusDamage:0.0f,Durability:35,HarvestLevel:0,Attack:2.0f,Range:1.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,DrawSpeed:1.0f,FreeModifiers:0,ProjectileBonusDamage:0.0f,Durability:35,HarvestLevel:0,Attack:2.0f,Range:1.0f},Special:{Categories:["launcher","tool"]},TinkerData:{Materials:["wood","wood","string"]}}>)
-setTitle("Apprentice Tinkerer NYI")
+setTitle("Apprentice Tinkerer")
 setDescription("Apprentice Tinkering gives you access to weapons! You have access to the Shortbow, Broadsword, Rapier and Longsword. Additionally, you can now change the parts of your existing tools.")
 setShowToast(true)
 
 addParent("scientia:professions/novice_tinkerer")
 setRequiresParents()
 
-
 setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Apprentice Tinkerer Book", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:apprentice_tinkerer>)
+criteria = addCriteria("Craft 10 Flint Artisan's Tools", "triumph:player_crafted_item")
+criteria.setItem(<ore:artisansToolFlint>)
+criteria.setCount(10)
+
+criteria = addCriteria("Complete Advancement Tomahawwk", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/throwing_axe")
+
+criteria = addCriteria("Complete Advancement Shiv", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/throwing_knife")
+
+criteria = addCriteria("Complete Advancement Defender", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:stone_age/shield")
 
 setRewardItem(<gamestagebooks:apprentice_tinkerer>)
 

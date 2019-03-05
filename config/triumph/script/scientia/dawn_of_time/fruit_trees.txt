@@ -12,19 +12,19 @@ setCompletedTitleColor(51, 102, 204)
 
 setRequirements("any")
 
-criteria = addCriteria("Harvest Walnut", "triumph:right_click_block")
+criteria = addCriteria("Walnut", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamwalnut, meta:2>)
 
-criteria = addCriteria("Harvest Almond", "triumph:right_click_block")
+criteria = addCriteria("Almond", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamalmond, meta:2>)
 
-criteria = addCriteria("Harvest Peppercorn", "triumph:right_click_block")
+criteria = addCriteria("Peppercorn", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pampeppercorn, meta:2>)
 
-criteria = addCriteria("Harvest Lemon", "triumph:right_click_block")
+criteria = addCriteria("Lemon", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamlemon, meta:2>)
 
-criteria = addCriteria("Harvest Apple", "triumph:right_click_block")
+criteria = addCriteria("Apple", "triumph:right_click_block")
 criteria.setBlock(<harvestcraft:pamapple, meta:2>)
 
 setRewardExperience(25)

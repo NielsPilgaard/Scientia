@@ -11,8 +11,3 @@ drawDirectLines(true)
 setCompletedIconColor(173, 6, 6)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(173, 6, 6)
-
-criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/chest")
-
-setRewardExperience(25)
