@@ -15,7 +15,7 @@ Colaborate with villages and rival other settlements on your journey towards und
 
 ### <span style="font-size: 24px;">Media</span>
 
-*   Please keep in mind that Scientia is very far from being complete. Things can still change drastically. That being said, you are free to make content with it as long as you notify your viewers that the modpack is incomplete, and report issues you come across.
+*   You may NOT make Scientia content as this time.
 
 ### <span style="font-size: 24px;">Contributing</span>
 
