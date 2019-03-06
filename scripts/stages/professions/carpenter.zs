@@ -537,8 +537,8 @@ var plank = woodtypes[wood].plank;
 
 RecipeBuilder.get("carpenter")  
   .setShaped([
-        [slab, <ore:blockGlass>, slab],
-        [slab, <ore:wool>, slab], 
+        [slab, <ore:paneGlass>, slab],
+        [slab, <minecraft:wool:*>, slab], 
         [slab, slab, slab]
         ])
   .setMirrored()  

@@ -1,7 +1,16 @@
 #priority 100
+import crafttweaker.item.IItemStack;
 
 var stage = stages.dye;
 
-mods.recipestages.Recipes.setRecipeStage(stage, <inspirations:dyed_bottle:*>);
-mods.recipestages.Recipes.setRecipeStage(stage, <minecraft:painting>);
-mods.ItemStages.addItemStage(stage, <inspirations:dyed_bottle:*>);
+val itemsToStage as IItemStack[] = [
+
+	<inspirations:dyed_bottle:*>,
+	<minecraft:painting>,
+	<inspirations:dyed_bottle:*>
+	
+];
+
+for item in itemsToStage {
+    stageItem(stage, item);
+}

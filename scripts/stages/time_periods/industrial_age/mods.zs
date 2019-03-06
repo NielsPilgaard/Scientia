@@ -2,7 +2,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import scripts.utility.stageMod;
 
 var stage = stages.industrial_age;
 

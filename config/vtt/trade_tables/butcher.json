@@ -32,6 +32,24 @@
 						"max":2
 					}
         }
+      },
+      {
+        "action":"add",
+        "CareerLevel":2,
+        "buy":{
+          "id":"minecraft:emerald",
+          "Count":{
+						"min":1,
+						"max":2
+          }
+        },
+        "sell":{
+          "id":"minecraft:steak",
+          "Count":{
+						"min":2,
+						"max":4
+					}
+        }
       }
     ]
   }

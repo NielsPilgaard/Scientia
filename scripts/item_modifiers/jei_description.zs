@@ -88,3 +88,7 @@ addDescription(<rustic:tomato>, "Grown on a Wooden Stake with Farmland underneat
 addDescription(<rustic:tomato_seeds>, "Grown on a Wooden Stake with Farmland underneath.");
 addDescription(<rustic:chili_pepper>, "Grown on a Wooden Stake with Farmland underneath.");
 addDescription(<rustic:chili_pepper_seeds>, "Grown on a Wooden Stake with Farmland underneath.");
+
+# Armor/Tool Forge
+addDescription(<conarm:armorforge>, "Any Metal block can be used to craft this.", "The texture on the legs of the block will match the block you use in the recipe.");
+addDescription(<tconstruct:toolforge>, "Any Metal block can be used to craft this.", "The texture on the legs of the block will match the block you use in the recipe.");

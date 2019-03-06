@@ -28,6 +28,29 @@
           "id":"gamestagebooks:novice_carpenter",
           "Count":1
         }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:planks",
+          "Damage":[
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "Count":{
+            "min":12,
+            "max":36
+          }
+        },
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":1
+        }
       }
     ]
   }

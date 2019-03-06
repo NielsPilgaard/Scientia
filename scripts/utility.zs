@@ -23,29 +23,21 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
-function disableItem(item as IItemStack) {
-	var output as IItemStack;
-	addDescription(item, 
-		"This item is disabled.", 
-		"If you somehow obtained it, please report it on Scientia's issue tracker.", 
-		"There's a link in the Game Menu and the Esc Menu.");
-	addItemStage("disabled", item);
-	furnace.remove(item);
-	removeAndHide(item);
+global stageItem as function(string, IItemStack)string = function(stage as string, input as IItemStack) as string {
+	addItemStage(stage, input);
+	setRecipeStage(stage, input);
+	return input.name + " added to stage " + stage;
+};
 
-	if (!isNull(item.ores)) {
-		for oredict in item.ores {
-			oredict.remove(item);
-		}
-	}	
-}
 
-function stageMod(stage as string, mod as string) {
+
+global stageMod as function(string, string)string = function(stage as string, mod as string) as string {
 	for item in loadedMods[mod].items {
 		addItemStage(stage, item);
 		setRecipeStage(stage, item);	
 	}
-}
+	return mod + " added to stage " + stage;
+};
 
 function stageTinkersMaterial(stage as string, material as string) {
 	var parts = [
@@ -167,4 +159,21 @@ var group = ArmorHandler.createArmorGroup(name, equipChance);
     } 
 
     return group;
+}
+
+function disableItem(item as IItemStack) {
+	var output as IItemStack;
+	addDescription(item, 
+		"This item is disabled.", 
+		"If you somehow obtained it, please report it on Scientia's issue tracker.", 
+		"There's a link in the Game Menu and the Esc Menu.");
+	addItemStage("disabled", item);
+	furnace.remove(item);
+	removeAndHide(item);
+
+	if (!isNull(item.ores)) {
+		for oredict in item.ores {
+			oredict.remove(item);
+		}
+	}	
 }

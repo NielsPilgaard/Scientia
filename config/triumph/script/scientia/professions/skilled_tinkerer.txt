@@ -1,18 +1,26 @@
-setIcon(<conarm:chestplate, meta:0, count:1, nbt:{StatsOriginal:{Toughness:0.0f,FreeModifiers:3,Durability:291,Defense:15.0f},Stats:{Toughness:0.0f,FreeModifiers:1,Durability:291,Defense:15.0f},TinkerData:{Materials:["iron","iron","iron"]}}>)
-setTitle("Skilled Tinkerer NYI")
-setDescription("This Profession level allows you to make Tinkers-style Armor, Sharpening Kits and put Modifiers on your tools, weapons and armor. The Luck, Silktouch and Reinforced modifiers are still unusable.")
+setIcon(<tconstruct:sharpening_kit, nbt:{Material:"bone"}>)
+setTitle("Skilled Tinkerer")
+setDescription("This Profession level allows you to make Sharpening Kits and put Modifiers on your tools, weapons and armor. The Luck, Silktouch and Reinforced modifiers are still unavailable.")
 setShowToast(true)
 
 addParent("scientia:professions/apprentice_tinkerer")
 setRequiresParents()
 
-
 setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Skilled Tinkerer Book", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:skilled_tinkerer>)
+criteria = addCriteria("Any Helmet", "minecraft:inventory_changed")
+criteria.addItem(<conarm:helmet>)
+
+criteria = addCriteria("Any Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<conarm:chestplate>)
+
+criteria = addCriteria("Any Leggings", "minecraft:inventory_changed")
+criteria.addItem(<conarm:leggings>)
+
+criteria = addCriteria("Any Boots", "minecraft:inventory_changed")
+criteria.addItem(<conarm:boots>)
 
 setRewardItem(<gamestagebooks:skilled_tinkerer>)
 

@@ -86,29 +86,18 @@ stageTinkersTool(stages.apprentice_tinkerer, <tconstruct:broadsword>, "tconstruc
 stageTinkersTool(stages.apprentice_tinkerer, <tconstruct:rapier>, "tconstruct:rapier");
 stageTinkersTool(stages.apprentice_tinkerer, <tconstruct:longsword>, "tconstruct:longsword");
 
+mods.TinkerStages.addGeneralModifierStage(stages.apprentice_tinkerer);
+
+# Armors
+for item in loadedMods["conarm"].items {
+        addItemStage(stages.apprentice_tinkerer, item);
+}
+
 # =========================================== #
 # Skilled
 # =========================================== #
 
-mods.TinkerStages.addGeneralModifierStage(stages.skilled_tinkerer);
-
-# Armors
-for item in loadedMods["conarm"].items {
-        addItemStage(stages.skilled_tinkerer, item);
-    }
-
 stageTinkersPart(stages.skilled_tinkerer, <tconstruct:sharpening_kit>, "tconstruct:sharpening_kit");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:armor_plate>, "conarm:armor_plate");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:armor_trim>, "conarm:armor_trim");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:boots_core>, "conarm:boots_core");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:leggings_core>, "conarm:leggings_core");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:helmet_core>, "conarm:helmet_core");
-stageTinkersPart(stages.skilled_tinkerer, <conarm:chest_core>, "conarm:chest_core");
-
-stageTinkersTool(stages.skilled_tinkerer, <conarm:helmet>, "conarm:helmet");
-stageTinkersTool(stages.skilled_tinkerer, <conarm:chestplate>, "conarm:chestplate");
-stageTinkersTool(stages.skilled_tinkerer, <conarm:leggings>, "conarm:leggings");
-stageTinkersTool(stages.skilled_tinkerer, <conarm:boots>, "conarm:boots");
 
 mods.recipestages.Recipes.addShapedMirrored(
     "contenttweaker_research_shuriken", 
