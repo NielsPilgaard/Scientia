@@ -1,6 +1,6 @@
 setIcon(<minecraft:carrot>)
 setTitle("Wild Crop Appeared!")
-setDescription("The only food available right now is found in the wild, gather some, but be careful not to destroy the farmland. Any Wild Crop will complete this.")
+setDescription("The only food available right now is found in the wild, gather some by right clicking it, so you don't destroy the farmland. Any Wild Crop will complete this.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")

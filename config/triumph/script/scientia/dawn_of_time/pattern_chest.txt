@@ -3,6 +3,7 @@ setTitle("Local Recognition")
 setDescription("A Tinkerer from a local village has noticed your progress! He has decided to share all of his patterns with you, so you can learn from his experience.\n\nHe delivered them in a special chest, that doesn't drop the patterns it holds when harvested.\n\nMost of the patterns are too advanced to work with at the moment, but they'll come in handy sooner or later.")
 
 setShowToast(true)
+setHidden(true)
 
 addParent("scientia:dawn_of_time/blank_pattern")
 setRequiresParents()
