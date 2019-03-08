@@ -32,7 +32,7 @@ There are a few things I would like testers to consider/look for:
 * Things you find boring/tedious
 * Things that need small optimizations, such as advancement text and textures.
 
-I would also appreciate if you let me know what you think of the gameplay, especially if you didn't like it :)
+I would also appreciate if you let me know what you think of the gameplay and why, especially if you didn't like it :)
 
 ### <span style="font-size: 24px;">Contributing</span>
 
