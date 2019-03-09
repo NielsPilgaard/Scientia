@@ -3,7 +3,6 @@
 	"structure": "Village",
 	"maxcount": "3,minecraft:villager_golem",
 	"maxcount": "25,minecraft:villager",
-	"maxtime": 12000,
 	"mobs": [
 	 {
 		"mob": "minecraft:villager",
@@ -25,6 +24,13 @@
         "groupcountmin": 1,
         "groupcountmax": 1,
 		"nbt": {"Profession": 8, "Age": 0}
+	 },
+	 {
+		"mob": "minecraft:villager",
+        "weight": 200,
+        "groupcountmin": 1,
+        "groupcountmax": 1,
+		"nbt": {"Age": 0}
 	 },
 	 {
         "mob": "minecraft:villager_golem",

@@ -8,9 +8,7 @@ for material in materials {
 		if (!isNull(value)) {
 			if (!key.matches("liquid")) {
 				for item in value.items {
-					for oredict in item.ores {
-					scripts.unification.utility.purgeOreDictEntry(oredict);
-					}
+					scripts.unification.utility.purgeItemsOreDicts(item);
 				}
 			}
 			else 

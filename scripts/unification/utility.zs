@@ -14,19 +14,21 @@ function getPreferredItem(oreDictEntry as IOreDictEntry) as IItemStack {
 	return null;
 }
 
-function purgeOreDictEntry(oreDictEntry as IOreDictEntry) {
-	for item in oreDictEntry.items {
-		if (!item.matches(getPreferredItem(oreDictEntry))) {
-			print("Now purging " ~ item.displayName);
-			purgeItem(item);
-			if (item.definition.owner != "chisel") {
-			oreDictEntry.remove(item);
+function purgeItemsOreDicts(itemToKeep as IItemStack) {
+	for oreDict in itemToKeep.ores {
+		for item in oreDict.items {
+			if (!item.matches(itemToKeep)) {
+				purgeItem(item);
+				if (item.definition.owner != "chisel") {
+				oreDict.remove(item);
+				}
 			}
 		}
 	}
 }
 
 function purgeItem(item as IItemStack) {
+	print("Now purging " ~ item.displayName);
 	mods.jei.JEI.removeAndHide(item);
 	furnace.remove(item);
     purgeItemProcessing(item);

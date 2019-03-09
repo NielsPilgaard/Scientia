@@ -14,7 +14,8 @@ import mods.recipestages.Recipes.addShapedMirrored;
 
 mods.TinkerStages.addGeneralCraftingStage(stages.novice_tinkerer);
 
-addShapedMirrored("tconstruct_tooltables_3_custom", 
+addShapedMirrored(stages.novice_tinkerer, 
+"tconstruct_tooltables_3_custom", 
 <tconstruct:tooltables:3>, 
 [[<ore:slabWood>, <ore:workbench>, <ore:slabWood>],
 [<ore:logDebarked>, null, <ore:logDebarked>], 
