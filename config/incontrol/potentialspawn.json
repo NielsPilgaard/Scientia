@@ -6,21 +6,21 @@
 	"mobs": [
 	 {
 		"mob": "minecraft:villager",
-        "weight": 200,
+        "weight": 2000,
         "groupcountmin": 1,
         "groupcountmax": 1,
 		"nbt": {"Profession": 1, "Career": 2, "Age": 0}
 	 },
 	 {
 		"mob": "minecraft:villager",
-        "weight": 200,
+        "weight": 2000,
         "groupcountmin": 1,
         "groupcountmax": 1,
 		"nbt": {"Profession": 7, "Career": 2, "Age": 0}
 	 },
 	 {
 		"mob": "minecraft:villager",
-        "weight": 200,
+        "weight": 2000,
         "groupcountmin": 1,
         "groupcountmax": 1,
 		"nbt": {"Profession": 8, "Age": 0}
@@ -34,7 +34,7 @@
 	 },
 	 {
         "mob": "minecraft:villager_golem",
-        "weight": 150,
+        "weight": 1500,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
