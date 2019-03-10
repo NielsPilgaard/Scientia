@@ -2220,7 +2220,7 @@ val disableList = [
         <villagenames:fronosvillagebook>,
         <villagenames:nibiruvillagebook>,
         <villagenames:abandonedbasebook>,
-
+        
         <waystones:return_scroll>,
         <waystones:bound_scroll>,
         <waystones:warp_scroll>

@@ -17,7 +17,25 @@
           }
         },
         "sell":{
+          "id":"contenttweaker:processed_hide",
+          "Count":{
+            "min":1,
+            "max":2
+          }
+        }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
           "id":"minecraft:leather",
+          "Count":{
+            "min":4,
+            "max":8
+          }
+        },
+        "sell":{
+          "id":"backpack:tanned_leather",
           "Count":{
             "min":1,
             "max":2

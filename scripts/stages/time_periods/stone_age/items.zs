@@ -7,10 +7,18 @@ import mods.ItemStages.addItemStage;
 var stage = stages.stone_age;
 val itemsToStage as IItemStack[] = [
 
+	<backpack:bound_leather>,
+	<backpack:tanned_leather>,
+
+	<contenttweaker:soaked_leather>,
+	<contenttweaker:processed_hide>,
+
 	<inspirations:path>,
 	<inspirations:path:1>,
 	<inspirations:path:2>,
 	<inspirations:path:3>,
+
+	<minecraft:leather>,
 	
 	<primal_tech:stone_anvil>,
 	<primal_tech:fire_sticks>,

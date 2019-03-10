@@ -27,7 +27,7 @@
 	 },
 	 {
 		"mob": "minecraft:villager",
-        "weight": 200,
+        "weight": 2000,
         "groupcountmin": 1,
         "groupcountmax": 1,
 		"nbt": {"Age": 0}

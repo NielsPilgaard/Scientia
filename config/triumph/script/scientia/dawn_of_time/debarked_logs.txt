@@ -10,7 +10,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Any Debarked Wood Log", "minecraft:inventory_changed")
-criteria.addItem(<ore:logDebarked>)
+criteria = addCriteria("Any Wooden Bark", "minecraft:inventory_changed")
+criteria.addItem(<ore:barkWood>)
 
 setRewardExperience(25)

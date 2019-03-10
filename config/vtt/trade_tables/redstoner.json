@@ -5,6 +5,75 @@
     "Recipes":[
       {
         "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"natura:willow_button","Count":{"min":48,"max":64}},
+          {"id":"natura:sakura_button","Count":{"min":48,"max":64}},
+          {"id":"natura:amaranth_button","Count":{"min":48,"max":64}},
+          {"id":"natura:redwood_button","Count":{"min":48,"max":64}},
+          {"id":"natura:hopseed_button","Count":{"min":48,"max":64}}
+        ],
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":1
+        }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"minecraft:emerald","Count":1}
+        ],
+        "sell":[
+          {"id":"minecraft:lever","Count":{"min":3,"max":9}} 
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":2,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"min":1,"max":2}}
+        ],
+        "sell":[
+          {"id":"inspirations:torch_lever","Count":{"min":3,"max":9}} 
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":2,
+        "buy":[
+          {"id":"minecraft:emerald","Count":1}
+        ],
+        "sell":[
+          {"id":"natura:amaranth_pressure_plate","Count":{"min":6,"max":12}},
+          {"id":"natura:eucalyptus_pressure_plate","Count":{"min":6,"max":12}},
+          {"id":"quark:dark_oak_pressure_plate","Count":{"min":6,"max":12}}
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":3,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"min":1,"max":3}}
+        ],
+        "sell":[
+          {"id":"minecraft:repeater","Count":{"min":2,"max":4}},
+          {"id":"minecraft:comparator","Count":{"min":1,"max":3}},
+          {"id":"quark:redstone_randomizer","Count":1}
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":4,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"min":3,"max":5}}
+        ],
+        "sell":[
+          {"id":"quark:redstone_randomizer","Count":1}
+        ]
       }
     ]
   }

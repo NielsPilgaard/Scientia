@@ -1,1 +1,7 @@
-[]
+[
+	{
+		"structure": "Village",
+		"mob": "minecraft:creeper",
+		"result": "deny"
+	}
+]
