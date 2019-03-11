@@ -4,7 +4,7 @@
 
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 import mods.contenttweaker.tconstruct.Material;
-import mods.contenttweaker.tconstruct.Trait;
+import mods.contenttweaker.conarm.ArmorTrait;
 
 val plantFiber = ExtendedMaterialBuilder.create("plant_fiber");
 
@@ -24,6 +24,6 @@ plantFiber.addBowMaterialStats(1.3, 0.8, 0);
 plantFiber.addCoreMaterialStats(10, 2.5);
 plantFiber.addPlatesMaterialStats(0.8, 5, 0);
 plantFiber.addTrimMaterialStats(0.4);
-//plantFiber.addMaterialTrait("ecological");
+plantFiber.addMaterialTrait("ecological");
 plantFiber.addProjectileMaterialStats();
 plantFiber.register();
