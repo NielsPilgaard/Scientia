@@ -12,8 +12,8 @@
         "buy":{
           "id":"minecraft:paper",
           "Count":{
-            "min":13,
-            "max":25
+            "min":8,
+            "max":16
           }
         },
         "sell":{

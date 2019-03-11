@@ -34,6 +34,32 @@
           "id":"gamestagebooks:agriculture",
           "Count":1
         }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"minecraft:carrot", "Count":{"min":21,"max":32}},
+          {"id":"minecraft:potato", "Count":{"min":21,"max":32}},
+          {"id":"minecraft:wheat", "Count":{"min":21,"max":32}},
+          {"id":"minecraft:pumpkin", "Count":{"min":10,"max":15}},
+          {"id":"minecraft:melon_block", "Count":{"min":10,"max":15}},
+          {"id":"minecraft:poisonous_potato", "Count":{"min":1,"max":3}}
+          {"id":"harvestcraft:strawberryitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:onionitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:garlicitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:gingeritem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:spiceleafitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:lettuceitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:beanitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:bellpepperitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:eggplantitem", "Count":{"min":21,"max":32}},
+          {"id":"harvestcraft:curryleafitem", "Count":{"min":21,"max":32}}
+        ],
+        "sell":{
+          "id":"minecraft:emerald",
+          "Count":1
+        }
       }
     ]
   }

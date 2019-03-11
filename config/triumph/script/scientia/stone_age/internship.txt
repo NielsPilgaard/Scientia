@@ -11,6 +11,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Complete Advancement Novice Carpenter", "minecraft:impossible")
+criteria = addCriteria("Complete Advancement Novice Carpenter", "triumph:completed_advancement")
+criteria.setAdvancement(triumph:profession/novice_carpenter)
 
 setRewardExperience(25)

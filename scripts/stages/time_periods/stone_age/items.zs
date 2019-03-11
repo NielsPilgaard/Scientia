@@ -12,7 +12,15 @@ val itemsToStage as IItemStack[] = [
 
 	<contenttweaker:soaked_leather>,
 	<contenttweaker:processed_hide>,
-
+	
+	<gamestagebooks:novice_tinkerer>,
+	<gamestagebooks:apprentice_tinkerer>,
+	<gamestagebooks:novice_miner>,
+	<gamestagebooks:novice_carpenter>,
+	<gamestagebooks:skilled_carpenter>,
+	<gamestagebooks:writing>,
+	<gamestagebooks:agriculture>,
+	
 	<inspirations:path>,
 	<inspirations:path:1>,
 	<inspirations:path:2>,

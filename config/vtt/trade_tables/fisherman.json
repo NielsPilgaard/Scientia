@@ -5,6 +5,34 @@
     "Recipes":[
       {
         "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:emerald",
+          "Count":{
+            "min":1,
+            "max":4
+          }
+        },
+        "sell":{
+          "id":"jaff:wooden_fishing_rod",
+          "Count":1
+        }
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"mix":2,"max":4}}
+        ],
+        "sell":[
+          {"id":"minecraft:fish", "Damage":0, "Count":{"min":12,"max":15}},
+          {"id":"minecraft:fish", "Damage":1, "Count":{"min":12,"max":15}},
+          {"id":"minecraft:fish", "Damage":2, "Count":{"min":12,"max":15}},
+          {"id":"minecraft:fish", "Damage":3, "Count":{"min":12,"max":15}}
+        ]
       }
     ]
   }
