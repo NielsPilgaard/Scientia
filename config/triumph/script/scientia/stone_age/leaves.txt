@@ -1,6 +1,6 @@
 setIcon(<minecraft:leaves>)
 setTitle("You Can Leaf Your Hat On")
-setDescription("Obtain atleast 3 Leaves by harvesting them with Wooden Shears.")
+setDescription("Obtain at least 3 Leaves by harvesting them with a Kama.")
 setShowToast(true)
 
 addParent("scientia:stone_age/kama")
@@ -11,8 +11,8 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Break 3 Leaves", "triumph:player_break_block")
-criteria.setBlock(<ore:treeLeaves>)
+criteria = addCriteria("3 Leaves of any kind", "minecraft:inventory_changed")
+criteria.addItem(<ore:treeLeaves>)
 criteria.setCount(3)
 
 setRewardExperience(25)

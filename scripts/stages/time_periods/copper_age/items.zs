@@ -13,6 +13,8 @@ val itemsToStage as IItemStack[] = [
     <ancientwarfare:gold_hammer>,
     <ancientwarfare:diamond_hammer>,
 	
+    <ancientwarfarenpc:food_bundle>,
+
 	<tconstruct:cast>
 	
 ];

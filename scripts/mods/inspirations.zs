@@ -31,12 +31,22 @@ createSoup(<liquid:tomato_soup>, <harvestcraft:tomatosoupitem>, <rustic:tomato>,
 createSoup(<liquid:onion_soup>, <harvestcraft:onionsoupitem>, <harvestcraft:onionitem>, 16);
 createSoup(<liquid:beetroot_soup>, <harvestcraft:beetsoupitem>, <minecraft:beetroot>, 8);
 createSoup(<liquid:cactus_soup>, <harvestcraft:cactussoupitem>, <minecraft:cactus>, 4);
-createSoup(<liquid:mushroom_stew>, <minecraft:rabbit_stew>, <inspirations:materials:4>, 4);
-createSoup(<liquid:rabbit_stew>, <minecraft:mushroom_stew>, <inspirations:materials:5>, 4);
+createSoup(<liquid:rabbit_stew>, <minecraft:rabbit_stew>, <inspirations:materials:4>, 4);
+createSoup(<liquid:mushroom_stew>, <minecraft:mushroom_stew>, <inspirations:materials:5>, 4);
+
+# Seed Soup is a bit special, the createSoup method creates duplicates of fluid/fill recipes, so we do it manually.
+recipes.remove(<harvestcraft:seedsoupitem>);
 
 for item in <ore:listAllseed>.items {
-    createSoup(<liquid:seed_soup>, <harvestcraft:seedsoupitem>, item, 8);   
+    mods.inspirations.Cauldron.addFluidTransform(<liquid:seed_soup>, item * 8, <liquid:stock>, 4, true);
+    mods.inspirations.Cauldron.addFluidTransform(<liquid:seed_soup>, item * 4, <liquid:stock>, 2, true);
+    mods.inspirations.Cauldron.addFluidTransform(<liquid:seed_soup>, item * 2, <liquid:stock>, 1, true);   
 }
+
+mods.inspirations.Cauldron.addFluidRecipe(<harvestcraft:seedsoupitem>, <minecraft:bowl>, <liquid:seed_soup>, 1);
+mods.inspirations.Cauldron.addFillRecipe(<harvestcraft:seedsoupitem>, <liquid:seed_soup>, 1, <minecraft:bowl>);
+
+
 
 
 

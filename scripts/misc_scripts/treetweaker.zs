@@ -20,7 +20,7 @@ dreamwood.setTreeType("LARGE_CANOPY");
 dreamwood.setLog("botania:dreamwood");
 dreamwood.setLeaf("contenttweaker:leaves_dreamwood");
 #dreamwood.setLeaf("minecraft:leaves");
-dreamwood.extraTreeHeight = 15;
+dreamwood.extraTreeHeight = 10;
 dreamwood.minTreeHeight = 15;
 dreamwood.generationFrequency = 6;
 dreamwood.setGenBiome("traverse:meadow");

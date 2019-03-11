@@ -12,12 +12,7 @@
         "buy":{
           "id":"minecraft:planks",
           "Damage":[
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0, 1, 2, 3, 4, 5
           ],
           "Count":{"min":12,"max":36}
         },

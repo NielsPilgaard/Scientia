@@ -5,6 +5,30 @@
     "Recipes":[
       {
         "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":{
+          "id":"minecraft:wool",
+          "Damage":[
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+          ],
+          "Count":{"min":12,"max":24}
+        },
+        "sell":[
+          {"id":"minecraft:emerald", "Count":{"min":2,"max":4}}
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"min":1,"max":2}}
+        ],
+        "sell":[
+          {"id":"minecraft:feather","Count":{"min":3,"max":8}}
+        ]
       }
     ]
   }

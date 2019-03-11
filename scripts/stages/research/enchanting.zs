@@ -154,7 +154,9 @@ val enchantingItems = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 37 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 37 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 37 as short}]}),
-    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 23 as short}]})
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 23 as short}]}),
+    
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 15 as short}]})
     
 ] as IItemStack[];
 

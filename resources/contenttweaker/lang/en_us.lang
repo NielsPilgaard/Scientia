@@ -87,5 +87,5 @@ fluid.seed_soup=Seed Soup
 
 fluid.stock=Stock
 
-entity.Villager.tinkerer=Tinkerer
-entity.Villager.carpenter=Carpenter
+entity.Villager.tinkerer=Skilled Tinkerer
+entity.Villager.carpenter=Skilled Carpenter

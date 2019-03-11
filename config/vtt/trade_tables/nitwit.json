@@ -5,6 +5,37 @@
     "Recipes":[
       {
         "action":"clear"
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"harvestcraft:pumpkinsoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:carrotsoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:potatosoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:spidereyesoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:tomatosoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:onionsoupitem","Count":{"min":4,"max":7}},
+          {"id":"harvestcraft:beetsoupitem","Count":{"min":5,"max":8}},
+          {"id":"harvestcraft:cactussoupitem","Count":{"min":5,"max":8}},
+          {"id":"minecraft:rabbit_stew","Count":{"min":3,"max":5}},
+          {"id":"minecraft:mushroom_stew","Count":{"min":3,"max":5}}
+          {"id":"harvestcraft:seedsoupitem","Count":{"min":5,"max":8}}
+
+        ],
+        "sell":[
+          {"id":"minecraft:emerald","Count":{"mix":4,"max":8}}
+        ]
+      },
+      {
+        "action":"add",
+        "CareerLevel":1,
+        "buy":[
+          {"id":"minecraft:emerald","Count":{"mix":7,"max":13}}
+        ],
+        "sell":[
+          {"id":"ancientwarfarenpc:food_bundle","Count":{"mix":2,"max":7}}
+        ]
       }
     ]
   }

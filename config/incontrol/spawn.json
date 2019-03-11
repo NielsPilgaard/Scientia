@@ -3,5 +3,14 @@
 		"structure": "Village",
 		"mob": "minecraft:creeper",
 		"result": "deny"
+	},
+	{
+		"dimension": 3,
+		"passive": true,
+		"result": "deny"
+	},
+	{
+		"dimension": 2,
+		"result": "deny"
 	}
 ]
