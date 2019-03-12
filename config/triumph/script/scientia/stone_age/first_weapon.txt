@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:stone_age/weapon_research")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Stone Javelin", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:javelin_stone>)
 

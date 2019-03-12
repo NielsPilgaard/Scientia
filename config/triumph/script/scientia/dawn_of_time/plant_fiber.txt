@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:dawn_of_time/root")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Plant Fiber", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:plant_fiber>)
 

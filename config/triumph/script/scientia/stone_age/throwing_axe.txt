@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:stone_age/first_weapon")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Stone Throwing Axe", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:throwing_axe_stone>)
 

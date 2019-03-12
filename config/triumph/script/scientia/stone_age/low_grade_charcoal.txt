@@ -7,10 +7,6 @@ addParent("scientia:stone_age/stone_anvil")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Low Grade Charcoal", "minecraft:inventory_changed")
 criteria.addItem(<primal_tech:charcoal_block>)
 

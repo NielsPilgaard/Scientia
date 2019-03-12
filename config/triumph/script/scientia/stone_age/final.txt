@@ -10,10 +10,6 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/book")
 

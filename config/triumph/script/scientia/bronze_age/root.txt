@@ -9,10 +9,6 @@ setBackground("minecraft:textures/blocks/cobblestone.png")
 setAnnounceToChat(false)
 
 setFrameType("Goal")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Complete Copper Age", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:copper_age/final")
 

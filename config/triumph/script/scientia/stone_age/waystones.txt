@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:stone_age/find_village")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Touch the Village Waystone", "triumph:right_click_block")
 criteria.setBlock(<waystones:waystone>)
 

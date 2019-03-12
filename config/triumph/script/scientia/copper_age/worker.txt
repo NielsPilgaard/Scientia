@@ -11,10 +11,6 @@ addParent("scientia:copper_age/quarry")
 
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Worker", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"",npcType:"worker"}>)
 

@@ -7,10 +7,6 @@ addParent("scientia:stone_age/kama")
 setRequiresParents()
 
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("3 Leaves of any kind", "minecraft:inventory_changed")
 criteria.addItem(<ore:treeLeaves>)
 criteria.setCount(3)

@@ -7,10 +7,6 @@ addParent("scientia:dawn_of_time/trial_and_error")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Blank Pattern", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:pattern>)
 

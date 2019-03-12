@@ -9,10 +9,6 @@ setBackground("chisel:textures/blocks/andesite/circular-ctm.png")
 setAnnounceToChat(false)
 
 setFrameType("Challenge")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Complete Dawn of Time", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:dawn_of_time/final")
 

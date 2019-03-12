@@ -7,10 +7,6 @@ addParent("scientia:stone_age/watering_can")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Red, Green or Yellow Fertilizer", "minecraft:inventory_changed")
 criteria.addItem(<farmingforblockheads:fertilizer>)
 

@@ -8,10 +8,6 @@ addParent("scientia:dawn_of_time/planks")
 setRequiresParents()
 
 setFrameType("Goal")
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Stencil Table", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables, meta:1>)
 

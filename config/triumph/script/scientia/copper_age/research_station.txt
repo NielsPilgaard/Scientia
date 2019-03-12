@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/root")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Research Station Tier 1 Blueprint", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:book>)
 

@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:dawn_of_time/_wild_crops")
 setRequiresParents()
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 setRequirements("any")
 
 criteria = addCriteria("Walnut", "triumph:right_click_block")

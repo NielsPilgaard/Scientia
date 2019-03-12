@@ -8,10 +8,6 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-setCompletedIconColor(51, 102, 204)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(51, 102, 204)
-
 criteria = addCriteria("Leather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:leather>)
 
