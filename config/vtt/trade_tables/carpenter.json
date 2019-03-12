@@ -23,7 +23,7 @@
       },
       {
         "action":"add",
-        "CareerLevel":2,
+        "CareerLevel":1,
         "buy":[
           {"id":"bibliocraft:seat", "Damage": 3, "Count":1},
           {"id":"bibliocraft:desk", "Damage": 2, "Count":1},
@@ -38,7 +38,7 @@
       },
       {
         "action":"add",
-        "CareerLevel":2,
+        "CareerLevel":1,
         "buy":[
           {"id":"bibliocraft:shelf", "Damage": 4, "Count":2},
           {"id":"bibliocraft:shelf", "Count":2},

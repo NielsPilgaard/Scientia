@@ -1,6 +1,6 @@
 setIcon(<tconstruct:battlesign, meta:0, count:1, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.09f,FreeModifiers:3,Durability:270,HarvestLevel:1,Attack:2.5f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.09f,FreeModifiers:0,Durability:270,HarvestLevel:1,Attack:4.0f},Special:{Categories:["weapon","tool"]},TinkerData:{Materials:["bone","bone"]}}>)
 setTitle("Novice Tinkerer")
-setDescription("The Novice level of the Tinker profession gives you access to the Tool Station, but not all the Tools are craftable yet. You currently have access to the Pickaxe, Hatchet, Shovel, Kama, Battlesign and Frying Pan.")
+setDescription("Use the book in order to reach the Novice level of Tinkering. The Novice level of the Tinker profession gives you access to the Tool Station, but not all the Tools are craftable yet. You currently have access to the Pickaxe, Hatchet, Shovel, Kama, Battlesign and Frying Pan.")
 setShowToast(true)
 
 addParent("scientia:professions/root")
@@ -10,7 +10,7 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Novice Tinkerer Book", "minecraft:inventory_changed")
+criteria = addCriteria("Buy the Novice Tinkerer Book from a Villager", "minecraft:inventory_changed")
 criteria.addItem(<gamestagebooks:novice_tinkerer>)
 
 setRewardExperience(25)

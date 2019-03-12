@@ -11,13 +11,13 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Artisan's Stone Hammer", "minecraft:inventory_changed")
-criteria.addItem(<artisanworktables:artisans_hammer_stone>)
+criteria = addCriteria("Artisan's Flint Hammer", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:artisans_hammer_flint>)
 
-criteria = addCriteria("Artisan's Stone Framing Hammer", "minecraft:inventory_changed")
-criteria.addItem(<artisanworktables:artisans_framing_hammer_stone>)
+criteria = addCriteria("Artisan's Flint Framing Hammer", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:artisans_framing_hammer_flint>)
 
-criteria = addCriteria("Artisan's Stone Handsaw", "minecraft:inventory_changed")
-criteria.addItem(<artisanworktables:artisans_handsaw_stone>)
+criteria = addCriteria("Artisan's Flint Handsaw", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:artisans_handsaw_flint>)
 
 setRewardExperience(25)

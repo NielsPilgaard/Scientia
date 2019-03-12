@@ -23,13 +23,13 @@
       },
       {
         "action":"add",
-        "CareerLevel":2,
+        "CareerLevel":1,
         "buy":[
           {"id":"minecraft:emerald", "Count":{"min":2,"max":5}}
         ],
         "sell":[
-          {"id":"minecraft:cactus", "Count":{"min":8,"max":16}},
-          {"id":"contenttweaker:plant_fiber", "Count":{"min":10,"max":20}}
+          {"id":"minecraft:bone", "Count":{"min":8,"max":16}},
+          {"id":"minecraft:flint", "Count":{"min":10,"max":20}}
         ]
       },
       {
@@ -39,8 +39,8 @@
           {"id":"minecraft:emerald", "Count":{"min":2,"max":5}}
         ],
         "sell":[
-          {"id":"minecraft:bone", "Count":{"min":8,"max":16}},
-          {"id":"minecraft:flint", "Count":{"min":10,"max":20}}
+          {"id":"minecraft:cactus", "Count":{"min":8,"max":16}},
+          {"id":"contenttweaker:plant_fiber", "Count":{"min":10,"max":20}}
         ]
       }
     ]
