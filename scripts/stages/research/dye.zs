@@ -7,7 +7,6 @@ val itemsToStage as IItemStack[] = [
 
 	<inspirations:dyed_bottle:*>,
 	<minecraft:painting>,
-	<inspirations:dyed_bottle:*>
 	
 ];
 

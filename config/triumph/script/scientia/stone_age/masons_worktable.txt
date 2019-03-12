@@ -10,4 +10,6 @@ setFrameType("Goal")
 criteria = addCriteria("Mason's Worktable", "minecraft:inventory_changed")
 criteria.addItem(<artisanworktables:worktable:2>)
 
+setRewardFunction("research:masonry")
+
 setRewardExperience(25)

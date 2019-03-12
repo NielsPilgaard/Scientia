@@ -310,3 +310,14 @@ global loglessStairPlankMap as IItemStack[IItemStack] = {
   <immersiveengineering:treated_wood_stairs1> : <immersiveengineering:treated_wood:1>,
   <immersiveengineering:treated_wood_stairs2> : <immersiveengineering:treated_wood:2>
 };
+
+global loglessSlabPlankMap as IItemStack[IItemStack] = {
+  <botania:livingwood0slab> : <botania:livingwood>,
+  <botania:livingwood1slab> : <botania:livingwood:1>,
+  <botania:dreamwood0slab> : <botania:dreamwood>,
+  <botania:dreamwood1slab> : <botania:dreamwood:1>,
+  <botania:shimmerwoodplanks0slab> : <botania:shimmerwoodplanks>,
+  <immersiveengineering:treated_wood_slab> : <immersiveengineering:treated_wood>,
+  <immersiveengineering:treated_wood_slab:1> : <immersiveengineering:treated_wood:1>,
+  <immersiveengineering:treated_wood_slab:2> : <immersiveengineering:treated_wood:2>
+};

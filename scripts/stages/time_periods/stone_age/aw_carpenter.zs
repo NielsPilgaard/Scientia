@@ -123,19 +123,6 @@ for woodtype in woodtypes {
 var slab = woodtypes[woodtype].slab;
 var plank = woodtypes[woodtype].plank;
 
-# Slab
-if (!isNull(woodtypes[woodtype].slab)) {
-  RecipeBuilder.get("carpenter")
-  .setShaped([
-        [plank, plank, plank]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 6)
-  .addOutput(woodtypes[woodtype].slab.items[0] * 6)
-  .addRequirement(GameStages.anyOf([stage]))
-  .create();
-}
-
 # Stairs
 if (!isNull(woodtypes[woodtype].stair)) {
   var stair = woodtypes[woodtype].stair;
@@ -342,3 +329,4 @@ for stair, plank in loglessStairPlankMap {
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 }
+

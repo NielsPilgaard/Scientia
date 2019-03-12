@@ -45,20 +45,11 @@ val glass = [
 ] as IItemStack[];
 
 for item in glass {
-    mods.ItemStages.addItemStage(stage, item);
+    stageItem(stage, item);
 }
-/*
-val regexGlass = [
 
-    "minecraft:stained_glass.*",
-    "minecraft:stained_glass_pane.*",
-    "thermalfoundation:glass.*",
-    "thermalfoundation:glass_alloy.*",
-    "tconstruct:clear_stained_glass.*"
+var glassItems as IItemStack[] = itemUtils.getItemsByRegexUnlocalizedName(".*glass.*");
 
-] as String[];
-
-for expr in regexGlass {
-    mods.recipestages.Recipes.setRecipeStageByRegex(stage, expr);
+for item in glassItems {
+    stageItem(stage, item);
 }
-*/
