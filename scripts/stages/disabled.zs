@@ -2045,6 +2045,7 @@ val disableList = [
         <morecauldrons:diamond_cauldron>,
         <morecauldrons:obsidian_cauldron>,
 
+        <natura:materials:8>,
         <natura:bonemeal_bag>,
         <natura:overworld_seed_bags:1>,
         <natura:overworld_seed_bags>,
