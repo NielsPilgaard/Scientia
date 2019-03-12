@@ -5,9 +5,7 @@ import scripts.contenttweaker.functions.createRegisterItem;
 
 createRegisterItem("research_note", 1);
 createRegisterItem("research_compass", 1);
-createRegisterItem("research_fishing", 1);
 createRegisterItem("research_shuriken", 1);
-createRegisterItem("research_hammer", 1);
 createRegisterItem("research_tool_parts", 1);
 
 createRegisterItem("blank_pattern_frame", 64);

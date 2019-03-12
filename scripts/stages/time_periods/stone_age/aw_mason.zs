@@ -47,6 +47,17 @@ RecipeBuilder.get("mason")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
+RecipeBuilder.get("mason")
+  .setShaped([
+            [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+            [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+            [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
+            ])
+  .addTool(<ore:artisansHammer>, 15)
+  .addOutput(<primal_tech:charcoal_block>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
+
 # =========================================== #
 # More Cauldrons
 # =========================================== #

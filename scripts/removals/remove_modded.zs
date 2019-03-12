@@ -96,15 +96,6 @@ for item in manaInfusionRecipes {
     ManaInfusion.removeRecipe(item);
 }
 
-# Furnace Smelting
-var furnaceRecipes as IItemStack[] = [
-    <claybucket:claybucket>
-];
-
-for item in furnaceRecipes {
-    furnace.remove(item);
-}
-
 # Fluid Transform in Cauldron
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:beetroot_soup>, <minecraft:beetroot>, <liquid:water>);
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:mushroom_stew>, <inspirations:materials:4>, <liquid:water>);
