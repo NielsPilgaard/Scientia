@@ -39,18 +39,14 @@ I would also appreciate if you let me know what you think of the gameplay and wh
 Join the Scientia Discord, and ask for permission to contribute to the modpack. If accepted, follow these steps to setup your workspace:
 
 1) Fork the Scientia repository.
-2) Clone your fork to your PC, I recommend using [Sourcetree](https://www.sourcetreeapp.com/).
-3) Download the latest manifest.zip from the `files` channel in the Discord.
-4) Import the manifest.zip using Twitch or MultiMC.
-5) Move the `mods` folder from your imported instance into the folder you made in step 2.
+2) Clone your fork to your PC, I recommend using [Sourcetree](https://www.sourcetreeapp.com/)
+3) Run the `SetupInstanceSync` to download the mods. Use either .bat or .sh, depending on your OS.
 
 You're done!
 
 To update, the steps are as follow:
 
 1) Pull from master from the Scientia repository into your fork.
-2) Delete the mods folder from your local instance.
-3) Repeat steps 3-5 from the setup.
 
 * * *
 
