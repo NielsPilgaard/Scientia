@@ -12,9 +12,7 @@ setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("Used Fire Sticks Left Hand", "triumph:left_click_block")
-criteria.setItem(<primal_tech:fire_sticks>)
-criteria = addCriteria("Used Fire Sticks Right Hand", "triumph:right_click_block")
+criteria = addCriteria("Use Fire Sticks with Right Hand", "triumph:right_click_block")
 criteria.setItem(<primal_tech:fire_sticks>)
 
 setRewardFunction("research:fire")

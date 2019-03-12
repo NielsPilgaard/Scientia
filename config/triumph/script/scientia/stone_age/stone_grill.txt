@@ -1,5 +1,5 @@
 setIcon(<primal_tech:stone_grill>)
-setTitle("I Brought The BBQ")
+setTitle("Pizza Oven")
 setDescription("The Stone Grill is a low-tech Furnace. It needs a fire source under it to function. The left side is for input, the right is for output. Both sides can fit up to 16 items.")
 setShowToast(true)
 

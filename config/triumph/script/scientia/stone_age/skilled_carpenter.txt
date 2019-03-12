@@ -8,6 +8,6 @@ addParent("scientia:stone_age/carpenters_worktable")
 setRequiresParents()
 
 criteria = addCriteria("Complete Skilled Carpenter Advancement", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:professions/skilled_carpenter")
+criteria.setAdvancement(triumph:profession/skilled_carpenter)
 
 setRewardExperience(25)
