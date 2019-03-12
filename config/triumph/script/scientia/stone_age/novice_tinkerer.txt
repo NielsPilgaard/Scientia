@@ -1,6 +1,6 @@
 setIcon(<tconstruct:tooltables, meta:3>)
 setTitle("Tinkering")
-setDescription("Buy the Novice Tinkerer book from a Smith or Tinkerer to reach the first level of the Tinkerer Profession.")
+setDescription("Buy the Novice Tinkerer book from a Smith or Tinkerer.\n\nRight click with it to reach the first level of the Tinkerer Profession.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")

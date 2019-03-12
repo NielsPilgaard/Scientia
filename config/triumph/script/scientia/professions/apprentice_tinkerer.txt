@@ -10,8 +10,8 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Craft 10 Flint Artisan's Tools", "triumph:player_crafted_item")
-criteria.setItem(<ore:artisansToolFlint>)
+criteria = addCriteria("Craft 10 Artisan's Tools of any kind", "triumph:player_crafted_item")
+criteria.setItem(<ore:artisansTool>)
 criteria.setCount(10)
 
 criteria = addCriteria("Complete Advancement Tomahawwk", "triumph:completed_advancement")

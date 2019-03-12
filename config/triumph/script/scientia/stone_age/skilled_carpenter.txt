@@ -1,6 +1,6 @@
 setIcon(<artisanworktables:artisans_handsaw_stone>)
 setTitle("Always Learning")
-setDescription("Upgrading the Carpentry profession will upgrade some of the recipes you have access to, and unlock new ones. Completing the Skilled Carpenter Profession Advancement will also complete this.")
+setDescription("Upgrading the Carpentry profession will upgrade some of the recipes you have access to, and unlock new ones.\n\nCompleting the Skilled Carpenter Profession Advancement will complete this.")
 setShowToast(true)
 
 addParent("scientia:stone_age/tools_of_the_trade")
@@ -11,7 +11,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Complete Skilled Carpenter", "triumph:completed_advancement")
+criteria = addCriteria("Complete Skilled Carpenter Advancement", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:professions/skilled_carpenter")
 
 setRewardExperience(25)

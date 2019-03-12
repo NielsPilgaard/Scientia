@@ -106,3 +106,26 @@ for woodtype in woodtypes {
 	<ore:alfheimPortalFrame>.add(<botania:alfheimportal>);
 	<ore:alfheimPortalFrame>.add(<botania:livingwood:*>);
 	<ore:alfheimPortalFrame>.add(<botania:livingwood0wall>);
+
+# An oredict for all Artisan's Tools
+    <ore:artisansTool>.addAll(<ore:artisansCutters>);
+    <ore:artisansTool>.addAll(<ore:artisansHammer>);
+    <ore:artisansTool>.addAll(<ore:artisansFramingHammer>);
+    <ore:artisansTool>.addAll(<ore:artisansHandsaw>);
+    <ore:artisansTool>.addAll(<ore:artisansCuttingBoard>);
+    <ore:artisansTool>.addAll(<ore:artisansPan>);
+    <ore:artisansTool>.addAll(<ore:artisansDriver>);
+    <ore:artisansTool>.addAll(<ore:artisansSpanner>);
+    <ore:artisansTool>.addAll(<ore:artisansLens>);
+    <ore:artisansTool>.addAll(<ore:artisansSifter>);
+    <ore:artisansTool>.addAll(<ore:artisansCutter>);
+    <ore:artisansTool>.addAll(<ore:artisansPliers>);
+    <ore:artisansTool>.addAll(<ore:artisansAthame>);
+    <ore:artisansTool>.addAll(<ore:artisansGrimoire>);
+    <ore:artisansTool>.addAll(<ore:artisansChisel>);
+    <ore:artisansTool>.addAll(<ore:artisansCarver>);
+    <ore:artisansTool>.addAll(<ore:artisansRazor>);
+    <ore:artisansTool>.addAll(<ore:artisansQuill>);
+    <ore:artisansTool>.addAll(<ore:artisansNeedle>);
+    <ore:artisansTool>.addAll(<ore:artisansMortar>);
+    <ore:artisansTool>.addAll(<ore:artisansKnife>);

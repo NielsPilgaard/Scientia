@@ -1,9 +1,7 @@
 item.contenttweaker.research_note.name=Research Note
 item.contenttweaker.research_compass.name=Cartography Knowledge
-item.contenttweaker.research_fishing.name=Fishing Knowledge
 item.contenttweaker.research_shuriken.name=Crude Shuriken
 item.contenttweaker.research_tool_parts.name=Crude Tool Parts
-item.contenttweaker.research_hammer.name=Crude Hammer
 
 item.contenttweaker.blank_pattern_frame.name=Blank Pattern Frame
 item.contenttweaker.woven_fiber.name=Woven Fiber
@@ -87,5 +85,5 @@ fluid.seed_soup=Seed Soup
 
 fluid.stock=Stock
 
-entity.Villager.tinkerer=Skilled Tinkerer
-entity.Villager.carpenter=Skilled Carpenter
+entity.Villager.tinkerer=Tinkerer
+entity.Villager.carpenter=Carpenter

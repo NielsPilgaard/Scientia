@@ -1,6 +1,6 @@
 setIcon(<minecraft:carrot>)
 setTitle("Wild Crop Appeared!")
-setDescription("The only food available right now is found in the wild, gather some by right clicking it, so you don't destroy the farmland. Any Wild Crop will complete this.")
+setDescription("The only food available right now is found in the wild, gather some!\n\nIf possible you should harvest it with right click, so you don't destroy the farmland.\n\nAny Wild Crop will complete this.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")
@@ -12,46 +12,46 @@ setCompletedTitleColor(51, 102, 204)
 
 setRequirements("any")
 
-criteria = addCriteria("Carrot", "triumph:right_click_block")
-criteria.setBlock(<minecraft:carrots, meta:7>)
+criteria = addCriteria("Carrot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:carrots>)
 
-criteria = addCriteria("Potato", "triumph:right_click_block")
-criteria.setBlock(<minecraft:potatoes, meta:7>)
+criteria = addCriteria("Potato", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:potatoes>)
 
-criteria = addCriteria("Beetroot", "triumph:right_click_block")
-criteria.setBlock(<minecraft:beetroots, meta:3>)
+criteria = addCriteria("Beetroot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:beetroots>)
 
-criteria = addCriteria("Wheat", "triumph:right_click_block")
-criteria.setBlock(<minecraft:wheat, meta:7>)
+criteria = addCriteria("Wheat", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat>)
 
-criteria = addCriteria("Garlic", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamgarliccrop, meta:3>)
+criteria = addCriteria("Garlic", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamgarliccrop>)
 
-criteria = addCriteria("Onion", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamonioncrop, meta:3>)
+criteria = addCriteria("Onion", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamonioncrop>)
 
-criteria = addCriteria("Spice Leaf", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamspiceleafcrop, meta:3>)
+criteria = addCriteria("Spice Leaf", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamspiceleafcrop>)
 
-criteria = addCriteria("Lettuce", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamlettucecrop, meta:3>)
+criteria = addCriteria("Lettuce", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamlettucecrop>)
 
-criteria = addCriteria("Bean", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pambeancrop, meta:3>)
+criteria = addCriteria("Bean", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pambeancrop>)
 
-criteria = addCriteria("Curry Leaf", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamcurryleafcrop, meta:3>)
+criteria = addCriteria("Curry Leaf", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamcurryleafcrop>)
 
-criteria = addCriteria("Eggplant", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pameggplantcrop, meta:3>)
+criteria = addCriteria("Eggplant", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pameggplantcrop>)
 
-criteria = addCriteria("Bellpepper", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pambellpeppercrop, meta:3>)
+criteria = addCriteria("Bellpepper", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pambellpeppercrop>)
 
-criteria = addCriteria("Strawberry", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamstrawberrycrop, meta:3>)
+criteria = addCriteria("Strawberry", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamstrawberrycrop>)
 
-criteria = addCriteria("Ginger", "triumph:right_click_block")
-criteria.setBlock(<harvestcraft:pamgingercrop, meta:3>)
+criteria = addCriteria("Ginger", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pamgingercrop>)
 
 setRewardExperience(25)
