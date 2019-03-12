@@ -9,11 +9,17 @@
 /llibrary/
 /saves/
 /TombManyGraves/
-screenshots/
+/screenshots/
 /mods/
 /backups/
 /world/
 /mputils/
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
 
 # Utilities
 .github_changelog_generator
@@ -58,7 +64,6 @@ config/InvTweaks/InvTweaks.cfg
 config/scavenge/IResourceProperty.txt
 dropt.log
 journeymapdefaults.firstrun
-*.jar
 server.properties
 eula.txt
 whitelist.json
