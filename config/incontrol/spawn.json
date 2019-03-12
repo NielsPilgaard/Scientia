@@ -1,16 +1,38 @@
 [
 	{
 		"structure": "Village",
-		"mob": "minecraft:creeper",
+		"mob": "minecraft:villager_golem",
+		"result": "allow"
+	},
+	{
+		"structure": "Village",
+		"mob": "minecraft:villager",
+		"result": "allow"
+	},
+	{
+		"dimension": 3,
+		"mob": [
+			"minecraft:witch",
+			"minecraft:vindication_illager",
+			"minecraft:illusion_illager",
+			"minecraft:evocation_illager",
+			"minecraft:zombie_pigman",
+			"minecraft:wither_skeleton",
+			"minecraft:giant"
+		],
+		"result": "allow"
+	},
+	{
+		"dimension": 2,
 		"result": "deny"
 	},
 	{
 		"dimension": 3,
-		"passive": true,
 		"result": "deny"
 	},
 	{
-		"dimension": 2,
+		"structure": "Village",
+		"mob": "minecraft:creeper",
 		"result": "deny"
 	}
 ]

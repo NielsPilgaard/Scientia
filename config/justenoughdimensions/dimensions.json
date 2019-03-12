@@ -1,66 +1,62 @@
 {
-   "config_version":{
-      "id":"__default",
-      "version":0
-   },
-   "dimensions":[
-      {
-         "dim":-1,
-         "unregister":true
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": -1,
+      "unregister": true
+    },
+    {
+      "dim": 1,
+      "unregister": true
+    },
+    {
+      "dim": 2,
+      "dimensiontype": {
+        "id": 2,
+        "name": "Alfheim",
+        "suffix": "_dim2",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
       },
-      {
-         "dim":1,
-         "unregister":true
+      "jed": {
+        "CustomDayCycle": true,
+        "DayLength": 18000,
+        "NightLength": 6000,
+        "SkyColor": "1edb80",
+        "CloudColor": "c9f6fc",
+        "FogColor": "c9f6fc",
+        "CloudHeight": 150
       },
-      {
-         "dim":2,
-         "dimensiontype":{
-            "id":2,
-            "name":"Alfheim",
-            "suffix":"_dim2",
-            "keeploaded":false,
-            "worldprovider":"WorldProviderSurfaceJED"
-         },
-         "worldinfo":{
-            "JED":{
-               "CustomDayCycle":true,
-               "DayLength":18000,
-               "NightLength":6000,
-               "SkyColor":"1edb80",
-               "CloudColor":"c9f6fc",
-               "FogColor":"c9f6fc",
-               "CloudHeight":150
-            }
-         },
-         "worldinfo_onetime":{
-            "generatorName":"customized",
-            "generatorOptions":"{\"coordinateScale\":200.0,\"heightScale\":100.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":3.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":2}"
-         }
-      },
-      {
-         "dim":3,
-         "dimensiontype":{
-            "id":3,
-            "name":"Infernae",
-            "suffix":"_dim3",
-            "keeploaded":false,
-            "worldprovider":"WorldProviderSurfaceJED"
-         },
-         "worldinfo":{
-            "JED":{
-               "CustomDayCycle":true,
-               "DayLength":6000,
-               "NightLength":18000,
-               "SkyColor":"bc3d23",
-               "CloudColor":"1e0000",
-               "FogColor":"1e0000",
-               "CloudHeight":200
-            }
-         },
-         "worldinfo_onetime":{
-            "generatorName":"customized",
-            "generatorOptions":"{\"coordinateScale\":200.0,\"heightScale\":100.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":13.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":true,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":5}"
-         }
+      "worldinfo_onetime": {
+        "generatorName": "customized",
+        "generatorOptions": "{\"coordinateScale\":200.0,\"heightScale\":100.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":3.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":2}"
       }
-   ]
+    },
+    {
+      "dim": 3,
+      "dimensiontype": {
+        "id": 3,
+        "name": "Infernae",
+        "suffix": "_dim3",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "jed": {
+        "CustomDayCycle": true,
+        "DayLength": 6000,
+        "NightLength": 18000,
+        "SkyColor": "ad1313",
+        "CloudColor": "c98686",
+        "FogColor": "7c5858",
+        "CloudHeight": 175
+      },
+      "worldinfo_onetime": {
+        "generatorName": "customized",
+        "generatorOptions": "{\"coordinateScale\":200.0,\"heightScale\":100.0,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":165.0,\"mainNoiseScaleY\":106.61267,\"mainNoiseScaleZ\":165.0,\"baseSize\":8.267606,\"stretchY\":13.387607,\"biomeDepthWeight\":1.2,\"biomeDepthOffset\":0.2,\"biomeScaleWeight\":3.4084506,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":0,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useRavines\":true,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":true,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":5}"
+      }
+    }
+  ]
 }

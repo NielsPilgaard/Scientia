@@ -1,6 +1,6 @@
 setIcon(<artisanworktables:artisans_hammer_stone>)
 setTitle("Tools of the Trade")
-setDescription("Worktable recipes often require a tool.\n\nCraft Flint versions of the Hammer, Framing Hammer and Handsaw.")
+setDescription("Worktable recipes often require a tool.\n\nCraft any kind of Hammer, Framing Hammer and Handsaw.")
 setShowToast(true)
 
 addParent("scientia:stone_age/string")

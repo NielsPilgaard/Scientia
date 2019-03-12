@@ -39,5 +39,108 @@
         "groupcountmax": 1
       }
 	]
+  },
+  {
+	"structure": "Village",
+	"maxcount": "3,minecraft:villager_golem",
+	"mobs": [
+	 {
+        "mob": "minecraft:villager_golem",
+        "weight": 1500,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "5,minecraft:witch",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:witch",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "8,minecraft:vindication_illager",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:vindication_illager",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "3,minecraft:illusion_illager",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:illusion_illager",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "2,minecraft:evocation_illager",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:evocation_illager",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "15,minecraft:zombie_pigman",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:zombie_pigman",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "4,minecraft:wither_skeleton",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:wither_skeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+	 }
+	]
+  },
+  {
+	"dimension": 3,
+	"maxcount": "1,minecraft:giant",
+	"maxlight":7,
+	"mobs": [
+	 {
+		"mob": "minecraft:giant",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+	 }
+	]
   }
  ]

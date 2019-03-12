@@ -1,5 +1,5 @@
 #priority 100
-
+#modloaded mobstages
 var entitiesForStage as string[][string] = {
     stages.stone_age_mobs : [
         "minecraft:cave_spider",
