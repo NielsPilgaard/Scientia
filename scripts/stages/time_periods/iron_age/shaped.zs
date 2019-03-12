@@ -25,7 +25,14 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [<ore:obsidian>, <spartanshields:shield_basic_obsidian>, <ore:obsidian>], 
             [null, <ore:obsidian>, null]
         ]
-	]
+	],
+    <watercan:watercan_iron> : [
+        [
+            [null, <ore:fertilizer>, materials.iron.plate],
+            [materials.iron.plate, <minecraft:bucket>, materials.iron.plate],
+            [null, materials.iron.plate, null]
+        ]
+    ]
 };
 
 for item, recipesForItem in recipeList {

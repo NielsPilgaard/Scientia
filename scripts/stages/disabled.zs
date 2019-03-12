@@ -2122,10 +2122,6 @@ val disableList = [
         <tconstruct:firewood_slab>,
         <tconstruct:lavawood_stairs>,
 
-        <pickletweaks:reinforced_mesh>,
-        <pickletweaks:grass_mesh>,
-        <pickletweaks:grass_fiber>,
-
         <primal_tech:bone_axe>,
         <primal_tech:bone_pickaxe>,
         <primal_tech:flint_edged_disc>,
@@ -2223,6 +2219,10 @@ val disableList = [
         <villagenames:nibiruvillagebook>,
         <villagenames:abandonedbasebook>,
         
+        <watercan:watercan_wood>,
+        <watercan:watercan_gold>,
+        <watercan:watercan_diamond>,
+
         <waystones:return_scroll>,
         <waystones:bound_scroll>,
         <waystones:warp_scroll>

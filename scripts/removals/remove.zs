@@ -40,12 +40,8 @@ val removals as IItemStack[] = [
     <minecraft:book>,
     <minecraft:bone_block>,
     <minecraft:coal:1>,
-    
-    <naturesaura:ancient_stick>,
 
-    <pickletweaks:grass_mesh>,
-    <pickletweaks:mesh>,
-	<pickletweaks:watering_can>,
+    <naturesaura:ancient_stick>,
     
     <rustic:cabinet>,
     <rustic:crop_stake>,

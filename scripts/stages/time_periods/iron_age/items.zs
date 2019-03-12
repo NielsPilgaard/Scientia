@@ -11,8 +11,10 @@ val itemsToStage as IItemStack[] = [
 	<jaff:golden_fishing_rod>,
 	<jaff:iron_hook>,
 	
-	<minecraft:cauldron>
+	<minecraft:cauldron>,
 	
+	<watercan:watercan_iron>
+
 ];
 
 for item in itemsToStage {

@@ -11,7 +11,7 @@ var stage = stages.agriculture;
 
 mods.ItemStages.addItemStage(stage, <rustic:crop_stake>);
 mods.ItemStages.addItemStage(stage, <minecraft:farmland>);
-mods.ItemStages.addItemStage(stage, <pickletweaks:watering_can>.withTag({Water: 0 as byte}));
+mods.ItemStages.addItemStage(stage, <watercan:watercan_stone>);
 
 stageTinkersTool(stage, <tconstruct:mattock>, "tconstruct:mattock");
 
@@ -37,8 +37,8 @@ RecipeBuilder.get("carpenter")
   .addRequirement(GameStages.anyOf([stage]))
   .create();
 
-mods.recipestages.Recipes.addShapedMirrored("pickletweaks_watering_can_custom", 
-stage, <pickletweaks:watering_can>.withTag({Water: 0 as byte}),
+mods.recipestages.Recipes.addShapedMirrored("watercan_watercan_stone_custom", 
+stage, <watercan:watercan_stone>,
 [[null, <ore:fertilizer>, <minecraft:stone:*>],
 [<minecraft:stone:*>, <minecraft:bowl>, <minecraft:stone:*>],
 [null, <minecraft:stone:*>, null]]);

@@ -4,7 +4,8 @@ import mods.artisanworktables.integration.requirement.GameStages;
 
 var stage = stages.sifting;
 
-stageItem(stage, <ore:artisansSifter>);
+mods.ItemStages.addItemStage(stage, <ore:artisansSifter>);
+mods.recipestages.Recipes.setRecipeStage(stage, <ore:artisansSifter>);
 mods.ItemStages.addItemStage(stage, <harvestcraft:waterfilter>);
 
 RecipeBuilder.get("basic")
