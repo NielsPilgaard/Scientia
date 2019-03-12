@@ -1,15 +1,12 @@
 setIcon(<artisanworktables:artisans_knife_stone>)
 setTitle("Knife Party")
-setDescription("A Knife will allow you to make String much more efficiently, in the Basic Worktable, which you also need to craft")
+setDescription("A Knife will allow you to make String much more efficiently.")
 setShowToast(true)
 
-addParent("scientia:stone_age/string")
+addParent("scientia:stone_age/basic_worktable")
 setRequiresParents()
 
 criteria = addCriteria("Any Artisan's Knife", "minecraft:inventory_changed")
 criteria.addItem(<ore:artisansKnife>)
-
-criteria = addCriteria("Basic Worktable", "minecraft:inventory_changed")
-criteria.addItem(<artisanworktables:worktable:5>)
 
 setRewardExperience(25)

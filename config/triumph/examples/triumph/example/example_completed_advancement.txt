@@ -25,6 +25,6 @@ criteria.setBlock(<minecraft:netherrack>)
 //Sets the parent advancements to be required. This is just a helper method, which adds criterion named "completedParent"/"completedParent2"/etc with the trigger type "triumph:completed_advancement" and sets the parent advancement as the requirement. The long form version of this is written in the two commented lines below.
 setRequiresParents()
 //criteria = addCriteria("completedParent", "triumph:completed_advancement")
-//criteria.setAdvancement("triumph:example/example_enter_dimension")
+//criteria.setAdvancement(triumph:example/example_enter_dimension")
 
 //By not setting anything about requirements here, all criteria are automatically required

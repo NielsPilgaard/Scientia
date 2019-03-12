@@ -1,0 +1,28 @@
+setIcon(<harvestcraft:onionsoupitem>)
+setTitle("Make ALL the Soup! \\o/")
+setDescription("You're hereby granted the title §4Master of Soup§7!")
+setShowToast(true)
+
+addParent("scientia:stone_age/soup")
+setRequiresParents()
+
+drawDirectLines(true)
+setHidden(true)
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("ALL THE SOUP!", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pumpkinsoupitem>)
+criteria.addItem(<harvestcraft:carrotsoupitem>)
+criteria.addItem(<harvestcraft:potatosoupitem>)
+criteria.addItem(<harvestcraft:spidereyesoupitem>)
+criteria.addItem(<harvestcraft:tomatosoupitem>)
+criteria.addItem(<harvestcraft:beetsoupitem>)
+criteria.addItem(<harvestcraft:cactussoupitem>)
+criteria.addItem(<harvestcraft:seedsoupitem>)
+criteria.addItem(<harvestcraft:onionsoupitem>)
+
+setRewardExperience(1000)
+setPos(288,270)

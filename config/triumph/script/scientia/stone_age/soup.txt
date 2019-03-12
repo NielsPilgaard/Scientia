@@ -1,0 +1,20 @@
+setIcon(<harvestcraft:carrotsoupitem>)
+setTitle("Soup-chef")
+setDescription("Crafting a Stone Cauldron has made you a Novice Cook!\n\nYou can now make Stock and Soup in the Cauldron - Remember to put a fire source under it.")
+setShowToast(true)
+
+addParent("scientia:stone_age/stone_cauldron")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("4 Soup of any kind", "minecraft:inventory_changed")
+criteria.addItem(<ore:foodSoup>)
+criteria.setCount(4)
+
+setRewardExperience(25)
+setPos(288,243)

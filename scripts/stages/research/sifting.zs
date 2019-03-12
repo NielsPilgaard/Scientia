@@ -1,26 +1,22 @@
 #priority 100
-import mods.recipestages.Recipes;
-import mods.ItemStages.addItemStage;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanworktables.integration.requirement.GameStages;
 
 var stage = stages.sifting;
 
-Recipes.addShapedMirrored("pickletweaks_mesh_custom", stage, 
-<pickletweaks:mesh>, 
-[[<minecraft:stick>, <minecraft:string>, <minecraft:stick>], 
-[<minecraft:string>, <minecraft:string>, <minecraft:string>], 
-[<minecraft:stick>, <minecraft:string>, <minecraft:stick>]]);
-addItemStage(stage, <pickletweaks:mesh>);
+stageItem(stage, <ore:artisansSifter>);
+mods.ItemStages.addItemStage(stage, <harvestcraft:waterfilter>);
 
-Recipes.addShapeless("minecraft_flint_custom", stage, 
-<minecraft:flint>, 
-[<pickletweaks:mesh>.anyDamage(),<ore:gravel>]);
-
-Recipes.addShapedMirrored("harvest_waterfilter_custom", stage, 
-<harvestcraft:waterfilter>, 
-[[<minecraft:stone:*>, <ore:materialCloth>, <minecraft:stone:*>],
-[<minecraft:stone:*>, <pickletweaks:mesh>.anyDamage(), <minecraft:stone:*>], 
-[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]]);
-addItemStage(stage, <harvestcraft:waterfilter>);
-
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:gravel>])
+  .addTool(<ore:artisansSifter>, 2)
+  .addOutput(<minecraft:flint>)
+  .addRequirement(GameStages.anyOf([stage]))
+  .create();
 
 # Pams Waterfilter
+mods.recipestages.Recipes.addShapedMirrored("harvestcraft_waterfilter_custom", stage, 
+<harvestcraft:waterfilter>, 
+[[<minecraft:stone:*>, <ore:materialCloth>, <minecraft:stone:*>],
+[<minecraft:stone:*>, <ore:artisansSifter>, <minecraft:stone:*>], 
+[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]]);

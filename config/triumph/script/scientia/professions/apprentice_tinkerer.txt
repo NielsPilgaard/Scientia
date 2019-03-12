@@ -14,14 +14,14 @@ criteria = addCriteria("Craft 10 Artisan's Tools of any kind", "triumph:player_c
 criteria.setItem(<ore:artisansTool>)
 criteria.setCount(10)
 
-criteria = addCriteria("Complete Advancement Tomahawwk", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/throwing_axe")
+criteria = addCriteria("Complete Advancement Tomahawk", "triumph:completed_advancement")
+criteria.setAdvancement(triumph:stone_age/throwing_axe)
 
 criteria = addCriteria("Complete Advancement Shiv", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/throwing_knife")
+criteria.setAdvancement(triumph:stone_age/throwing_knife)
 
 criteria = addCriteria("Complete Advancement Defender", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/shield")
+criteria.setAdvancement(triumph:stone_age/shield)
 
 setRewardItem(<gamestagebooks:apprentice_tinkerer>)
 

@@ -13,7 +13,7 @@ criteria = addCriteria("Copper", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreCopper>)
 
 criteria = addCriteria("Complete Advancement Novice Miner", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:profession/novice_miner")
+criteria.setAdvancement(triumph:profession/novice_miner)
 
 setRewardExperience(25)
 setPos(352,81)

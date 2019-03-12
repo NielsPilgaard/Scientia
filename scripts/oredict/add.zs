@@ -87,6 +87,17 @@ for woodtype in woodtypes {
     }
 }
 
+# cauldronStone
+    <ore:cauldronStone>.add(<morecauldrons:cobble_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:brick_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:stone_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:granite_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:smooth_granite_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:diorite_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:smooth_diorite_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:andesite_cauldron>);
+    <ore:cauldronStone>.add(<morecauldrons:smooth_andesite_cauldron>);
+
 # dye
     <ore:dye>.add(<inspirations:dyed_bottle:*>);
 
@@ -129,3 +140,14 @@ for woodtype in woodtypes {
     <ore:artisansTool>.addAll(<ore:artisansNeedle>);
     <ore:artisansTool>.addAll(<ore:artisansMortar>);
     <ore:artisansTool>.addAll(<ore:artisansKnife>);
+
+# foodSoup
+    <ore:foodSoup>.add(<harvestcraft:pumpkinsoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:carrotsoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:potatosoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:spidereyesoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:tomatosoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:beetsoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:cactussoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:seedsoupitem>);
+    <ore:foodSoup>.add(<harvestcraft:onionsoupitem>);

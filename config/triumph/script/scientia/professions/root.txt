@@ -1,4 +1,4 @@
-setIcon(<minecraft:book>)
+setIcon(<gamestagebooks:novice_tinkerer>)
 setTitle("Professions")
 setDescription("Welcome to the Professions tab. Here you'll be able to learn and level up various professions, which give you access to new items, recipes and abilities. A Profession Advancement is completed by crafting the Book that matches it's name, unless it's description says otherwise.")
 
@@ -9,7 +9,7 @@ setBackground("chisel:textures/blocks/andesite/circular-ctm.png")
 setAnnounceToChat(false)
 
 setFrameType("Challenge")
-criteria = addCriteria("Complete Dawn of Time", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:dawn_of_time/final")
+criteria = addCriteria("Complete the Dawn of Time age", "triumph:completed_advancement")
+criteria.setAdvancement(triumph:dawn_of_time/final)
 
 setRewardExperience(25)

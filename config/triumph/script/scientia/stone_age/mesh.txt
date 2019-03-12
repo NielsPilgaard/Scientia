@@ -1,9 +1,9 @@
-setIcon(<pickletweaks:mesh>)
+setIcon(<artisanworktables:artisans_sifter_wood>)
 setTitle("Mesh Rendering")
-setDescription("The Mesh provides an easier way of obtaining Flint than Scavenging for it.")
+setDescription("The Artisan's Sifter provides an easier way of obtaining Flint than Scavenging for it.")
 setShowToast(true)
 
-addParent("scientia:stone_age/string")
+addParent("scientia:stone_age/basic_worktable")
 setRequiresParents()
 
 setFrameType("Goal")
@@ -11,7 +11,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Mesh", "minecraft:inventory_changed")
-criteria.addItem(<pickletweaks:mesh>)
+criteria = addCriteria("Any type of Artisan's Sifter", "minecraft:inventory_changed")
+criteria.addItem(<ore:artisansSifter>)
 
 setRewardExperience(25)

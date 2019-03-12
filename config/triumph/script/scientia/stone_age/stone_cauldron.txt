@@ -1,0 +1,19 @@
+setIcon(<morecauldrons:cobble_cauldron>)
+setTitle("Pseudo-chef")
+setDescription("You'll need a Cauldron that can withstand fire, in order to use it for cooking.")
+setShowToast(true)
+
+addParent("scientia:stone_age/leather_4")
+setRequiresParents()
+
+drawDirectLines(true)
+
+setCompletedIconColor(51, 102, 204)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 102, 204)
+
+criteria = addCriteria("Any Stone Cauldron", "minecraft:inventory_changed")
+criteria.addItem(<ore:cauldronStone>)
+
+setRewardExperience(25)
+setPos(288,216)

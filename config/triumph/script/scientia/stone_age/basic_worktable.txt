@@ -1,0 +1,12 @@
+setIcon(<artisanworktables:worktable:5>)
+setTitle("The Basics")
+setDescription("The Basic Worktable allows you to make a few new things that will help you progess.")
+setShowToast(true)
+
+addParent("scientia:stone_age/string")
+setRequiresParents()
+
+criteria = addCriteria("Basic Worktable", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:worktable:5>)
+
+setRewardExperience(25)
