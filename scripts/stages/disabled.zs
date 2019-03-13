@@ -2233,7 +2233,10 @@ val disableList = [
 val liquidsToDisable as ILiquidStack[] = [
 
     <liquid:pigiron>,
-    <liquid:knightslime>
+    <liquid:knightslime>,
+    <liquid:ironberry_juice>,
+    <liquid:ale_wort>,
+    <liquid:honey>
 
 ];
 

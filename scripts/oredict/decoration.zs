@@ -98,3 +98,5 @@ var tables as IItemStack[] = [
 <ore:furniture>.addAll(<ore:seatBack>);
 <ore:furniture>.addAll(<ore:chairWood>);
 <ore:furniture>.addAll(<ore:tableWood>);
+
+<ore:chairWood>.addAll(<ore:seat>);

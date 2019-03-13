@@ -36,7 +36,27 @@ import crafttweaker.item.IItemStack;
     <ore:logDebarked>.add(<hitwithaxe:debarked_tiger>);
     <ore:logDebarked>.add(<hitwithaxe:debarked_willow>);
 	<ore:logDebarked>.add(<hitwithaxe:debarked_ancient>);
-    
+
+# Dynamic Tree Branches
+var dynamicBranches as IItemStack[] = [
+    <dynamictrees:oakbranch>,
+    <dynamictrees:oakbranchx>,
+    <dynamictrees:sprucebranch>,
+    <dynamictrees:sprucebranchx>,
+    <dynamictrees:birchbranch>,
+    <dynamictrees:junglebranch>,
+    <dynamictrees:acaciabranch>,
+    <dynamictrees:darkoakbranch>,
+    <dynamictrees:darkoakbranchx>,
+    <dttraverse:firbranch>,
+    <rustic:olivebranch>,
+    <rustic:ironwoodbranch>,
+];
+
+for branch in dynamicBranches {
+    <ore:branchWood>.add(branch);
+}
+
 # Sign
     <ore:signWood>.add(<minecraft:sign>);
 

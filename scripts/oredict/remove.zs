@@ -14,3 +14,5 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:dyePurple>.remove(<rustic:grapes>);
 
 <ore:stickWood>.remove(<naturesaura:ancient_stick>);
+
+<ore:craftingTableWood>.remove(<minecraft:crafting_table>);
