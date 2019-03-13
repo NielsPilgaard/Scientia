@@ -1,53 +1,53 @@
 setIcon(<minecraft:carrot>)
 setTitle("Wild Crop Appeared!")
-setDescription("The only food available right now is found in the wild, gather some!\n\nIf possible you should harvest it with right click, so you don't destroy the farmland.\n\nAny Wild Crop will complete this.")
+setDescription("The only food available right now is found in the wild, gather some!\n\nIf possible you should harvest it with right click, so you don't destroy the farmland.\n\nGathering any wild crop will complete this.")
 setShowToast(true)
 
 addParent("scientia:dawn_of_time/root")
 setRequiresParents()
 
-setRequirements("any")
-
 criteria = addCriteria("Carrot", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:carrots>)
+criteria.addItem(<minecraft:carrot>)
 
 criteria = addCriteria("Potato", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:potatoes>)
+criteria.addItem(<minecraft:potato>)
 
 criteria = addCriteria("Beetroot", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:beetroots>)
+criteria.addItem(<minecraft:beetroot>)
 
 criteria = addCriteria("Wheat", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat>)
 
 criteria = addCriteria("Garlic", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamgarliccrop>)
+criteria.addItem(<harvestcraft:pamgarlicitem>)
 
 criteria = addCriteria("Onion", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamonioncrop>)
+criteria.addItem(<harvestcraft:pamonionitem>)
 
 criteria = addCriteria("Spice Leaf", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamspiceleafcrop>)
+criteria.addItem(<harvestcraft:pamspiceleafitem>)
 
 criteria = addCriteria("Lettuce", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamlettucecrop>)
+criteria.addItem(<harvestcraft:pamlettuceitem>)
 
 criteria = addCriteria("Bean", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pambeancrop>)
+criteria.addItem(<harvestcraft:pambeanitem>)
 
 criteria = addCriteria("Curry Leaf", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamcurryleafcrop>)
+criteria.addItem(<harvestcraft:pamcurryleafitem>)
 
 criteria = addCriteria("Eggplant", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pameggplantcrop>)
+criteria.addItem(<harvestcraft:pameggplantitem>)
 
 criteria = addCriteria("Bellpepper", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pambellpeppercrop>)
+criteria.addItem(<harvestcraft:pambellpepperitem>)
 
 criteria = addCriteria("Strawberry", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamstrawberrycrop>)
+criteria.addItem(<harvestcraft:pamstrawberryitem>)
 
 criteria = addCriteria("Ginger", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamgingercrop>)
+criteria.addItem(<harvestcraft:pamgingeritem>)
+
+setRequirements("any")
 
 setRewardExperience(25)

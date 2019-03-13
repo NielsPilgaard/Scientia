@@ -14,15 +14,11 @@ Advancements are grouped up into 4 categories:
 
 The chain of Advancements that lead to the next chapter have rounded edges.
 
-
 The fullscreen map from §bJourneymap§f can be accessed with §4J§f, but the other functions must be unlocked through a Research Advancement.
-
 
 The majority of blocks and items are §8hidden§f until unlocked.
 
-
 To share Advancements and Gamestages with others, use the mod §9Together Forever§f, and check the commands beginning with §9/tf§f
-
 
 This information and changelogs can be accessed again by pausing the game and clicking the §aInfo§f icon on the right side of the screen.
 

@@ -1,6 +1,6 @@
 setIcon(<minecraft:log>)
 setTitle("Dawn of Time")
-setDescription("The first advancements are designed to ease you into the world of Scientia. Enemies won't bother you at this stage, so take your time. To complete this stage, you will need to §ocraft basic tools.")
+setDescription("The first advancements are designed to ease you into the world of Scientia. Enemies won't bother you at this stage, so take your time.\n\nTo complete this stage, you will need to craft basic tools.")
 
 setShowToast(true)
 
@@ -18,5 +18,3 @@ setCompletedTitleColor(51, 102, 204)
 addCriteria("location", "minecraft:location")
 
 setRewardFunction("time_period:dawn_of_time")
-
-setRewardExperience(25)

@@ -23,7 +23,7 @@ criteria.setBlock(<ore:oreCoal>)
 criteria.setCount(32)
 
 criteria = addCriteria("Complete the Final Advancement of the Copper Age", "triumph:completed_advancement")
-criteria.setAdvancement(triumph:copper_age/final)
+criteria.setAdvancement("triumph:copper_age/final")
 
 setRewardItem(<gamestagebooks:apprentice_miner>)
 
