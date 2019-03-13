@@ -1,13 +1,14 @@
 setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"combat"}>)
 setTitle("Guard TODO")
-setDescription("Guards will protect you.")
+setDescription("You can hire a guard by crafting a Combat NPC-item, right clicking with it, and then equipping him with a sword.\n\nHe can be equipped with any Melee Weapon, Shield and Armor.")
 setShowToast(true)
 
-addParent("scientia:copper_age/better_tools")
-addParent("scientia:copper_age/cooking")
+addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
-criteria = addCriteria("Hire Guard", "minecraft:inventory_changed")
+drawDirectLines(true)
+
+criteria = addCriteria("Hire a Guard", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"guard"}>)
 
 setRewardExperience(25)

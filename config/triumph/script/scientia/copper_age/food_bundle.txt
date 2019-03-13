@@ -1,6 +1,6 @@
 setIcon(<ancientwarfarenpc:food_bundle>)
 setTitle("Food Bundle TODO")
-setDescription("If you want to expand your village and attract new Settlers, you to need to learn how to cook in bulk.")
+setDescription("If you want to expand your village and attract new Settlers, you're going to need food in bulk.")
 setShowToast(true)
 
 addParent("scientia:copper_age/research_station")

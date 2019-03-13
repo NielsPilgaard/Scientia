@@ -7,6 +7,8 @@ addParent("scientia:copper_age/food_bundle")
 addParent("scientia:copper_age/leadership")
 setRequiresParents()
 
+drawDirectLines(true)
+
 criteria = addCriteria("Town Hall", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:town_hall>)
 

@@ -1,0 +1,25 @@
+setIcon(<ancientwarfareautomation:animal_farm>)
+setTitle("Automatic Farming")
+setDescription("Test")
+setShowToast(true)
+
+addParent("scientia:copper_age/town_hall")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Animal Farm", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfareautomation:animal_farm>)
+
+criteria = addCriteria("Crop Farm", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfareautomation:crop_farm>)
+
+criteria = addCriteria("Fish Farm", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfareautomation:fish_farm>)
+
+criteria = addCriteria("Tree Farm", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfareautomation:tree_farm>)
+
+setRequirements("any")
+
+setRewardExperience(25)

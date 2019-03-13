@@ -6,6 +6,8 @@ setShowToast(true)
 addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
+drawDirectLines(true)
+
 criteria = addCriteria("Tree Farm", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:tree_farm>)
 

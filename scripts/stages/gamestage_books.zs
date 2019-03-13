@@ -68,3 +68,4 @@ Book.addBook("master_druid", "Master Druid", "Master Druid", "minecraft:book", 0
 Book.addBook("writing", "Writing", "The First Book", "minecraft:book", 0xff9400);
 Book.addBook("agriculture", "Agriculture", "Agricultural Knowledge", "minecraft:iron_hoe", 0x5ac452);
 Book.addBook("metallurgy", "Metallurgy", "Metallurgic Knowledge", "minecraft:iron_ore", 0xe0880d);
+Book.addBook("leadership", "Leadership", "Leadership Knowledge", "ancientwarfarenpc:stone_command_baton", 0xe0880d);

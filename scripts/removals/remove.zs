@@ -95,7 +95,8 @@ val oredictRemovals as IOreDictEntry[] = [
 val modRemovals as string[] = [
     "morecauldrons",
     "primal_tech",
-    "farmingforblockheads"
+    "farmingforblockheads",
+    "watercan"
 ];
 
 for item in removals {

@@ -6,7 +6,9 @@ setShowToast(true)
 addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
-criteria = addCriteria("Tree Farm", "minecraft:inventory_changed")
+drawDirectLines(true)
+
+criteria = addCriteria("Quarry", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:quarry>)
 
 setRewardExperience(25)

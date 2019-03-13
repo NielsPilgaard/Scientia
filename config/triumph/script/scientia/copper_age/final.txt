@@ -1,6 +1,6 @@
 setIcon(<minecraft:stone>)
 setTitle("Final TODO")
-setDescription("If you want to expand your village and attract new Settlers, you to need to learn how to cook in bulk.")
+setDescription("")
 setShowToast(true)
 
 addParent("scientia:copper_age/worker")
