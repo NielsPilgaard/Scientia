@@ -1,4 +1,4 @@
-setIcon(<pickletweaks:watering_can>)
+setIcon(<watercan:watercan_stone>)
 setTitle("Agricultural Expansion II")
 setDescription("Watering Crops with the Watering Can will speed up their growth. You need to fill it with water, by clicking on a water source block.")
 setShowToast(true)
@@ -7,7 +7,7 @@ addParent("scientia:stone_age/bone_meal")
 setRequiresParents()
 
 setFrameType("Goal")
-criteria = addCriteria("Watering Can", "minecraft:inventory_changed")
-criteria.addItem(<pickletweaks:watering_can>)
+criteria = addCriteria("Stone Watercan", "minecraft:inventory_changed")
+criteria.addItem(<watercan:watercan_stone>)
 
 setRewardExperience(25)
