@@ -1,10 +1,12 @@
 {
+	"registryname": "research_station_tier_1",
+    "localizedname": "Research Station Tier 1",
+	"color": "dfe0a6",
     "parts": [
         {
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"e8ca86"},
             "elements": [
                 "modularmachinery:blockoutputbus@1"
             ]
@@ -21,7 +23,7 @@
             "x": 0,
             "y": 0,
             "z": -1,
-            "nbt": {"rightBookStack":"0","leftBookStack":"0","hasMap":"0b","shift":"0","isVanilla":"1b","customTexture":"none","hasWrittenBook":"1b","CurrentPage":"0","angle":"2","singleLeftRightCenter":"5","id":"minecraft:desk","position":"1","locked":"0b","lockee":"","Inventory":[{"Slot":"0b","id":"minecraft:book","Count":"1b","Damage":"0s"}]},
+            "nbt": {"isVanilla":"1b","hasWrittenBook":"1b","angle":"2","singleLeftRightCenter":"5","id":"minecraft:desk","position":"1","Inventory":[{"Slot":"0b","id":"minecraft:book","Count":"1b","Damage":"0s"}]},
             "elements": [
                 "bibliocraft:desk@0"
             ]
@@ -54,7 +56,6 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"e8ca86"},
             "elements": [
                 "modularmachinery:blockinputbus@1"
             ]
@@ -63,7 +64,6 @@
             "x": 0,
             "y": 0,
             "z": -2,
-            "nbt": {"westConnect":"0b","hasBack":"0","shift":"0","customTexture":"none","southConnect":"0b","eastConnect":"0b","customBackTexture":"none","hasSitter":"0b","angle":"2","northConnect":"0b","seatColor":"0","backWoodType":"0","id":"minecraft:seat","position":"1","locked":"0b","lockee":"","Inventory":[]},
             "elements": [
                 "bibliocraft:seat@0"
             ]
@@ -72,7 +72,7 @@
             "x": -1,
             "y": 0,
             "z": -1,
-            "nbt": {"rightBookStack":"0","leftBookStack":"0","hasMap":"0b","shift":"0","isVanilla":"1b","customTexture":"none","hasWrittenBook":"0b","CurrentPage":"0","angle":"2","singleLeftRightCenter":"2","id":"minecraft:desk","position":"1","locked":"0b","lockee":"","Inventory":[]},
+            "nbt": {"isVanilla":"1b","angle":"2","singleLeftRightCenter":"1","id":"minecraft:desk","position":"1","Inventory":[]},
             "elements": [
                 "bibliocraft:desk@0"
             ]
@@ -249,7 +249,7 @@
             "x": 1,
             "y": 0,
             "z": -1,
-            "nbt": {"rightBookStack":"0","leftBookStack":"0","hasMap":"0b","shift":"0","isVanilla":"1b","customTexture":"none","hasWrittenBook":"0b","CurrentPage":"0","angle":"2","singleLeftRightCenter":"1","id":"minecraft:desk","position":"1","locked":"0b","lockee":"","Inventory":[]},
+            "nbt": {"isVanilla":"1b","angle":"2","singleLeftRightCenter":"1","id":"minecraft:desk","position":"1","Inventory":[]},
             "elements": [
                 "bibliocraft:desk@0"
             ]
