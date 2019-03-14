@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 import mods.ItemStages.addItemStage;
 
 var stage = stages.stone_age;
-
+/*
 var modIDs as string[] = [
 	"morecauldrons"
 ];
@@ -15,3 +15,4 @@ for mod in modIDs {
 		addItemStage(stage, item);
 	}
 }
+*/

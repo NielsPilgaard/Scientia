@@ -1,0 +1,6 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p middle_ages
+gamestage silentadd @p middle_ages
+gamestage silentadd @p middle_ages_mobs
+advancement grant @p only scientia:middle_ages/root

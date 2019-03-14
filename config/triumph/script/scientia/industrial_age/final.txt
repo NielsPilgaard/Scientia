@@ -3,12 +3,12 @@ setTitle("Final TODO")
 setDescription("")
 setShowToast(true)
 
-addParent("scientia:copper_age/worker")
+addParent("scientia:industrial_age/root")
 setRequiresParents()
 
 criteria = addCriteria("", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stone>)
 
-setRewardFunction("time_period:bronze_age")
+//setRewardFunction("time_period:modern_age")
 
 setRewardExperience(25)

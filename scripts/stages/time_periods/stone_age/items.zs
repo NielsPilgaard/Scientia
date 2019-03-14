@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import mods.ItemStages.addItemStage;
 
 var stage = stages.stone_age;
+
 val itemsToStage as IItemStack[] = [
 
 	<backpack:bound_leather>,
@@ -38,5 +39,13 @@ val itemsToStage as IItemStack[] = [
 ];
 
 for item in itemsToStage {
+	addItemStage(stage, item);
+}
+
+for item in <ore:cauldronWood>.items {
+	addItemStage(stage, item);
+}
+
+for item in <ore:cauldronStone>.items {
 	addItemStage(stage, item);
 }

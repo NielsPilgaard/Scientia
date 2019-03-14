@@ -19,34 +19,34 @@ criteria = addCriteria("Wheat", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat>)
 
 criteria = addCriteria("Garlic", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamgarlicitem>)
+criteria.addItem(<harvestcraft:garlicitem>)
 
 criteria = addCriteria("Onion", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamonionitem>)
+criteria.addItem(<harvestcraft:onionitem>)
 
 criteria = addCriteria("Spice Leaf", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamspiceleafitem>)
+criteria.addItem(<harvestcraft:spiceleafitem>)
 
 criteria = addCriteria("Lettuce", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamlettuceitem>)
+criteria.addItem(<harvestcraft:lettuceitem>)
 
 criteria = addCriteria("Bean", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pambeanitem>)
+criteria.addItem(<harvestcraft:beanitem>)
 
 criteria = addCriteria("Curry Leaf", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamcurryleafitem>)
+criteria.addItem(<harvestcraft:curryleafitem>)
 
 criteria = addCriteria("Eggplant", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pameggplantitem>)
+criteria.addItem(<harvestcraft:eggplantitem>)
 
 criteria = addCriteria("Bellpepper", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pambellpepperitem>)
+criteria.addItem(<harvestcraft:bellpepperitem>)
 
 criteria = addCriteria("Strawberry", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamstrawberryitem>)
+criteria.addItem(<harvestcraft:strawberryitem>)
 
 criteria = addCriteria("Ginger", "minecraft:inventory_changed")
-criteria.addItem(<harvestcraft:pamgingeritem>)
+criteria.addItem(<harvestcraft:gingeritem>)
 
 setRequirements("any")
 

@@ -3,3 +3,4 @@ summon minecraft:fireworks_rocket ~ ~ ~
 mpa notify @p iron_age
 gamestage silentadd @p iron_age
 gamestage silentadd @p iron_age_mobs
+advancement grant @p only scientia:iron_age/root

@@ -1,0 +1,6 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p industrial_age
+gamestage silentadd @p industrial_age
+gamestage silentadd @p industrial_age_mobs
+advancement grant @p only scientia:industrial_age/root

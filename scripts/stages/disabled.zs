@@ -2074,6 +2074,7 @@ val disableList = [
         <natura:clouds:2>,
         <natura:clouds:3>,
 
+        <rustic:honey>,
         <rustic:fertile_soil>,
         <rustic:beeswax>,
         <rustic:honeycomb>,
@@ -2234,8 +2235,6 @@ val liquidsToDisable as ILiquidStack[] = [
 
     <liquid:pigiron>,
     <liquid:knightslime>,
-    <liquid:ironberry_juice>,
-    <liquid:ale_wort>,
     <liquid:honey>
 
 ];

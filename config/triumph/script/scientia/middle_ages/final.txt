@@ -9,6 +9,6 @@ setRequiresParents()
 criteria = addCriteria("", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stone>)
 
-setRewardFunction("time_period:bronze_age")
+setRewardFunction("time_period:middle_ages")
 
 setRewardExperience(25)

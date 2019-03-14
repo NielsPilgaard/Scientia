@@ -13,8 +13,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Complete the Dawn of Time age", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:dawn_of_time/final")
+criteria = addCriteria("Complete the Dawn of Time age", "minecraft:impossible")
 
 setRewardItem(<magicalmap:map, nbt:{display:{Name:"Village"}}>)
 

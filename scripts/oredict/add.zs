@@ -171,3 +171,8 @@ for woodtype in woodtypes {
     <ore:foodSoup>.add(<harvestcraft:cactussoupitem>);
     <ore:foodSoup>.add(<harvestcraft:seedsoupitem>);
     <ore:foodSoup>.add(<harvestcraft:onionsoupitem>);
+
+# treeSapling
+    <ore:treeSapling>.add(<treetweaker:livingwood>);
+    <ore:treeSapling>.add(<naturesaura:ancient_sapling>);
+    <ore:treeSapling>.add(<treetweaker:dreamwood>);

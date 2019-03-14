@@ -3,3 +3,4 @@ summon minecraft:fireworks_rocket ~ ~ ~
 mpa notify @p copper_age
 gamestage silentadd @p copper_age
 gamestage silentadd @p copper_age_mobs
+advancement grant @p only scientia:copper_age/root
