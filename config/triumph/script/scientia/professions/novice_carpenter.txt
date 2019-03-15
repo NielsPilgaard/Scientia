@@ -10,7 +10,7 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Buy the Novice Carpenter Book from a Villager", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:novice_carpenter>)
+criteria = addCriteria("Buy the Novice Carpenter Book from a Villager", "minecraft:villager_trade")
+criteria.setItem(<gamestagebooks:novice_carpenter>)
 
 setRewardExperience(25)

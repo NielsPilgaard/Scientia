@@ -1,6 +1,6 @@
 setIcon(<minecraft:stone_hoe>)
 setTitle("Agricultural Expansion I")
-setDescription("The Farmers in the Village nearby know how to cultivate the land. Barter with a Farmer for his knowledge.")
+setDescription("The Farmers in the Village nearby know how to cultivate the land. Barter with a Farmer for his knowledge.\n\nRemember to use the book in order to gain knowledge of farming.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")
@@ -11,7 +11,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Purchase Agricultural Knowledge", "minecraft:villager_trade")
+criteria = addCriteria("Buy the Agricultural Knowledge Book from a Villager", "minecraft:villager_trade")
 criteria.setItem(<gamestagebooks:agriculture>)
 
 setRewardItem(<minecraft:farmland, count:8>)

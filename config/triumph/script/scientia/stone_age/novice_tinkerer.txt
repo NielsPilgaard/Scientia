@@ -6,7 +6,7 @@ setShowToast(true)
 addParent("scientia:stone_age/find_village")
 setRequiresParents()
 
-criteria = addCriteria("Novice Tinkerer", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:novice_tinkerer>)
+criteria = addCriteria("Buy the Novice Tinkerer Book from a Villager", "minecraft:villager_trade")
+criteria.setItem(<gamestagebooks:novice_tinkerer>)
 
 setRewardExperience(25)

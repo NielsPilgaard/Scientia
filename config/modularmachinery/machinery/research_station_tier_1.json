@@ -16,16 +16,15 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": -1,
-            "nbt": {"isVanilla":"1b","hasWrittenBook":"1b","angle":"2","singleLeftRightCenter":"5","id":"minecraft:desk","position":"1","Inventory":[{"Slot":"0b","id":"minecraft:book","Count":"1b","Damage":"0s"}]},
             "elements": [
-                "bibliocraft:desk@0"
+                "bibliocraft:desk"
             ]
         },
         {
@@ -33,7 +32,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -41,7 +40,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -49,7 +48,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -65,16 +64,15 @@
             "y": 0,
             "z": -2,
             "elements": [
-                "bibliocraft:seat@0"
+                "bibliocraft:seat"
             ]
         },
         {
             "x": -1,
             "y": 0,
             "z": -1,
-            "nbt": {"isVanilla":"1b","angle":"2","singleLeftRightCenter":"1","id":"minecraft:desk","position":"1","Inventory":[]},
             "elements": [
-                "bibliocraft:desk@0"
+                "bibliocraft:desk"
             ]
         },
         {
@@ -82,7 +80,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -90,7 +88,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -98,7 +96,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -106,7 +104,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -114,7 +112,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -122,7 +120,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -130,7 +128,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -146,7 +144,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -162,7 +160,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -170,7 +168,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -178,7 +176,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -202,7 +200,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -210,7 +208,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -218,7 +216,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -226,7 +224,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
@@ -234,7 +232,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:wooden_slab@1"
+                "slabWoodBottom"
             ]
         },
         {
@@ -242,16 +240,15 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": -1,
-            "nbt": {"isVanilla":"1b","angle":"2","singleLeftRightCenter":"1","id":"minecraft:desk","position":"1","Inventory":[]},
             "elements": [
-                "bibliocraft:desk@0"
+                "bibliocraft:desk"
             ]
         },
         {
@@ -259,7 +256,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "hitwithaxe:debarked_silverbell@1"
+                "logDebarkedUp"
             ]
         }
     ]}
