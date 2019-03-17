@@ -101,14 +101,14 @@ mods.recipestages.Recipes.addShapedMirrored("artisanworktables_worktable_11_cust
 stage = stages.skilled_chef;
 
 RecipeBuilder.get("chef")  
-  .setShapeless([<ore:listAllmilk>])
+  .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
   .addTool(<ore:toolPot>, 0)
   .addOutput(<harvestcraft:butteritem>)
   .addRequirement(GameStages.anyOf([stages.novice_chef, stages.skilled_chef]))
   .create();
 
 RecipeBuilder.get("chef")  
-  .setShapeless([<ore:listAllmilk>])
+  .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
   .addTool(<ore:toolSifter>, 5)
   .addOutput(<harvestcraft:cheeseitem> * 2)
   .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef]))
@@ -121,14 +121,14 @@ RecipeBuilder.get("chef")
 stage = stages.master_chef;
 
 RecipeBuilder.get("chef")  
-  .setShapeless([<ore:listAllmilk>])
+  .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
   .addTool(<ore:toolPot>, 0)
   .addOutput(<harvestcraft:butteritem>)
   .addRequirement(GameStages.anyOf([stages.novice_chef, stages.skilled_chef]))
   .create();
 
 RecipeBuilder.get("chef")  
-  .setShapeless([<ore:listAllmilk>])
+  .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
   .addTool(<ore:toolSifter>, 10)
   .addOutput(<harvestcraft:cheeseitem> * 5)
   .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef]))

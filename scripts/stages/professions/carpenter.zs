@@ -27,24 +27,28 @@ var vanillaWoodtypes as int[string] = {
 
 for log in woodtypes {
 
-RecipeBuilder.get("carpenter")
-  .setShapeless([woodtypes[log].log.items[0]])
-  .addTool(<ore:artisansHandsaw>, 3)
-  .addOutput(woodtypes[log].plank.items[0] * 3)
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]).exclude([stages.skilled_carpenter]))
-  .setName("novice_planks_" + i)
-  .create();
+if (!isNull(woodtypes[log].plank)) {
+  RecipeBuilder.get("carpenter")
+    .setShapeless([woodtypes[log].log.items[0]])
+    .addTool(<ore:artisansHandsaw>, 3)
+    .addOutput(woodtypes[log].plank.items[0] * 3)
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]).exclude([stages.skilled_carpenter]))
+    .setName("novice_planks_" + i)
+    .create();
+}
+if (!isNull(woodtypes[log].slab)) {
+  RecipeBuilder.get("carpenter")
+    .setShaped([
+          [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 2)
+    .addOutput(woodtypes[log].slab.items[0] * 6)
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]).exclude([stages.skilled_carpenter]))
+    .setName("novice_slabs_" + i)
+    .create();
+}
 
-RecipeBuilder.get("carpenter")
-  .setShaped([
-        [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 2)
-  .addOutput(woodtypes[log].slab.items[0] * 6)
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]).exclude([stages.skilled_carpenter]))
-  .setName("novice_slabs_" + i)
-  .create();
 
 RecipeBuilder.get("carpenter")
   .setShapeless([<ore:slabWood>])
@@ -56,31 +60,33 @@ RecipeBuilder.get("carpenter")
 # =========================================== #
 # Tinkers' Construct Novice Carpenter
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [woodtypes[log].slab.items[0], woodtypes[log].slab.items[0]]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansFramingHammer>, 8)
-  .addOutput(<tconstruct:rack>.withTag({textureBlock: {id: woodtypes[log].slab.items[0].definition.id, Count: 1 as byte, Damage: woodtypes[log].slab.items[0].metadata as int}}))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .setName("tconstruct_item_rack_1_" + i)
-  .create();
+if (!isNull(woodtypes[log].slab)) {
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [woodtypes[log].slab.items[0], woodtypes[log].slab.items[0]]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansFramingHammer>, 8)
+    .addOutput(<tconstruct:rack>.withTag({textureBlock: {id: woodtypes[log].slab.items[0].definition.id, Count: 1 as byte, Damage: woodtypes[log].slab.items[0].metadata as int}}))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .setName("tconstruct_item_rack_1_" + i)
+    .create();
 
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [woodtypes[log].slab.items[0], woodtypes[log].slab.items[0], woodtypes[log].slab.items[0]]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansFramingHammer>, 12)
-  .addOutput(<tconstruct:rack:1>.withTag({textureBlock: {id: woodtypes[log].slab.items[0].definition.id, Count: 1 as byte, Damage: woodtypes[log].slab.items[0].metadata as int}}))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .setName("tconstruct_drying_rack_3_" + i)
-  .create();
-
-  i = i + 1;
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [woodtypes[log].slab.items[0], woodtypes[log].slab.items[0], woodtypes[log].slab.items[0]]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansFramingHammer>, 12)
+    .addOutput(<tconstruct:rack:1>.withTag({textureBlock: {id: woodtypes[log].slab.items[0].definition.id, Count: 1 as byte, Damage: woodtypes[log].slab.items[0].metadata as int}}))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .setName("tconstruct_drying_rack_3_" + i)
+    .create();
+  }
+    i = i + 1;
 }
+
 
 # Slabs without Logs
 for slab, plank in loglessSlabPlankMap {
@@ -143,21 +149,22 @@ RecipeBuilder.get("carpenter")
   .addOutput(<rustic:cabinet>.withTag({material: {id: plank.items[0].definition.id, Count: 1 as byte, Damage: plank.items[0].metadata as int}}))
   .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
   .create();
-
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [log, slab, log],
-        [log, null, log], 
-        [log, log, log]
-        ])
-  .setName("charset_barrel_" + plank.items[0].definition.id + "_" + plank.items[0].metadata)
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 5)
-  .addOutput(<charset:barrel>.withTag({
-    log: log.items[0].definition.id + ";" + log.items[0].metadata, 
-    slab: slab.items[0].definition.id + ";" + slab.items[0].metadata}))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .create();
+if (!isNull(slab)) {
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [log, slab, log],
+          [log, null, log], 
+          [log, log, log]
+          ])
+    .setName("charset_barrel_" + plank.items[0].definition.id + "_" + plank.items[0].metadata)
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 5)
+    .addOutput(<charset:barrel>.withTag({
+      log: log.items[0].definition.id + ";" + log.items[0].metadata, 
+      slab: slab.items[0].definition.id + ";" + slab.items[0].metadata}))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .create();
+  }
 }
 
 RecipeBuilder.get("carpenter")  
@@ -198,56 +205,57 @@ for wood in vanillaWoodtypes {
 
 var slab = woodtypes[wood].slab;
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [slab, slab, slab],
-        [slab, sheet, slab], 
-        [slab, slab, slab]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 9)
-  .addOutput(<bibliocraft:bookcase>.definition.makeStack(vanillaWoodtypes[wood]))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .create();
+if (!isNull(slab)) {
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [slab, slab, slab],
+          [slab, sheet, slab], 
+          [slab, slab, slab]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 9)
+    .addOutput(<bibliocraft:bookcase>.definition.makeStack(vanillaWoodtypes[wood]))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .create();
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [slab, slab, slab],
-        [null, sheet, null], 
-        [slab, slab, slab]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 7)
-  .addOutput(<bibliocraft:shelf>.definition.makeStack(vanillaWoodtypes[wood]))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .create();
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [slab, slab, slab],
+          [null, sheet, null], 
+          [slab, slab, slab]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 7)
+    .addOutput(<bibliocraft:shelf>.definition.makeStack(vanillaWoodtypes[wood]))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .create();
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [null, stick, null],
-        [stick, slab, stick], 
-        [null, stick, null]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 5)
-  .addOutput(<bibliocraft:label>.definition.makeStack(vanillaWoodtypes[wood]))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .create();
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [null, stick, null],
+          [stick, slab, stick], 
+          [null, stick, null]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 5)
+    .addOutput(<bibliocraft:label>.definition.makeStack(vanillaWoodtypes[wood]))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .create();
 
-RecipeBuilder.get("carpenter")  
-  .setShaped([
-        [stick, stick, stick],
-        [stick, slab, stick], 
-        [stick, stick, stick]
-        ])
-  .setMirrored()  
-  .addTool(<ore:artisansHandsaw>, 5)
-  .addOutput(<bibliocraft:mapframe>.definition.makeStack(vanillaWoodtypes[wood]))
-  .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
-  .create();
+  RecipeBuilder.get("carpenter")  
+    .setShaped([
+          [stick, stick, stick],
+          [stick, slab, stick], 
+          [stick, stick, stick]
+          ])
+    .setMirrored()  
+    .addTool(<ore:artisansHandsaw>, 5)
+    .addOutput(<bibliocraft:mapframe>.definition.makeStack(vanillaWoodtypes[wood]))
+    .addRequirement(GameStages.anyOf([stages.novice_carpenter]))
+    .create();
 
-  i = i + 1;
-
+    i = i + 1;
+  }
 }
 
 RecipeBuilder.get("carpenter")  
@@ -433,33 +441,39 @@ for item in itemsToStageSkilled {
 
 for log in woodtypes {
 
-RecipeBuilder.get("carpenter")
-  .setShapeless([woodtypes[log].log.items[0]])
-  .addTool(<ore:artisansHandsaw>, 6)
-  .addOutput(woodtypes[log].plank.items[0] * 6)
-  .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
-  .setName("skilled_planks_" + i)
-  .create();
+if (!isNull(woodtypes[log].plank)) {
+  RecipeBuilder.get("carpenter")
+    .setShapeless([woodtypes[log].log.items[0]])
+    .addTool(<ore:artisansHandsaw>, 6)
+    .addOutput(woodtypes[log].plank.items[0] * 6)
+    .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+    .setName("skilled_planks_" + i)
+    .create();
+}
 
-RecipeBuilder.get("carpenter")
-  .setShaped([
-        [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
-        ])
-  .setMirrored()  .addTool(<ore:artisansHandsaw>, 2)
-  .addOutput(woodtypes[log].slab.items[0] * 9)
-  .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
-  .setName("skilled_slabs_" + i)
-  .create();
+if (!isNull(woodtypes[log].slab)) {
+  RecipeBuilder.get("carpenter")
+    .setShaped([
+          [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
+          ])
+    .setMirrored()  .addTool(<ore:artisansHandsaw>, 2)
+    .addOutput(woodtypes[log].slab.items[0] * 9)
+    .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+    .setName("skilled_slabs_" + i)
+    .create();
+}
 
-RecipeBuilder.get("carpenter")
-  .setShapeless([woodtypes[log].slab.items[0]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addOutput(stick * 5)
-  .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
-  .setName("skilled_sticks_" + i)
-  .create();
-
-  i = i + 1;
+if (!isNull(woodtypes[log].slab)) {
+  RecipeBuilder.get("carpenter")
+    .setShapeless([woodtypes[log].slab.items[0]])
+    .addTool(<ore:artisansKnife>, 4)
+    .addOutput(stick * 5)
+    .addRequirement(GameStages.anyOf([stages.skilled_carpenter]).exclude([stages.master_carpenter]))
+    .setName("skilled_sticks_" + i)
+    .create();
+  }
+    i = i + 1;
+  
 }
 
 # Slabs without Logs
@@ -774,26 +788,29 @@ for item in loadedMods["architecturecraft"].items {
 
 for log in woodtypes {
 
-RecipeBuilder.get("carpenter")
-  .setShapeless([woodtypes[log].log.items[0]])
-  .addTool(<ore:artisansHandsaw>, 8)
-  .addOutput(woodtypes[log].plank.items[0] * 8)
-  .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
-  .setName("master_planks_" + i)
-  .create();
+if (!isNull(woodtypes[log].plank)) {
+  RecipeBuilder.get("carpenter")
+    .setShapeless([woodtypes[log].log.items[0]])
+    .addTool(<ore:artisansHandsaw>, 8)
+    .addOutput(woodtypes[log].plank.items[0] * 8)
+    .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
+    .setName("master_planks_" + i)
+    .create();
+}
 
-RecipeBuilder.get("carpenter")
-  .setShaped([
-        [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
-        ])
-  .setMirrored()
-  .addTool(<ore:artisansHandsaw>, 4)
-  .addOutput(woodtypes[log].slab.items[0] * 12)
-  .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
-  .setName("master_slabs_" + i)
-  .create();
-
-  i = i + 1;
+if (!isNull(woodtypes[log].slab)) {
+  RecipeBuilder.get("carpenter")
+    .setShaped([
+          [woodtypes[log].plank.items[0], woodtypes[log].plank.items[0], woodtypes[log].plank.items[0]]
+          ])
+    .setMirrored()
+    .addTool(<ore:artisansHandsaw>, 4)
+    .addOutput(woodtypes[log].slab.items[0] * 12)
+    .addRequirement(GameStages.allOf([stages.novice_carpenter, stages.skilled_carpenter, stages.master_carpenter]))
+    .setName("master_slabs_" + i)
+    .create();
+  }
+    i = i + 1;
 }
 
 # Slabs without Logs

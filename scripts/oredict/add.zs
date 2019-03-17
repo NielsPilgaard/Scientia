@@ -49,8 +49,10 @@ var dynamicBranches as IItemStack[] = [
     <dynamictrees:darkoakbranch>,
     <dynamictrees:darkoakbranchx>,
     <dttraverse:firbranch>,
+    <dttraverse:firbranchx>,
     <rustic:olivebranch>,
     <rustic:ironwoodbranch>,
+    <rustic:ironwoodbranchx>
 ];
 
 for branch in dynamicBranches {

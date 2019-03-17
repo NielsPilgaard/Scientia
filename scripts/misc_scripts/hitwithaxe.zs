@@ -123,5 +123,7 @@ Chopping.addRecipe("naturesaura:ancient_log", 2, "hitwithaxe:debarked_ancient", 
 Chopping.addRecipe("hitwithaxe:debarked_ancient", 32767, <naturesaura:ancient_planks>);
 
 for woodtype in woodtypes {
-    Chopping.addRecipe(woodtypes[woodtype].plank.items[0], woodtypes[woodtype].slab.items[0]);
+    if (!isNull(woodtypes[woodtype].slab) && !isNull(woodtypes[woodtype].plank)) {
+        Chopping.addRecipe(woodtypes[woodtype].plank.items[0], woodtypes[woodtype].slab.items[0]);
+    }
 }

@@ -41,6 +41,7 @@ global stages as string[string] = {
 	maestro : "maestro", # Unlocks Music Discs and tools to play them
 	ninja : "ninja", # Unlocks the TiC Shuriken and Grappling Hooks
 	dye : "dye", # Gives access to the Inspirations dyes
+	bounty : "bounty", # Gives access to the Bounty Board in Villages
 	
 # Profession Research 
 	novice_tinkerer : "novice_tinkerer", # Gives access to the Tool Table

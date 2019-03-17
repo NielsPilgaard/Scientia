@@ -2,7 +2,7 @@
     {
         "timeout": 20,
         "structure": "Village",
-        "potion": "minecraft:regeneration,200,0",
+        "potion": "minecraft:regeneration,1200,0",
         "gamestage": "novice_carpenter"
     }
 ]

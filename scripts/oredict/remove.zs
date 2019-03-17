@@ -4,8 +4,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-<ore:string>.remove(<primal_tech:twine>);
-
 <ore:dye>.remove(<minecraft:dye:*>);
 <ore:dye>.remove(<botania:dye:*>);
 
@@ -16,3 +14,11 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:stickWood>.remove(<naturesaura:ancient_stick>);
 
 <ore:craftingTableWood>.remove(<minecraft:crafting_table>);
+
+for item in <ore:itemSalt>.items {
+    <ore:itemSalt>.remove(item);
+}
+
+for item in <ore:foodSalt>.items {
+    <ore:foodSalt>.remove(item);
+}
