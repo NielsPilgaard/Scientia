@@ -37,7 +37,7 @@ var recipeList2 as IIngredient[][][][IItemStack] = {
         ]
     ]
 };
-
+     
 for item, recipesForItem in recipeList1 {
     recipes.remove(item);
     mods.ItemStages.addItemStage(stage, item);

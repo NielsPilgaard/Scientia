@@ -62,7 +62,7 @@
           }
         },
         "sell":[
-          {"id":"minecraft:bookshelf","Count":"min":2,"max":5}
+          {"id":"minecraft:bookshelf","Count":{"min":2,"max":5}}
         ]
       }
     ]

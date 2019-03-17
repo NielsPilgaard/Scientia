@@ -10,11 +10,8 @@
         "action":"add",
         "CareerLevel":1,
         "buy":{
-          "id":"minecraft:planks",
-          "Damage":[
-            0, 1, 2, 3, 4, 5
-          ],
-          "Count":{"min":12,"max":36}
+          "id":"minecraft:emerald",
+          "Count":1
         },
         "sell":{
           "id":"gamestagebooks:novice_carpenter",
