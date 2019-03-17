@@ -247,9 +247,10 @@ val stoneBlocks = [
 for item in stoneBlocks {
     stageItem(stage, item);
 }
-
+/*
 var brickItems as IItemStack[] = itemUtils.getItemsByRegexUnlocalizedName(".*brick.*");
 
 for item in brickItems {
     stageItem(stage, item);
 }
+*/

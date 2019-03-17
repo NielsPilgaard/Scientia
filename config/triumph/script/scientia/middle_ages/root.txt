@@ -1,5 +1,5 @@
-setIcon(<minecraft:iron_ingot>)
-setTitle("Iron Age NYI")
+setIcon(<bloodmagic:altar>)
+setTitle("Middle Ages NYI")
 setDescription("")
 
 setShowToast(true)

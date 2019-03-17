@@ -1,5 +1,5 @@
-setIcon(<minecraft:iron_ingot>)
-setTitle("Iron Age NYI")
+setIcon(<immersiveengineering:metal, meta:8>)
+setTitle("Industrial Age NYI")
 setDescription("")
 
 setShowToast(true)
