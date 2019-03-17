@@ -1,6 +1,6 @@
 setIcon(<harvestcraft:carrotsoupitem>)
 setTitle("Soup-chef")
-setDescription("Crafting a Stone Cauldron has made you a Novice Cook!\n\nYou can now make Stock and Soup in the Cauldron - Remember to put a fire source under it.")
+setDescription("Crafting a Stone Cauldron has made you a Novice Chef!\n\nYou can now make Stock and Soup in the Cauldron - Remember to put a fire source under it.\nYou also have access to a lot of other food recipes, but the tastiest food is still out of reach.\n\nHint: Searching for @harvestcraft in JEI is a good way to find available food.")
 setShowToast(true)
 
 addParent("scientia:stone_age/stone_cauldron")

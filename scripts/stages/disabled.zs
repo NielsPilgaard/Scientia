@@ -2108,7 +2108,8 @@ val disableList = [
         <tconstruct:stone_ladder>,
         <tconstruct:stone_torch>,
         <tconstruct:stone_stick>,
-        
+        <tconstruct:fancy_frame:*>,
+
         <tconstruct:nuggets:4>,
         <tconstruct:ingots:4>,
         <tconstruct:metal:4>,
