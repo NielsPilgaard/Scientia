@@ -27,7 +27,8 @@ val removals as IItemStack[] = [
     <harvestcraft:wovencottonitem>,
     <harvestcraft:cheeseitem>,
     <harvestcraft:butteritem>,
-
+    <harvestcraft:doughitem>,
+    
     <minecraft:sugar>,
     <minecraft:dye:15>,
     <minecraft:flint>,
@@ -45,7 +46,8 @@ val removals as IItemStack[] = [
     <minecraft:book>,
     <minecraft:bone_block>,
     <minecraft:coal:1>,
-
+    <minecraft:bread>,
+    
     <naturesaura:ancient_stick>,
     
     <rustic:cabinet>,

@@ -1,6 +1,6 @@
 setIcon(<morecauldrons:cobble_cauldron>)
-setTitle("Novice Cook")
-setDescription("Novice Cooking gives you access to Stock and Soups, which can be made in large quantities to keep you fed longer.")
+setTitle("Novice Chef")
+setDescription("Being a Novice Chef gives you access to Stock and Soups, which can be made in large quantities to keep you fed longer.")
 setShowToast(true)
 
 addParent("scientia:professions/root")
@@ -13,7 +13,7 @@ setCompletedTitleColor(51, 204, 51)
 criteria = addCriteria("Complete Advancement Pseudo-chef", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:stone_age/stone_cauldron")
 
-setRewardItem(<gamestagebooks:novice_cook>)
+setRewardItem(<gamestagebooks:novice_chef>)
 
 setRewardExperience(25)
 setPos(32,109)

@@ -67,7 +67,6 @@ val noviceItems as IItemStack[] = [
     <harvestcraft:veggiestripsitem>,
     <harvestcraft:applesmoothieitem>,
     <harvestcraft:baconandeggsitem>,
-    <harvestcraft:oystersauceitem>,
     <harvestcraft:steaktartareitem>,
     <harvestcraft:onionsoupitem>,
     <harvestcraft:cuttingboarditem>,
@@ -164,32 +163,76 @@ val skilledItems as IItemStack[] = [
     <harvestcraft:stuffedchilipeppersitem>,
     <harvestcraft:shrimpcocktailitem>,
     <harvestcraft:blackberrycobbleritem>,
-    <minecraft:cake>
+    <minecraft:cake>,
+    <minecraft:bread>
+
 ];
 
 for item in skilledItems {
   stageItem(stage, item);
 }
 
+mods.recipestages.Recipes.addShapeless("harvestcraft:toastitem_2_custom", 
+<harvestcraft:toastitem> * 2, 
+[<ore:toolBakeware>,<ore:foodBread>,<ore:foodButter>,<ore:dustSalt>]);
+
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
-  .addTool(<ore:toolPot>, 0)
+  .addTool(<ore:artisansMortar>, 8)
   .addOutput(<harvestcraft:butteritem> * 2)
-  .addRequirement(GameStages.allOf([stages.novice_chef, stage]))
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
   .create();
 
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
-  .addTool(<ore:toolSifter>, 5)
+  .addTool(<ore:toolSifter>, 8)
   .addOutput(<harvestcraft:cheeseitem> * 2)
-  .addRequirement(GameStages.allOf([stages.novice_chef, stage]))
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:dustSalt>])
+  .setFluid(<liquid:milk> * 500)
+  .addTool(<ore:artisansMortar>, 8)
+  .addOutput(<harvestcraft:butteritem> * 2)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:dustSalt>])
+  .setFluid(<liquid:milk> * 500)
+  .addTool(<ore:toolSifter>, 8)
+  .addOutput(<harvestcraft:cheeseitem> * 2)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
   .create();
 
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:cropAlmond>, <ore:dustSalt>])
-  .addTool(<ore:toolPot>, 0)
+  .addTool(<ore:artisansMortar>, 4)
   .addOutput(<harvestcraft:almondbutteritem> * 2)
-  .addRequirement(GameStages.allOf([stages.novice_chef, stage]))
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:listAllgrain>])
+  .addTool(<ore:artisansMortar>, 4)
+  .addOutput(<harvestcraft:flouritem> * 2)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:foodFlour>, <ore:foodFlour>, <ore:dustSalt>, <ore:listAllwater>])
+  .addTool(<ore:artisansMortar>, 10)
+  .addOutput(<harvestcraft:doughitem> * 4)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:foodFlour>, <ore:foodFlour>, <ore:dustSalt>])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:artisansMortar>, 10)
+  .addOutput(<harvestcraft:doughitem> * 4)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stage]).exclude([stages.master_chef]))
   .create();
 
 # =========================================== #
@@ -240,21 +283,59 @@ for item in masterItems {
 
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
-  .addTool(<ore:toolPot>, 0)
+  .addTool(<ore:artisansMortar>, 16)
   .addOutput(<harvestcraft:butteritem> * 4)
   .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
   .create();
 
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:listAllmilk>, <ore:dustSalt>])
-  .addTool(<ore:toolSifter>, 10)
+  .addTool(<ore:toolSifter>, 16)
+  .addOutput(<harvestcraft:cheeseitem> * 4)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:dustSalt>])
+  .setFluid(<liquid:milk> * 500)
+  .addTool(<ore:artisansMortar>, 16)
+  .addOutput(<harvestcraft:butteritem> * 4)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:dustSalt>])
+  .setFluid(<liquid:milk> * 500)
+  .addTool(<ore:toolSifter>, 16)
   .addOutput(<harvestcraft:cheeseitem> * 4)
   .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
   .create();
 
 RecipeBuilder.get("chef")  
   .setShapeless([<ore:cropAlmond>, <ore:dustSalt>])
-  .addTool(<ore:toolPot>, 0)
+  .addTool(<ore:artisansMortar>, 8)
   .addOutput(<harvestcraft:almondbutteritem> * 2)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:listAllgrain>])
+  .addTool(<ore:artisansMortar>, 8)
+  .addOutput(<harvestcraft:flouritem> * 4)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:foodFlour>, <ore:foodFlour>, <ore:dustSalt>, <ore:listAllwater>])
+  .addTool(<ore:artisansMortar>, 20)
+  .addOutput(<harvestcraft:doughitem> * 8)
+  .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
+  .create();
+
+RecipeBuilder.get("chef")  
+  .setShapeless([<ore:foodFlour>, <ore:foodFlour>, <ore:dustSalt>])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:artisansMortar>, 20)
+  .addOutput(<harvestcraft:doughitem> * 8)
   .addRequirement(GameStages.allOf([stages.novice_chef, stages.skilled_chef, stage]))
   .create();

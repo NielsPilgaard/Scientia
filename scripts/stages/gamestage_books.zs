@@ -43,11 +43,11 @@ Book.addBook("novice_architect", "Novice Architect", "Novice Architect", "minecr
 Book.addBook("skilled_architect", "Skilled Architect", "Skilled Architect", "minecraft:book", 0x0000aa);
 Book.addBook("master_architect", "Master Architect", "Master Architect", "minecraft:book", 0xff0000);
 
-Book.addBook("novice_cook", "Novice Cook", "Novice Cook", "minecraft:book", 0xd88954);
-#Book.addBook("apprentice_cook", "Apprentice Cook", "Apprentice Cook", "minecraft:book", 0x00aa00);
-Book.addBook("skilled_cook", "Skilled Cook", "Skilled Cook", "minecraft:book", 0x0000aa);
-#Book.addBook("expert_cook", "Expert Cook", "Expert Cook", "minecraft:book", 0xaa00aa);
-Book.addBook("master_cook", "Master Cook", "Master Cook", "minecraft:book", 0xff0000);
+Book.addBook("novice_chef", "Novice Chef", "Novice Chef", "minecraft:book", 0xd88954);
+#Book.addBook("apprentice_chef", "Apprentice Chef", "Apprentice Chef", "minecraft:book", 0x00aa00);
+Book.addBook("skilled_chef", "Skilled Chef", "Skilled Chef", "minecraft:book", 0x0000aa);
+#Book.addBook("expert_chef", "Expert Chef", "Expert Chef", "minecraft:book", 0xaa00aa);
+Book.addBook("master_chef", "Master Chef", "Master Chef", "minecraft:book", 0xff0000);
 
 Book.addBook("novice_warlock", "Novice Warlock", "Novice Warlock", "minecraft:book", 0xd88954);
 #Book.addBook("apprentice_warlock", "Apprentice Warlock", "Apprentice Warlock", "minecraft:book", 0x00aa00);

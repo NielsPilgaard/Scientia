@@ -934,6 +934,7 @@ val disableList = [
         <forge:bucketfilled>.withTag({FluidName: "pigiron", Amount: 1000}),
         <forge:bucketfilled>.withTag({FluidName: "knightslime", Amount: 1000}),
 
+        <harvestcraft:oystersauceitem>,
         <harvestcraft:cheesecakeitem>,
         <harvestcraft:cherrycheesecakeitem>,
         <harvestcraft:holidaycakeitem>,

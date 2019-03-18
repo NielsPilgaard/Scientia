@@ -1,0 +1,17 @@
+setIcon(<minecraft:bread>)
+setTitle("Skilled Chef NYI")
+setDescription("Being a Skilled Chef gives you access to Butter, Flour, Dough and Cheese, as well as a host of new dishes to keep you and your village happy.")
+setShowToast(true)
+
+addParent("scientia:professions/novice_chef")
+setRequiresParents()
+
+setCompletedIconColor(51, 204, 51)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 204, 51)
+
+criteria = addCriteria("NYI", "minecraft:impossible")
+
+setRewardItem(<gamestagebooks:skilled_chef>)
+
+setRewardExperience(25)

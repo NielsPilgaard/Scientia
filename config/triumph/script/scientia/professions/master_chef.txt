@@ -1,0 +1,17 @@
+setIcon(<harvestcraft:delightedmealitem>)
+setTitle("Master Cook NYI")
+setDescription("Being a Master Chef gives you access to ingredient recipes with higher outputs, and the very best dishes.")
+setShowToast(true)
+
+addParent("scientia:professions/skilled_chef")
+setRequiresParents()
+
+setCompletedIconColor(51, 204, 51)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(51, 204, 51)
+
+criteria = addCriteria("NYI", "minecraft:impossible")
+
+setRewardItem(<gamestagebooks:master_chef>)
+
+setRewardExperience(25)
