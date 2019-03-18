@@ -20,11 +20,15 @@ val removals as IItemStack[] = [
     <charset:chest>.withTag({}),
     <charset:barrel>.withTag({}),
     
+    <harvestcraft:flouritem>,
+    <harvestcraft:almondbutteritem>,
     <harvestcraft:saltitem>,
     <harvestcraft:waterfilter>,
     <harvestcraft:wovencottonitem>,
     <harvestcraft:cheeseitem>,
+    <harvestcraft:butteritem>,
 
+    <minecraft:sugar>,
     <minecraft:dye:15>,
     <minecraft:flint>,
     <minecraft:lead>,

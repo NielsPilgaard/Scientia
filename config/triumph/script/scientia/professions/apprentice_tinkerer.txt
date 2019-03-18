@@ -14,13 +14,13 @@ criteria = addCriteria("Obtain 10 Artisan's Tools of any kind", "minecraft:inven
 criteria.addItem(<ore:artisansTool>)
 criteria.setCount(10)
 
-criteria = addCriteria("Complete Advancement Tomahawk", "minecraft:inventory_changed")
+criteria = addCriteria("Complete Advancement Tomahawk's Criteria", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:throwing_axe_stone>)
 
-criteria = addCriteria("Complete Advancement Shiv", "minecraft:inventory_changed")
+criteria = addCriteria("Complete Advancement Shiv's Criteria", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:throwing_knife_stone>)
 
-criteria = addCriteria("Complete Advancement Defender", "minecraft:inventory_changed")
+criteria = addCriteria("Complete Advancement Defender's Criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:doorWood>)
 
 setRewardItem(<gamestagebooks:apprentice_tinkerer>)

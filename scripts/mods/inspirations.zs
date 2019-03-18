@@ -31,8 +31,8 @@ createSoup(<liquid:tomato_soup>, <harvestcraft:tomatosoupitem>, <rustic:tomato>,
 createSoup(<liquid:onion_soup>, <harvestcraft:onionsoupitem>, <harvestcraft:onionitem>, 16);
 createSoup(<liquid:beetroot_soup>, <harvestcraft:beetsoupitem>, <minecraft:beetroot>, 8);
 createSoup(<liquid:cactus_soup>, <harvestcraft:cactussoupitem>, <minecraft:cactus>, 4);
-createSoup(<liquid:rabbit_stew>, <minecraft:rabbit_stew>, <inspirations:materials:4>, 4);
-createSoup(<liquid:mushroom_stew>, <minecraft:mushroom_stew>, <inspirations:materials:5>, 4);
+createSoup(<liquid:rabbit_stew>, <minecraft:rabbit_stew>, <inspirations:materials:5>, 4);
+createSoup(<liquid:mushroom_stew>, <minecraft:mushroom_stew>, <inspirations:materials:4>, 4);
 
 # Seed Soup is a bit special, the createSoup method creates duplicates of fluid/fill recipes, so we do it manually.
 recipes.remove(<harvestcraft:seedsoupitem>);

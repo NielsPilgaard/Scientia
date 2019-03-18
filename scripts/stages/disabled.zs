@@ -2040,6 +2040,17 @@ val disableList = [
         <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_weakness"}),
         <minecraft:tipped_arrow>.withTag({Potion: "minecraft:luck"}),
 
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:long_haste"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_haste"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:mining_fatigue"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:long_mining_fatigue"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_mining_fatigue"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:resistance"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resistance"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resistance"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:danger_sight"}),
+        <minecraft:tipped_arrow>.withTag({Potion: "quark:long_danger_sight"}),
+
         <morecauldrons:glass_cauldron>,
         <morecauldrons:gold_cauldron>,
         <morecauldrons:diamond_cauldron>,

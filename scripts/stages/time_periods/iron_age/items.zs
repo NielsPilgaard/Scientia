@@ -12,7 +12,10 @@ val itemsToStage as IItemStack[] = [
 	<jaff:iron_hook>,
 	
 	<minecraft:cauldron>,
-
+	<minecraft:golden_carrot>,
+	<minecraft:golden_apple>,
+	<minecraft:golden_apple:1>,
+	
 	<rustic:chain>,
 	<rustic:chain_gold>,
 	

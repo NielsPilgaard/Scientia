@@ -18,7 +18,8 @@ val items as IItemStack[] = [
     <harvestcraft:venisoncookeditem>,
     <harvestcraft:musselcookeditem>,
     <harvestcraft:duckcookeditem>,
-
+    <harvestcraft:calamaricookeditem>,
+    
     <minecraft:torch>,
     <minecraft:fire_charge>,
     <minecraft:cooked_fish>,
@@ -26,7 +27,9 @@ val items as IItemStack[] = [
     <minecraft:cooked_chicken>,
     <minecraft:cooked_rabbit>,
     <minecraft:cooked_mutton>,
-
+    <minecraft:cooked_beef>,
+    <minecraft:cooked_porkchop>,
+    
     <primal_tech:charcoal_block>,
     <primal_tech:fibre_torch>,
     <primal_tech:fibre_torch_lit>,
