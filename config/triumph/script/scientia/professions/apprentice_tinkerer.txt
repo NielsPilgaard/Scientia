@@ -10,18 +10,18 @@ setCompletedIconColor(51, 204, 51)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 204, 51)
 
-criteria = addCriteria("Craft 10 Artisan's Tools of any kind", "triumph:player_crafted_item")
-criteria.setItem(<ore:artisansTool>)
+criteria = addCriteria("Obtain 10 Artisan's Tools of any kind", "minecraft:inventory_changed")
+criteria.addItem(<ore:artisansTool>)
 criteria.setCount(10)
 
-criteria = addCriteria("Complete Advancement Tomahawk", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/throwing_axe")
+criteria = addCriteria("Complete Advancement Tomahawk", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:throwing_axe_stone>)
 
-criteria = addCriteria("Complete Advancement Shiv", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/throwing_knife")
+criteria = addCriteria("Complete Advancement Shiv", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:throwing_knife_stone>)
 
-criteria = addCriteria("Complete Advancement Defender", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/shield")
+criteria = addCriteria("Complete Advancement Defender", "minecraft:inventory_changed")
+criteria.addItem(<ore:doorWood>)
 
 setRewardItem(<gamestagebooks:apprentice_tinkerer>)
 
