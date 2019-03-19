@@ -10,6 +10,6 @@ setAnnounceToChat(false)
 
 setFrameType("Goal")
 criteria = addCriteria("Complete Copper Age", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:copper_age/final")
+criteria.setAdvancement("scientia:copper_age/final")
 
 setRewardExperience(25)

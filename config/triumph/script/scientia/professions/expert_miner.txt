@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:ore_diamond>)
+setIcon(<minecraft:diamond_ore>)
 setTitle("Expert Miner NYI")
 setDescription("Expert Mining gives you access to Diamond veins.")
 setShowToast(true)

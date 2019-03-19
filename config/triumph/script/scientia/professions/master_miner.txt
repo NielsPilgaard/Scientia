@@ -1,6 +1,6 @@
 setIcon(<minecraft:obsidian>)
 setTitle("Master Miner NYI")
-setDescription("Master Mining allows you to find the hardest of all materials, Obsidian. Obsidian commonly generates where Water and Lava meets, at the bottom of the world.")
+setDescription("Master Mining allows you to find the hardest of all materials, Obsidian.\nObsidian commonly generates where Water and Lava meets, at the bottom of the world.")
 setShowToast(true)
 
 addParent("scientia:professions/expert_miner")

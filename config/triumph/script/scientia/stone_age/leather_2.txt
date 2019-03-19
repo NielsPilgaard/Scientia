@@ -16,6 +16,6 @@ criteria.addItem(<contenttweaker:soaked_hide>)
 criteria.setCount(6)
 
 criteria = addCriteria("Complete Advancement Salty", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/salt")
+criteria.setAdvancement("scientia:stone_age/salt")
 
 setRewardExperience(25)

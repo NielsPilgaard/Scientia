@@ -1,15 +1,15 @@
-setIcon(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"",npcType:"worker"}>)
+setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"worker"}>)
 setTitle("Worker TODO")
 setDescription("Test")
 setShowToast(true)
 
-addParent("scientia:copper_age/farm_animal")
+addParent("scientia:copper_age/automatic_farm")
 addParent("scientia:copper_age/quarry")
 setRequiresParents()
 
 drawDirectLines(true)
 
 criteria = addCriteria("Worker", "minecraft:inventory_changed")
-criteria.addItem(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"",npcType:"worker"}>)
+criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"worker"}>)
 
 setRewardExperience(25)

@@ -15,6 +15,6 @@ criteria = addCriteria("15 Bone Meal", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:dye, meta:15, count:15>)
 
 criteria = addCriteria("Complete Advancement Agricultural Expansion I", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/agriculture")
+criteria.setAdvancement("scientia:stone_age/agriculture")
 
 setRewardExperience(25)

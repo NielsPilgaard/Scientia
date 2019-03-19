@@ -11,13 +11,13 @@ setRequiresParents()
 drawDirectLines(true)
 
 criteria = addCriteria("Complete Advancement Storage For Days!", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/book")
+criteria.setAdvancement("scientia:stone_age/book")
 
 criteria = addCriteria("Complete Advancement Diggy Diggy Hole", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/copper_ore")
+criteria.setAdvancement("scientia:stone_age/copper_ore")
 
 criteria = addCriteria("Complete Advancement Agricultural Expansion III", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/fertilizer")
+criteria.setAdvancement("scientia:stone_age/fertilizer")
 
 setRewardFunction("time_period:copper_age")
 

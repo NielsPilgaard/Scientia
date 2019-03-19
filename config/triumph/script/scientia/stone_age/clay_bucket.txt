@@ -15,6 +15,6 @@ criteria = addCriteria("Clay Bucket", "minecraft:inventory_changed")
 criteria.addItem(<claybucket:claybucket>)
 
 criteria = addCriteria("Completed Advancement Feuer Frei", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/fire_sticks")
+criteria.setAdvancement("scientia:stone_age/fire_sticks")
 
 setRewardExperience(25)

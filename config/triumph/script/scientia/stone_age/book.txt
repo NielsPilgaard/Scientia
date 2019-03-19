@@ -13,7 +13,7 @@ criteria = addCriteria("Book", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:book>)
 
 criteria = addCriteria("Complete Advancement Papyrus", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:stone_age/paper")
+criteria.setAdvancement("scientia:stone_age/paper")
 
 setRewardFunction("research:writing")
 

@@ -23,7 +23,7 @@ criteria.setBlock(<ore:oreNickel>)
 criteria.setCount(8)
 
 criteria = addCriteria("Complete the Final Advancement of the Bronze Age", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:bronze_age/final")
+criteria.setAdvancement("scientia:bronze_age/final")
 
 setRewardItem(<gamestagebooks:skilled_miner>)
 

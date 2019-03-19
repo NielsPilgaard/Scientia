@@ -1,6 +1,6 @@
 setIcon(<gamestagebooks:novice_carpenter>)
 setTitle("Internship")
-setDescription("Complete the Novice Carpenter advancement by buying the Novice Carpenter Book from a Villager. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or \"make room\" for new Villagers to spawn.\n\nCompleting this will grant you regeneration while in a village.")
+setDescription("Complete the Novice Carpenter advancement in the Profession tab. If your Village doesn't have a Villager with the Carpenter Profession trade, either find a new Village, or \"make room\" for new Villagers to spawn.\n\nCompleting this will grant you regeneration while in a village.")
 setShowToast(true)
 
 addParent("scientia:stone_age/find_village")
@@ -11,7 +11,7 @@ setCompletedIconColor(51, 102, 204)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(51, 102, 204)
 
-criteria = addCriteria("Buy the Novice Carpenter Book from a Villager", "minecraft:villager_trade")
-criteria.setItem(<gamestagebooks:novice_carpenter>)
+criteria = addCriteria("Complete Advancement Novice Carpenter", "triumph:completed_advancement")
+criteria.setAdvancement("scientia:profession/novice_carpenter")
 
 setRewardExperience(25)
