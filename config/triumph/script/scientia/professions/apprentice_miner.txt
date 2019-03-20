@@ -28,4 +28,3 @@ criteria.setAdvancement("scientia:copper_age/final")
 setRewardItem(<gamestagebooks:apprentice_miner>)
 
 setRewardExperience(25)
-setPos(64,54)

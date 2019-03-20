@@ -16,4 +16,4 @@ criteria.setAdvancement("scientia:stone_age/stone_cauldron")
 setRewardItem(<gamestagebooks:novice_chef>)
 
 setRewardExperience(25)
-setPos(32,109)
+setPos(32,0)

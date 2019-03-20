@@ -15,3 +15,4 @@ criteria = addCriteria("NYI", "minecraft:impossible")
 setRewardItem(<gamestagebooks:skilled_chef>)
 
 setRewardExperience(25)
+setPos(64,0)
