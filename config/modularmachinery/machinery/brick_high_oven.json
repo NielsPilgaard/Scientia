@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachinery:blockinputbus@1"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachinery:blockoutputbus@1"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "minecraft:brick_block@0"
             ]
         },
         {

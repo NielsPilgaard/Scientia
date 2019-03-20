@@ -9,3 +9,7 @@ var furnaceRecipes as IItemStack[] = [
 for item in furnaceRecipes {
     furnace.remove(item);
 }
+
+for material in materials {
+	furnace.remove(materials[material].ingot);
+}

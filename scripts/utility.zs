@@ -23,6 +23,10 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
+global formatRecipeName as function(string)string = function(name as string) as string {
+	return name.replaceAll(':','_');
+};
+
 global stageItem as function(string, IItemStack)string = function(stage as string, input as IItemStack) as string {
 	addItemStage(stage, input);
 	setRecipeStage(stage, input);

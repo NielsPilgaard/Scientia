@@ -16,3 +16,11 @@ function createSoup(soupFluid as ILiquidStack, soupItem as IItemStack, ingredien
     mods.inspirations.Cauldron.addFluidRecipe(soupItem, <minecraft:bowl>, soupFluid, 1);
     mods.inspirations.Cauldron.addFillRecipe(soupItem, soupFluid, 1, <minecraft:bowl>);
 }
+
+function createHighOvenRecipe(machineName as string, output as IItemStack, input as IItemStack, processing_time as int) {
+    mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + formatRecipeName(output.definition), machineName, processing_time)
+	.addItemOutput(output)
+	.addItemInput(input)
+	.addFuelItemInout(200)
+	.build();
+}

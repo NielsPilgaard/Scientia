@@ -1,6 +1,6 @@
 setIcon(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:research_station_tier_1"}>)
 setTitle("Research Station Tier 1")
-setDescription("A dedicated Research Station should suit your needs nicely. Start by making the Research Station Tier 1 Blueprint, and then gather the blocks for the multiblock.\n\nRight clicking with the Blueprint will show how it should be built.\nHolding shift and clicking the top left button will allow you to place a preview of the multiblock in the world.")
+setDescription("A dedicated Research Station should suit your needs nicely. Start by making the Research Station Tier 1 Blueprint, and then gather the blocks for the multiblock.\n\nRight clicking with the Blueprint will show how it should be built.\nHolding shift and clicking the top left button will allow you to place a preview of the multiblock in the world.\n\nWhen you're done building, place the Blueprint in the Machine Controller, and it should tell you that both Structure and Blueprint was found, and that no matching recipe was found.")
 setShowToast(true)
 
 addParent("scientia:copper_age/root")

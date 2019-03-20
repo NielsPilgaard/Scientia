@@ -5,31 +5,6 @@ var itemsToRemove = [
     
     <magicalmap:map>,
     <magicalmap:structure_map>,
-    
-    /*
-    <modularmachinery:blockinputbus>,
-    <modularmachinery:blockinputbus:1>,
-    <modularmachinery:blockinputbus:6>,
-    <modularmachinery:blockoutputbus>,
-    <modularmachinery:blockoutputbus:1>,
-    <modularmachinery:blockoutputbus:6>,
-    <modularmachinery:blockfluidinputhatch>,
-    <modularmachinery:blockfluidinputhatch:1>,
-    <modularmachinery:blockfluidinputhatch:6>,
-    <modularmachinery:blockfluidinputhatch:7>,
-    <modularmachinery:blockfluidoutputhatch>,
-    <modularmachinery:blockfluidoutputhatch:1>,
-    <modularmachinery:blockfluidoutputhatch:6>,
-    <modularmachinery:blockfluidoutputhatch:7>,
-    <modularmachinery:blockenergyinputhatch>,
-    <modularmachinery:blockenergyinputhatch:1>,
-    <modularmachinery:blockenergyinputhatch:6>,
-    <modularmachinery:blockenergyinputhatch:7>,
-    <modularmachinery:blockenergyoutputhatch>,
-    <modularmachinery:blockenergyoutputhatch:1>,
-    <modularmachinery:blockenergyoutputhatch:6>,
-    <modularmachinery:blockenergyoutputhatch:7>,
-    */
 
     <modulardiversity:blockjackhatch>,
 
