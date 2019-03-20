@@ -6,6 +6,8 @@ setShowToast(true)
 addParent("scientia:professions/novice_miner")
 setRequiresParents()
 
+drawDirectLines(true)
+
 setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
