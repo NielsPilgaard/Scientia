@@ -1,12 +1,33 @@
-setIcon(<minecraft:bookshelf>)
-setTitle("Research Station Tier 1 TODO")
-setDescription("Test")
+setIcon(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:research_station_tier_1"}>)
+setTitle("Research Station Tier 1")
+setDescription("A dedicated Research Station should suit your needs nicely. Start by making the Research Station Tier 1 Blueprint, and then gather the blocks for the multiblock.\n\nRight clicking with the Blueprint will show how it should be built.\nHolding shift and clicking the top left button will allow you to place a preview of the multiblock in the world.")
 setShowToast(true)
 
 addParent("scientia:copper_age/root")
 setRequiresParents()
 
 criteria = addCriteria("Research Station Tier 1 Blueprint", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:book>)
+criteria.addItem(<modularmachinery:itemblueprint, meta:0, count:1, nbt:{dynamicmachine:"modularmachinery:research_station_tier_1"}>)
 
-setRewardExperience(25)
+criteria = addCriteria("8 Debarked Logs", "minecraft:inventory_changed")
+criteria.addItem(<ore:logDebarked, count:8>)
+
+criteria = addCriteria("14 Wooden Slabs", "minecraft:inventory_changed")
+criteria.addItem(<ore:slabWood, count:14>)
+
+criteria = addCriteria("3 Desks of any kind", "minecraft:inventory_changed")
+criteria.addItem(<ore:desk, count:3>)
+
+criteria = addCriteria("1 Seat of any kind", "minecraft:inventory_changed")
+criteria.addItem(<ore:seat>)
+
+criteria = addCriteria("Machine Controller", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:blockcontroller>)
+
+criteria = addCriteria("Small Item Input", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:blockinputbus, meta:1>)
+
+criteria = addCriteria("Small Item Output", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:blockoutputbus, meta:1>)
+
+setRewardExperience(250)

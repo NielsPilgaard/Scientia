@@ -15,6 +15,11 @@ val itemsToStage as IItemStack[] = [
 	
     <ancientwarfarenpc:food_bundle>,
 
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:research_station_tier_1"}),
+    <modularmachinery:blockoutputbus:1>,
+    <modularmachinery:blockinputbus:1>,
+    <modularmachinery:blockcontroller>,
+    
 	<tconstruct:cast>
 	
 ];
