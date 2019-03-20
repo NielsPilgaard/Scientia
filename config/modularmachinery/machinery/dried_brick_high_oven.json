@@ -40,7 +40,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:fire@1"
+                "minecraft:fire"
             ]
         },
         {

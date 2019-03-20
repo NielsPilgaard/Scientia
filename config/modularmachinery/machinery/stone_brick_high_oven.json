@@ -40,7 +40,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:fire@1"
+                "minecraft:fire"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "tconstruct:dried_clay@1"
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "tconstruct:dried_clay@1"
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -208,7 +208,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "tconstruct:dried_clay@1"
+                "minecraft:stonebrick@0"
             ]
         },
         {
