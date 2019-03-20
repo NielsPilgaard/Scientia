@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:metal:9>)
 setTitle("Metallurgy TODO")
-setDescription("Use the good old trial and error technique to discover how to process Copper Ore.")
+setDescription("Use the good old trial and error technique to find a way to process Copper Ore into something more useful.")
 setShowToast(true)
 
 addParent("scientia:copper_age/research_station")
