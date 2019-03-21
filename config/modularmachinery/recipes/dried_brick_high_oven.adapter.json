@@ -1,4 +1,18 @@
 {
     "machine": "dried_brick_high_oven",
-    "adapter": "modularmachinery:brick_high_oven"
+    "adapter": "modularmachinery:brick_high_oven",
+    "modifiers": [
+        {
+            "io": "input",
+            "target": "energy",
+            "operation": 0,
+            "multiplier": -20
+        },
+		{
+            "io": "input",
+            "target": "duration",
+            "operation": 1,
+            "multiplier": 0.75
+        }
+    ]
 }
