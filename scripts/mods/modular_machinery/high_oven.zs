@@ -1,16 +1,19 @@
-#priority 100
-import scripts.mods.functions.createHighOvenRecipe;
+#priority 5
 import crafttweaker.item.IItemStack;
+import crafttweaker.recipes.IFurnaceRecipe;
 
 # This script contains recipes for all variants of high ovens.
 
-var machineName = "high_oven";
+var machineName = "brick_high_oven";
 var processing_time as int = 200;
+var defaultFuelUsePerItem = 200;
 
-var furnaceRecipes as IItemStack[IItemStack] = {
+var furnaceRecipes = furnace.all;
 
-};
-
-for key, value in furnaceRecipes {
-	createHighOvenRecipe(machineName, key, value, processing_time);
+for recipe in furnaceRecipes {
+	mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + formatRecipeName(recipe.output.name), machineName, processing_time)
+	.addItemOutput(recipe.output)
+	.addItemInput(recipe.input)
+	.addFuelItemInout(200)
+	.build();
 }

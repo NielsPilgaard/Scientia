@@ -1,4 +1,4 @@
-#priority 1
+#priority 1900
 import crafttweaker.item.IItemStack;
 
 # Furnace Smelting
@@ -11,5 +11,8 @@ for item in furnaceRecipes {
 }
 
 for material in materials {
-	furnace.remove(materials[material].ingot);
+    var ingot = materials[material].ingot;
+    if (!isNull(ingot)) {
+	    furnace.remove(ingot);
+    }
 }

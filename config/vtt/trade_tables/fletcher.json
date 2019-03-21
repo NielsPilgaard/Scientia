@@ -18,7 +18,7 @@
         },
         "sell":{
           "id":"minecraft:string",
-          "Count":{"mix":8,"max":24}
+          "Count":{"min":8,"max":24}
         }
       },
       {

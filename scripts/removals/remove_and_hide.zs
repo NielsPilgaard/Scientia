@@ -3,16 +3,10 @@ import mods.jei.JEI.removeAndHide;
 
 var itemsToRemove = [
     
+    <familiarfauna:ff_icon>,
+
     <magicalmap:map>,
     <magicalmap:structure_map>,
-
-    <modulardiversity:blockjackhatch>,
-
-    <waterstrainer:super_worm>,
-
-    <tombmanygraves:death_list>,
-
-    <familiarfauna:ff_icon>,
 
     <minecraft:mob_spawner>,
     <minecraft:barrier>,
@@ -20,7 +14,13 @@ var itemsToRemove = [
     <minecraft:chain_command_block>,
     <minecraft:structure_void>,
     <minecraft:structure_block>,
-    <minecraft:command_block_minecart>
+    <minecraft:command_block_minecart>,
+
+    <modulardiversity:blockjackhatch>,
+
+    <tombmanygraves:death_list>,
+
+    #<waterstrainer:super_worm>
     
 ] as IItemStack[];
 
