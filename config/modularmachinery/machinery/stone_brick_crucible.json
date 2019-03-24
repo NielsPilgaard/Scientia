@@ -32,7 +32,15 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:fire@1"
+                "minecraft:fire"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "morecauldrons:stone_cauldron"
             ]
         },
         {
