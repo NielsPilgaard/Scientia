@@ -16,16 +16,14 @@ for sand in <ore:sand>.items {
 	.addItemInput(sand)
 	.build();
 }
-#TODO: Ore to Liquid Metal Scripts (Find a solution)
-# Find a way to turn an IIngredient into an ILiquidStack
-/*
+
 for metal in materials {
 	var liquid = materials[metal].liquid;
 	var ore = materials[metal].ore;
 	if (!isNull(liquid) && !isNull(ore)) {
 		mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + metal + "_ore_to_liquid", machineName, base_processing_time)
-		.addFluidOutput(liquid.liquids)
+		.addFluidOutput(liquid.liquids[0])
 		.addItemInput(ore.items[0])
 		.build();
 	}
-}*/
+}

@@ -11,6 +11,6 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
 criteria = addCriteria("Glassblowing Research Book", "minecraft:inventory_changed")
-criteria.addItem(<gamestagebooks:glassblowing>)
+criteria.addItem(<gamestagebooks:g_lassblowing>)
 
 setRewardExperience(25)

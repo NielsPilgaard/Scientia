@@ -9,7 +9,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "gamestagebook_meta
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "gamestagebook_glassblowing", machineName, 400)
-	.addItemOutput(<gamestagebooks:glassblowing>)
+	.addItemOutput(<gamestagebooks:g_lassblowing>)
 	.setChance(0.50)
 	.addItemInput(<ore:sand>, 16)
 	.addFuelItemInout(12800)
