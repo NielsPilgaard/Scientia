@@ -1,6 +1,6 @@
 {
 	"registryname": "brick_crucible",
-    "localizedname": "Crucible",
+    "localizedname": "Brick Crucible",
 	"color": "993b1a",
     "parts": [
         {
@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@0"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:fire"
+                "minecraft:lava"
             ]
         },
         {

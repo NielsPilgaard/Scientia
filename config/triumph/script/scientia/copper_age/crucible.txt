@@ -1,0 +1,17 @@
+setIcon(<minecraft:cauldron>)
+setTitle("Crucible")
+setDescription("Your research into Metallurgy has given you an idea of how you could process ores.\n\nYour idea is melting the ore down, in order to seperate the metal from the stone. In order for this to work, you need a very hot heat source. Lava should do the trick, you just need to discover some first.\n\nYou've come up with two variants to the Crucible, each with a different look. Obtaining any of their blueprints will complete this advancement.\nNote: You need to progress further to build this machine.")
+setShowToast(true)
+
+addParent("scientia:copper_age/metallurgy")
+setRequiresParents()
+
+criteria = addCriteria("Brick Crucible Blueprint", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:brick_crucible"}>)
+
+criteria = addCriteria("Stone Brick Crucible Blueprint", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:stone_brick_crucible"}>)
+
+setRequirements("any")
+
+setRewardExperience(25)

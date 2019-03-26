@@ -1,12 +1,20 @@
 setIcon(<minecraft:furnace>)
-setTitle("High Oven TODO")
-setDescription("Your research into Metallurgy has given you the idea to improve on the Stone Grill. The Stone Grill was fine for a few items here and there, but you need something more efficient if you want your village to prosper.\n\nYour idea is the High Oven - A large furnace fueled by fire and burnables, which can smelt more items than the Stone Grill, and faster too.\n\nAs with the Research Station, start by making the Blueprint, and then gather the required materials to build it. You've come up with three variants to the High Oven, each with a different look.")
+setTitle("High Oven")
+setDescription("Your research into Metallurgy has given you the idea to improve on the Stone Grill. The Stone Grill was fine for a few items here and there, but you need something more efficient if you want your village to prosper.\n\nYour idea is the High Oven - A large furnace fueled by fire, which can smelt more items than the Stone Grill, and faster too.\n\nAs with the Research Station, start by making the Blueprint, and then gather the required materials to build it.\n\nYou've come up with three variants to the High Oven, each with a different look. Obtaining any of their blueprints will complete this advancement.")
 setShowToast(true)
 
 addParent("scientia:copper_age/metallurgy")
 setRequiresParents()
 
-criteria = addCriteria("Research Station Tier 1 Blueprint", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:book>)
+criteria = addCriteria("Brick High Oven Blueprint", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:brick_high_oven"}>)
+
+criteria = addCriteria("Dried Brick High Oven Blueprint", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:dried_brick_high_oven"}>)
+
+criteria = addCriteria("Stone Brick High Oven Blueprint", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine:"modularmachinery:stone_brick_high_oven"}>)
+
+setRequirements("any")
 
 setRewardExperience(25)

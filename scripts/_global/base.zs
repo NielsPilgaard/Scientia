@@ -33,7 +33,10 @@ global colors as IIngredient[string] = {
 global preferredOutputMods as string[] = [
 	"minecraft",
 	"contenttweaker",
-	"immersiveengineering"
+	"immersiveengineering",
+	"tconstruct",
+    "forestry",
+	"chisel"
 ];
 
 global armoreableEntities as string[] = [

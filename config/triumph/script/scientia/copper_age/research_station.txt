@@ -16,7 +16,7 @@ criteria = addCriteria("14 Wooden Slabs", "minecraft:inventory_changed")
 criteria.addItem(<ore:slabWood, count:14>)
 
 criteria = addCriteria("3 Desks of any kind", "minecraft:inventory_changed")
-criteria.addItem(<ore:desk, count:3>)
+criteria.addItem(<ore:deskWood, count:3>)
 
 criteria = addCriteria("1 Seat of any kind", "minecraft:inventory_changed")
 criteria.addItem(<ore:seat>)

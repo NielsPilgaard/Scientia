@@ -1,0 +1,16 @@
+setIcon(<tconstruct:clear_glass>)
+setTitle("Glassblowing")
+setDescription("You've come to the realization that the Crucible should be able to melt other things than just ores - You need to head back to the Research Station and do some additional experiments.")
+setShowToast(true)
+
+addParent("scientia:copper_age/crucible")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("Glassblowing Research Book", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:glassblowing>)
+
+setRewardExperience(25)

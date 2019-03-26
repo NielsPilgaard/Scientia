@@ -2264,3 +2264,11 @@ stageTinkersMaterial(stage, "endstone");
 stageTinkersMaterial(stage, "firewood");
 stageTinkersMaterial(stage, "pigiron");
 stageTinkersMaterial(stage, "knightslime");
+
+val jeiCategoriesToDisable as string[] = [
+	"minecraft.smelting"
+];
+
+for category in jeiCategoriesToDisable {
+	mods.jei.JEI.hideCategory(category);
+}

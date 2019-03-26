@@ -1,0 +1,25 @@
+setIcon(<tconstruct:casting>)
+setTitle("Casting")
+setDescription("You'll need somewhere the molten liquids can solidify without causing too much damage.\n\nYou also need something that can pour said molten liquids out of the Crucible, so they can cool off.\n\nA smelted mix of Terracotta, Clay and Sand should be heat resistant enough.")
+setShowToast(true)
+
+addParent("scientia:copper_age/crucible")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("17 Grout", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:soil, count:17>)
+
+criteria = addCriteria("Casting Table", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:casting>)
+
+criteria = addCriteria("Casting Basin", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:casting, meta:1>)
+
+criteria = addCriteria("Faucet", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:faucet>)
+
+setRewardExperience(25)
