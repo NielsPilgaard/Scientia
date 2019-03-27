@@ -10,6 +10,11 @@ var recipeList as IIngredient[][][IItemStack] = {
     ],
     <spartanweaponry:throwing_axe_copper> : [
         [<spartanweaponry:material>, <tconstruct:axe_head>.withTag({Material: "copper"})]
+    ],
+    <ancientwarfarenpc:food_bundle> * 2 : [
+        [<claybucket:claybucket:1>, <ore:foodSoup>, <ore:listAllmeatcooked>, <ore:listAllveggie>, <ore:listAllfruit>],
+        [<ore:foodJuice>, <ore:foodSoup>, <ore:listAllmeatcooked>, <ore:listAllveggie>, <ore:listAllfruit>],
+        [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:foodSoup>, <ore:listAllmeatcooked>, <ore:listAllveggie>, <ore:listAllfruit>]
     ]
 };
 

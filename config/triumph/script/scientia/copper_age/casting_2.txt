@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/casting_1")
 setRequiresParents()
 
-setCompletedIconColor(102, 0, 102)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(102, 0, 102)
-
 criteria = addCriteria("Any Aluminum Brass Cast", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:cast>)
 

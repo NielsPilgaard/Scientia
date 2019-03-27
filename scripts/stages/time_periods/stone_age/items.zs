@@ -33,8 +33,18 @@ val itemsToStage as IItemStack[] = [
 	<primal_tech:fire_sticks>,
 	<primal_tech:stone_mallet>,
 
-	<tconstruct:tooltables>,
+	<rustic:gargoyle>,
 	
+	<tconstruct:tooltables>,
+	<tconstruct:slimesling>,
+	<tconstruct:slimesling:1>,
+	<tconstruct:slimesling:2>,
+	<tconstruct:slimesling:3>,
+	<tconstruct:slimesling:4>,
+	<tconstruct:throwball>,
+	<tconstruct:piggybackpack>,
+	<tconstruct:punji>,
+
 	<waystones:waystone>
 ];
 

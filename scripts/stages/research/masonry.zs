@@ -137,6 +137,13 @@ val stoneBlocks = [
     <tconstruct:brownstone_stairs_smooth>,
     <tconstruct:brownstone_stairs_tile>,
 
+    <tconstruct:seared>,
+    <tconstruct:seared:1>,
+    <tconstruct:seared:2>,
+    <tconstruct:seared:7>,
+    <tconstruct:seared:8>,
+    <tconstruct:seared:11>,
+    <tconstruct:seared_slab>,
     <tconstruct:seared_slab:1>,
     <tconstruct:seared_slab:2>,
     <tconstruct:seared_slab:3>,

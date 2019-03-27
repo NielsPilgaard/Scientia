@@ -135,7 +135,6 @@ val enchantingItems = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 62 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 70 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 71 as short}]}),
-    <minecraft:enchanting_table>,
 
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 25 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 29 as short}]}),
@@ -155,9 +154,26 @@ val enchantingItems = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 37 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 37 as short}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 23 as short}]}),
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 15 as short}]}),
     
-    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 15 as short}]})
-    
+    <minecraft:enchanting_table>,
+
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 7 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 5 as short, id: 16 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 5 as short, id: 17 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 5 as short, id: 18 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 2 as short, id: 19 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 21 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 22 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 5 as short, id: 32 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 34 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 35 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 5 as short, id: 48 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 2 as short, id: 49 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 61 as short}]}),
+    <quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 62 as short}]})
+
 ] as IItemStack[];
 
 for item in enchantingItems {

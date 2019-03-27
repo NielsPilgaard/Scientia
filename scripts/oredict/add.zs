@@ -178,3 +178,14 @@ for woodtype in woodtypes {
     <ore:treeSapling>.add(<treetweaker:livingwood>);
     <ore:treeSapling>.add(<naturesaura:ancient_sapling>);
     <ore:treeSapling>.add(<treetweaker:dreamwood>);
+
+# foodJuice
+    <ore:foodJuice>.add(<harvestcraft:melonjuiceitem>);
+    <ore:foodJuice>.add(<harvestcraft:carrotjuiceitem>);
+    <ore:foodJuice>.add(<harvestcraft:strawberryjuiceitem>);
+    <ore:foodJuice>.add(<harvestcraft:blueberryjuiceitem>);
+    <ore:foodJuice>.add(<harvestcraft:blackberryjuiceitem>);
+    <ore:foodJuice>.add(<harvestcraft:raspberryjuiceitem>);
+	
+# blockGlassColorless
+	<ore:blockGlassColorless>.add(<tconstruct:clear_glass>);

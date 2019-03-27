@@ -1,0 +1,16 @@
+setIcon(<tconstruct:clear_glass>)
+setTitle("Glass Ceiling")
+setDescription("You now have access to Glass, a very useful resource and building material. Use the Crucible to melt Sand into Molten Glass, pour that into a Casting Basin and let it harden.\n\nTanks for storing liquids are also available to you now.")
+setShowToast(true)
+
+addParent("scientia:copper_age/glassblowing")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("Clear Glass", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:clear_glass>)
+
+setRewardExperience(25)

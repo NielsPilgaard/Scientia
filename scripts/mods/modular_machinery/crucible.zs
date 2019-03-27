@@ -36,7 +36,7 @@ for metal in materials {
 			var ore_deposit = materials[metal].ore_deposit.items[0];
 
 			mods.modularmachinery.RecipeBuilder.newBuilder(machineName + formatRecipeName(ore_deposit.name) + "ore_deposit_to_liquid", machineName, base_processing_time / 2)
-			.addFluidOutput(liquid.liquids[0] as ILiquidStack * fluidFromOre)
+			.addFluidOutput(liquid.liquids[0] as ILiquidStack * fluidFromPoorOre)
 			.addItemInput(ore_deposit)
 			.build();
 		}
@@ -51,6 +51,21 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_clay_ball_to_liqu
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_clay_to_liquid", machineName, base_processing_time)
 	.addFluidOutput(<liquid:clay> * 576)
 	.addItemInput(<minecraft:clay>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_stone_to_liquid", machineName, base_processing_time)
+	.addFluidOutput(<liquid:stone> * 144)
+	.addItemInput(<ore:stone>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cobblestone_to_liquid", machineName, base_processing_time)
+	.addFluidOutput(<liquid:stone> * 144)
+	.addItemInput(<ore:cobblestone>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_grout_to_liquid", machineName, (base_processing_time / 2))
+	.addFluidOutput(<liquid:stone> * 144)
+	.addItemInput(<tconstruct:soil>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_aluminum_brass_from_ores", machineName, base_processing_time)

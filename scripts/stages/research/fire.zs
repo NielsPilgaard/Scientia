@@ -31,8 +31,6 @@ val items as IItemStack[] = [
     <minecraft:cooked_porkchop>,
     
     <primal_tech:charcoal_block>,
-    <primal_tech:fibre_torch>,
-    <primal_tech:fibre_torch_lit>,
     <primal_tech:stone_grill>
     
 ];

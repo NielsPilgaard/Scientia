@@ -6,10 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/crucible")
 setRequiresParents()
 
-setCompletedIconColor(102, 0, 102)
-setUncompletedTitleColor(153, 179, 230)
-setCompletedTitleColor(102, 0, 102)
-
 criteria = addCriteria("17 Grout", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:soil>)
 criteria.setCount(17)

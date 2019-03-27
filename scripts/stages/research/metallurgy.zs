@@ -39,4 +39,4 @@ for item in itemsToStage {
 
 mods.recipestages.Recipes.addShapeless("tconstruct_soil_custom", stage,
 <tconstruct:soil> * 8, 
-[<ore:hardenedClay>,<ore:sand>,<ore:blockClay>,<ore:sand>]);
+[<minecraft:hardened_clay>,<ore:sand>,<ore:blockClay>,<ore:sand>]);

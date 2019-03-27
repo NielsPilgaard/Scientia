@@ -101,11 +101,6 @@ mods.inspirations.Cauldron.removeFluidTransform(<liquid:beetroot_soup>, <minecra
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:mushroom_stew>, <inspirations:materials:4>, <liquid:water>);
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:rabbit_stew>, <inspirations:materials:5>, <liquid:water>);
 
-#TODO: Verify that this works, this time around. 
-for item in <ore:cast>.items {
-    mods.tconstruct.Casting.removeTableRecipe(item, <liquid:gold>);
-}
-
 for item in <ore:cast>.items {
     mods.tconstruct.Casting.removeTableRecipe(item, <liquid:brass>);
 }

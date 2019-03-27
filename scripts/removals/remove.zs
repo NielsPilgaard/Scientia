@@ -29,6 +29,7 @@ val removals as IItemStack[] = [
     <harvestcraft:butteritem>,
     <harvestcraft:doughitem>,
     
+    <minecraft:water_bucket>,
     <minecraft:sugar>,
     <minecraft:dye:15>,
     <minecraft:flint>,

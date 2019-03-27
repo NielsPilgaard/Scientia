@@ -40,7 +40,12 @@ val glass = [
     <minecraft:experience_bottle>,
     <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),
     <minecraft:potion>.withTag({Potion: "minecraft:water"}),
-    <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"})
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),
+
+    <tconstruct:seared_tank>,
+    <tconstruct:seared_tank:1>,
+    <tconstruct:seared_tank:2>,
+    <tconstruct:tinker_tank_controller>
 
 ] as IItemStack[];
 
@@ -53,3 +58,9 @@ var glassItems as IItemStack[] = itemUtils.getItemsByRegexUnlocalizedName(".*gla
 for item in glassItems {
     stageItem(stage, item);
 }
+
+mods.recipestages.Recipes.addShaped("tconstruct_tinker_tank_controller_custom", stage, 
+<tconstruct:tinker_tank_controller>, 
+[[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+[<tconstruct:materials>, <claybucket:claybucket>|<minecraft:bucket>, <tconstruct:materials>], 
+[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);

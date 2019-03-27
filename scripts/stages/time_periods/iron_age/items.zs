@@ -18,7 +18,13 @@ val itemsToStage as IItemStack[] = [
 	
 	<rustic:chain>,
 	<rustic:chain_gold>,
-	
+	<rustic:iron_lantern>,
+	<rustic:golden_lantern>,
+	<rustic:chandelier_gold>,
+	<rustic:candle_gold>,
+	<rustic:chandelier>,
+	<rustic:candle>,
+
 	<watercan:watercan_iron>
 
 ];
