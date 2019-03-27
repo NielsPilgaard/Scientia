@@ -10,10 +10,10 @@ setCompletedIconColor(102, 0, 102)
 setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
-criteria = addCriteria("Any Clay Cast", "minecraft:inventory_changed")
+criteria = addCriteria("Any Aluminum Brass Cast", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:cast>)
 
-criteria = addCriteria("Any Aluminum Brass Cast", "minecraft:inventory_changed")
+criteria = addCriteria("Any Clay Cast", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:clay_cast>)
 
 setRewardExperience(25)
