@@ -1,18 +1,272 @@
-- sendFlagToLoot:
-Description: Allows to send a flag to the Loot Generator to be processed
+- has_score:
+Description: Allows to check the if the player has a certain score
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"flagID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
+"name": (The Score ID that should be compared with) String,
+either
+   "bigger": (If the Score should be bigger or smaller then the requested value, Default: true) Boolean,
+   "value": (how big or small the score should be, Default: 0) IntNumber,
+or
+   "operations": (RegistryName for the Math Operation) Registry Element,
+   "jeiDesc": (The Description for the JEI plugin) String,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- require_stat:
+Description: Allows to check the if the player has a certain Stat
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The StatID that should be compared with) String,
+either
+   "bigger": (If the Stat should be bigger or smaller then the requested value, Default: true) Boolean,
+   "value": (how big or small the score should be, Default: 0) IntNumber,
+or
+   "operations": (RegistryName for the Math Operation) Registry Element,
+   "jeiDesc": (The Description for the JEI plugin) String,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- require_achievement:
+Description: Allows to check for a Achievement
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Achievement Registy name of the Achievment that should be checkt for) String,
+"required": (If the achievement should be required or not, Default: true) Boolean,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- add_stat:
+Description: Allows to Modify Stat Points
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The StatRegistry name that should be changed) String,
+"increase": (If the Stat should be increased or decreased, Default: true) Boolean,
+"amount": (How much the stat should be modified, Default: 1) IntNumber,
 Incompatible With: None
 Type: Effect
 
-- sendNumberToLoot:
-Description: Allows to send a Number to the Loot Generator to be processed
+- add_score:
+Description: Allows to modify a Score
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"NumberID": (The ID that should be send to the LootGenerator) String,
-"value": (What the Value should be thats being send, Default: true) Boolean,
+"name": (The Score id of the Score that you want to change) String,
+"increase": (If the Score should increase or decrease, Default: true) Boolean,
+"amount": (How much the score should increase or decrease, Default: 1) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- add_Achievement:
+Description: Allows to Add Achievements to a Player
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Achievement that should be given) String,
+Incompatible With: None
+Type: Effect
+
+- require_tile_items:
+Description: Allows to check if the Block TileEntity has a set of items present
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"items": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "name": (The Item that should be searched for) String,
+   "meta": (The Metadata that should be searched for, Default: 32767) IntNumber,
+   "amount": (The Stacksize that should be searched for, Default: 1) IntNumber,
+   "nbt": (The NBTData that should be checkt for. Defaults to ignore, Default: null) String,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- tile_has_fluid:
+Description: Allows to check if the TileEntity has a Fluid stored
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Fluid Registry name of the Fluid that should be checkt for) String,
+"amount": (How much the liquid should be checkt for, Default: 1000) IntNumber,
+"exact": (If the Exact amount should be present or any Amount, Default: true) Boolean,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- tile_has_FE:
+Description: Allows to check for Forge Energy inside of a Block
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"bigger": (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,
+"amount": (How much forge Energy Should be checkt for, Default: 0) IntNumber,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- item_has_FE:
+Description: Allows to check for Forge Energy inside of a Block
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"bigger": (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,
+"amount": (How much forge Energy Should be checkt for, Default: 0) IntNumber,
+Incompatible With: Duplicate(Partly) 
+Type: Condition
+
+- consume_tile_items:
+Description: Allows to consume items from a TileEntities inventory
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"side": (Which side the items should be taken from, Default: Null) String,
+"items": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "name": (The Item that should be consumed) String,
+   "meta": (The Metadata of the item that should be consumed 32767 = any meta, Default: 32767) IntNumber,
+   "amount": (How many items should be consumed, Default: 1) IntNumber,
+   "nbt": (The NBTData the item should have that should be consumed, Default: null) String,
+Incompatible With: None
+Type: Effect
+
+- tile_consume_fluid:
+Description: Allows to consume Fluid from the TileEntity
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Fluid Registry name of the Fluid that should be consumed) String,
+"amount": (How much the liquid should be consumed, Default: 1000) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- tile_add_fluid:
+Description: Allows to Fill Fluid to the TileEntity
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"name": (The Fluid Registry name of the Fluid that should be added) String,
+"amount": (How much the liquid should be added, Default: 1000) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- add_tile_items:
+Description: Allows to add Items into slots of a TileInventory
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"side": (Which side the items should be added from, Default: Null) String,
+"items": (The Items that should be inserted) ObjectArray,
+      "name": (The ItemRegistryName of the Item that should be inserted) String,
+      "meta": (The Metadata of the Item that should be inserted, Default: 0) IntNumber,
+      "amount": (The Amount of the Item that should be inserted, Default: 1) IntNumber,
+      "nbt": (The NBTData the Item should have. Optional) String,
+      "slots": (The Slots the Item should be in) IntNumberArray,
+Incompatible With: None
+Type: Effect
+
+- modify_Block_FE:
+Description: Allows to add or remove FE to a BlockTileEntity
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"consume": (If Forge Energy should be added or removed, Default: true) Boolean,
+"amount": (How much should be added or removed, Default: 0) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- modify_Item_FE:
+Description: Allows to add or remove FE to a Item
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"consume": (If Forge Energy should be added or removed, Default: true) Boolean,
+"amount": (How much should be added or removed, Default: 0) IntNumber,
+Incompatible With: consume_item(Completely) 
+Type: Effect
+
+- random_chance:
+Description: Allows to add a Random Factor into your condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"chance": (How likely it is in % that the Random returns true, Default: 100.0) FloatNumber,
+Incompatible With: None
+Type: Condition
+
+- default_Condition:
+Description: Allows to always return true or false
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"value": (If it should return true or false, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- if_else_condition:
+Description: Allows to do make a condition that decides which condition is being used
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"check": (The Object for the Decider Condition) Object,
+"trueValue": (The Object for Condition if the Decider is true) Object,
+"falseValue": (The Object for Condition if the Decider is false) Object,
+Incompatible With: None
+Type: Condition
+
+- invert_Condition:
+Description: Allows to invert any other condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"value": (The Container where the condition is stored in that needs to be inverted) Object,
+Incompatible With: None
+Type: Condition
+
+- array_condition:
+Description: Allows to combine conditions together
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"": (The Conditions that should be added) ObjectArray,
+"and": (If all conditions are required or just 1 of them, Default: true) Boolean,
+Incompatible With: None
+Type: Condition
+
+- modify_luck:
+Description: Allows to modify chance of Loot Drop, for reducing negative numbers are used since its added on top of base chance
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"multiplier": (the Multiplier thats being added on top of the base chance, Default: 0.0) FloatNumber,
+"points": (Adds Exact % on top of base chance, Default: 0) IntNumber,
+Incompatible With: None
+Type: Effect
+
+- set_rools:
+Description: Allows to set a Fixed or Random Loot Rools
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+either
+   "amount": (The Amount of Rools that the loot pools should get) IntNumber,
+or
+   "pool": (Pool of Numbers which 1 gets pickt randomly from) IntNumberArray,
+Incompatible With: None
+Type: Effect
+
+- conditional_Effect:
+Description: Allows to make optional Effect based on 1 condition
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"condition": (The Condition object thats being checkt for) Object,
+"effects": (The Effects that should be applied) ObjectArray,
+Incompatible With: None
+Type: Effect
+
+- offset_effect:
+Description: Allows to offset a Effect to another position
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"direction": (The Side the Effect should be shifted to) String,
+"effect": (The Effect that should be offset to another position) Object,
+Incompatible With: None
+Type: Effect
+
+- if_else_effect:
+Description: Allows to apply a effect based of if a condition is true or false
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"check": (The Condition that decides which effect should be applied) Object,
+"trueValue": (The Effect that is applied when the condition is true) Object,
+"falseValue": (The Effect that is applied when the condition is false) Object,
+Incompatible With: None
+Type: Effect
+
+- offset_effect_adv:
+Description: 
+Parameters:
+"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
+"effects": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "positions": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+      "x": (The XOffset of the Effect that should be applied) IntNumber,
+      "y": (The YOffset of the Effect that should be applied) IntNumber,
+      "z": (The ZOffset of the Effect that should be applied) IntNumber,
+   "effect": (The Effect that should be applied) Object,
 Incompatible With: None
 Type: Effect
 
@@ -326,275 +580,21 @@ Parameters:
 Incompatible With: None
 Type: Effect
 
-- has_score:
-Description: Allows to check the if the player has a certain score
+- sendFlagToLoot:
+Description: Allows to send a flag to the Loot Generator to be processed
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Score ID that should be compared with) String,
-either
-   "bigger": (If the Score should be bigger or smaller then the requested value, Default: true) Boolean,
-   "value": (how big or small the score should be, Default: 0) IntNumber,
-or
-   "operations": (RegistryName for the Math Operation) Registry Element,
-   "jeiDesc": (The Description for the JEI plugin) String,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- require_stat:
-Description: Allows to check the if the player has a certain Stat
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The StatID that should be compared with) String,
-either
-   "bigger": (If the Stat should be bigger or smaller then the requested value, Default: true) Boolean,
-   "value": (how big or small the score should be, Default: 0) IntNumber,
-or
-   "operations": (RegistryName for the Math Operation) Registry Element,
-   "jeiDesc": (The Description for the JEI plugin) String,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- require_achievement:
-Description: Allows to check for a Achievement
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Achievement Registy name of the Achievment that should be checkt for) String,
-"required": (If the achievement should be required or not, Default: true) Boolean,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- add_stat:
-Description: Allows to Modify Stat Points
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The StatRegistry name that should be changed) String,
-"increase": (If the Stat should be increased or decreased, Default: true) Boolean,
-"amount": (How much the stat should be modified, Default: 1) IntNumber,
+"flagID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
 Incompatible With: None
 Type: Effect
 
-- add_score:
-Description: Allows to modify a Score
+- sendNumberToLoot:
+Description: Allows to send a Number to the Loot Generator to be processed
 Parameters:
 "disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Score id of the Score that you want to change) String,
-"increase": (If the Score should increase or decrease, Default: true) Boolean,
-"amount": (How much the score should increase or decrease, Default: 1) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- add_Achievement:
-Description: Allows to Add Achievements to a Player
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Achievement that should be given) String,
-Incompatible With: None
-Type: Effect
-
-- require_tile_items:
-Description: Allows to check if the Block TileEntity has a set of items present
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"items": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-   "name": (The Item that should be searched for) String,
-   "meta": (The Metadata that should be searched for, Default: 32767) IntNumber,
-   "amount": (The Stacksize that should be searched for, Default: 1) IntNumber,
-   "nbt": (The NBTData that should be checkt for. Defaults to ignore, Default: null) String,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- tile_has_fluid:
-Description: Allows to check if the TileEntity has a Fluid stored
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Fluid Registry name of the Fluid that should be checkt for) String,
-"amount": (How much the liquid should be checkt for, Default: 1000) IntNumber,
-"exact": (If the Exact amount should be present or any Amount, Default: true) Boolean,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- tile_has_FE:
-Description: Allows to check for Forge Energy inside of a Block
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"bigger": (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,
-"amount": (How much forge Energy Should be checkt for, Default: 0) IntNumber,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- item_has_FE:
-Description: Allows to check for Forge Energy inside of a Block
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"bigger": (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,
-"amount": (How much forge Energy Should be checkt for, Default: 0) IntNumber,
-Incompatible With: Duplicate(Partly) 
-Type: Condition
-
-- consume_tile_items:
-Description: Allows to consume items from a TileEntities inventory
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"side": (Which side the items should be taken from, Default: Null) String,
-"items": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-   "name": (The Item that should be consumed) String,
-   "meta": (The Metadata of the item that should be consumed 32767 = any meta, Default: 32767) IntNumber,
-   "amount": (How many items should be consumed, Default: 1) IntNumber,
-   "nbt": (The NBTData the item should have that should be consumed, Default: null) String,
-Incompatible With: None
-Type: Effect
-
-- tile_consume_fluid:
-Description: Allows to consume Fluid from the TileEntity
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Fluid Registry name of the Fluid that should be consumed) String,
-"amount": (How much the liquid should be consumed, Default: 1000) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- tile_add_fluid:
-Description: Allows to Fill Fluid to the TileEntity
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"name": (The Fluid Registry name of the Fluid that should be added) String,
-"amount": (How much the liquid should be added, Default: 1000) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- add_tile_items:
-Description: Allows to add Items into slots of a TileInventory
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"side": (Which side the items should be added from, Default: Null) String,
-"items": (The Items that should be inserted) ObjectArray,
-      "name": (The ItemRegistryName of the Item that should be inserted) String,
-      "meta": (The Metadata of the Item that should be inserted, Default: 0) IntNumber,
-      "amount": (The Amount of the Item that should be inserted, Default: 1) IntNumber,
-      "nbt": (The NBTData the Item should have. Optional) String,
-      "slots": (The Slots the Item should be in) IntNumberArray,
-Incompatible With: None
-Type: Effect
-
-- modify_Block_FE:
-Description: Allows to add or remove FE to a BlockTileEntity
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"consume": (If Forge Energy should be added or removed, Default: true) Boolean,
-"amount": (How much should be added or removed, Default: 0) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- modify_Item_FE:
-Description: Allows to add or remove FE to a Item
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"consume": (If Forge Energy should be added or removed, Default: true) Boolean,
-"amount": (How much should be added or removed, Default: 0) IntNumber,
-Incompatible With: consume_item(Completely) 
-Type: Effect
-
-- random_chance:
-Description: Allows to add a Random Factor into your condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"chance": (How likely it is in % that the Random returns true, Default: 100.0) FloatNumber,
-Incompatible With: None
-Type: Condition
-
-- default_Condition:
-Description: Allows to always return true or false
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"value": (If it should return true or false, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- if_else_condition:
-Description: Allows to do make a condition that decides which condition is being used
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"check": (The Object for the Decider Condition) Object,
-"trueValue": (The Object for Condition if the Decider is true) Object,
-"falseValue": (The Object for Condition if the Decider is false) Object,
-Incompatible With: None
-Type: Condition
-
-- invert_Condition:
-Description: Allows to invert any other condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"value": (The Container where the condition is stored in that needs to be inverted) Object,
-Incompatible With: None
-Type: Condition
-
-- array_condition:
-Description: Allows to combine conditions together
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"": (The Conditions that should be added) ObjectArray,
-"and": (If all conditions are required or just 1 of them, Default: true) Boolean,
-Incompatible With: None
-Type: Condition
-
-- modify_luck:
-Description: Allows to modify chance of Loot Drop, for reducing negative numbers are used since its added on top of base chance
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"multiplier": (the Multiplier thats being added on top of the base chance, Default: 0.0) FloatNumber,
-"points": (Adds Exact % on top of base chance, Default: 0) IntNumber,
-Incompatible With: None
-Type: Effect
-
-- set_rools:
-Description: Allows to set a Fixed or Random Loot Rools
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-either
-   "amount": (The Amount of Rools that the loot pools should get) IntNumber,
-or
-   "pool": (Pool of Numbers which 1 gets pickt randomly from) IntNumberArray,
-Incompatible With: None
-Type: Effect
-
-- conditional_Effect:
-Description: Allows to make optional Effect based on 1 condition
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"condition": (The Condition object thats being checkt for) Object,
-"effects": (The Effects that should be applied) ObjectArray,
-Incompatible With: None
-Type: Effect
-
-- offset_effect:
-Description: Allows to offset a Effect to another position
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"direction": (The Side the Effect should be shifted to) String,
-"effect": (The Effect that should be offset to another position) Object,
-Incompatible With: None
-Type: Effect
-
-- if_else_effect:
-Description: Allows to apply a effect based of if a condition is true or false
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"check": (The Condition that decides which effect should be applied) Object,
-"trueValue": (The Effect that is applied when the condition is true) Object,
-"falseValue": (The Effect that is applied when the condition is false) Object,
-Incompatible With: None
-Type: Effect
-
-- offset_effect_adv:
-Description: 
-Parameters:
-"disableJEI": (Decides if the Condition is visible in JEI, Default: false) Boolean,
-"effects": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-   "positions": (It can be either a Object or a ObjectArray) OptionalObjectArray,
-      "x": (The XOffset of the Effect that should be applied) IntNumber,
-      "y": (The YOffset of the Effect that should be applied) IntNumber,
-      "z": (The ZOffset of the Effect that should be applied) IntNumber,
-   "effect": (The Effect that should be applied) Object,
+"NumberID": (The ID that should be send to the LootGenerator) String,
+"value": (What the Value should be thats being send, Default: true) Boolean,
 Incompatible With: None
 Type: Effect
 
