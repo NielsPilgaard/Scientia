@@ -20,16 +20,12 @@ for sand in <ore:sand>.items {
 for metal in materials {
 	if (!isNull(materials[metal].ore)) {
 		if (!isNull(materials[metal].liquid)) {
-			var ore = materials[metal].ore;
+			var ore = materials[metal].ore.items[0];
 			var liquid = materials[metal].liquid * fluidFromOre;
 
-			print("Ore IIngredient: " + ore.items[0].name);
-			print("LiquidStack IIngredient: " + liquid.liquids[0].name);
-			print("Liquid IIngredient: " + liquid.items[0].name);
-
-			mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "ore_to_liquid", machineName, base_processing_time)
+			mods.modularmachinery.RecipeBuilder.newBuilder(machineName + formatRecipeName(ore.name) + "ore_to_liquid", machineName, base_processing_time)
 			.addFluidOutput(liquid.liquids[0] as ILiquidStack)
-			.addItemInput(ore.items[0])
+			.addItemInput(ore)
 			.build();
 		}
 	}
