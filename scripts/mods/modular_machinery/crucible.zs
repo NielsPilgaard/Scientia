@@ -17,16 +17,20 @@ for sand in <ore:sand>.items {
 	.build();
 }
 
-# Renaming the naming scheme
-
 for metal in materials {
-	var ore = materials.metal.ore as bool;
-	var liquid = materials.metal.liquid as bool;
-	
-	if (liquid && ore) {
-		mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ore_to_liquid", machineName, base_processing_time)
-		.addFluidOutput(liquid.liquids[0])
-		.addItemInput(ore.items[0])
-		.build();
+	if (!isNull(materials[metal].ore)) {
+		if (!isNull(materials[metal].liquid)) {
+			var ore = materials[metal].ore;
+			var liquid = materials[metal].liquid * fluidFromOre;
+
+			print("Ore IIngredient: " + ore.items[0].name);
+			print("LiquidStack IIngredient: " + liquid.liquids[0].name);
+			print("Liquid IIngredient: " + liquid.items[0].name);
+
+			mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "ore_to_liquid", machineName, base_processing_time)
+			.addFluidOutput(liquid.liquids[0] as ILiquidStack)
+			.addItemInput(ore.items[0])
+			.build();
+		}
 	}
 }

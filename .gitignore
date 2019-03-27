@@ -54,10 +54,6 @@ ServerStart.bat
 README.md
 LICENSE_SERVER.md
 crafttweaker.log
-github_changelog_generator.gemspec
-ChangelogGenerator.bat
-twitch_export-win.exe
-crafttweaker.log
 config/BlockDrops/modVersions.txt
 config/InvTweaks/InvTweaks.cfg
 config/scavenge/IResourceProperty.txt

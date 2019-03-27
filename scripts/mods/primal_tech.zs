@@ -20,7 +20,7 @@ for item in stoneAnvilRecipes {
 }
 
 for bark in <ore:barkWood>.items {
-	StoneAnvil.addRecipe(<contenttweaker:tannin:0> * 2, bark);
+	StoneAnvil.addRecipe(<contenttweaker:tannin:0> * 2, bark.definition.makeStack(0));
 }
 
 for bone in <ore:bone>.items {
