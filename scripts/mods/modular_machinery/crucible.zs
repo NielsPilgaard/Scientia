@@ -54,7 +54,19 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_clay_to_liquid", 
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_aluminum_brass_from_ores", machineName, base_processing_time)
-	.addFluidOutput(materials.aluminum_brass.liquid.liquids[0] * fluidFromOre * 4)
+	.addFluidOutput(materials.aluminum_brass.liquid.liquids[0] * (fluidFromOre * 4))
 	.addItemInput(materials.copper.ore.items[0])
 	.addItemInput(materials.aluminum.ore.items[0] * 3)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_aluminum_brass_from_ingots", machineName, base_processing_time)
+	.addFluidOutput(materials.aluminum_brass.liquid.liquids[0] * 576)
+	.addItemInput(materials.copper.ingot.items[0])
+	.addItemInput(materials.aluminum.ingot.items[0] * 3)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_aluminum_brass_from_dusts", machineName, base_processing_time)
+	.addFluidOutput(materials.aluminum_brass.liquid.liquids[0] * 576)
+	.addItemInput(materials.copper.dust.items[0])
+	.addItemInput(materials.aluminum.dust.items[0] * 3)
 	.build();
