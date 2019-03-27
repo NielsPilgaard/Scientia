@@ -100,3 +100,8 @@ for item in manaInfusionRecipes {
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:beetroot_soup>, <minecraft:beetroot>, <liquid:water>);
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:mushroom_stew>, <inspirations:materials:4>, <liquid:water>);
 mods.inspirations.Cauldron.removeFluidTransform(<liquid:rabbit_stew>, <inspirations:materials:5>, <liquid:water>);
+
+for item in <ore:cast>.items {
+    mods.tconstruct.Casting.removeTableRecipe(item, <liquid:gold>);
+    mods.tconstruct.Casting.removeTableRecipe(item, <liquid:brass>);
+}

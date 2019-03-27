@@ -13,3 +13,4 @@ recipes.removeByRecipeName("harvestcraft:baconmushroomburgeritem_cropwhitemushro
 
 recipes.removeByRegex(".*itemsalt.*");
 recipes.removeByRegex(".*foodsalt.*");
+recipes.removeByRegex(".*hammercrushing.*");

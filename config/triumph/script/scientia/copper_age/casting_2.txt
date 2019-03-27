@@ -1,0 +1,19 @@
+setIcon(<tconstruct:cast>)
+setTitle("Casting II")
+setDescription("In order to shape your molten metals into other things than just blocks, you need Casts.\nYou have the choice between single-use Casts made of Molten Clay, or permanent ones made out of Aluminum Brass.\n\nAluminum Brass is made by combining Copper and Aluminum Ore in the Crucible.\n\nObtaining any kind of Cast will complete this advancement.")
+setShowToast(true)
+
+addParent("scientia:copper_age/casting_1")
+setRequiresParents()
+
+setCompletedIconColor(102, 0, 102)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(102, 0, 102)
+
+criteria = addCriteria("Any Clay Cast", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:cast>)
+
+criteria = addCriteria("Any Aluminum Brass Cast", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:clay_cast>)
+
+setRewardExperience(25)

@@ -11,7 +11,8 @@ setUncompletedTitleColor(153, 179, 230)
 setCompletedTitleColor(102, 0, 102)
 
 criteria = addCriteria("17 Grout", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:soil, count:17>)
+criteria.addItem(<tconstruct:soil>)
+criteria.setCount(17)
 
 criteria = addCriteria("Casting Table", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:casting>)
