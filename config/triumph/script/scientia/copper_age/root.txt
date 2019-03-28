@@ -1,5 +1,5 @@
 setIcon(<immersiveengineering:metal>)
-setTitle("Copper Age NYI")
+setTitle("Copper Age")
 setDescription("Welcome to the Copper Age! Your understanding of the world is beginning to take shape. You do however need to figure out a way to improve your approach to research.")
 
 setShowToast(true)

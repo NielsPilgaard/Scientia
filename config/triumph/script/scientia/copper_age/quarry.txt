@@ -3,7 +3,7 @@ setTitle("Quarry")
 setDescription("The Quarry serves as an automatic mining method.\nIt requires a Worker equipped with a Pickaxe to function.\n\nThe Quarry can be upgraded with Bounds Upgrades and Tool Quality Upgrades.")
 setShowToast(true)
 
-addParent("scientia:copper_age/worker")
+addParent("scientia:copper_age/engineers_worktable")
 setRequiresParents()
 
 drawDirectLines(true)

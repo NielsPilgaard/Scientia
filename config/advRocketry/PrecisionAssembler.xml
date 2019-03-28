@@ -20,7 +20,7 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
+<Recipes useDefault="false">
 	<Recipe timeRequired="1000" power ="1">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>

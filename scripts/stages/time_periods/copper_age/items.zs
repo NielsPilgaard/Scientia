@@ -12,7 +12,10 @@ val itemsToStage as IItemStack[] = [
     <ancientwarfare:iron_hammer>,
     <ancientwarfare:gold_hammer>,
     <ancientwarfare:diamond_hammer>,
-	
+	<ancientwarfare:backpack>,
+	<ancientwarfare:backpack:1>,
+	<ancientwarfare:backpack:2>,
+	<ancientwarfare:backpack:3>,
     <ancientwarfarenpc:food_bundle>,
 
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:research_station_tier_1"}),

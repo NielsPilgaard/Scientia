@@ -1,9 +1,9 @@
 setIcon(<ancientwarfareautomation:animal_farm>)
 setTitle("Automatic Farming")
-setDescription("The Ancient Warfare farms offer automated Farming of Crops, Animals, Fruit and Trees.\n\nA Worker is needed for them to function.\n\nThe Tree Farm needs a Worker equipped with a Hatchet.\n\nThe Animal, Crop and Fruit Farms need a Farmer.\nThe Farmer is craftable.")
+setDescription("The Ancient Warfare farms offer automated Farming of Crops, Animals, Fruit and Trees. A Worker is needed for them to function.\n\nThe Tree Farm needs a Worker equipped with a Hatchet.\n\nThe Animal, Crop and Fruit Farms need a Farmer.\nThe Farmer is craftable.")
 setShowToast(true)
 
-addParent("scientia:copper_age/worker")
+addParent("scientia:copper_age/engineers_worktable")
 setRequiresParents()
 
 drawDirectLines(true)

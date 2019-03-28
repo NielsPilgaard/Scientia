@@ -1,6 +1,6 @@
 setIcon(<ancientwarfarenpc:town_hall>)
-setTitle("Town Hall TODO")
-setDescription("Ancient Warfare NPCs require food to work for you.\nPlace food in a Town Hall near your NPCs in order to feed them.\nThe better the food is, the longer they're kept fed.")
+setTitle("Town Hall")
+setDescription("Ancient Warfare NPCs require food to work for you.\nPlace food in a Town Hall near your NPCs in order to feed them.\nThe better the food is, the longer they're kept fed.\n\nThe Town Hall has a radius of 100 blocks.")
 setShowToast(true)
 
 addParent("scientia:copper_age/food_bundle")

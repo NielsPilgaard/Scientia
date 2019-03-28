@@ -9,6 +9,6 @@ setRequiresParents()
 drawDirectLines(true)
 
 criteria = addCriteria("Hire an Archer", "minecraft:inventory_changed")
-criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"archer",npcType:"guard"}>)
+criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"archer",npcType:"combat"}>)
 
 setRewardExperience(25)

@@ -22,8 +22,6 @@ val npcItems = [
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "soldier", npcType: "combat"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "archer", npcType: "combat"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "medic", npcType: "combat"}),
-    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "engineer", npcType: "combat"}),
-    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "siege_engineer"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "worker"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "researcher", npcType: "worker"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "craftsman", npcType: "worker"}),

@@ -1,5 +1,5 @@
 setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"courier"}>)
-setTitle("Courier NYI")
+setTitle("Courier")
 setDescription("The Courier allows you to automate the transferring of items between inventories. He needs to be equipped with an Ancient Warfare Backpack in his mainhand, and a Routing Order specifying what to transfer between which inventories.\n\nSee the Principles of Ruling for more detailed instructions.")
 setShowToast(true)
 
@@ -8,7 +8,7 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-criteria = addCriteria("Backpack", "minecraft:inventory_changed")
+criteria = addCriteria("Any Ancient Warfare Pack", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfare:backpack>)
 
 criteria = addCriteria("Courier", "minecraft:inventory_changed")

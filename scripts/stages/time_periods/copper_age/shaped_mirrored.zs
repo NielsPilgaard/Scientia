@@ -16,6 +16,13 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [null, <spartanweaponry:material:1>, null], 
             [<spartanweaponry:material:1>, null, null]
         ]
+	],
+	<artisanworktables:worktable:6> : [
+        [
+            [materials.aluminum.ingot, materials.copper.ingot, materials.aluminum.ingot],
+            [materials.aluminum.ingot, materials.copper.block, materials.aluminum.ingot], 
+            [<ore:logWood>, null, <ore:logWood>]
+        ]
 	]
 };
 

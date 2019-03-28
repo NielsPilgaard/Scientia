@@ -1,0 +1,17 @@
+setIcon(<artisanworktables:worktable, meta:6, count:1>)
+setTitle("Automatic Farming")
+setDescription("You'll need a new Worktable in order to craft some new contraptions.")
+setShowToast(true)
+
+addParent("scientia:copper_age/town_hall")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Engineer's Worktable", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:worktable, meta:6, count:1>)
+
+criteria = addCriteria("Artisan's Copper Handsaw", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:artisans_handsaw_copper>)
+
+setRewardExperience(25)
