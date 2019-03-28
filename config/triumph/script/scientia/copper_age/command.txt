@@ -1,0 +1,13 @@
+setIcon(<ancientwarfarenpc:wooden_command_baton>)
+setTitle("Commander")
+setDescription("As you've no doubt read in the Principles of Ruling already, a Command Baton is needed to give your NPCs advanced orders.\nRight clicking NPCs also allows you to issue simple commands.")
+setShowToast(true)
+
+addParent("scientia:copper_age/leadership")
+setRequiresParents()
+
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+setRewardItem(<ancientwarfarenpc:wooden_command_baton>)

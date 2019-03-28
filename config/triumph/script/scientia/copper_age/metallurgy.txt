@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:metal, meta:9>)
 setTitle("Metallurgy")
-setDescription("Use your new Research Station to find a way to process Copper Ore into something more useful.\n\nThe recipe has a 50% chance of being succesful.\nThe amount of burnable fuel needed for the recipe is equivalent to 16 Coal.")
+setDescription("Use your new Research Station to find a way to process Copper Ore into something more useful.\n\nThe recipe has a 75% chance of being succesful.\nThe amount of burnable fuel needed for the recipe is equivalent to 16 Coal.")
 setShowToast(true)
 
 addParent("scientia:copper_age/research_station")

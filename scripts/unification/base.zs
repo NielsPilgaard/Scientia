@@ -19,3 +19,5 @@ for material in materials {
 		}
 	}
 }
+
+scripts.unification.utility.purgeItemsOreDicts(<contenttweaker:material_part:220>);

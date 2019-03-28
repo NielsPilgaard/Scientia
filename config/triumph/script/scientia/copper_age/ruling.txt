@@ -1,0 +1,13 @@
+setIcon(<ancientwarfare:manual>)
+setTitle("On the Principles of Ruling")
+setDescription("You've written down all the findings from researching Leadership - The outcome, Treatise on the Principles of Ruling, will help you on your journey to becoming a better leader.\n\nIt serves as a guide to Ancient Warfare mechanics.")
+setShowToast(true)
+
+addParent("scientia:copper_age/leadership")
+setRequiresParents()
+
+setCompletedIconColor(173, 6, 6)
+setUncompletedTitleColor(153, 179, 230)
+setCompletedTitleColor(173, 6, 6)
+
+setRewardItem(<ancientwarfare:manual>)

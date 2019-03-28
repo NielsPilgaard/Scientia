@@ -6,8 +6,6 @@ import mods.ItemStages.addItemStage;
 
 var stage = stages.industrial_age;
 val itemsToStage as IItemStack[] = [
-
-	<jaff:diamond_fishing_rod>,
 	
 	<immersivepetroleum:speedboat>,
 	<immersivepetroleum:upgrades>,

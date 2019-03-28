@@ -1,0 +1,14 @@
+setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"archer",npcType:"combat"}>)
+setTitle("Archer")
+setDescription("You can hire an Archer by crafting an Archer NPC-item and then right clicking with it.\n\nHe can only be equipped with the bow he spawns with, but any Armor works.")
+setShowToast(true)
+
+addParent("scientia:copper_age/town_hall")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Hire an Archer", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"archer",npcType:"guard"}>)
+
+setRewardExperience(25)

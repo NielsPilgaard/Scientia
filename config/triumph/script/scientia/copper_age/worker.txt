@@ -1,10 +1,9 @@
 setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"worker"}>)
 setTitle("Worker TODO")
-setDescription("Test")
+setDescription("You can hire a Worker by crafting a Worker NPC-item, right clicking with it, and then equipping him with the tool of your choice.\nThe tool determines the Worker's function.\nValid tools are Hatchets, Hammers and Pickaxes.")
 setShowToast(true)
 
-addParent("scientia:copper_age/automatic_farm")
-addParent("scientia:copper_age/quarry")
+addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
 drawDirectLines(true)

@@ -1,12 +1,12 @@
 setIcon(<ancientwarfarenpc:food_bundle>)
 setTitle("Food Bundle TODO")
-setDescription("If you want to expand your village and attract new Settlers, you're going to need food in bulk.")
+setDescription("If you want to expand your village and attract new Settlers, you're going to need food in bulk.\n\nFood Bundles are needed in order to craft the items that summon Ancient Warfare NPCs.\n\nThey can be made with a large variety of food items, but they all require Soup, Cooked Meat, Fruit, Vegetables and some kind of beverage.")
 setShowToast(true)
 
 addParent("scientia:copper_age/research_station")
 setRequiresParents()
 
-criteria = addCriteria("Cooking Research", "minecraft:inventory_changed")
+criteria = addCriteria("Food Bundle", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:food_bundle>)
 
 setRewardExperience(25)

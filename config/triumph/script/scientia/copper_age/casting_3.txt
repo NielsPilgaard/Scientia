@@ -1,0 +1,15 @@
+setIcon(<immersiveengineering:metal>)
+setTitle("Casting III")
+setDescription("The form of Copper that's the easiest to craft with is Ingots, and you should finally be able to form them.\n\nMake an Ingot Cast and use it to turn molten Copper into Copper Ingots.")
+setShowToast(true)
+
+addParent("scientia:copper_age/casting_2")
+setRequiresParents()
+
+criteria = addCriteria("Aluminum Brass Ingot Cast", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:cast_custom>)
+
+criteria = addCriteria("Copper Ingot", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal>)
+
+setRewardExperience(25)

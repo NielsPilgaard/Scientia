@@ -1,12 +1,13 @@
-setIcon(<ancientwarfarenpc:stone_command_baton>)
-setTitle("Leadership TODO")
-setDescription("With progress comes growth.")
+setIcon(<gamestagebooks:leadership>)
+setTitle("Leadership")
+setDescription("With progress comes growth.\n\nHone your Leadership skills by trading for Emeralds, and then using those Emeralds for Research in the Research Station.")
 setShowToast(true)
 
 addParent("scientia:copper_age/research_station")
 setRequiresParents()
 
-criteria = addCriteria("Leadership Research", "minecraft:inventory_changed")
-criteria.addItem(<ancientwarfarenpc:stone_command_baton>)
+criteria = addCriteria("Leadership Research Book", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:leadership>)
 
 setRewardExperience(25)
+

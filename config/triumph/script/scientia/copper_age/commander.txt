@@ -1,0 +1,14 @@
+setIcon(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"commander",npcType:"combat"}>)
+setTitle("Master and Commander")
+setDescription("Equipping a Combat NPC with a Command Baton will turn him into a Commander, able to rally your guards to fight and increase their abilities greatly.\n\nTo complete this advancement, equip a Combat NPC with a Command Baton, right click him and click repack.")
+setShowToast(true)
+
+addParent("scientia:copper_age/guard")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Hire a Guard", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"commander",npcType:"combat"}>)
+
+setRewardExperience(25)

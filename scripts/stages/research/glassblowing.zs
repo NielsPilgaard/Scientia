@@ -34,8 +34,6 @@ val glass = [
     <inspirations:glass_trapdoor>,
     <inspirations:glass_door>,
 
-    <jaff:tank>,
-
     <minecraft:glass_bottle>,
     <minecraft:experience_bottle>,
     <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),

@@ -1,6 +1,6 @@
 setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"combat"}>)
-setTitle("Guard TODO")
-setDescription("You can hire a guard by crafting a Combat NPC-item, right clicking with it, and then equipping him with a sword.\n\nHe can be equipped with any Melee Weapon, Shield and Armor.")
+setTitle("Guard")
+setDescription("You can hire a Guard by crafting a Combat NPC-item, right clicking with it, and then equipping him with a sword.\n\nHe can be equipped with any Melee Weapon, Shield and Armor.")
 setShowToast(true)
 
 addParent("scientia:copper_age/town_hall")

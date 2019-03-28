@@ -20,6 +20,7 @@ val disableList = [
     <advancedrocketry:thermitetorch>,
     <advancedrocketry:thermite>,
 
+    <ancientwarfare:steel_ingot>,
     <ancientwarfare:component:3>,
     <ancientwarfare:component:4>,
     <ancientwarfare:component:5>,
@@ -34,11 +35,6 @@ val disableList = [
     <ancientwarfare:iron_quill>,
     <ancientwarfare:stone_quill>,
     <ancientwarfare:wooden_quill>,
-
-    <ancientwarfare:backpack>,
-    <ancientwarfare:backpack:1>,
-    <ancientwarfare:backpack:2>,
-    <ancientwarfare:backpack:3>,
     
     <ancientwarfareautomation:flywheel_storage>,
     <ancientwarfareautomation:flywheel_storage:1>,
@@ -48,11 +44,14 @@ val disableList = [
     <ancientwarfareautomation:chunk_loader_deluxe>,
     <ancientwarfareautomation:worksite_upgrade:9>,
     <ancientwarfareautomation:worksite_upgrade:10>,
-    
+    <ancientwarfareautomation:fish_farm>,
+
     <ancientwarfarenpc:coin>.withTag({metal: "copper"}),
     <ancientwarfarenpc:coin>.withTag({metal: "silver"}),
     <ancientwarfarenpc:coin>.withTag({metal: "gold"}),
-
+    
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "researcher", npcType: "worker"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "siege_engineer"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", faction: "orc", npcType: "faction.cavalry"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", faction: "pirate", npcType: "faction.cavalry"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", faction: "sarkonid", npcType: "faction.cavalry"}),
@@ -286,7 +285,7 @@ val disableList = [
     <ancientwarfarestructure:construction_tool_lakes>,
     <ancientwarfarestructure:sound_block>,
     <ancientwarfarestructure:spawner_placer>,
-    <ancientwarfarestructure:structure_builder>,
+    #<ancientwarfarestructure:structure_builder>,
     <ancientwarfarestructure:structure_builder_ticked>,
     <ancientwarfarestructure:structure_builder_world_gen>,
     <ancientwarfarestructure:structure_scanner>,
