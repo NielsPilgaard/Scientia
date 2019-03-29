@@ -6,8 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/engineers_worktable")
 setRequiresParents()
 
-drawDirectLines(true)
-
 criteria = addCriteria("Quarry", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfareautomation:quarry>)
 

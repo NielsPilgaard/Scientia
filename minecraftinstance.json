@@ -19,7 +19,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-03-29T10:54:06.1525589Z",
+  "lastPlayed": "2019-03-29T11:19:17.0900273Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -7506,14 +7506,14 @@
       "addonID": 237167,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2688782,
-        "fileName": "FTBLib-5.4.1.92.jar",
-        "fileNameOnDisk": "FTBLib-5.4.1.92.jar",
-        "fileDate": "2019-03-18T12:35:21.11",
-        "fileLength": 885870,
+        "id": 2690211,
+        "fileName": "FTBLib-5.4.1.93.jar",
+        "fileNameOnDisk": "FTBLib-5.4.1.93.jar",
+        "fileDate": "2019-03-22T04:02:07.827",
+        "fileLength": 886760,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2688/782/FTBLib-5.4.1.92.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2690/211/FTBLib-5.4.1.93.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7521,11 +7521,11 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 3667328885
+            "fimgerprint": 4086017486
           },
           {
             "folderName": "com",
-            "fimgerprint": 2477721257
+            "fimgerprint": 2110272786
           },
           {
             "folderName": "assets",
@@ -7537,19 +7537,19 @@
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 1708536837
+            "fimgerprint": 1374135903
           }
         ],
-        "packageFingerprint": 4266833736,
+        "packageFingerprint": 1750819805,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-01-14T07:51:43.7730597Z",
-      "dateUpdated": "2019-03-20T17:27:13.0109984Z",
-      "dateLastUpdateAttempted": "2019-03-20T17:27:13.0109984Z",
-      "status": 3,
+      "dateUpdated": "2019-03-29T12:00:48.5572151Z",
+      "dateLastUpdateAttempted": "2019-03-29T12:00:48.5572151Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7564,14 +7564,14 @@
       "addonID": 237102,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2687621,
-        "fileName": "FTBUtilities-5.4.0.87.jar",
-        "fileNameOnDisk": "FTBUtilities-5.4.0.87.jar",
-        "fileDate": "2019-03-15T18:03:56.257",
-        "fileLength": 406516,
+        "id": 2689765,
+        "fileName": "FTBUtilities-5.4.0.88.jar",
+        "fileNameOnDisk": "FTBUtilities-5.4.0.88.jar",
+        "fileDate": "2019-03-20T19:16:23.207",
+        "fileLength": 406552,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2687/621/FTBUtilities-5.4.0.87.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2689/765/FTBUtilities-5.4.0.88.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -7596,11 +7596,11 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 572573597
+            "fimgerprint": 1229964565
           },
           {
             "folderName": "com",
-            "fimgerprint": 3467711343
+            "fimgerprint": 189575874
           },
           {
             "folderName": "assets",
@@ -7612,19 +7612,19 @@
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 3131873828
+            "fimgerprint": 2318750924
           }
         ],
-        "packageFingerprint": 1106837544,
+        "packageFingerprint": 655190724,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-01-14T07:51:44.4572817Z",
-      "dateUpdated": "2019-03-18T07:48:58.0247526Z",
-      "dateLastUpdateAttempted": "2019-03-18T07:48:58.0247526Z",
-      "status": 3,
+      "dateUpdated": "2019-03-29T12:00:50.0544344Z",
+      "dateLastUpdateAttempted": "2019-03-29T12:00:50.0544344Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13096,69 +13096,6 @@
       "dateUpdated": "2019-03-28T18:25:43.5308266Z",
       "dateLastUpdateAttempted": "2019-03-28T18:25:43.5308266Z",
       "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 240630,
-      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
-      "installedFile": {
-        "id": 2603567,
-        "fileName": "JustEnoughResources-1.12.2-0.8.10.50",
-        "fileNameOnDisk": "JustEnoughResources-1.12.2-0.8.10.50.jar",
-        "fileDate": "2018-08-15T10:39:13.273",
-        "fileLength": 219508,
-        "releaseType": 3,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2603/567/JustEnoughResources-1.12.2-0.8.10.50.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "addonId": 238222,
-            "type": 1
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 226804659
-          },
-          {
-            "folderName": "jeresources",
-            "fimgerprint": 3496159106
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 1913538856
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 2234233425
-          },
-          {
-            "folderName": "pack.mcmeta",
-            "fimgerprint": 2604549910
-          }
-        ],
-        "packageFingerprint": 3794351374,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2019-03-29T09:26:11.1917167Z",
-      "dateUpdated": "2019-03-29T09:26:11.1968149Z",
-      "dateLastUpdateAttempted": "2019-03-29T09:26:11.1968149Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

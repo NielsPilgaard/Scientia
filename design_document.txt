@@ -1,32 +1,88 @@
 The Dawn of Time
 
 	Features:
-		* Getting started.
-		* Learning the various mechanics.
-		* Getting used to advancements.
-		* Basic Tools.
+		* Getting started
+		* Learning the various mechanics
+		* Getting used to advancements
+		* Basic Tools
 	
 Stone Age
 
 	Features:
+		* Artisan's Worktables
+		* Introduction to Professions
+		* Farming
+		* Mining
+		* Cooking
+		* Better Storage
+		* Villager trading
+		* Interior decorating?
 	
 Copper Age
 
 	Features:
+		* Modular Machinery (Smeltery / Furnace replacements)
+		* Glassworking
+		* Metalworking
+		* Ancient Warfare NPCs
+		* Ancient Warfare Automation
+		* Ancient Warfare AE-like storage
+		* Bounties on Ancient Warfare faction entities
+	
+	End:
+		* When the player reaches Alfheim
 	
 Bronze Age
 
 	Features:
+		* Alfheim, heavily tweaked Botania
+		* Building Gadgets
+		* Chisels&Bits
+		* Profession upgrades
+		* Ancient Warfare Energy production 
+		* Warpstones
+		
+	End:
+		* When the player has at least one top-level Profession
+		* When the player has reached a certain level in the Druid profession
 	
 Iron Age
 
 	Features:
+		* Access to more metals
+		* Wings
+		
+	End:
+		* When the player reaches Infernae
 	
 Middle Ages
 
 	Features:
+		* Infernae, heavily tweaked Blood Magic
+		
+	End:
+		* When the player has reached a certain level in the Warlock profession
+		* When the player reaches Ariente?
+	
+Industrial Age
+	Features:
+		* Immersive Engineering / Petroleum
+		* Railcraft
+		* Emphasis on Factory building
+	End:
+		* When a certain number of multiblocks / train infrastructure is made
 	
 Modern Age
 
 	Features:
+		* Applied Energistics
+		* Advanced crafting with multiblocks
+		* Advanced Rocketry
+		* Magneticraft
+		* Custom planets, plentiful ore generation
+		* Emphasis on automation, building, exploring and kitchen-sink style play
+		
+	End:
+		* When the player has assembled a huge Modular Machine that does something sany?
+		
 	

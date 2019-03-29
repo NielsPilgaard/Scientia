@@ -7,8 +7,6 @@ addParent("scientia:copper_age/quarry")
 addParent("scientia:copper_age/automatic_farm")
 setRequiresParents()
 
-drawDirectLines(true)
-
 criteria = addCriteria("Worker", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"worker"}>)
 

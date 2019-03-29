@@ -6,8 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
-drawDirectLines(true)
-
 criteria = addCriteria("Engineer's Worktable", "minecraft:inventory_changed")
 criteria.addItem(<artisanworktables:worktable, meta:6, count:1>)
 

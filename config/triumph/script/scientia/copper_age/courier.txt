@@ -6,8 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
-drawDirectLines(true)
-
 criteria = addCriteria("Any Ancient Warfare Pack", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfare:backpack>)
 

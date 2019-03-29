@@ -6,8 +6,6 @@ setShowToast(true)
 addParent("scientia:copper_age/town_hall")
 setRequiresParents()
 
-drawDirectLines(true)
-
 criteria = addCriteria("Hire a Guard", "minecraft:inventory_changed")
 criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"",npcType:"guard"}>)
 
