@@ -10,6 +10,7 @@ global stages as string[string] = {
 	iron_age : "iron_age", # Able to mine Nickel / Iron / Gold
 	middle_ages : "middle_ages",
 	industrial_age : "industrial_age",
+	modern_age : "modern_age", 
 
 # Time Period Enemies
 	dawn_of_time_mobs : "dawn_of_time_mobs",
@@ -19,6 +20,7 @@ global stages as string[string] = {
 	iron_age_mobs : "iron_age_mobs",
 	middle_ages_mobs : "middle_ages_mobs",
 	industrial_age_mobs : "industrial_age_mobs",
+	modern_age_mobs : "modern_age_mobs", 
 
 # Research
 	sifting : "sifting", # Gives access to the Water Filter and Grass Mesh for Flint
@@ -61,11 +63,11 @@ global stages as string[string] = {
 	expert_miner : "expert_miner", # Diamond?
 	master_miner : "master_miner", # Obsidian?
 
-	novice_druid : "novice_druid", # The Botania / Nature's Aura profession, gives access to the recipe for Waystone and Warp Stone
+	novice_druid : "novice_druid", # The Botania  profession, gives access to the recipe for Waystone and Warp Stone
 	skilled_druid : "skilled_druid", 
 	master_druid : "master_druid",
 
-	novice_warlock : "novice_warlock", # The Blood Magic profession, gives access to Floocraft teleportation
+	novice_warlock : "novice_warlock", # The Blood Magic profession, gives access to Blood Magic stuff and eventually the Industrial Age
 	#apprentice_warlock : "apprentice_warlock",
 	skilled_warlock : "skilled_warlock",
 	#expert_warlock : "expert_warlock",  

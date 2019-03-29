@@ -68,38 +68,7 @@ val removals as IItemStack[] = [
 
 ];
 
-val oredictRemovals as IOreDictEntry[] = [
-    
-    <ore:wool>,
-    <ore:plankWood>,
-    <ore:stairWood>,
-    <ore:slabWood>,
-    <ore:chestWood>,
-    <ore:fenceWood>,
-    <ore:fenceGateWood>,
-    <ore:doorWood>,
-    <ore:pressurePlateWood>,
-    <ore:trapdoorWood>,
-    <ore:buttonWood>,
-    <ore:shelfWood>,
-    <ore:potionShelfWood>,
-    <ore:bookcaseWood>,
-    <ore:toolrackWood>,
-    <ore:mapframeWood>,
-    <ore:signWood>,
-    <ore:labelWood>,
-    <ore:tableWood>,
-    <ore:chairWood>,
-    <ore:seatBack>,
-    <ore:furniturePanelerWood>,
-    <ore:deskWood>,
-    <ore:seat>,
-    <ore:caseWood>,
-    <ore:mapFrameWood>,
-    <ore:armorStandWood>,
-    <ore:doorTreatedWood>,
-    <ore:bookshelf>
-];
+
 
 val modRemovals as string[] = [
     "morecauldrons",
@@ -109,10 +78,6 @@ val modRemovals as string[] = [
 ];
 
 for item in removals {
-    recipes.remove(item);
-}
-
-for item in oredictRemovals {
     recipes.remove(item);
 }
 
