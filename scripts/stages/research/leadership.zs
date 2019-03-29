@@ -1,5 +1,6 @@
 #priority 100
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var stage = stages.leadership;
 
@@ -74,3 +75,18 @@ mods.recipestages.Recipes.addShapedMirrored("ancientwarfarenpc_stone_command_bat
 [[null, null, <minecraft:stone:*>], 
 [null, stick, null], 
 [<minecraft:stone:*>, null, null]]);
+
+val craftableNPCs as IIngredient[] = [
+
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "priest"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "bard"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "trader"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "courier"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "worker"}),
+    <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"})
+
+];
+
+for npc in craftableNPCs {
+    recipes.replaceAllOccurences(<ore:ingotGold>, materials.copper.ingot, npc);
+}

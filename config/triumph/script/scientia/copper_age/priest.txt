@@ -1,0 +1,14 @@
+setIcon(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"",npcType:"priest"}>)
+setTitle("Holier Than Thou")
+setDescription("The Priest is able to ressurect NPCs that have died within 100 blocks of a Town Hall.\n\nThe ressurected NPC will have no items.")
+setShowToast(true)
+
+addParent("scientia:copper_age/guard")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Hire a Priest", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:npc_spawner, meta:0, count:1, nbt:{npcSubtype:"",npcType:"priest"}>)
+
+setRewardExperience(25)

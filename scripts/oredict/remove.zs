@@ -11,8 +11,6 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:dyeLightGray>.remove(<rustic:ironberries>);
 <ore:dyePurple>.remove(<rustic:grapes>);
 
-<ore:stickWood>.remove(<naturesaura:ancient_stick>);
-
 <ore:craftingTableWood>.remove(<minecraft:crafting_table>);
 
 for item in <ore:itemSalt>.items {

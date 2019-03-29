@@ -70,24 +70,16 @@ for branch in dynamicBranches {
     <ore:trapdoorWood>.add(<engineersdoors:trapdoor_treated>);
 
 # slabWood
-    <ore:slabWood>.add(<naturesaura:ancient_slab>);
     <ore:slabWood>.add(<botania:livingwood0slab>);
     <ore:slabWood>.add(<botania:livingwood1slab>);
     <ore:slabWood>.add(<botania:dreamwood0slab>);
     <ore:slabWood>.add(<botania:dreamwood1slab>);
     <ore:slabWood>.add(<botania:shimmerwoodplanks0slab>);
 
-# stairWood / plankWood
-    <ore:stairWood>.add(<naturesaura:ancient_stairs>);
-    <ore:plankWood>.add(<naturesaura:ancient_planks>);
-
 for stair, plank in loglessStairPlankMap {
     <ore:plankWood>.add(plank);
     <ore:stairWood>.add(stair);
 }
-
-# logWood
-    <ore:logWood>.add(<naturesaura:ancient_log>);
 
 # Maple Button / Pressure Plate / Fence / Fence Gate
 
@@ -176,7 +168,6 @@ for woodtype in woodtypes {
 
 # treeSapling
     <ore:treeSapling>.add(<treetweaker:livingwood>);
-    <ore:treeSapling>.add(<naturesaura:ancient_sapling>);
     <ore:treeSapling>.add(<treetweaker:dreamwood>);
 
 # foodJuice

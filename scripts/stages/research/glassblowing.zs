@@ -51,12 +51,6 @@ for item in glass {
     stageItem(stage, item);
 }
 
-var glassItems as IItemStack[] = itemUtils.getItemsByRegexUnlocalizedName(".*glass.*");
-
-for item in glassItems {
-    stageItem(stage, item);
-}
-
 mods.recipestages.Recipes.addShaped("tconstruct_tinker_tank_controller_custom", stage, 
 <tconstruct:tinker_tank_controller>, 
 [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],

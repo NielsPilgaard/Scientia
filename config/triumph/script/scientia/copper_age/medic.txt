@@ -1,0 +1,14 @@
+setIcon(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"medic",npcType:"combat"}>)
+setTitle("Medicine Man")
+setDescription("Equipping a Combat NPC with a Hatchet will turn him into a Medic.\nMedics can heal you and nearby NPCs.\n\nTo complete this advancement, equip a Combat NPC with a Hatchet, click repack, and pick up the dropped item.")
+setShowToast(true)
+
+addParent("scientia:copper_age/town_hall")
+setRequiresParents()
+
+drawDirectLines(true)
+
+criteria = addCriteria("Hire a Medic", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:npc_spawner, nbt:{npcSubtype:"medic",npcType:"combat"}>)
+
+setRewardExperience(25)

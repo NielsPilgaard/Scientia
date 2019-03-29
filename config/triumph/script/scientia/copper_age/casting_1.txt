@@ -7,8 +7,7 @@ addParent("scientia:copper_age/crucible")
 setRequiresParents()
 
 criteria = addCriteria("17 Grout", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:soil>)
-criteria.setCount(17)
+criteria.addItem(<tconstruct:soil, meta:0, count:17~>)
 
 criteria = addCriteria("Casting Table", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:casting>)
