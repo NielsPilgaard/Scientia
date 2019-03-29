@@ -19,7 +19,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-03-29T10:45:52.5902178Z",
+  "lastPlayed": "2019-03-29T10:54:06.1525589Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1533,21 +1533,6 @@
       "queryTimestamp": "2019-03-12T12:02:37.3908994Z",
       "fileCount": 1,
       "fileSize": 12248055
-    },
-    {
-      "folderName": "ARTweaker-1.12.2-1.0.0.jar",
-      "fingerprint": 410192594,
-      "fileDateHash": 145605109,
-      "sectionID": 6,
-      "individualFingerprints": [
-        410192594
-      ],
-      "status": 1,
-      "timestamp": "2019-03-01T08:32:27.2709139Z",
-      "lastWriteTimeUtc": "2019-02-25T10:47:24.9285936Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5720094Z",
-      "fileCount": 1,
-      "fileSize": 28271
     },
     {
       "folderName": "architecturecraft-1.12-3.80.jar",
@@ -7983,119 +7968,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 236541,
-      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
-      "installedFile": {
-        "id": 2688738,
-        "fileName": "LibVulpes 1.12.2-0.4.0-53-UNSTABLE build -53 for 1.12.2",
-        "fileNameOnDisk": "LibVulpes-1.12.2-0.4.0-53-universal.jar",
-        "fileDate": "2019-03-18T07:31:15.117",
-        "fileLength": 515531,
-        "releaseType": 3,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2688/738/LibVulpes-1.12.2-0.4.0-53-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 1737584370
-          },
-          {
-            "folderName": "zmaster587",
-            "fimgerprint": 856432263
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 924328981
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 2984567209
-          }
-        ],
-        "packageFingerprint": 4153129100,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2019-02-21T21:43:54.2720041Z",
-      "dateUpdated": "2019-03-20T17:27:18.6641871Z",
-      "dateLastUpdateAttempted": "2019-03-20T17:27:18.6641871Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 236542,
-      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
-      "installedFile": {
-        "id": 2690056,
-        "fileName": "AdvancedRocketry 1.12.2-1.5.0-136-UNSTABLE build -136 for 1.12.2",
-        "fileNameOnDisk": "AdvancedRocketry-1.12.2-1.5.0-136-universal.jar",
-        "fileDate": "2019-03-21T19:00:01.327",
-        "fileLength": 12249515,
-        "releaseType": 3,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2690/56/AdvancedRocketry-1.12.2-1.5.0-136-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "addonId": 236541,
-            "type": 1
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 1939633734
-          },
-          {
-            "folderName": "zmaster587",
-            "fimgerprint": 2609043863
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 1586312705
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 1681740465
-          }
-        ],
-        "packageFingerprint": 1041084548,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2019-02-21T21:44:07.2312961Z",
-      "dateUpdated": "2019-03-26T18:35:48.5959422Z",
-      "dateLastUpdateAttempted": "2019-03-26T18:35:48.5959422Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 268819,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
@@ -10480,61 +10352,6 @@
           }
         ],
         "packageFingerprint": 2494616567,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2019-03-01T08:32:29.5552018Z",
-      "dateUpdated": "2018-03-01T08:32:29.5552018Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 315391,
-      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
-      "installedFile": {
-        "id": 2678285,
-        "fileName": "ARTweaker-1.12.2-1.0.0.jar",
-        "fileNameOnDisk": "ARTweaker-1.12.2-1.0.0.jar",
-        "fileDate": "2019-02-21T19:44:49.547",
-        "fileLength": 28271,
-        "releaseType": 2,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2678/285/ARTweaker-1.12.2-1.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "addonId": 236542,
-            "type": 1
-          },
-          {
-            "addonId": 239197,
-            "type": 1
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 3609013059
-          },
-          {
-            "folderName": "p455w0rd",
-            "fimgerprint": 17578059
-          }
-        ],
-        "packageFingerprint": 410192594,
         "gameVersion": [
           "1.12.2"
         ],

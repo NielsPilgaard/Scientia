@@ -273,7 +273,7 @@ global woodtypes as IIngredient[string][string] = {
 		button : null,
         cauldron : null,
 		bookshelf : null
-    },
+    }/*,
     lightwood: {
         log : <advancedrocketry:alienwood>,
         plank : <advancedrocketry:planks>,
@@ -288,7 +288,7 @@ global woodtypes as IIngredient[string][string] = {
 		button : null,
         cauldron : null,
 		bookshelf : null
-    }
+    }*/
 };
 
 global vanillaWoodtypes as int[string] = {

@@ -11,7 +11,7 @@ var stage = "disabled";
 
 # List of things to disable
 val disableList = [
-
+/*
     <advancedrocketry:liquidtank>,
     <advancedrocketry:bucketrocketfuel>.withTag({Fluid: {FluidName: "rocketfuel", Amount: 1000}}),
     <advancedrocketry:bucketnitrogen>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}}),
@@ -19,7 +19,7 @@ val disableList = [
     <advancedrocketry:bucketoxygen>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}),
     <advancedrocketry:thermitetorch>,
     <advancedrocketry:thermite>,
-
+*/
     <ancientwarfare:steel_ingot>,
     <ancientwarfare:component:3>,
     <ancientwarfare:component:4>,
