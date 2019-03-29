@@ -6,6 +6,7 @@ You start at the Dawn of Time, and have to discover new skills, resources and te
 
 Colaborate with villages and rival other settlements on your journey towards understanding the world.
 
+*   Embark on a quest for knowledge that will lead you and mankind into a new golden age!
 *   Learn Professions and master them to gain access to new abilities and recipes.  
 *   The progression is guided by a thorough Advancement system.
 *   Unique items, recipes and dimensions.
