@@ -20,3 +20,5 @@ for item in <ore:itemSalt>.items {
 for item in <ore:foodSalt>.items {
     <ore:foodSalt>.remove(item);
 }
+
+<ore:chest>.remove(<minecraft:ender_chest>);

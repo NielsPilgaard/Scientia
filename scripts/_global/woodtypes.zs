@@ -273,6 +273,21 @@ global woodtypes as IIngredient[string][string] = {
 		button : null,
         cauldron : null,
 		bookshelf : null
+    },
+	ancient: {
+        log : <naturesaura:ancient_log>,
+        plank : <naturesaura:ancient_planks>,
+        slab : <naturesaura:ancient_slab>,
+        stair : <naturesaura:ancient_stairs>,
+        trapdoor : null,
+        door : null,
+        fence : null,
+        fence_gate : null,
+        pressure_plate : null,
+        leaves : <naturesaura:ancient_leaves>,
+        button : null,
+        cauldron : null,
+        bookshelf : null
     }/*,
     lightwood: {
         log : <advancedrocketry:alienwood>,

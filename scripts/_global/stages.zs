@@ -45,6 +45,7 @@ global stages as string[string] = {
 	dye : "dye", # Gives access to the Inspirations dyes
 	bounty : "bounty", # Gives access to the Bounty Board in Villages
 	metallurgy : "metallurgy", # Gives access to the High Oven
+	automation : "automation", # Gives access to normal recipes from professions, used for autocrafting
 	
 # Profession Research 
 	novice_tinkerer : "novice_tinkerer", # Gives access to the Tool Table

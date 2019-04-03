@@ -39,24 +39,5 @@ val automationRecipeOredicts as IOreDictEntry[] = [
 ];
 
 for oredictEntry in automationRecipeOredicts {
-    for item in oredictEntry.items {
-        mods.recipestages.Recipes.setRecipeStage(stage, item);
-    }
+    mods.recipestages.Recipes.setRecipeStage(stage, oredictEntry);
 }
-
-/*
-var recipeList as IIngredient[][][][IItemStack] = {
-	<minecraft:lead> : [
-        [
-            [null, <ore:string>, <ore:string>],
-            [null, <ore:string>, <ore:string>], 
-            [<hooked:microcrafting:1>, null, null]
-        ]
-    ]
-};
-
-for item, recipesForItem in recipeList {
-	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapedMirrored(stage, item, recipe);
-	}
-}*/

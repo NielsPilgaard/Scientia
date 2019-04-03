@@ -116,6 +116,12 @@ Chopping.addRecipe("rustic:log", 5, "hitwithaxe:debarked_ironwood", 0, <hitwitha
 Chopping.addRecipe("rustic:log", 9, "hitwithaxe:debarked_ironwood", 2, <hitwithaxe:bark:25>); //Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_ironwood", 32767, <rustic:planks:1>);
 
+// Ancient
+Chopping.addRecipe("naturesaura:ancient_log", 0, "hitwithaxe:debarked_ancient", 0, <hitwithaxe:bark:32>); //Y Axis
+Chopping.addRecipe("naturesaura:ancient_log", 1, "hitwithaxe:debarked_ancient", 1, <hitwithaxe:bark:32>); //X Axis
+Chopping.addRecipe("naturesaura:ancient_log", 2, "hitwithaxe:debarked_ancient", 2, <hitwithaxe:bark:32>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_ancient", 32767, <naturesaura:ancient_planks>);
+
 for woodtype in woodtypes {
     if (!isNull(woodtypes[woodtype].slab) && !isNull(woodtypes[woodtype].plank)) {
         Chopping.addRecipe(woodtypes[woodtype].plank.items[0], woodtypes[woodtype].slab.items[0]);

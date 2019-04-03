@@ -79,10 +79,10 @@ Modern Age
 		* Advanced crafting with multiblocks
 		* Advanced Rocketry
 		* Magneticraft
-		* Custom planets, plentiful ore generation
-		* Emphasis on automation, building, exploring and kitchen-sink style play
+		* Custom planets, special buildings for each
+		* Emphasis on automation and exploring
 		
 	End:
-		* When the player has assembled a huge Modular Machine that does something sany?
+		* When the player has assembled a huge Modular Machine that does something secret
 		
 	

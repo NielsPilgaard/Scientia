@@ -2,13 +2,14 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import scripts.unification.utility.purgeItemsOreDicts;
 
 for material in materials {
 	for key, value in materials[material] {
 		if (!isNull(value)) {
 			if (!key.matches("liquid")) {
 				for item in value.items {
-					scripts.unification.utility.purgeItemsOreDicts(item);
+					purgeItemsOreDicts(item);
 				}
 			}
 			else 
@@ -20,4 +21,5 @@ for material in materials {
 	}
 }
 
-scripts.unification.utility.purgeItemsOreDicts(<contenttweaker:material_part:220>);
+purgeItemsOreDicts(<contenttweaker:material_part:220>);
+purgeItemsOreDicts(<minecraft:stick>);

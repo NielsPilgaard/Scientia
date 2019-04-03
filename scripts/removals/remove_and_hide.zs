@@ -19,8 +19,6 @@ var itemsToRemove = [
     <modulardiversity:blockjackhatch>,
 
     <tombmanygraves:death_list>,
-
-    #<waterstrainer:super_worm>
     
 ] as IItemStack[];
 
