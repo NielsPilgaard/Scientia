@@ -50,6 +50,11 @@ val disableList = [
     <ancientwarfarenpc:coin>.withTag({metal: "silver"}),
     <ancientwarfarenpc:coin>.withTag({metal: "gold"}),
     
+    <ancientwarfarenpc:wooden_shield>,
+    <ancientwarfarenpc:stone_shield>,
+    <ancientwarfarenpc:iron_shield>,
+    <ancientwarfarenpc:gold_shield>,
+    <ancientwarfarenpc:diamond_shield>,
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "researcher", npcType: "worker"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "siege_engineer"}),
     <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", faction: "orc", npcType: "faction.cavalry"}),
@@ -2182,6 +2187,9 @@ val disableList = [
     <quark:charcoal_block>,
     
     <spartanshields:shield_basic_diamond>,
+    <spartanshields:shield_basic_enderium>,
+    <spartanshields:shield_basic_signalum>,
+    <spartanshields:shield_basic_lumium>,
 
     <spartanweaponry:material:2>,
     <spartanweaponry:dynamite>,

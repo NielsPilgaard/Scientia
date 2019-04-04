@@ -39,5 +39,7 @@ val automationRecipeOredicts as IOreDictEntry[] = [
 ];
 
 for oredictEntry in automationRecipeOredicts {
-    mods.recipestages.Recipes.setRecipeStage(stage, oredictEntry);
+    for item in oredictEntry.items {
+        mods.recipestages.Recipes.setRecipeStage(stage, item);
+    }
 }

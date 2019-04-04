@@ -19,7 +19,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-04-03T18:54:08.8331357Z",
+  "lastPlayed": "2019-04-04T19:21:16.0862989Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -3134,7 +3134,7 @@
       "dateInstalled": "2018-12-19T20:53:07.6743733Z",
       "dateUpdated": "2019-04-03T17:23:38.7216414Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:38.7216414Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3939,7 +3939,7 @@
       "dateInstalled": "2018-12-19T20:53:07.6793871Z",
       "dateUpdated": "2019-04-03T17:23:36.8095983Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:36.8095983Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4438,7 +4438,7 @@
       "dateInstalled": "2018-12-19T20:53:07.6854031Z",
       "dateUpdated": "2019-04-03T17:23:45.6467138Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:45.6467138Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5253,7 +5253,7 @@
       "dateInstalled": "2018-12-19T20:53:07.6954293Z",
       "dateUpdated": "2019-04-03T17:23:40.3667577Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:40.3667577Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5857,7 +5857,7 @@
       "dateInstalled": "2018-12-19T20:53:07.7014462Z",
       "dateUpdated": "2019-04-03T17:23:29.6367422Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:29.6367422Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7064,7 +7064,7 @@
       "dateInstalled": "2018-12-19T21:03:17.4231097Z",
       "dateUpdated": "2018-12-19T21:03:17.4251151Z",
       "dateLastUpdateAttempted": "2018-12-19T21:03:17.4251151Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7506,7 +7506,7 @@
       "dateInstalled": "2019-01-14T07:51:44.4572817Z",
       "dateUpdated": "2019-04-03T17:23:32.6815143Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:32.6815143Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9173,7 +9173,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5502156Z",
       "dateUpdated": "2019-04-03T17:23:26.9651628Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:26.9651628Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10302,7 +10302,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5552018Z",
       "dateUpdated": "2019-04-03T17:23:47.6523502Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:47.6523502Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12155,7 +12155,7 @@
       "dateInstalled": "2019-03-03T08:41:57.5683472Z",
       "dateUpdated": "2019-04-03T17:23:34.1757051Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:34.1757051Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13215,7 +13215,7 @@
       "dateInstalled": "2019-03-30T08:28:46.1550296Z",
       "dateUpdated": "2019-04-03T17:23:43.9295793Z",
       "dateLastUpdateAttempted": "2019-04-03T17:23:43.9295793Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13354,6 +13354,164 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 298187,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2691133,
+        "fileName": "BuildingGadgets v2.6.8",
+        "fileNameOnDisk": "BuildingGadgets-2.6.8.jar",
+        "fileDate": "2019-03-24T09:36:06.047",
+        "fileLength": 622475,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2691/133/BuildingGadgets-2.6.8.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 59751,
+            "type": 2
+          },
+          {
+            "addonId": 69163,
+            "type": 2
+          },
+          {
+            "addonId": 223794,
+            "type": 2
+          },
+          {
+            "addonId": 228404,
+            "type": 2
+          },
+          {
+            "addonId": 231951,
+            "type": 2
+          },
+          {
+            "addonId": 239286,
+            "type": 2
+          },
+          {
+            "addonId": 242638,
+            "type": 2
+          },
+          {
+            "addonId": 243076,
+            "type": 2
+          },
+          {
+            "addonId": 267602,
+            "type": 2
+          },
+          {
+            "addonId": 268495,
+            "type": 2
+          },
+          {
+            "addonId": 268560,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 901396658
+          },
+          {
+            "folderName": "com",
+            "fimgerprint": 3623745675
+          },
+          {
+            "folderName": "assets",
+            "fimgerprint": 1411113509
+          },
+          {
+            "folderName": "mcmod.info",
+            "fimgerprint": 3677780537
+          },
+          {
+            "folderName": "pack.mcmeta",
+            "fimgerprint": 3273911401
+          }
+        ],
+        "packageFingerprint": 3260403100,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-03T18:59:53.9759108Z",
+      "dateUpdated": "2019-04-03T18:59:53.9837122Z",
+      "dateLastUpdateAttempted": "2019-04-03T18:59:53.9837122Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 254652,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2591087,
+        "fileName": "fencejumper-1.12-1.0.5.jar",
+        "fileNameOnDisk": "fencejumper-1.12-1.0.5.jar",
+        "fileDate": "2018-07-25T13:51:15.76",
+        "fileLength": 6913,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2591/87/fencejumper-1.12-1.0.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 243121,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 1332855377
+          },
+          {
+            "folderName": "p455w0rd",
+            "fimgerprint": 355335806
+          },
+          {
+            "folderName": "mcmod.info",
+            "fimgerprint": 3117542206
+          }
+        ],
+        "packageFingerprint": 2758339561,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-04T18:30:06.7949365Z",
+      "dateUpdated": "2019-04-04T18:30:06.8068401Z",
+      "dateLastUpdateAttempted": "2019-04-04T18:30:06.8068401Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     }
   ],
   "isMigrated": false,

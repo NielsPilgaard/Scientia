@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var stage = stages.bronze_age;
-
+/*
 var recipeList as IIngredient[][][][IItemStack] = {
 	<spartanshields:shield_basic_silver> : [
 		[
@@ -22,3 +22,4 @@ for item, recipesForItem in recipeList {
 		mods.recipestages.Recipes.addShaped(stage, item, recipe);
 	}
 }
+*/

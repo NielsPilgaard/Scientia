@@ -7,22 +7,22 @@ var stage = stages.iron_age;
 var recipeList as IIngredient[][][][IItemStack] = {
     <spartanshields:shield_basic_iron> : [
 		[
-            [null, materials["iron"].ingot, null],
-            [materials["iron"].ingot, <spartanshields:shield_basic_wood>, materials["iron"].ingot], 
-            [null, materials["iron"].ingot, null]
+            [null, materials.iron.ingot, null],
+            [materials.iron.ingot, <spartanshields:shield_basic_wood>, materials.iron.ingot], 
+            [null, materials.iron.ingot, null]
         ]
 	],
-    <spartanshields:shield_basic_iron> : [
+    <spartanshields:shield_basic_gold> : [
 		[
-            [null, materials["gold"].ingot, null],
-            [materials["gold"].ingot, <spartanshields:shield_basic_wood>, materials["gold"].ingot], 
-            [null, materials["gold"].ingot, null]
+            [null, materials.gold.ingot, null],
+            [materials.gold.ingot, <spartanshields:shield_basic_wood>, materials.gold.ingot], 
+            [null, materials.gold.ingot, null]
         ]
 	],
     <spartanshields:shield_basic_obsidian> : [
 		[
             [null, <ore:obsidian>, null],
-            [<ore:obsidian>, <spartanshields:shield_basic_obsidian>, <ore:obsidian>], 
+            [<ore:obsidian>, <spartanshields:shield_basic_wood>, <ore:obsidian>], 
             [null, <ore:obsidian>, null]
         ]
 	],
