@@ -7,3 +7,4 @@ import scripts.utility.stageTinkersMaterial;
 var stage = stages.bronze_age;
 
 stageTinkersMaterial(stage, "bronze");
+stageTinkersMaterial(stage, "bloodbronze");

@@ -41,7 +41,11 @@ var materialsForAllParts as Material[] = [
 	customMaterials.chrome,
 	customMaterials.manganese,
 	customMaterials.tungsten,
-	customMaterials.stainless_steel
+	customMaterials.stainless_steel,
+	customMaterials.silicon,
+	customMaterials.titanium,
+	customMaterials.titanium_aluminide,
+	customMaterials.titanium_iridium
 
 ];
 
@@ -61,7 +65,8 @@ var materialsForDust as Material[] = [
 	customMaterials.aluminum_brass,
 	customMaterials.lithium,
 	customMaterials.posirite,
-	customMaterials.negarite
+	customMaterials.negarite,
+	customMaterials.dilithium
 
 ];
 
@@ -77,7 +82,8 @@ var materialsForMolten as Material[] = [
 	customMaterials.glowstone,
 	customMaterials.lithium,
 	customMaterials.posirite,
-	customMaterials.negarite
+	customMaterials.negarite,
+	customMaterials.dilithium
 
 ];
 
@@ -95,7 +101,9 @@ var materialsForOre as Material[] = [
 	customMaterials.uranium,
 	customMaterials.silver,
 	customMaterials.lead,
-	customMaterials.nickel
+	customMaterials.nickel,
+	customMaterials.titanium,
+	customMaterials.dilithium
 
 ];
 
@@ -123,7 +131,9 @@ var materialsForPoorOre as Material[] = [
 	customMaterials.redstone,
 	customMaterials.lithium,
 	customMaterials.posirite,
-	customMaterials.negarite
+	customMaterials.negarite,
+	customMaterials.titanium,
+	customMaterials.dilithium
 	
 ];
 
@@ -179,4 +189,6 @@ for material in materialsForPoorOre {
 }
 
 customMaterials.ender_pearl.registerPart("block");
+customMaterials.dilithium.registerPart("block");
+
 customMaterials.wood.registerPart("gear");

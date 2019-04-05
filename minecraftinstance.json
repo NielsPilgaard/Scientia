@@ -19,7 +19,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-04-04T19:21:16.0862989Z",
+  "lastPlayed": "2019-04-05T12:09:20.3017288Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2255,21 +2255,6 @@
       "fileSize": 252426
     },
     {
-      "folderName": "tellme-1.12.2-0.6.0.jar",
-      "fingerprint": 210287489,
-      "fileDateHash": 4072739023,
-      "sectionID": 6,
-      "individualFingerprints": [
-        210287489
-      ],
-      "status": 1,
-      "timestamp": "2018-12-19T20:53:06.0509595Z",
-      "lastWriteTimeUtc": "2018-06-22T07:12:05.0751322Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
-      "fileCount": 1,
-      "fileSize": 253550
-    },
-    {
       "folderName": "Charset-StorageBarrels-0.5.4.8.jar",
       "fingerprint": 2942777622,
       "fileDateHash": 3893858966,
@@ -2283,6 +2268,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
       "fileCount": 1,
       "fileSize": 84688
+    },
+    {
+      "folderName": "tellme-1.12.2-0.6.0.jar",
+      "fingerprint": 210287489,
+      "fileDateHash": 4072739023,
+      "sectionID": 6,
+      "individualFingerprints": [
+        210287489
+      ],
+      "status": 1,
+      "timestamp": "2018-12-19T20:53:06.0509595Z",
+      "lastWriteTimeUtc": "2018-06-22T07:12:05.0751322Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
+      "fileCount": 1,
+      "fileSize": 253550
     },
     {
       "folderName": "Clumps-3.1.2.jar",
@@ -2405,21 +2405,6 @@
       "fileSize": 91899
     },
     {
-      "folderName": "FTBUtilities-5.4.0.85.jar",
-      "fingerprint": 1945386029,
-      "fileDateHash": 3452544125,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1945386029
-      ],
-      "status": 1,
-      "timestamp": "2019-03-10T18:49:17.9857064Z",
-      "lastWriteTimeUtc": "2019-03-08T18:55:37.9153903Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
-      "fileCount": 1,
-      "fileSize": 404894
-    },
-    {
       "folderName": "Bookshelf-1.12.2-2.3.577.jar",
       "fingerprint": 1505227104,
       "fileDateHash": 4045498262,
@@ -2433,6 +2418,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
       "fileCount": 1,
       "fileSize": 263529
+    },
+    {
+      "folderName": "FTBUtilities-5.4.0.85.jar",
+      "fingerprint": 1945386029,
+      "fileDateHash": 3452544125,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1945386029
+      ],
+      "status": 1,
+      "timestamp": "2019-03-10T18:49:17.9857064Z",
+      "lastWriteTimeUtc": "2019-03-08T18:55:37.9153903Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
+      "fileCount": 1,
+      "fileSize": 404894
     },
     {
       "folderName": "conarm-1.12.2-1.2.3.jar",
@@ -2480,21 +2480,6 @@
       "fileSize": 21760
     },
     {
-      "folderName": "journeymap-1.12.2-5.5.4.jar",
-      "fingerprint": 1853050331,
-      "fileDateHash": 841988278,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1853050331
-      ],
-      "status": 1,
-      "timestamp": "2019-03-04T09:03:02.0171162Z",
-      "lastWriteTimeUtc": "2019-03-04T08:56:22.2658001Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
-      "fileCount": 1,
-      "fileSize": 1845450
-    },
-    {
       "folderName": "DynamicTrees-1.12.2-0.9.4.jar",
       "fingerprint": 1208938606,
       "fileDateHash": 3958648705,
@@ -2508,6 +2493,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
       "fileCount": 1,
       "fileSize": 785265
+    },
+    {
+      "folderName": "journeymap-1.12.2-5.5.4.jar",
+      "fingerprint": 1853050331,
+      "fileDateHash": 841988278,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1853050331
+      ],
+      "status": 1,
+      "timestamp": "2019-03-04T09:03:02.0171162Z",
+      "lastWriteTimeUtc": "2019-03-04T08:56:22.2658001Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
+      "fileCount": 1,
+      "fileSize": 1845450
     },
     {
       "folderName": "VillagerTrades-1.12-0.6.4.jar",
@@ -2525,21 +2525,6 @@
       "fileSize": 78202
     },
     {
-      "folderName": "Scavenge V1.12-1.8.3.2.jar",
-      "fingerprint": 3748373555,
-      "fileDateHash": 2543816883,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3748373555
-      ],
-      "status": 1,
-      "timestamp": "2019-03-01T08:32:27.4963115Z",
-      "lastWriteTimeUtc": "2018-08-08T10:24:08.9165836Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5929534Z",
-      "fileCount": 1,
-      "fileSize": 534420
-    },
-    {
       "folderName": "RecurrentComplex-1.4.7.jar",
       "fingerprint": 2004489134,
       "fileDateHash": 521297417,
@@ -2553,6 +2538,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5939507Z",
       "fileCount": 1,
       "fileSize": 6928168
+    },
+    {
+      "folderName": "Scavenge V1.12-1.8.3.2.jar",
+      "fingerprint": 3748373555,
+      "fileDateHash": 2543816883,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3748373555
+      ],
+      "status": 1,
+      "timestamp": "2019-03-01T08:32:27.4963115Z",
+      "lastWriteTimeUtc": "2018-08-08T10:24:08.9165836Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5929534Z",
+      "fileCount": 1,
+      "fileSize": 534420
     },
     {
       "folderName": "natura-1.12.2-4.3.2.66.jar",
@@ -7017,14 +7017,14 @@
       "addonID": 278494,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2638380,
-        "fileName": "FoamFix 0.10.3 (1.12.2)",
-        "fileNameOnDisk": "foamfix-0.10.3-1.12.2.jar",
-        "fileDate": "2018-11-15T20:16:33.81",
-        "fileLength": 216000,
+        "id": 2695388,
+        "fileName": "FoamFix 0.10.5 (1.12.2)",
+        "fileNameOnDisk": "foamfix-0.10.5-1.12.2.jar",
+        "fileDate": "2019-04-04T12:36:27.883",
+        "fileLength": 211210,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2638/380/foamfix-0.10.3-1.12.2.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/388/foamfix-0.10.5-1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7032,7 +7032,7 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 625905969
+            "fimgerprint": 2994967269
           },
           {
             "folderName": "foamfix_at.cfg",
@@ -7052,19 +7052,19 @@
           },
           {
             "folderName": "pl",
-            "fimgerprint": 1636116815
+            "fimgerprint": 2850971748
           }
         ],
-        "packageFingerprint": 1322124505,
+        "packageFingerprint": 3180889627,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-12-19T21:03:17.4231097Z",
-      "dateUpdated": "2018-12-19T21:03:17.4251151Z",
-      "dateLastUpdateAttempted": "2018-12-19T21:03:17.4251151Z",
-      "status": 3,
+      "dateUpdated": "2019-04-05T06:50:17.7956201Z",
+      "dateLastUpdateAttempted": "2019-04-05T06:50:17.7956201Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8198,7 +8198,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5442351Z",
       "dateUpdated": "2018-03-01T08:32:29.5442351Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8925,7 +8925,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5492178Z",
       "dateUpdated": "2018-03-01T08:32:29.5492178Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10242,7 +10242,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5552018Z",
       "dateUpdated": "2018-03-01T08:32:29.5552018Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10257,14 +10257,14 @@
       "addonID": 258205,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2695026,
-        "fileName": "RandomTweaks 1.12.2-2.5.0.2",
-        "fileNameOnDisk": "randomtweaks-1.12.2-2.5.0.2.jar",
-        "fileDate": "2019-04-03T07:26:04.9",
-        "fileLength": 254304,
-        "releaseType": 2,
+        "id": 2695341,
+        "fileName": "RandomTweaks 1.12.2-2.5.0.3",
+        "fileNameOnDisk": "randomtweaks-1.12.2-2.5.0.3.jar",
+        "fileDate": "2019-04-04T06:10:13.783",
+        "fileLength": 255364,
+        "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2695/26/randomtweaks-1.12.2-2.5.0.2.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/341/randomtweaks-1.12.2-2.5.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -10272,7 +10272,7 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 2642734616
+            "fimgerprint": 1880239066
           },
           {
             "folderName": "assets",
@@ -10280,18 +10280,18 @@
           },
           {
             "folderName": "com",
-            "fimgerprint": 1913993516
+            "fimgerprint": 457865167
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 2427229922
+            "fimgerprint": 1201049505
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 132538242
           }
         ],
-        "packageFingerprint": 1511209636,
+        "packageFingerprint": 1299994088,
         "gameVersion": [
           "1.12",
           "1.12.1",
@@ -10300,9 +10300,9 @@
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5552018Z",
-      "dateUpdated": "2019-04-03T17:23:47.6523502Z",
-      "dateLastUpdateAttempted": "2019-04-03T17:23:47.6523502Z",
-      "status": 3,
+      "dateUpdated": "2019-04-05T06:50:29.3812315Z",
+      "dateLastUpdateAttempted": "2019-04-05T06:50:29.3812315Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11588,7 +11588,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5641783Z",
       "dateUpdated": "2018-03-01T08:32:29.5641783Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11647,7 +11647,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5641783Z",
       "dateUpdated": "2018-03-01T08:32:29.5641783Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13168,14 +13168,14 @@
       "addonID": 318255,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2693851,
-        "fileName": "Phosphor 0.1.7.1",
-        "fileNameOnDisk": "phosphor-1.12.2-0.1.7.1+build35-universal.jar",
-        "fileDate": "2019-03-31T18:54:52.51",
-        "fileLength": 1066572,
+        "id": 2695228,
+        "fileName": "Phosphor 0.2.0",
+        "fileNameOnDisk": "phosphor-1.12.2-0.2.0+build37-universal.jar",
+        "fileDate": "2019-04-03T22:00:11.68",
+        "fileLength": 1071221,
         "releaseType": 2,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2693/851/phosphor-1.12.2-0.1.7.1+build35-universal.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/228/phosphor-1.12.2-0.2.0+build37-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13183,39 +13183,39 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 1563851769
+            "fimgerprint": 246460813
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 1336888773
+            "fimgerprint": 460385317
           },
           {
             "folderName": "me",
-            "fimgerprint": 1973372509
+            "fimgerprint": 3671404857
           },
           {
             "folderName": "mixins.phosphor.json",
-            "fimgerprint": 133921584
+            "fimgerprint": 3178137962
           },
           {
             "folderName": "mixins.phosphor.refmap.json",
-            "fimgerprint": 2765477896
+            "fimgerprint": 2308304586
           },
           {
             "folderName": "org",
             "fimgerprint": 1950284326
           }
         ],
-        "packageFingerprint": 2702153950,
+        "packageFingerprint": 920952917,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-30T08:28:46.1550296Z",
-      "dateUpdated": "2019-04-03T17:23:43.9295793Z",
-      "dateLastUpdateAttempted": "2019-04-03T17:23:43.9295793Z",
-      "status": 3,
+      "dateUpdated": "2019-04-05T06:50:25.300095Z",
+      "dateLastUpdateAttempted": "2019-04-05T06:50:25.300095Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13447,7 +13447,7 @@
       "dateInstalled": "2019-04-03T18:59:53.9759108Z",
       "dateUpdated": "2019-04-03T18:59:53.9837122Z",
       "dateLastUpdateAttempted": "2019-04-03T18:59:53.9837122Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13511,7 +13511,175 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 236541,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2688738,
+        "fileName": "LibVulpes 1.12.2-0.4.0-53-UNSTABLE build -53 for 1.12.2",
+        "fileNameOnDisk": "LibVulpes-1.12.2-0.4.0-53-universal.jar",
+        "fileDate": "2019-03-18T07:31:15.117",
+        "fileLength": 515531,
+        "releaseType": 3,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2688/738/LibVulpes-1.12.2-0.4.0-53-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 1737584370
+          },
+          {
+            "folderName": "zmaster587",
+            "fimgerprint": 856432263
+          },
+          {
+            "folderName": "assets",
+            "fimgerprint": 924328981
+          },
+          {
+            "folderName": "mcmod.info",
+            "fimgerprint": 2984567209
+          }
+        ],
+        "packageFingerprint": 4153129100,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-05T09:07:32.2529932Z",
+      "dateUpdated": "2019-04-05T09:07:32.2625172Z",
+      "dateLastUpdateAttempted": "2019-04-05T09:07:32.2625172Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 236542,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2690056,
+        "fileName": "AdvancedRocketry 1.12.2-1.5.0-136-UNSTABLE build -136 for 1.12.2",
+        "fileNameOnDisk": "AdvancedRocketry-1.12.2-1.5.0-136-universal.jar",
+        "fileDate": "2019-03-21T19:00:01.327",
+        "fileLength": 12249515,
+        "releaseType": 3,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2690/56/AdvancedRocketry-1.12.2-1.5.0-136-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 236541,
+            "type": 1
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 1939633734
+          },
+          {
+            "folderName": "zmaster587",
+            "fimgerprint": 2609043863
+          },
+          {
+            "folderName": "assets",
+            "fimgerprint": 1586312705
+          },
+          {
+            "folderName": "mcmod.info",
+            "fimgerprint": 1681740465
+          }
+        ],
+        "packageFingerprint": 1041084548,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-05T09:07:33.8545828Z",
+      "dateUpdated": "2019-04-05T09:07:33.8642286Z",
+      "dateLastUpdateAttempted": "2019-04-05T09:07:33.8642286Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 315391,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2678285,
+        "fileName": "ARTweaker-1.12.2-1.0.0.jar",
+        "fileNameOnDisk": "ARTweaker-1.12.2-1.0.0.jar",
+        "fileDate": "2019-02-21T19:44:49.547",
+        "fileLength": 28271,
+        "releaseType": 2,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2678/285/ARTweaker-1.12.2-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 236542,
+            "type": 1
+          },
+          {
+            "addonId": 239197,
+            "type": 1
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 3609013059
+          },
+          {
+            "folderName": "p455w0rd",
+            "fimgerprint": 17578059
+          }
+        ],
+        "packageFingerprint": 410192594,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-05T09:07:43.3899688Z",
+      "dateUpdated": "2019-04-05T09:07:43.3914572Z",
+      "dateLastUpdateAttempted": "2019-04-05T09:07:43.3914572Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     }
   ],
   "isMigrated": false,

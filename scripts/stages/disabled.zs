@@ -879,6 +879,7 @@ val disableList = [
     <botania:mushroom:14>,
     <botania:mushroom:15>,
 
+    <botania:exchangerod>.withTag({}),
     <botania:tinypotato>,
     <botania_tweaks:compressed_tiny_potato_1>,
     <botania_tweaks:compressed_tiny_potato_2>,
@@ -2069,6 +2070,8 @@ val disableList = [
     <minecraft:tipped_arrow>.withTag({Potion: "quark:long_danger_sight"}),
     <minecraft:tipped_arrow>.withTag({Potion: "quark:haste"}),
 
+    <modularmachinery:itemmodularium>,
+
     <morecauldrons:glass_cauldron>,
     <morecauldrons:gold_cauldron>,
     <morecauldrons:diamond_cauldron>,
@@ -2273,7 +2276,9 @@ val liquidsToDisable as ILiquidStack[] = [
 
     <liquid:pigiron>,
     <liquid:knightslime>,
-    <liquid:honey>
+    <liquid:honey>,
+    <liquid:brass>,
+    <liquid:zinc>
 
 ];
 

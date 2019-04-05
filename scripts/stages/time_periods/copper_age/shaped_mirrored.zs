@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 
 var stage = stages.copper_age;
 
+var largePlate = <tconstruct:large_plate>.withTag({Material: "stone"})|<tconstruct:large_plate>.withTag({Material: "flint"})|<tconstruct:large_plate>.withTag({Material: "bone"});
+
 var recipeList as IIngredient[][][][IItemStack] = {
 	<spartanweaponry:javelin_copper> : [
         [
@@ -23,8 +25,24 @@ var recipeList as IIngredient[][][][IItemStack] = {
             [materials.aluminum.ingot, materials.copper.block, materials.aluminum.ingot], 
             [<ore:logWood>, null, <ore:logWood>]
         ]
-	]
+	],
+    <modularmachinery:blockcontroller> : [
+        [
+            [<minecraft:stone_slab>, <modularmachinery:blockcasing>, <minecraft:stone_slab>],
+            [<modularmachinery:blockcasing>, <ore:book>, <modularmachinery:blockcasing>], 
+            [<minecraft:stone_slab>, <modularmachinery:blockcasing>, <minecraft:stone_slab>]
+        ]
+    ],
+    <modularmachinery:blockcasing> * 4 : [
+        [
+            [<minecraft:stone:*>, largePlate, <minecraft:stone:*>],
+            [largePlate, null, largePlate], 
+            [<minecraft:stone:*>, largePlate, <minecraft:stone:*>]
+        ]
+    ]
+
 };
+    
 
 for item, recipesForItem in recipeList {
     recipes.remove(item);

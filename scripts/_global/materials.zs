@@ -406,5 +406,66 @@ global materials as IIngredient[string][string] = {
 		gear: null,
 		plate: null,
 		rod: null
+	},
+    silicon: {
+        nugget: <materialpart:silicon:nugget>,
+        ingot: <materialpart:silicon:ingot>,
+		block: <materialpart:silicon:block>, 		
+		ore: null,
+		ore_deposit: null, 		
+		dust: <materialpart:silicon:dust>,
+        liquid: <materialpart:silicon:molten>, 
+		gear: <materialpart:silicon:gear>,
+		plate: <materialpart:silicon:plate>,
+		rod: <materialpart:silicon:rod>
+	},
+    titanium: {
+        nugget: <materialpart:titanium:nugget>,
+        ingot: <materialpart:titanium:ingot>,
+		block: <materialpart:titanium:block>, 		
+		ore: <materialpart:titanium:ore>,
+		ore_deposit: <materialpart:titanium:poor_ore_minecraft_coarse_dirt>, 		
+		dust: <materialpart:titanium:dust>,
+        liquid: <materialpart:titanium:molten>, 
+		gear: <materialpart:titanium:gear>,
+		plate: <materialpart:titanium:plate>,
+		rod: <materialpart:titanium:rod>
+	},
+    titanium_aluminide: {
+        nugget: <materialpart:titanium_aluminide:nugget>,
+        ingot: <materialpart:titanium_aluminide:ingot>,
+		block: <materialpart:titanium_aluminide:block>, 		
+		ore: null,
+		ore_deposit: null, 		
+		dust: <materialpart:titanium_aluminide:dust>,
+        liquid: <materialpart:titanium_aluminide:molten>, 
+		gear: <materialpart:titanium_aluminide:gear>,
+		plate: <materialpart:titanium_aluminide:plate>,
+		rod: <materialpart:titanium_aluminide:rod>
+	},
+    titanium_iridium: {
+        nugget: <materialpart:titanium_iridium:nugget>,
+        ingot: <materialpart:titanium_iridium:ingot>,
+		block: <materialpart:titanium_iridium:block>, 		
+		ore: null,
+		ore_deposit: null, 		
+		dust: <materialpart:titanium_iridium:dust>,
+        liquid: <materialpart:titanium_iridium:molten>, 
+		gear: <materialpart:titanium_iridium:gear>,
+		plate: <materialpart:titanium_iridium:plate>,
+		rod: <materialpart:titanium_iridium:rod>
+	},
+    dilithium: {
+        nugget: null,
+        ingot: null,
+		gem: <libvulpes:productcrystal>,
+		block: <materialpart:dilithium:block>, 		
+		ore: <materialpart:dilithium:ore>,
+		ore_deposit: <materialpart:dilithium:poor_ore_minecraft_coarse_dirt>, 		
+		dust: <materialpart:dilithium:dust>,
+        liquid: <materialpart:dilithium:molten>, 
+		gear: null,
+		plate: null,
+		rod: null
 	}
 };

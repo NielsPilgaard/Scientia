@@ -190,3 +190,6 @@ for woodtype in woodtypes {
 	
 # blockGlassColorless
 	<ore:blockGlassColorless>.add(<tconstruct:clear_glass>);
+
+# gemDilithium
+    <ore:gemDilithium>.add(<libvulpes:productcrystal>);

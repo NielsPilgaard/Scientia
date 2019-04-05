@@ -48,6 +48,12 @@ static customMaterials as Material[string] = {
 	"posirite": MaterialSystem.getMaterialBuilder().setName("Posirite").setColor(Color.fromHex("107fe8")).build(),
 	"negarite": MaterialSystem.getMaterialBuilder().setName("Negarite").setColor(Color.fromHex("dfea44")).build(),
 
-	"wood": MaterialSystem.getMaterialBuilder().setName("Wood").setColor(Color.fromHex("6b3905")).build()
+	"wood": MaterialSystem.getMaterialBuilder().setName("Wood").setColor(Color.fromHex("6b3905")).build(),
+
+	"silicon": MaterialSystem.getMaterialBuilder().setName("Silicon").setColor(Color.fromHex("34383a")).build(),
+	"titanium": MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("e5e5e5")).build(),
+	"titanium_aluminide": MaterialSystem.getMaterialBuilder().setName("Titanium Aluminide").setColor(Color.fromHex("b3d5d6")).build(),
+	"titanium_iridium": MaterialSystem.getMaterialBuilder().setName("Titanium Iridium").setColor(Color.fromHex("d7eaea")).setHasEffect(true).build(),
+	"dilithium": MaterialSystem.getMaterialBuilder().setName("Dilithium").setColor(Color.fromHex("f2c0b8")).build()
 
 };

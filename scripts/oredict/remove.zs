@@ -22,3 +22,5 @@ for item in <ore:foodSalt>.items {
 }
 
 <ore:chest>.remove(<minecraft:ender_chest>);
+
+<ore:stickWood>.remove(<naturesaura:ancient_stick>);
