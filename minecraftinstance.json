@@ -19,7 +19,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-04-05T12:09:20.3017288Z",
+  "lastPlayed": "2019-04-06T19:01:59.1920469Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1805,21 +1805,6 @@
       "fileSize": 132746
     },
     {
-      "folderName": "cleardespawn-1.12.2-1.0.jar",
-      "fingerprint": 192127819,
-      "fileDateHash": 1542332056,
-      "sectionID": 6,
-      "individualFingerprints": [
-        192127819
-      ],
-      "status": 1,
-      "timestamp": "2019-03-01T08:32:27.3187868Z",
-      "lastWriteTimeUtc": "2018-12-19T20:58:27.7378404Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5779938Z",
-      "fileCount": 1,
-      "fileSize": 27460
-    },
-    {
       "folderName": "JustEnoughPetroleum-0.1.jar",
       "fingerprint": 4082129566,
       "fileDateHash": 1035945823,
@@ -2255,21 +2240,6 @@
       "fileSize": 252426
     },
     {
-      "folderName": "Charset-StorageBarrels-0.5.4.8.jar",
-      "fingerprint": 2942777622,
-      "fileDateHash": 3893858966,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2942777622
-      ],
-      "status": 1,
-      "timestamp": "2019-03-01T08:32:27.3138166Z",
-      "lastWriteTimeUtc": "2018-12-19T20:54:18.4459617Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
-      "fileCount": 1,
-      "fileSize": 84688
-    },
-    {
       "folderName": "tellme-1.12.2-0.6.0.jar",
       "fingerprint": 210287489,
       "fileDateHash": 4072739023,
@@ -2283,6 +2253,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
       "fileCount": 1,
       "fileSize": 253550
+    },
+    {
+      "folderName": "Charset-StorageBarrels-0.5.4.8.jar",
+      "fingerprint": 2942777622,
+      "fileDateHash": 3893858966,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2942777622
+      ],
+      "status": 1,
+      "timestamp": "2019-03-01T08:32:27.3138166Z",
+      "lastWriteTimeUtc": "2018-12-19T20:54:18.4459617Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5889645Z",
+      "fileCount": 1,
+      "fileSize": 84688
     },
     {
       "folderName": "Clumps-3.1.2.jar",
@@ -2405,21 +2390,6 @@
       "fileSize": 91899
     },
     {
-      "folderName": "Bookshelf-1.12.2-2.3.577.jar",
-      "fingerprint": 1505227104,
-      "fileDateHash": 4045498262,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1505227104
-      ],
-      "status": 1,
-      "timestamp": "2019-03-10T18:49:17.5468422Z",
-      "lastWriteTimeUtc": "2019-03-08T18:55:46.3867056Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
-      "fileCount": 1,
-      "fileSize": 263529
-    },
-    {
       "folderName": "FTBUtilities-5.4.0.85.jar",
       "fingerprint": 1945386029,
       "fileDateHash": 3452544125,
@@ -2433,6 +2403,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
       "fileCount": 1,
       "fileSize": 404894
+    },
+    {
+      "folderName": "Bookshelf-1.12.2-2.3.577.jar",
+      "fingerprint": 1505227104,
+      "fileDateHash": 4045498262,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1505227104
+      ],
+      "status": 1,
+      "timestamp": "2019-03-10T18:49:17.5468422Z",
+      "lastWriteTimeUtc": "2019-03-08T18:55:46.3867056Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5909592Z",
+      "fileCount": 1,
+      "fileSize": 263529
     },
     {
       "folderName": "conarm-1.12.2-1.2.3.jar",
@@ -2480,21 +2465,6 @@
       "fileSize": 21760
     },
     {
-      "folderName": "DynamicTrees-1.12.2-0.9.4.jar",
-      "fingerprint": 1208938606,
-      "fileDateHash": 3958648705,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1208938606
-      ],
-      "status": 1,
-      "timestamp": "2019-03-01T08:32:27.3367393Z",
-      "lastWriteTimeUtc": "2019-01-14T07:52:00.4299599Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
-      "fileCount": 1,
-      "fileSize": 785265
-    },
-    {
       "folderName": "journeymap-1.12.2-5.5.4.jar",
       "fingerprint": 1853050331,
       "fileDateHash": 841988278,
@@ -2508,6 +2478,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
       "fileCount": 1,
       "fileSize": 1845450
+    },
+    {
+      "folderName": "DynamicTrees-1.12.2-0.9.4.jar",
+      "fingerprint": 1208938606,
+      "fileDateHash": 3958648705,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1208938606
+      ],
+      "status": 1,
+      "timestamp": "2019-03-01T08:32:27.3367393Z",
+      "lastWriteTimeUtc": "2019-01-14T07:52:00.4299599Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5919614Z",
+      "fileCount": 1,
+      "fileSize": 785265
     },
     {
       "folderName": "VillagerTrades-1.12-0.6.4.jar",
@@ -2525,21 +2510,6 @@
       "fileSize": 78202
     },
     {
-      "folderName": "RecurrentComplex-1.4.7.jar",
-      "fingerprint": 2004489134,
-      "fileDateHash": 521297417,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2004489134
-      ],
-      "status": 1,
-      "timestamp": "2018-12-19T20:53:05.60778Z",
-      "lastWriteTimeUtc": "2018-07-04T19:09:26.8668556Z",
-      "queryTimestamp": "2019-03-12T09:31:53.5939507Z",
-      "fileCount": 1,
-      "fileSize": 6928168
-    },
-    {
       "folderName": "Scavenge V1.12-1.8.3.2.jar",
       "fingerprint": 3748373555,
       "fileDateHash": 2543816883,
@@ -2553,6 +2523,21 @@
       "queryTimestamp": "2019-03-12T09:31:53.5929534Z",
       "fileCount": 1,
       "fileSize": 534420
+    },
+    {
+      "folderName": "RecurrentComplex-1.4.7.jar",
+      "fingerprint": 2004489134,
+      "fileDateHash": 521297417,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2004489134
+      ],
+      "status": 1,
+      "timestamp": "2018-12-19T20:53:05.60778Z",
+      "lastWriteTimeUtc": "2018-07-04T19:09:26.8668556Z",
+      "queryTimestamp": "2019-03-12T09:31:53.5939507Z",
+      "fileCount": 1,
+      "fileSize": 6928168
     },
     {
       "folderName": "natura-1.12.2-4.3.2.66.jar",
@@ -7064,7 +7049,7 @@
       "dateInstalled": "2018-12-19T21:03:17.4231097Z",
       "dateUpdated": "2019-04-05T06:50:17.7956201Z",
       "dateLastUpdateAttempted": "2019-04-05T06:50:17.7956201Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8143,14 +8128,14 @@
       "addonID": 284523,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2626374,
-        "fileName": "Charset Lib 0.5.5.6",
-        "fileNameOnDisk": "Charset-Lib-0.5.5.6.jar",
-        "fileDate": "2018-10-10T08:50:47.057",
-        "fileLength": 1123473,
+        "id": 2695684,
+        "fileName": "Charset Lib 0.5.5.7",
+        "fileNameOnDisk": "Charset-Lib-0.5.5.7.jar",
+        "fileDate": "2019-04-05T10:24:25.343",
+        "fileLength": 1124675,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2626/374/Charset-Lib-0.5.5.6.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/684/Charset-Lib-0.5.5.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8158,11 +8143,11 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 382237605
+            "fimgerprint": 1111726304
           },
           {
             "folderName": "pl",
-            "fimgerprint": 2651498038
+            "fimgerprint": 456890241
           },
           {
             "folderName": "assets",
@@ -8174,31 +8159,31 @@
           },
           {
             "folderName": "licenses",
-            "fimgerprint": 2370591564
+            "fimgerprint": 2547402590
           },
           {
             "folderName": "changelog",
-            "fimgerprint": 3585629660
+            "fimgerprint": 4152580505
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 4172215295
+            "fimgerprint": 504668717
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 617296485,
+        "packageFingerprint": 1706641997,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5442351Z",
-      "dateUpdated": "2018-03-01T08:32:29.5442351Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-04-06T17:45:51.2635954Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:45:51.2635954Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8642,14 +8627,14 @@
       "addonID": 226889,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2533542,
-        "fileName": "CleanView-1.12.2-v1a.jar",
-        "fileNameOnDisk": "CleanView-1.12.2-v1a.jar",
-        "fileDate": "2018-02-21T08:53:43.427",
-        "fileLength": 8090,
+        "id": 2695961,
+        "fileName": "CleanView-1.12.2-v1b.jar",
+        "fileNameOnDisk": "CleanView-1.12.2-v1b.jar",
+        "fileDate": "2019-04-06T04:27:31.55",
+        "fileLength": 8872,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2533/542/CleanView-1.12.2-v1a.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/961/CleanView-1.12.2-v1b.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8657,7 +8642,7 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 2087066189
+            "fimgerprint": 3958626404
           },
           {
             "folderName": "LICENSE.txt",
@@ -8669,25 +8654,25 @@
           },
           {
             "folderName": "lain",
-            "fimgerprint": 4177210974
+            "fimgerprint": 2817321570
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 312579938
+            "fimgerprint": 416908976
           }
         ],
-        "packageFingerprint": 1245461193,
+        "packageFingerprint": 959377716,
         "gameVersion": [
-          "1.12",
           "1.12.2",
+          "1.12",
           "1.12.1"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5482205Z",
-      "dateUpdated": "2018-03-01T08:32:29.5482205Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2019-04-06T17:48:52.4121355Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:48:52.4121355Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8881,14 +8866,14 @@
       "addonID": 291374,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2616123,
-        "fileName": "Charset Immersion 0.5.5.5",
-        "fileNameOnDisk": "Charset-Immersion-0.5.5.5.jar",
-        "fileDate": "2018-09-12T08:20:27.19",
-        "fileLength": 27119,
+        "id": 2695681,
+        "fileName": "Charset Immersion 0.5.5.7",
+        "fileNameOnDisk": "Charset-Immersion-0.5.5.7.jar",
+        "fileDate": "2019-04-05T10:24:21.697",
+        "fileLength": 27886,
         "releaseType": 2,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2616/123/Charset-Immersion-0.5.5.5.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/681/Charset-Immersion-0.5.5.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -8901,31 +8886,31 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 2283762728
+            "fimgerprint": 1151230935
           },
           {
             "folderName": "pl",
-            "fimgerprint": 3872862333
+            "fimgerprint": 321203731
           },
           {
             "folderName": "licenses",
-            "fimgerprint": 3908421587
+            "fimgerprint": 3097435013
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 133926016,
+        "packageFingerprint": 589683881,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5492178Z",
-      "dateUpdated": "2018-03-01T08:32:29.5492178Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-04-06T17:45:48.5594809Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:45:48.5594809Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10198,14 +10183,14 @@
       "addonID": 298584,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2626372,
-        "fileName": "Charset Storage Chests 0.5.5.6",
-        "fileNameOnDisk": "Charset-StorageChests-0.5.5.6.jar",
-        "fileDate": "2018-10-10T08:50:44.163",
-        "fileLength": 36138,
+        "id": 2695675,
+        "fileName": "Charset Storage Chests 0.5.5.7",
+        "fileNameOnDisk": "Charset-StorageChests-0.5.5.7.jar",
+        "fileDate": "2019-04-05T10:24:15.387",
+        "fileLength": 36149,
         "releaseType": 2,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2626/372/Charset-StorageChests-0.5.5.6.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/675/Charset-StorageChests-0.5.5.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -10222,27 +10207,27 @@
           },
           {
             "folderName": "pl",
-            "fimgerprint": 3841608530
+            "fimgerprint": 2778288928
           },
           {
             "folderName": "licenses",
-            "fimgerprint": 3908421587
+            "fimgerprint": 3097435013
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 2494616567,
+        "packageFingerprint": 3543949147,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5552018Z",
-      "dateUpdated": "2018-03-01T08:32:29.5552018Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-04-06T17:45:53.3622412Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:45:53.3622412Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10302,7 +10287,7 @@
       "dateInstalled": "2019-03-01T08:32:29.5552018Z",
       "dateUpdated": "2019-04-05T06:50:29.3812315Z",
       "dateLastUpdateAttempted": "2019-04-05T06:50:29.3812315Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10593,76 +10578,6 @@
           "1.12.2",
           "1.12.1",
           "1.12"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2019-03-01T08:32:29.5571969Z",
-      "dateUpdated": "2018-03-01T08:32:29.5571969Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 308656,
-      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
-      "installedFile": {
-        "id": 2645685,
-        "fileName": "cleardespawn-1.12.2-1.0.jar",
-        "fileNameOnDisk": "cleardespawn-1.12.2-1.0.jar",
-        "fileDate": "2018-12-09T12:37:20.483",
-        "fileLength": 27460,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2645/685/cleardespawn-1.12.2-1.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 3775248745
-          },
-          {
-            "folderName": "CHANGELOG.md",
-            "fimgerprint": 3179629877
-          },
-          {
-            "folderName": "README.md",
-            "fimgerprint": 1681934343
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 3518066936
-          },
-          {
-            "folderName": "c4",
-            "fimgerprint": 1200010650
-          },
-          {
-            "folderName": "licenses",
-            "fimgerprint": 1741392956
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 3004169342
-          },
-          {
-            "folderName": "pack.mcmeta",
-            "fimgerprint": 1627125308
-          }
-        ],
-        "packageFingerprint": 192127819,
-        "gameVersion": [
-          "1.12.2"
         ],
         "installMetadata": null
       },
@@ -11544,14 +11459,14 @@
       "addonID": 284529,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2602410,
-        "fileName": "Charset Storage Barrels 0.5.4.8",
-        "fileNameOnDisk": "Charset-StorageBarrels-0.5.4.8.jar",
-        "fileDate": "2018-08-13T07:09:11.27",
-        "fileLength": 84688,
+        "id": 2695687,
+        "fileName": "Charset Storage Barrels 0.5.5.7",
+        "fileNameOnDisk": "Charset-StorageBarrels-0.5.5.7.jar",
+        "fileDate": "2019-04-05T10:24:27.32",
+        "fileLength": 84762,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2602/410/Charset-StorageBarrels-0.5.4.8.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/687/Charset-StorageBarrels-0.5.5.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11568,27 +11483,27 @@
           },
           {
             "folderName": "pl",
-            "fimgerprint": 1679416654
+            "fimgerprint": 2523498062
           },
           {
             "folderName": "licenses",
-            "fimgerprint": 3908421587
+            "fimgerprint": 3097435013
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 2942777622,
+        "packageFingerprint": 1008682624,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5641783Z",
-      "dateUpdated": "2018-03-01T08:32:29.5641783Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-04-06T17:45:57.4037946Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:45:57.4037946Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11603,14 +11518,14 @@
       "addonID": 284530,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2602409,
-        "fileName": "Charset Storage Tanks 0.5.4.8",
-        "fileNameOnDisk": "Charset-StorageTanks-0.5.4.8.jar",
-        "fileDate": "2018-08-13T07:09:10.363",
-        "fileLength": 34359,
+        "id": 2695682,
+        "fileName": "Charset Storage Tanks 0.5.5.7",
+        "fileNameOnDisk": "Charset-StorageTanks-0.5.5.7.jar",
+        "fileDate": "2019-04-05T10:24:22.313",
+        "fileLength": 34445,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2602/409/Charset-StorageTanks-0.5.4.8.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2695/682/Charset-StorageTanks-0.5.5.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11627,27 +11542,27 @@
           },
           {
             "folderName": "pl",
-            "fimgerprint": 4198674211
+            "fimgerprint": 2741407037
           },
           {
             "folderName": "licenses",
-            "fimgerprint": 3908421587
+            "fimgerprint": 3097435013
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 2226118388,
+        "packageFingerprint": 792132548,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-03-01T08:32:29.5641783Z",
-      "dateUpdated": "2018-03-01T08:32:29.5641783Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-04-06T17:45:59.555964Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:45:59.555964Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13215,7 +13130,7 @@
       "dateInstalled": "2019-03-30T08:28:46.1550296Z",
       "dateUpdated": "2019-04-05T06:50:25.300095Z",
       "dateLastUpdateAttempted": "2019-04-05T06:50:25.300095Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13502,7 +13417,7 @@
       "dateInstalled": "2019-04-04T18:30:06.7949365Z",
       "dateUpdated": "2019-04-04T18:30:06.8068401Z",
       "dateLastUpdateAttempted": "2019-04-04T18:30:06.8068401Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13517,14 +13432,14 @@
       "addonID": 236541,
       "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
       "installedFile": {
-        "id": 2688738,
-        "fileName": "LibVulpes 1.12.2-0.4.0-53-UNSTABLE build -53 for 1.12.2",
-        "fileNameOnDisk": "LibVulpes-1.12.2-0.4.0-53-universal.jar",
-        "fileDate": "2019-03-18T07:31:15.117",
-        "fileLength": 515531,
+        "id": 2696000,
+        "fileName": "LibVulpes 1.12.2-0.4.0-54-UNSTABLE build -54 for 1.12.2",
+        "fileNameOnDisk": "LibVulpes-1.12.2-0.4.0-54-universal.jar",
+        "fileDate": "2019-04-06T07:31:31.737",
+        "fileLength": 515625,
         "releaseType": 3,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2688/738/LibVulpes-1.12.2-0.4.0-53-universal.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2696/0/LibVulpes-1.12.2-0.4.0-54-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13532,11 +13447,11 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 1737584370
+            "fimgerprint": 1439353537
           },
           {
             "folderName": "zmaster587",
-            "fimgerprint": 856432263
+            "fimgerprint": 1292852089
           },
           {
             "folderName": "assets",
@@ -13544,18 +13459,18 @@
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 2984567209
+            "fimgerprint": 2727192080
           }
         ],
-        "packageFingerprint": 4153129100,
+        "packageFingerprint": 2546523911,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2019-04-05T09:07:32.2529932Z",
-      "dateUpdated": "2019-04-05T09:07:32.2625172Z",
-      "dateLastUpdateAttempted": "2019-04-05T09:07:32.2625172Z",
+      "dateUpdated": "2019-04-06T17:49:02.434475Z",
+      "dateLastUpdateAttempted": "2019-04-06T17:49:02.434475Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -13615,7 +13530,7 @@
       "dateInstalled": "2019-04-05T09:07:33.8545828Z",
       "dateUpdated": "2019-04-05T09:07:33.8642286Z",
       "dateLastUpdateAttempted": "2019-04-05T09:07:33.8642286Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13670,6 +13585,62 @@
       "dateInstalled": "2019-04-05T09:07:43.3899688Z",
       "dateUpdated": "2019-04-05T09:07:43.3914572Z",
       "dateLastUpdateAttempted": "2019-04-05T09:07:43.3914572Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 227441,
+      "gameInstanceID": "0a0dd135-0ac5-409a-84c9-9f1dcecc8753",
+      "installedFile": {
+        "id": 2456007,
+        "fileName": "Fullscreen Windowed 1.6.0, MC 1.12 and up",
+        "fileNameOnDisk": "FullscreenWindowed-1.12-1.6.0.jar",
+        "fileDate": "2017-07-25T22:08:17.763",
+        "fileLength": 18396,
+        "releaseType": 1,
+        "fileStatus": 1,
+        "downloadUrl": "https://files.forgecdn.net/files/2456/7/FullscreenWindowed-1.12-1.6.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "folderName": "META-INF",
+            "fimgerprint": 1348523807
+          },
+          {
+            "folderName": "com",
+            "fimgerprint": 880574134
+          },
+          {
+            "folderName": "assets",
+            "fimgerprint": 3346398955
+          },
+          {
+            "folderName": "mcmod.info",
+            "fimgerprint": 3215547844
+          }
+        ],
+        "packageFingerprint": 1002938307,
+        "gameVersion": [
+          "1.12.2",
+          "1.12",
+          "1.12.1"
+        ],
+        "installMetadata": null
+      },
+      "dateInstalled": "2019-04-05T20:19:18.4947052Z",
+      "dateUpdated": "2019-04-05T20:19:18.5035954Z",
+      "dateLastUpdateAttempted": "2019-04-05T20:19:18.5035954Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

@@ -19,9 +19,14 @@ keepContentMentions: false
 moveLabels: true
 
 # Set custom aliases for targets
-# aliases:
-#   r: repo
-#   or: owner/repo
+aliases:
+   e2: enigmatica2
+   e2l: enigmatica2light
+   e2e: enigmatica2expert
+   e2es: enigmatica2expertskyblock
+   e3: enigmatica3
+   e4: enigmatica4
+   s: scientia
 
 # Repository to extend settings from
-extends: .github
+_extends: .github

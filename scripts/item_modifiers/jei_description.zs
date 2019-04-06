@@ -92,3 +92,9 @@ addDescription(<rustic:chili_pepper_seeds>, "Grown on a Wooden Stake with Farmla
 # Armor/Tool Forge
 addDescription(<conarm:armorforge>, "Any Metal block can be used to craft this.", "The texture on the legs of the block will match the block you use in the recipe.");
 addDescription(<tconstruct:toolforge>, "Any Metal block can be used to craft this.", "The texture on the legs of the block will match the block you use in the recipe.");
+
+# Ancient Warfare NPCs with special recipes
+addDescription(<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "farmer", npcType: "worker"}), "You can use a Mattock with any combination of parts in the recipe.", "The Farmer must be equipped with the Hoe he spawns with to work as a Farmer.");
+addDescription(<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "worker"}), "You can use a Pickaxe with any combination of parts in the recipe.");
+addDescription(<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), "You can use a Broadsword with any combination of parts in the recipe.");
+addDescription(<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "archer", npcType: "combat"}), "You can use a Shortbow or Longbow with any combination of parts in the recipe.", "The Archer must be equipped with the bow he spawns with to enable ranged attacks.");

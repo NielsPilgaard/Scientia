@@ -1,0 +1,37 @@
+{
+    "casings_fluid_in_low": [
+        "modularmachinery:blockfluidinputhatch@0",
+		"modularmachinery:blockfluidinputhatch@1",
+		"modularmachinery:blockfluidinputhatch@2"
+    ],
+	
+	"casings_fluid_out_low": [
+        "modularmachinery:blockfluidoutputhatch@0",
+        "modularmachinery:blockfluidoutputhatch@1",
+        "modularmachinery:blockfluidoutputhatch@2"
+    ],
+	
+    "casings_energy_in_low": [
+        "modularmachinery:blockenergyinputhatch@0",
+		"modularmachinery:blockenergyinputhatch@1",
+		"modularmachinery:blockenergyinputhatch@2"
+    ],
+	
+    "casings_energy_out_low": [
+        "modularmachinery:blockenergyoutputhatch@0",
+        "modularmachinery:blockenergyoutputhatch@1",
+        "modularmachinery:blockenergyoutputhatch@2"
+    ],
+	
+    "casings_item_in_low": [
+        "modularmachinery:blockinputbus@0",
+		"modularmachinery:blockinputbus@1",
+		"modularmachinery:blockinputbus@2"
+    ],
+	
+    "casings_item_out_low": [
+        "modularmachinery:blockoutputbus@0",
+        "modularmachinery:blockoutputbus@1",
+        "modularmachinery:blockoutputbus@2"
+    ]
+}

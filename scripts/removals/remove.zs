@@ -50,7 +50,9 @@ val removals as IItemStack[] = [
     <minecraft:bone_block>,
     <minecraft:coal:1>,
     <minecraft:bread>,
-        
+    
+    <modularmachinery:blockcasing>,
+
     <rustic:cabinet>,
     <rustic:crop_stake>,
 

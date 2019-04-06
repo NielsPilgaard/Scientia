@@ -25,7 +25,7 @@ stageTinkersTool(stages.novice_tinkerer, <tconstruct:kama>, "tconstruct:kama");
 stageTinkersTool(stages.novice_tinkerer, <tconstruct:frypan>, "tconstruct:frypan");
 stageTinkersTool(stages.novice_tinkerer, <tconstruct:battlesign>, "tconstruct:battlesign");
 
-#TODO: Replace these with the actual part names
+//TODO: Replace these with the actual part names
 #stageTinkersPart(stages.novice_tinkerer, <tconstruct:pan_head>, "tconstruct:pan_head");
 #stageTinkersPart(stages.novice_tinkerer, <tconstruct:sign_head>, "tconstruct:sign_head");
 
@@ -92,6 +92,7 @@ stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:bow_limb>, "tconstruct:
 stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:arrow_shaft>, "tconstruct:arrow_shaft");
 stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:bow_string>, "tconstruct:bow_string");
 stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:arrow_head>, "tconstruct:arrow_head");
+
 stageTinkersPart(stages.apprentice_tinkerer, <tconstruct:cross_guard>, "tconstruct:cross_guard");
 
 stageTinkersTool(stages.apprentice_tinkerer, <tconstruct:shortbow>, "tconstruct:shortbow");

@@ -66,7 +66,8 @@ for potion in alchemyRecipesRustic {
     Alloy.removeRecipe(<liquid:pigiron>);
 
 # Tinkers Drying
-    Drying.removeRecipe(<tconstruct:edible:*>);
+    #What was I thinking here?
+    //Drying.removeRecipe(<tconstruct:edible:*>);
     Drying.removeRecipe(<tconstruct:spaghetti:2>);
 
 # Alchemy Table

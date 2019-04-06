@@ -8,7 +8,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@1"
+                "casings_item_out_low"
             ]
         },
         {
@@ -56,7 +56,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@1"
+                "modularmachinery:blockinputbus@1",
+				"modularmachinery:blockinputbus@2"
             ]
         },
         {

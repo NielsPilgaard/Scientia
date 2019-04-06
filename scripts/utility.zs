@@ -44,6 +44,7 @@ global stageMod as function(string, string)string = function(stage as string, mo
 };
 
 function stageTinkersMaterial(stage as string, material as string) {
+	/*
 	var parts = [
 
 		<conarm:helmet_core>.withTag({Material: material}),
@@ -114,12 +115,12 @@ function stageTinkersMaterial(stage as string, material as string) {
 
 	for part in parts {
 		addItemStage(stage, part);
-	}
+	}*/
 	addMaterialStage(stage, material);
 }
 
 function stageTinkersTool(stage as string, tool as IItemStack, toolString as string) {
-	addItemStage(stage, tool);
+	addItemStage(stage, tool.withTag({}));
 	addToolTypeStage(stage, toolString);
 }
 
@@ -127,7 +128,7 @@ function stageTinkersPart(stage as string, part as IItemStack, partString as str
 	addItemStage(stage, <tconstruct:pattern>.withTag({PartType: partString}));
 	addItemStage(stage, <tconstruct:cast>.withTag({PartType: partString}));
 	addItemStage(stage, <tconstruct:clay_cast>.withTag({PartType: partString}));
-	addItemStage(stage, part);
+	addItemStage(stage, part.withTag({}));
 }
 
 function disableModStageList(mod as string, stage as string, exceptions as IItemStack[]) {
